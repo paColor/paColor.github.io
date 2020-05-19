@@ -1,0 +1,575 @@
+{
+  "homepages": [],
+  "source_base_path": "F:/Utilisateurs/Papa/Prog/VisStud/repos/Colorization/ColorLib",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.AutomAutomat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.AutomAutomat.html",
+          "hash": "CvZPhraRX7bzl4x9Bgb0dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.AutomElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.AutomElement.html",
+          "hash": "n+ydsGZaYPol0bAxJ2q5KA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.AutomLetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.AutomLetter.html",
+          "hash": "i7YoND9zh+enIvZwmLJzug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.AutomRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.AutomRule.html",
+          "hash": "D4W/mZKUQb9U6d3KMdWuuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.AutomRuleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.AutomRuleFilter.html",
+          "hash": "9U6tLowdAThEtRuRGx8H0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.BaseConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.BaseConfig.html",
+          "hash": "Ycxdm7ZXvfwypuMPnyGWbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.CERASColors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.CERASColors.html",
+          "hash": "V1DdwB1T6zqr6wyaRTd/0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.CFForceBlack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.CFForceBlack.html",
+          "hash": "pHlV07Mu3/wwJYMmx4Mepg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.CharFormatting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.CharFormatting.html",
+          "hash": "QumInuz9miGh28ttZKKOwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ColConfWin.DefBeh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ColConfWin.DefBeh.html",
+          "hash": "1EMU+Ehukx3IEEjkzk9QGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ColConfWin.IllRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ColConfWin.IllRule.html",
+          "hash": "5HuAyL/an0YT+12V8uoSwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ColConfWin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ColConfWin.html",
+          "hash": "B8j8Z64qc66kfNgGY/0FyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.Config.html",
+          "hash": "bGsdNE6R0igkBRtksLl/FA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ConfigBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ConfigBase.html",
+          "hash": "ab6tfWOWS3gewlKexWAP7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ExecTaskOnLetterButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ExecTaskOnLetterButton.html",
+          "hash": "Hvg0ThzwNP2jH7bGqNtC7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ExecTaskOnSon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ExecTaskOnSon.html",
+          "hash": "Jl74aVQ1kFqGgZY58x9tFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ExecTaskOnSylButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ExecTaskOnSylButton.html",
+          "hash": "Q6H1+O6UhELLYgayIF2nuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ExecuteTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ExecuteTask.html",
+          "hash": "eDAp3pBZHujrI3Lpp4pfEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.FormattedTextEl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.FormattedTextEl.html",
+          "hash": "l50TXdxAoX4V9kJc1yGG0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.PBDQConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.PBDQConfig.html",
+          "hash": "9LxTbEEMR0SSheE6ymuXiw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.PhonConfType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.PhonConfType.html",
+          "hash": "WU3GpsGA5LdhMcA5CY3xVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.PhonInW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.PhonInW.html",
+          "hash": "V1nnzQCD26D88cyMKpJEAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.PhonLexique.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.PhonLexique.html",
+          "hash": "mQkiEoqXwSYsLYQsy+vVdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.PhonWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.PhonWord.html",
+          "hash": "Q37KTQK902MQkdd4xWXPCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.Phonemes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.Phonemes.html",
+          "hash": "6H1tehW78WaVNejLxZiuSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.PredefCols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.PredefCols.html",
+          "hash": "VljsU4CTRbzWXr5BQUv7kg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.RGB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.RGB.html",
+          "hash": "Lq2JPIe18Exn4CxcL/1WnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.SylConfig.SylButtonConf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.SylConfig.SylButtonConf.html",
+          "hash": "rrf6Mj0P2cwoN7A0uOKF4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.SylConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.SylConfig.html",
+          "hash": "T6aOYIeSE6CMuDE7bmqvVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.SylInW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.SylInW.html",
+          "hash": "udF3J5z8XMQcW1EWXhftxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.TextEl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.TextEl.html",
+          "hash": "vYVs14Z1cthYSudZkEX2xA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.TheText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.TheText.html",
+          "hash": "OQ5s3qO43x3g5nbuBhPb7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.Ucbx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.Ucbx.html",
+          "hash": "ufSgqvgjWjTw14YcuXJWJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.UnsetBehConf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.UnsetBehConf.html",
+          "hash": "0+xhtNPV33+VAzJ4cClLyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.Word.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.Word.html",
+          "hash": "f1lfnf/vQgwdWmpfR2QZ1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.html",
+          "hash": "ConolrLCP0TqcM0wHSD7dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "lpxCq8xM9iugl0Ja56hI/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "dXfHzwJCghqG5R72sdf8WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Classes_avec_init.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Classes_avec_init.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Les classes.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Les classes.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "erH4mWVaXXvwjdieraYFmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "intro.html",
+          "hash": "glHwbWjqFITA4LDiKtiivQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "84cJVVsDAGMDIe3nZ7ga2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 36,
+          "skipped_file_count": 36
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
