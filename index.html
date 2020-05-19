@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Documenttaion du code de Colori&#424;ation. </title>
+    <title>Documentation du code de Colori&#424;ation. </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Documenttaion du code de Colori&#424;ation. ">
+    <meta name="title" content="Documentation du code de Colori&#424;ation. ">
     <meta name="generator" content="docfx 2.53.1.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,7 +60,7 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="documenttaion-du-code-de-coloriƨation">Documenttaion du code de <strong>Coloriƨation</strong>.</h1>
+<h1 id="documentation-du-code-de-coloriƨation">Documentation du code de <strong>Coloriƨation</strong>.</h1>
 
 <h2 id="introduction">Introduction</h2>
 <p>Coloriƨation est le fruit d'un besoin de mon épouse qui suit des enfants ayant des difficultés de lecture. Pour l’aider, j’ai décidé de réaliser un complément pour les programmes Office qu’elle utilise, à savoir Word et PowerPoint.</p>
@@ -69,14 +69,20 @@
 <h2 id="structure">Structure</h2>
 <p>Le programme est composé de quatre parties principales :</p>
 <ol>
-<li>La librairie ‘ColorLib’ qui contient le cœur de la logique et de la configuration du comportement du programme.</li>
-<li>La librairie ‘ConfigControls’ qui est en charge de la partie interface utilisateur. Il s’agit d’une solution basée sur ‘Windows.Forms’</li>
+<li>La librairie <code>ColorLib</code> qui contient le cœur de la logique et de la configuration du comportement du programme.</li>
+<li>La librairie <code>ConfigControls</code> qui est en charge de la partie interface utilisateur. Il s’agit d’une solution basée sur <code>Windows.Forms</code>.</li>
+<li><code>ColorizationWord</code> contient la partie spécifique à MS-Word.</li>
+<li><code>ColorizationPPT</code> contient la partie spécifique à PowerPoint.</li>
 </ol>
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
+<p><img src="images/Les_classes.png" alt="Aperçu des classes"></p>
+<p>On remarquera sur le dessin ci-dessus, que <code>ColorLib</code> est lui-même partagé en trois parties relativement indépendantes :</p>
 <ol>
-<li>Add images to the <em>images</em> folder if the file is referencing an image.</li>
+<li><code>Automat</code> contient les règles nécessaires à la reconnaissance de phonèmes. La logique qui s’y trouve est empruntée à LireCouleur (<a href="http://lirecouleur.arkaline.fr/">http://lirecouleur.arkaline.fr/</a> ou <a href="https://framagit.org/arkaline/lirecouleur">https://framagit.org/arkaline/lirecouleur</a>).</li>
+<li><code>Config</code> regroupe les classes qui contiennent les paramètres de configuration pour le programme.</li>
+<li><code>Text</code> contient la partie qui manipule un texte, le découpe en mots en phonèmes, en syllabes etc…</li>
 </ol>
+<p>Les classes en rouge sont celles qui servent d’interface vers l’extérieur pour l’utilisation de la fonctionnalité.
+Vous trouverez plus de détails en cliquant sur « Documentation des interfaces » dans le ruban de navigation au haut de cette fenêtre.</p>
 </article>
           </div>
           

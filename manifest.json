@@ -460,6 +460,42 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/historique.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/historique.html",
+          "hash": "OERfnwmw1dtWqrahkX/eCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/on_verra.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/on_verra.html",
+          "hash": "bStXPgD5VEwaGT1R1YxuyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "xt/s6rA4q4oX+f95MS+btg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "images/Classes_avec_init.png",
       "output": {
@@ -472,10 +508,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/Les classes.png",
+      "source_relative_path": "images/Les_classes.png",
       "output": {
         "resource": {
-          "relative_path": "images/Les classes.png"
+          "relative_path": "images/Les_classes.png"
         }
       },
       "is_incremental": false,
@@ -487,10 +523,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "P9HyuGPCqVHwDEtcd2v9yQ=="
+          "hash": "ZrKBV09Q7ipS7rEvGNzhGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -511,7 +547,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "84cJVVsDAGMDIe3nZ7ga2Q=="
+          "hash": "WmroimFAVM6KJ3zNfz7jnA=="
         }
       },
       "is_incremental": false,
@@ -530,8 +566,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 2
+          "total_file_count": 5,
+          "skipped_file_count": 5
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
