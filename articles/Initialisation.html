@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Choisissez une librairie &#224; gauche! </title>
+    <title>Initialisation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Choisissez une librairie &#224; gauche! ">
+    <meta name="title" content="Initialisation ">
     <meta name="generator" content="docfx 2.53.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,11 +67,11 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="choisissez-une-librairie-à-gauche">Choisissez une librairie à gauche!</h1>
+<h1 id="initialisation">Initialisation</h1>
 
-<p><img src="../images/Les_classes.png" alt="structure"></p>
-<p>Note - un petit truc: ouvrez l'image dans un nouvel onglet pour la voir en grand.</p>
-<p>Notez que <code>ColorLibTest</code> est un projet de test unitaire et <code>TestForms</code> un projet d'essais que j'ai crée quand j'essayais de comprendre le b-a ba de <code>Windows.Forms</code></p>
+<p>Une partie des structures dont le programme a besoin sont statiques et doivent être initialisées. Le flux d'initialisation est illustré sur le schéma ci-dessous.</p>
+<p>Dans les situations de test, il est important de s'assurer que l'initialisation a bien eu lieu. Un test de <code>ColorLib</code> commencera donc toujours par <code>TheText.Init()</code>.</p>
+<p><img src="../images/Classes_avec_init.png" alt="Initialisation"></p>
 </article>
           </div>
           
@@ -80,7 +80,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/api/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/articles/Initialisation.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

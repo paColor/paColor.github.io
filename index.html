@@ -63,9 +63,9 @@
 <h1 id="documentation-du-code-de-coloriƨation">Documentation du code de <strong>Coloriƨation</strong>.</h1>
 
 <h2 id="introduction">Introduction</h2>
-<p>Coloriƨation est le fruit d'un besoin de mon épouse qui suit des enfants ayant des difficultés de lecture. Pour l’aider, j’ai décidé de réaliser un complément pour les programmes Office qu’elle utilise, à savoir Word et PowerPoint.</p>
+<p><a href="https://colorization.ch">Coloriƨation</a> est le fruit d'un besoin de mon épouse qui suit des enfants ayant des difficultés de lecture. Pour l’aider, j’ai décidé de réaliser un complément pour les programmes Office qu’elle utilise, à savoir Word et PowerPoint.</p>
 <p>Comme je n’ai plus écrit une ligne de code depuis 25 ans, je souhaitais en profiter pour apprendre c# et j’ai donc choisi de réaliser ce complément en utilisant la technologie VSTO. Je sais, ce n’est pas l’approche la plus moderne, mais c’est ce qui me motivait…</p>
-<p>Le programme qui est documenté ici, et dont le code se trouve sous <a href="https://github.com/paColor/Colorization">https://github.com/paColor/Colorization</a>, est donc mon premier projet après des décennies d’absence du codage. On y trouve donc toutes les étapes de ma progression dans l’apprentissage du langage, de la maîtrise de l’environnement, etc… Merci donc au lecteur (s’il y en a un jour 😊) pour sa bienveillance et sa compréhension.</p>
+<p>Le programme qui est documenté ici, et dont le code se trouve sous <a href="https://github.com/paColor/Colorization">https://github.com/paColor/Colorization</a>, est donc mon premier projet après des décennies d’absence du domaine du codage. On y trouve donc toutes les étapes de ma progression dans l’apprentissage du langage, de la maîtrise de l’environnement, etc… Merci donc au lecteur (s’il y en a un jour 😊) pour sa bienveillance et sa compréhension.</p>
 <h2 id="structure">Structure</h2>
 <p>Le programme est composé de quatre parties principales :</p>
 <ol>
@@ -74,7 +74,8 @@
 <li><code>ColorizationWord</code> contient la partie spécifique à MS-Word.</li>
 <li><code>ColorizationPPT</code> contient la partie spécifique à PowerPoint.</li>
 </ol>
-<p><img src="images/Les_classes.png" alt="Aperçu des classes"></p>
+<p><img src="images/Les_classes.png" alt="Aperçu des classes">
+Note - un petit truc: ouvrez l'image dans un nouvel onglet pour la voir en grand.</p>
 <p>On remarquera sur le dessin ci-dessus, que <code>ColorLib</code> est lui-même partagé en trois parties relativement indépendantes :</p>
 <ol>
 <li><code>Automat</code> contient les règles nécessaires à la reconnaissance de phonèmes. La logique qui s’y trouve est empruntée à LireCouleur (<a href="http://lirecouleur.arkaline.fr/">http://lirecouleur.arkaline.fr/</a> ou <a href="https://framagit.org/arkaline/lirecouleur">https://framagit.org/arkaline/lirecouleur</a>).</li>

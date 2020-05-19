@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.TextEl.html",
-          "hash": "vYVs14Z1cthYSudZkEX2xA=="
+          "hash": "/sCJfYWvCAnruNyn2TWVQA=="
         }
       },
       "is_incremental": true,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.TheText.html",
-          "hash": "OQ5s3qO43x3g5nbuBhPb7w=="
+          "hash": "IXQfvR+/VoIp3fZ8EUqhkw=="
         }
       },
       "is_incremental": true,
@@ -436,15 +436,435 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.AutomAutomatTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.AutomAutomatTest.html",
+          "hash": "9tjcJK4WKz13f1vNAWqA/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.AutomLetterTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.AutomLetterTest.html",
+          "hash": "+Hrr6PNMI3EMkPhXA+1LwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.AutomRuleFilter_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.AutomRuleFilter_Test.html",
+          "hash": "fdeGAX/MLyeh8cyCyiDvmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.AutomRuleTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.AutomRuleTest.html",
+          "hash": "6DlZ3vi21ShLvOJ0HP/a5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.PhonWordTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.PhonWordTest.html",
+          "hash": "5vHPYPU0raNCg0t0dS2DDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.SpeedTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.SpeedTest.html",
+          "hash": "UGJK571EklGmqIgI0qj5lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.TextElTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.TextElTest.html",
+          "hash": "EJ1S3eYeJTuAZL6LC2Lacg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.TheTextTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.TheTextTest.html",
+          "hash": "h3ljzhUpy2JM4VdFTAs5dQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.html",
+          "hash": "PIUYsDUSoKBrGda9GF/ssg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Colorization.ColorizationPPT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Colorization.ColorizationPPT.html",
+          "hash": "aj0DwJBQ3va5CLosCtPu5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Colorization.PPTText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Colorization.PPTText.html",
+          "hash": "nyn0D9sfNHjT9f10ABIFuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Colorization.Ribbon1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Colorization.Ribbon1.html",
+          "hash": "opMIRauVEHx5kVw9H4EFFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Colorization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Colorization.html",
+          "hash": "QsfNGhiMh/fZWcqCiNv9bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.CharFormatForm.SetCharFormResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.CharFormatForm.SetCharFormResult.html",
+          "hash": "XX5nXjKsvd+oyFr9K1TkQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.CharFormatForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.CharFormatForm.html",
+          "hash": "hv2nA2UyHks+dPiIOT4Obg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.CheckBoxChecked.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.CheckBoxChecked.html",
+          "hash": "PU1gyvjhPC49TxRSKHhenw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.ConfigControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.ConfigControl.html",
+          "hash": "Zf5M8Wu3ZDw5RRA8S8D8jw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.ConfigPane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.ConfigPane.html",
+          "hash": "bN4aHmMMH1+baJJPjZ0clA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.DConsoleTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.DConsoleTarget.html",
+          "hash": "SMxyCqajrviay349HfOQnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.FormatButtonHandler2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.FormatButtonHandler2.html",
+          "hash": "IKdbcxhBm26mlVHvrzNRsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.HilightForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.HilightForm.html",
+          "hash": "oTz6wpv6GUusYT9y+L78/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.InitNLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.InitNLog.html",
+          "hash": "ROYZWcnYLjtH/fyj4pyhZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.LetterFormatForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.LetterFormatForm.html",
+          "hash": "dK9P5HiArOBpUEzV6cD7oA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.LicenseForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.LicenseForm.html",
+          "hash": "jWRcBzZIR2qkrWt8gGqG1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.MyColorDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.MyColorDialog.html",
+          "hash": "yweU7BFAQvnCsMU80SMApw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.ReturnCheckBoxValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.ReturnCheckBoxValue.html",
+          "hash": "T4S2uASNXhqIqEhc0RvQVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.StaticColorizControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.StaticColorizControls.html",
+          "hash": "5z0Wi/XE8T08NDxkfNmGSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.SylFormatForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.SylFormatForm.html",
+          "hash": "ADVLiUtZWMI24CEFv5bfrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.html",
+          "hash": "e1DSfuv4Ueynoljd46iu2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationWord.ColorizationMSW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationWord.ColorizationMSW.html",
+          "hash": "RsPdtTOTrS+3nctn48CJCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationWord.MSWText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationWord.MSWText.html",
+          "hash": "Gvs97dHhm3Kq+OywFcyVAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationWord.WordRibbon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationWord.WordRibbon.html",
+          "hash": "eQ0G98+8iFDTMhxha9B51w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationWord.html",
+          "hash": "nXVGYmrUL434Gwes/UOXJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestForms.TestMainForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestForms.TestMainForm.html",
+          "hash": "k19ZX3RuGOgr6KpTATkcXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestForms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestForms.html",
+          "hash": "ww8lsiWuZxjDF86W1sq6Pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "lpxCq8xM9iugl0Ja56hI/g=="
+          "hash": "QwjR5Qg1Y1DRBE3cXgi4Aw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +873,22 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dXfHzwJCghqG5R72sdf8WA=="
+          "hash": "iUKYjWbZRH9wOVp5THx3Gg=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Initialisation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Initialisation.html",
+          "hash": "IUW5jmbOtJdlMC+qL6bf3g=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -468,19 +900,7 @@
           "hash": "OERfnwmw1dtWqrahkX/eCQ=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/on_verra.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/on_verra.html",
-          "hash": "bStXPgD5VEwaGT1R1YxuyQ=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "xt/s6rA4q4oX+f95MS+btg=="
+          "hash": "6gFP2jmYwbUx6mCIK3Cagg=="
         }
       },
       "is_incremental": false,
@@ -523,10 +943,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ZrKBV09Q7ipS7rEvGNzhGw=="
+          "hash": "1i8sHEyCRV4fhLujkSatgA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -567,13 +987,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 5,
-          "skipped_file_count": 5
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 36,
-          "skipped_file_count": 36
+          "total_file_count": 71,
+          "skipped_file_count": 71
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
