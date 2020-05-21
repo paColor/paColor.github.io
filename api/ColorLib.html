@@ -90,7 +90,17 @@
       <h4><a class="xref" href="ColorLib.BaseConfig.html">BaseConfig</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.CFForceBlack.html">CFForceBlack</a></h4>
-      <section></section>
+      <section><p>
+<code>CharFormatting</code> contient un certain nombre de méthodes qui permettent de savoir comment se comporter avec
+une valeur <code>false</code> pour les différents membres de type <code>bool</code>. Faut-il ne rien faire ou forcer
+la caractéristique &quot;gras&quot; à &quot;non gras&quot; par exemple? 
+</p>
+<p>
+Une instance de <code>CFForceBlack</code> se comporte comme un <code>CharFormatting</code> mais retourne toutjours <code>true</code>
+pour les méthodes évoquées ci-dessus. Cela permet par exemple de créer un <code>CharFormatting</code> qui forcera
+la mise en noir et l&apos;élimination des caractéristique <code>bold</code>, <code>italic</code>, <code>underline</code> et autres.
+</p>
+</section>
       <h4><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></h4>
       <section><p>Un objet de cette classe correspond à des instruction de formatage. Les différents membres de l'objet
 indiquent comment les différents aspects du formatage doivent être traités.</p>
@@ -117,7 +127,20 @@ indiquent comment les différents aspects du formatage doivent être traités.</
       <h4><a class="xref" href="ColorLib.TextEl.html">TextEl</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.TheText.html">TheText</a></h4>
-      <section></section>
+      <section><p>
+The class TheText represents the text that is analysed and whose formatting is adapted by the
+analysis algorithm.
+</p>
+<p>
+It is not supposed to be intiantiated directly. However, for test reasons, we do not declare it as abstract.
+</p>
+<p>
+The idea is that the inheriting class is created with a <code>string</code> and a <code>Config</code> (see the constructor
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText__ctor_System_String_ColorLib_Config_">TheText(String, Config)</a>). Once this is done, 
+different methods make it possible to apply some kind of formatting to the text. This formatting is applied
+to the inheriting class by calling the method <code>SetChars</code> see <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a>.
+</p>
+</section>
       <h4><a class="xref" href="ColorLib.UnsetBehConf.html">UnsetBehConf</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.Word.html">Word</a></h4>

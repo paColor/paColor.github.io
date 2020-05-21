@@ -73,7 +73,20 @@
   
   <h1 id="ColorLib_TheText" data-uid="ColorLib.TheText" class="text-break">Class TheText
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>
+The class TheText represents the text that is analysed and whose formatting is adapted by the
+analysis algorithm.
+</p>
+<p>
+It is not supposed to be intiantiated directly. However, for test reasons, we do not declare it as abstract.
+</p>
+<p>
+The idea is that the inheriting class is created with a <code>string</code> and a <code>Config</code> (see the constructor
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText__ctor_System_String_ColorLib_Config_">TheText(String, Config)</a>). Once this is done, 
+different methods make it possible to apply some kind of formatting to the text. This formatting is applied
+to the inheriting class by calling the method <code>SetChars</code> see <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a>.
+</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -109,6 +122,14 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class TheText</code></pre>
   </div>
+  <h5 id="ColorLib_TheText_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p><code>Init</code> must be called before any usage of the class. This is especially important for testing,
+where this could easily be forgotten. </p>
+<p>
+Many members and methods of this class are public to simplify testing. From a logical point of view, this is
+necessary.
+</p>
+</div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
@@ -116,11 +137,13 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText__ctor_System_String_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.%23ctor(System.String%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L80">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L125">View Source</a>
   </span>
   <a id="ColorLib_TheText__ctor_" data-uid="ColorLib.TheText.#ctor*"></a>
   <h4 id="ColorLib_TheText__ctor_System_String_ColorLib_Config_" data-uid="ColorLib.TheText.#ctor(System.String,ColorLib.Config)">TheText(String, Config)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates a <code>TheText</code> with the passed <code>string</code> and the passed <code>Config</code>. The <code>Config</code>
+will be used when applying formattings.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -139,12 +162,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>The text that will be worked on. Cannot be null.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
         <td><span class="parametername">inConf</span></td>
-        <td></td>
+        <td><p>The <code>Config</code> that will be used when applying formats to the text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -155,11 +180,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_Formats.md&amp;value=---%0Auid%3A%20ColorLib.TheText.Formats%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L58">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L88">View Source</a>
   </span>
   <a id="ColorLib_TheText_Formats_" data-uid="ColorLib.TheText.Formats*"></a>
   <h4 id="ColorLib_TheText_Formats" data-uid="ColorLib.TheText.Formats">Formats</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>list of the elemnts whose formatting must be changed</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -185,11 +211,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_S.md&amp;value=---%0Auid%3A%20ColorLib.TheText.S%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L57">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L83">View Source</a>
   </span>
   <a id="ColorLib_TheText_S_" data-uid="ColorLib.TheText.S*"></a>
   <h4 id="ColorLib_TheText_S" data-uid="ColorLib.TheText.S">S</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The text that was entered when the object was constructed. Cannot be null.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -217,7 +244,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_ApplyFormatting.md&amp;value=---%0Auid%3A%20ColorLib.TheText.ApplyFormatting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L225">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L336">View Source</a>
   </span>
   <a id="ColorLib_TheText_ApplyFormatting_" data-uid="ColorLib.TheText.ApplyFormatting*"></a>
   <h4 id="ColorLib_TheText_ApplyFormatting" data-uid="ColorLib.TheText.ApplyFormatting">ApplyFormatting()</h4>
@@ -232,11 +259,14 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_ColorizePhons_ColorLib_PhonConfType_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.ColorizePhons(ColorLib.PhonConfType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L137">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L207">View Source</a>
   </span>
   <a id="ColorLib_TheText_ColorizePhons_" data-uid="ColorLib.TheText.ColorizePhons*"></a>
   <h4 id="ColorLib_TheText_ColorizePhons_ColorLib_PhonConfType_" data-uid="ColorLib.TheText.ColorizePhons(ColorLib.PhonConfType)">ColorizePhons(PhonConfType)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Applies the formattings defined in the <code>ColConfWin</code> identified by <code data-dev-comment-type="paramref" class="paramref">pct</code> to the
+&quot;phonèmes&quot; in the text. I.e. fills <code>Formats</code> and makes sure that
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a> is called for each <code>FormattedTextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -255,7 +285,9 @@
       <tr>
         <td><a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a></td>
         <td><span class="parametername">pct</span></td>
-        <td></td>
+        <td><p>Identifies the <code>ColConfWin</code> (see <a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a>) that msut
+be used when coloring the &quot;phonèmes&quot;.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -264,11 +296,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_GetConfig.md&amp;value=---%0Auid%3A%20ColorLib.TheText.GetConfig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L135">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L198">View Source</a>
   </span>
   <a id="ColorLib_TheText_GetConfig_" data-uid="ColorLib.TheText.GetConfig*"></a>
   <h4 id="ColorLib_TheText_GetConfig" data-uid="ColorLib.TheText.GetConfig">GetConfig()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the <code>Config</code> used to format the given text.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -285,7 +318,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
-        <td></td>
+        <td><p>The <code>Config</code> used to format the text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -294,11 +328,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_GetPhonWords.md&amp;value=---%0Auid%3A%20ColorLib.TheText.GetPhonWords%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L122">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L181">View Source</a>
   </span>
   <a id="ColorLib_TheText_GetPhonWords_" data-uid="ColorLib.TheText.GetPhonWords*"></a>
   <h4 id="ColorLib_TheText_GetPhonWords" data-uid="ColorLib.TheText.GetPhonWords">GetPhonWords()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the list of <code>PhonWords</code> contained in the text.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -315,20 +350,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="ColorLib.PhonWord.html">PhonWord</a>&gt;</td>
-        <td></td>
+        <td><p>List of <code>PhonWords</code> contained in the text.</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="ColorLib_TheText_GetPhonWords_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Is not needed by a normal consumer of the class.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_GetWords.md&amp;value=---%0Auid%3A%20ColorLib.TheText.GetWords%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L95">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L149">View Source</a>
   </span>
   <a id="ColorLib_TheText_GetWords_" data-uid="ColorLib.TheText.GetWords*"></a>
   <h4 id="ColorLib_TheText_GetWords" data-uid="ColorLib.TheText.GetWords">GetWords()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrurns the list of <code>Words</code> contained in the text.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -345,20 +385,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="ColorLib.Word.html">Word</a>&gt;</td>
-        <td></td>
+        <td><p>List of <code>Words</code> contained in the text</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="ColorLib_TheText_GetWords_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Is not needed by a normal consumer of the class.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_Init.md&amp;value=---%0Auid%3A%20ColorLib.TheText.Init%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L65">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L99">View Source</a>
   </span>
   <a id="ColorLib_TheText_Init_" data-uid="ColorLib.TheText.Init*"></a>
   <h4 id="ColorLib_TheText_Init" data-uid="ColorLib.TheText.Init">Init()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initializes the static elements of the whole <code>ColorLib</code> library. Must be called befor any
+usage of the library.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -369,11 +415,14 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkLetters.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkLetters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L145">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L220">View Source</a>
   </span>
   <a id="ColorLib_TheText_MarkLetters_" data-uid="ColorLib.TheText.MarkLetters*"></a>
   <h4 id="ColorLib_TheText_MarkLetters" data-uid="ColorLib.TheText.MarkLetters">MarkLetters()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Colors the letters in the text, according to the <a class="xref" href="ColorLib.PBDQConfig.html">PBDQConfig</a> attached to the <a class="xref" href="ColorLib.Config.html">Config</a>
+passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Formats">Formats</a>and makes sure that
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a> is called for each <code>FormattedTextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -384,11 +433,15 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkMuettes.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkMuettes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L174">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L265">View Source</a>
   </span>
   <a id="ColorLib_TheText_MarkMuettes_" data-uid="ColorLib.TheText.MarkMuettes*"></a>
   <h4 id="ColorLib_TheText_MarkMuettes" data-uid="ColorLib.TheText.MarkMuettes">MarkMuettes()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Colors the &quot;unspoken letters&quot; (muettes :-)) in the text, according to the <a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a>
+corresponding to <code>pct == PhonConfType.muettes</code> attached to the <a class="xref" href="ColorLib.Config.html">Config</a>
+passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Formats">Formats</a> and makes sure that
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a> is called for each <code>FormattedTextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -399,11 +452,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkNoir.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkNoir%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L214">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L313">View Source</a>
   </span>
   <a id="ColorLib_TheText_MarkNoir_" data-uid="ColorLib.TheText.MarkNoir*"></a>
   <h4 id="ColorLib_TheText_MarkNoir" data-uid="ColorLib.TheText.MarkNoir">MarkNoir()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Forces the text to black color and no bold, italic, underline, ... formatting.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -414,11 +468,14 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkSyls.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkSyls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L156">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L236">View Source</a>
   </span>
   <a id="ColorLib_TheText_MarkSyls_" data-uid="ColorLib.TheText.MarkSyls*"></a>
   <h4 id="ColorLib_TheText_MarkSyls" data-uid="ColorLib.TheText.MarkSyls">MarkSyls()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Colors the &quot;syllabes&quot; in the text, according to the <a class="xref" href="ColorLib.SylConfig.html">SylConfig</a> attached to the <a class="xref" href="ColorLib.Config.html">Config</a>
+passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Formats">Formats</a> and makes sure that
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a> is called for each <code>FormattedTextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -429,11 +486,14 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkVoyCons.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkVoyCons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L180">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L276">View Source</a>
   </span>
   <a id="ColorLib_TheText_MarkVoyCons_" data-uid="ColorLib.TheText.MarkVoyCons*"></a>
   <h4 id="ColorLib_TheText_MarkVoyCons" data-uid="ColorLib.TheText.MarkVoyCons">MarkVoyCons()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Colors the &quot;voyelles&quot; and &quot;consonnes&quot; in the text, according to the alternate colors defined in the <a class="xref" href="ColorLib.SylConfig.html">SylConfig</a>
+attached to the <a class="xref" href="ColorLib.Config.html">Config</a> passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Formats">Formats</a> and makes sure that
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a> is called for each <code>FormattedTextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -444,11 +504,14 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkWords.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkWords%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L165">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L250">View Source</a>
   </span>
   <a id="ColorLib_TheText_MarkWords_" data-uid="ColorLib.TheText.MarkWords*"></a>
   <h4 id="ColorLib_TheText_MarkWords" data-uid="ColorLib.TheText.MarkWords">MarkWords()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Colors the &quot;words&quot; in the text, according to the <a class="xref" href="ColorLib.SylConfig.html">SylConfig</a> attached to the <a class="xref" href="ColorLib.Config.html">Config</a>
+passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Formats">Formats</a> and makes sure that
+<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a> is called for each <code>FormattedTextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -459,11 +522,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_NewTestTheText_System_String_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.NewTestTheText(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L73">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L112">View Source</a>
   </span>
   <a id="ColorLib_TheText_NewTestTheText_" data-uid="ColorLib.TheText.NewTestTheText*"></a>
   <h4 id="ColorLib_TheText_NewTestTheText_System_String_" data-uid="ColorLib.TheText.NewTestTheText(System.String)">NewTestTheText(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>For test purposes: creates a <code>TheText</code> with the passed <code>string</code> and a default <code>Config</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -506,11 +570,22 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.SetChars(ColorLib.FormattedTextEl)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L221">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L334">View Source</a>
   </span>
   <a id="ColorLib_TheText_SetChars_" data-uid="ColorLib.TheText.SetChars*"></a>
   <h4 id="ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_" data-uid="ColorLib.TheText.SetChars(ColorLib.FormattedTextEl)">SetChars(FormattedTextEl)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>
+This is to be considered as an abstract method that must be implemented by the inheriting class.
+The method is called for each <a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a> that results from the operation applied to
+<code>TheText</code>.
+</p>
+<p>
+The intend is that the inheriting class can then appy the requested formatting to the text in the user interface.
+</p>
+<remarks>
+Is not abstract in order to make it possible to instantiate <code>TheText</code> and hence simplify testing.
+</remarks>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -529,7 +604,8 @@
       <tr>
         <td><a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a></td>
         <td><span class="parametername">fte</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a> that should be formatted on the output device.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -538,11 +614,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_ToString.md&amp;value=---%0Auid%3A%20ColorLib.TheText.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L90">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L139">View Source</a>
   </span>
   <a id="ColorLib_TheText_ToString_" data-uid="ColorLib.TheText.ToString*"></a>
   <h4 id="ColorLib_TheText_ToString" data-uid="ColorLib.TheText.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the text.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -559,7 +636,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -576,7 +654,7 @@
                     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText.md&amp;value=---%0Auid%3A%20ColorLib.TheText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L41" class="contribution-link">View Source</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L78" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
