@@ -96,7 +96,7 @@
           "hash": "D2dYMUvJ44VsIaBBcGEVxA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "QumInuz9miGh28ttZKKOwA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "pNPBBNufODXUIuyyhKQlrQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "ab6tfWOWS3gewlKexWAP7g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -384,7 +384,7 @@
           "hash": "PtmK9AW/uvD7HdZ6yZ77EA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -432,7 +432,7 @@
           "hash": "61rDfwqEz6Z7uAUX/Ev1Qw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -564,7 +564,7 @@
           "hash": "nyn0D9sfNHjT9f10ABIFuw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -588,7 +588,7 @@
           "hash": "QsfNGhiMh/fZWcqCiNv9bw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -804,7 +804,7 @@
           "hash": "Gvs97dHhm3Kq+OywFcyVAA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -828,7 +828,7 @@
           "hash": "nXVGYmrUL434Gwes/UOXJw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -993,7 +993,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 71,
-          "skipped_file_count": 70
+          "skipped_file_count": 71
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
