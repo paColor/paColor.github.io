@@ -78,7 +78,6 @@ The class TheText represents the text that is analysed and whose formatting is a
 analysis algorithm.
 </p>
 <p>
-It is not supposed to be intiantiated directly. However, for test reasons, we do not declare it as abstract.
 </p>
 <p>
 The idea is that the inheriting class is created with a <code>string</code> and a <code>Config</code> (see the constructor
@@ -126,8 +125,9 @@ to the inheriting class by calling the method <code>SetChars</code> see <a class
   <div class="markdown level0 remarks"><p><code>Init</code> must be called before any usage of the class. This is especially important for testing,
 where this could easily be forgotten. </p>
 <p>
-Many members and methods of this class are public to simplify testing. From a logical point of view, this is
-necessary.
+The class is not supposed to be intiantiated directly. However, for test reasons, we do not declare it as abstract.
+Some members and methods of this class are public to simplify testing, although from a logical point of view, this
+would not be necessary.
 </p>
 </div>
   <h3 id="constructors">Constructors
@@ -184,7 +184,7 @@ will be used when applying formattings.</p>
   </span>
   <a id="ColorLib_TheText_Formats_" data-uid="ColorLib.TheText.Formats*"></a>
   <h4 id="ColorLib_TheText_Formats" data-uid="ColorLib.TheText.Formats">Formats</h4>
-  <div class="markdown level1 summary"><p>list of the elemnts whose formatting must be changed</p>
+  <div class="markdown level1 summary"><p>List of the elements whose formatting must be changed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -546,7 +546,8 @@ passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>The text that must be handled.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -561,7 +562,8 @@ passed at creation time. I.e. fills <a class="xref" href="ColorLib.TheText.html#
     <tbody>
       <tr>
         <td><a class="xref" href="ColorLib.TheText.html">TheText</a></td>
-        <td></td>
+        <td><p>A new <code>TheText</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -580,7 +582,7 @@ The method is called for each <a class="xref" href="ColorLib.FormattedTextEl.htm
 <code>TheText</code>.
 </p>
 <p>
-The intend is that the inheriting class can then appy the requested formatting to the text in the user interface.
+The intent is that the inheriting class can then apply the requested formatting to the text in the user interface.
 </p>
 <remarks>
 Is not abstract in order to make it possible to instantiate <code>TheText</code> and hence simplify testing.
