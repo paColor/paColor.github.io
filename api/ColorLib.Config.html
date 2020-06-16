@@ -138,7 +138,7 @@ La méthode de base de la partie statique est <a class="xref" href="ColorLib.Con
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config__ctor.md&amp;value=---%0Auid%3A%20ColorLib.Config.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L406">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L533">View Source</a>
   </span>
   <a id="ColorLib_Config__ctor_" data-uid="ColorLib.Config.#ctor*"></a>
   <h4 id="ColorLib_Config__ctor" data-uid="ColorLib.Config.#ctor">Config()</h4>
@@ -149,67 +149,37 @@ La méthode de base de la partie statique est <a class="xref" href="ColorLib.Con
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Config()</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_updateConfigName.md&amp;value=---%0Auid%3A%20ColorLib.Config.updateConfigName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.Config.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L362">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L547">View Source</a>
   </span>
-  <h4 id="ColorLib_Config_updateConfigName" data-uid="ColorLib.Config.updateConfigName">updateConfigName</h4>
-  <div class="markdown level1 summary"><p>Upcall pour informer le GUI que le nom de la <code>Config</code> a changé.</p>
+  <a id="ColorLib_Config__ctor_" data-uid="ColorLib.Config.#ctor*"></a>
+  <h4 id="ColorLib_Config__ctor_System_Int32_" data-uid="ColorLib.Config.#ctor(System.Int32)">Config(Int32)</h4>
+  <div class="markdown level1 summary"><p>Créée une &quot;subconfig&quot; pour la <code>Config</code> <code data-dev-comment-type="paramref" class="paramref">mother</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NonSerialized]
-public ExecuteTask updateConfigName</code></pre>
+    <pre><code class="lang-csharp hljs">public Config(int daughterNr)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ColorLib.ExecuteTask.html">ExecuteTask</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_updateListeConfigs.md&amp;value=---%0Auid%3A%20ColorLib.Config.updateListeConfigs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L368">View Source</a>
-  </span>
-  <h4 id="ColorLib_Config_updateListeConfigs" data-uid="ColorLib.Config.updateListeConfigs">updateListeConfigs</h4>
-  <div class="markdown level1 summary"><p>Upcall pour informer le GUI que la liste des <code>Config</code>s sauvegardées a changé.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NonSerialized]
-public ExecuteTask updateListeConfigs</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ColorLib.ExecuteTask.html">ExecuteTask</a></td>
-        <td></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">daughterNr</span></td>
+        <td><p>Le numéro de la config. Valeurs possibles, 1 ou 2.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -220,7 +190,7 @@ public ExecuteTask updateListeConfigs</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_colors.md&amp;value=---%0Auid%3A%20ColorLib.Config.colors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L386">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L447">View Source</a>
   </span>
   <a id="ColorLib_Config_colors_" data-uid="ColorLib.Config.colors*"></a>
   <h4 id="ColorLib_Config_colors" data-uid="ColorLib.Config.colors">colors</h4>
@@ -254,10 +224,42 @@ prévus dans <a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a>.
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_duoConf.md&amp;value=---%0Auid%3A%20ColorLib.Config.duoConf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L465">View Source</a>
+  </span>
+  <a id="ColorLib_Config_duoConf_" data-uid="ColorLib.Config.duoConf*"></a>
+  <h4 id="ColorLib_Config_duoConf" data-uid="ColorLib.Config.duoConf">duoConf</h4>
+  <div class="markdown level1 summary"><p>La configuration pour la commande &quot;duo&quot; ou &quot;2&quot;. Attention, est <code>null</code> pour les <code>Config</code>(s)
+qui sont des &quot;subConfigs&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuoConfig duoConf { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.DuoConfig.html">DuoConfig</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_pBDQ.md&amp;value=---%0Auid%3A%20ColorLib.Config.pBDQ%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L373">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L434">View Source</a>
   </span>
   <a id="ColorLib_Config_pBDQ_" data-uid="ColorLib.Config.pBDQ*"></a>
   <h4 id="ColorLib_Config_pBDQ" data-uid="ColorLib.Config.pBDQ">pBDQ</h4>
@@ -288,7 +290,7 @@ prévus dans <a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a>.
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_sylConf.md&amp;value=---%0Auid%3A%20ColorLib.Config.sylConf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L392">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L453">View Source</a>
   </span>
   <a id="ColorLib_Config_sylConf_" data-uid="ColorLib.Config.sylConf*"></a>
   <h4 id="ColorLib_Config_sylConf" data-uid="ColorLib.Config.sylConf">sylConf</h4>
@@ -320,7 +322,7 @@ besoin d'un formatage alterné.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_unsetBeh.md&amp;value=---%0Auid%3A%20ColorLib.Config.unsetBeh%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L398">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L459">View Source</a>
   </span>
   <a id="ColorLib_Config_unsetBeh_" data-uid="ColorLib.Config.unsetBeh*"></a>
   <h4 id="ColorLib_Config_unsetBeh" data-uid="ColorLib.Config.unsetBeh">unsetBeh</h4>
@@ -351,10 +353,44 @@ les flags de <code>CharFormatting</code> comme <code>bold</code> sont sur <code>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DeepCopy.md&amp;value=---%0Auid%3A%20ColorLib.Config.DeepCopy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L644">View Source</a>
+  </span>
+  <a id="ColorLib_Config_DeepCopy_" data-uid="ColorLib.Config.DeepCopy*"></a>
+  <h4 id="ColorLib_Config_DeepCopy" data-uid="ColorLib.Config.DeepCopy">DeepCopy()</h4>
+  <div class="markdown level1 summary"><p>Execute une &quot;deep copy&quot; de l'objet, c'est à dire que tous les éléments attachés à <code>this</code> sont copiés
+dans une nouvelle instance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Config DeepCopy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><p>Une copie exacte de <code>this</code> qui n'a rien en commun avec ce dernier. Retourne <code>null</code>
+en cas d'erreur.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DeleteSavedConfig_System_String_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.DeleteSavedConfig(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L279">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L275">View Source</a>
   </span>
   <a id="ColorLib_Config_DeleteSavedConfig_" data-uid="ColorLib.Config.DeleteSavedConfig*"></a>
   <h4 id="ColorLib_Config_DeleteSavedConfig_System_String_System_String__" data-uid="ColorLib.Config.DeleteSavedConfig(System.String,System.String@)">DeleteSavedConfig(String, out String)</h4>
@@ -411,7 +447,7 @@ les flags de <code>CharFormatting</code> comme <code>bold</code> sont sur <code>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DocClosed_System_Object_.md&amp;value=---%0Auid%3A%20ColorLib.Config.DocClosed(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L242">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L238">View Source</a>
   </span>
   <a id="ColorLib_Config_DocClosed_" data-uid="ColorLib.Config.DocClosed*"></a>
   <h4 id="ColorLib_Config_DocClosed_System_Object_" data-uid="ColorLib.Config.DocClosed(System.Object)">DocClosed(Object)</h4>
@@ -449,7 +485,7 @@ gestion de fenêtres et de documents.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetConfigFor_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetConfigFor(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L179">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L192">View Source</a>
   </span>
   <a id="ColorLib_Config_GetConfigFor_" data-uid="ColorLib.Config.GetConfigFor*"></a>
   <h4 id="ColorLib_Config_GetConfigFor_System_Object_System_Object_" data-uid="ColorLib.Config.GetConfigFor(System.Object,System.Object)">GetConfigFor(Object, Object)</h4>
@@ -475,7 +511,7 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">win</span></td>
-        <td><p>La fenêtre pour la quelle on veut un objet <code>Config</code>.</p>
+        <td><p>La fenêtre pour laquelle on veut un objet <code>Config</code>.</p>
 </td>
       </tr>
       <tr>
@@ -507,7 +543,7 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetConfigName.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetConfigName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L422">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L592">View Source</a>
   </span>
   <a id="ColorLib_Config_GetConfigName_" data-uid="ColorLib.Config.GetConfigName*"></a>
   <h4 id="ColorLib_Config_GetConfigName" data-uid="ColorLib.Config.GetConfigName">GetConfigName()</h4>
@@ -536,67 +572,10 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetDefaultConfigFor_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetDefaultConfigFor(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L224">View Source</a>
-  </span>
-  <a id="ColorLib_Config_GetDefaultConfigFor_" data-uid="ColorLib.Config.GetDefaultConfigFor*"></a>
-  <h4 id="ColorLib_Config_GetDefaultConfigFor_System_Object_System_Object_" data-uid="ColorLib.Config.GetDefaultConfigFor(System.Object,System.Object)">GetDefaultConfigFor(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Retourne une <code>Config</code> par défaut pour la fenêtre et le document donnés. S'il existait déjà une config pour
-cette fenêtre, cette config est définitivement perdue.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Config GetDefaultConfigFor(object win, object doc)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">win</span></td>
-        <td><p>La fenêtre pour la quelle on veut un objet <code>Config</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">doc</span></td>
-        <td><p>Le document attaché à la fenêtre.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
-        <td><p>Une nouvelle <code>Config</code> qui est initialisée aux valeurs par défaut.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetSavedConfigNames.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetSavedConfigNames%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L123">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L164">View Source</a>
   </span>
   <a id="ColorLib_Config_GetSavedConfigNames_" data-uid="ColorLib.Config.GetSavedConfigNames*"></a>
   <h4 id="ColorLib_Config_GetSavedConfigNames" data-uid="ColorLib.Config.GetSavedConfigNames">GetSavedConfigNames()</h4>
@@ -631,11 +610,12 @@ cette fenêtre, cette config est définitivement perdue.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_Init.md&amp;value=---%0Auid%3A%20ColorLib.Config.Init%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L96">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L135">View Source</a>
   </span>
   <a id="ColorLib_Config_Init_" data-uid="ColorLib.Config.Init*"></a>
   <h4 id="ColorLib_Config_Init" data-uid="ColorLib.Config.Init">Init()</h4>
-  <div class="markdown level1 summary"><p>Initialise la partie statique de la classe (la gestion du  mapping entre documents, fenêtres et configurations).</p>
+  <div class="markdown level1 summary"><p>Initialise la partie statique de la classe (la gestion du  mapping entre documents, fenêtres et configurations).
+Appelle les <code>Init()</code> statiques des autres classes de configuration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -647,19 +627,56 @@ cette fenêtre, cette config est définitivement perdue.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_LoadConfig_System_String_System_Object_System_Object_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.LoadConfig(System.String%2CSystem.Object%2CSystem.Object%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_IsSubConfig_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.Config.IsSubConfig(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L150">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L560">View Source</a>
   </span>
-  <a id="ColorLib_Config_LoadConfig_" data-uid="ColorLib.Config.LoadConfig*"></a>
-  <h4 id="ColorLib_Config_LoadConfig_System_String_System_Object_System_Object_System_String__" data-uid="ColorLib.Config.LoadConfig(System.String,System.Object,System.Object,System.String@)">LoadConfig(String, Object, Object, out String)</h4>
-  <div class="markdown level1 summary"><p>Charge la configuration portant le nom <code data-dev-comment-type="paramref" class="paramref">name</code>.</p>
+  <a id="ColorLib_Config_IsSubConfig_" data-uid="ColorLib.Config.IsSubConfig*"></a>
+  <h4 id="ColorLib_Config_IsSubConfig_System_Int32_" data-uid="ColorLib.Config.IsSubConfig(System.Int32)">IsSubConfig(Int32)</h4>
+  <div class="markdown level1 summary"><p>Dit à la <code>Config</code> qu'elle est une subConfig de type donné par <code data-dev-comment-type="paramref" class="paramref">theNr</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Config LoadConfig(string name, object win, object doc, out string errMsg)</code></pre>
+    <pre><code class="lang-csharp hljs">public void IsSubConfig(int theNr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">theNr</span></td>
+        <td><p>Le type de subConfig</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_LoadConfig_System_String_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.LoadConfig(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L603">View Source</a>
+  </span>
+  <a id="ColorLib_Config_LoadConfig_" data-uid="ColorLib.Config.LoadConfig*"></a>
+  <h4 id="ColorLib_Config_LoadConfig_System_String_System_String__" data-uid="ColorLib.Config.LoadConfig(System.String,System.String@)">LoadConfig(String, out String)</h4>
+  <div class="markdown level1 summary"><p>Charge la <code>Config</code> sauvgardée identifiée par <code data-dev-comment-type="paramref" class="paramref">name</code>. Si ça marche,
+un évènement <code>ConfigReplacedEvent</code> est déclenché avec la référence de la nouvelle
+config et <code>true</code> est retourné. Si ça échoue, <code>false</code> est retourné et
+<code data-dev-comment-type="paramref" class="paramref">errMsg</code> contient le message d'erreur.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoadConfig(string name, out string errMsg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -674,25 +691,13 @@ cette fenêtre, cette config est définitivement perdue.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td><p>Le nom de la configuration à charger.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">win</span></td>
-        <td><p>La fenêtre pour laquelle la config est chargée.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">doc</span></td>
-        <td><p>Le document ouvert dans la fenêtre.</p>
+        <td><p>Le nom de la <code>Config</code> sauvegardée à charger.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">errMsg</span></td>
-        <td><p>Retourne le message d'erreur si le chargement échoue.</p>
+        <td><p>Le message d'erreur si une erreur s'est produite, sinon &quot;&quot;.</p>
 </td>
       </tr>
     </tbody>
@@ -707,18 +712,114 @@ cette fenêtre, cette config est définitivement perdue.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
-        <td><p>La configuration chargée ou null si le chargement échoue.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si la <code>Config</code> a pu être chargée, sinon <code>false</code>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_OnConfigNameModified.md&amp;value=---%0Auid%3A%20ColorLib.Config.OnConfigNameModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L776">View Source</a>
+  </span>
+  <a id="ColorLib_Config_OnConfigNameModified_" data-uid="ColorLib.Config.OnConfigNameModified*"></a>
+  <h4 id="ColorLib_Config_OnConfigNameModified" data-uid="ColorLib.Config.OnConfigNameModified">OnConfigNameModified()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConfigNameModified()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_OnConfigReplaced_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.Config.OnConfigReplaced(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L756">View Source</a>
+  </span>
+  <a id="ColorLib_Config_OnConfigReplaced_" data-uid="ColorLib.Config.OnConfigReplaced*"></a>
+  <h4 id="ColorLib_Config_OnConfigReplaced_ColorLib_Config_" data-uid="ColorLib.Config.OnConfigReplaced(ColorLib.Config)">OnConfigReplaced(Config)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConfigReplaced(Config newConfig)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">newConfig</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_OnDuoConfReplaced_ColorLib_DuoConfig_.md&amp;value=---%0Auid%3A%20ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L769">View Source</a>
+  </span>
+  <a id="ColorLib_Config_OnDuoConfReplaced_" data-uid="ColorLib.Config.OnDuoConfReplaced*"></a>
+  <h4 id="ColorLib_Config_OnDuoConfReplaced_ColorLib_DuoConfig_" data-uid="ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)">OnDuoConfReplaced(DuoConfig)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDuoConfReplaced(DuoConfig newDuoConf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.DuoConfig.html">DuoConfig</a></td>
+        <td><span class="parametername">newDuoConf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_Reset.md&amp;value=---%0Auid%3A%20ColorLib.Config.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L567">View Source</a>
+  </span>
+  <a id="ColorLib_Config_Reset_" data-uid="ColorLib.Config.Reset*"></a>
+  <h4 id="ColorLib_Config_Reset" data-uid="ColorLib.Config.Reset">Reset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reset()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset">ConfigBase.Reset()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_SaveConfig_System_String_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.SaveConfig(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L432">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L626">View Source</a>
   </span>
   <a id="ColorLib_Config_SaveConfig_" data-uid="ColorLib.Config.SaveConfig*"></a>
   <h4 id="ColorLib_Config_SaveConfig_System_String_System_String__" data-uid="ColorLib.Config.SaveConfig(System.String,System.String@)">SaveConfig(String, out String)</h4>
@@ -770,6 +871,130 @@ sauvegardée.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_ConfigNameModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.Config.ConfigNameModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L424">View Source</a>
+  </span>
+  <h4 id="ColorLib_Config_ConfigNameModifiedEvent" data-uid="ColorLib.Config.ConfigNameModifiedEvent">ConfigNameModifiedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand le nom de la <code>Config</code> est modifié.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler ConfigNameModifiedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_ConfigReplacedEvent.md&amp;value=---%0Auid%3A%20ColorLib.Config.ConfigReplacedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L411">View Source</a>
+  </span>
+  <h4 id="ColorLib_Config_ConfigReplacedEvent" data-uid="ColorLib.Config.ConfigReplacedEvent">ConfigReplacedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand la <code>Config</code> est remplacée par une nouvelle <code>Config</code>. Le paramètre
+de l'évènement contient la nouvelle <code>Config</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ConfigReplacedEventArgs&gt; ConfigReplacedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ColorLib.ConfigReplacedEventArgs.html">ConfigReplacedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DuoConfReplacedEvent.md&amp;value=---%0Auid%3A%20ColorLib.Config.DuoConfReplacedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L418">View Source</a>
+  </span>
+  <h4 id="ColorLib_Config_DuoConfReplacedEvent" data-uid="ColorLib.Config.DuoConfReplacedEvent">DuoConfReplacedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand la <a class="xref" href="ColorLib.DuoConfig.html">DuoConfig</a> est remplacée. Les arguments de
+de l'évènement contiennent la nouvelle <code>DuoConfig</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;DuoConfReplacedEventArgs&gt; DuoConfReplacedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ColorLib.DuoConfReplacedEventArgs.html">DuoConfReplacedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_ListSavedConfigsModified.md&amp;value=---%0Auid%3A%20ColorLib.Config.ListSavedConfigsModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L107">View Source</a>
+  </span>
+  <h4 id="ColorLib_Config_ListSavedConfigsModified" data-uid="ColorLib.Config.ListSavedConfigsModified">ListSavedConfigsModified</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand la la liste des <code>Config</code>(s) sauvegardées est modifiée.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EventHandler ListSavedConfigsModified</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -781,7 +1006,7 @@ sauvegardée.</p>
                     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config.md&amp;value=---%0Auid%3A%20ColorLib.Config%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L70" class="contribution-link">View Source</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L96" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

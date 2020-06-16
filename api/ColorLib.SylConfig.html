@@ -73,7 +73,9 @@
   
   <h1 id="ColorLib_SylConfig" data-uid="ColorLib.SylConfig" class="text-break">Class SylConfig
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Configuration pour les commandes demandant un formatage alterné comme le marquage des syllabes, des mots
+des lignes...</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -119,7 +121,7 @@ public class SylConfig : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig__ctor.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L56">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L131">View Source</a>
   </span>
   <a id="ColorLib_SylConfig__ctor_" data-uid="ColorLib.SylConfig.#ctor*"></a>
   <h4 id="ColorLib_SylConfig__ctor" data-uid="ColorLib.SylConfig.#ctor">SylConfig()</h4>
@@ -136,7 +138,7 @@ public class SylConfig : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_nrButtons.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.nrButtons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L42">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L54">View Source</a>
   </span>
   <h4 id="ColorLib_SylConfig_nrButtons" data-uid="ColorLib.SylConfig.nrButtons">nrButtons</h4>
   <div class="markdown level1 summary"></div>
@@ -160,22 +162,24 @@ public class SylConfig : ConfigBase</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_updateSylButton.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.updateSylButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_DoubleConsStd.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.DoubleConsStd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L45">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L82">View Source</a>
   </span>
-  <h4 id="ColorLib_SylConfig_updateSylButton" data-uid="ColorLib.SylConfig.updateSylButton">updateSylButton</h4>
+  <a id="ColorLib_SylConfig_DoubleConsStd_" data-uid="ColorLib.SylConfig.DoubleConsStd*"></a>
+  <h4 id="ColorLib_SylConfig_DoubleConsStd" data-uid="ColorLib.SylConfig.DoubleConsStd">DoubleConsStd</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NonSerialized]
-public ExecTaskOnSylButton updateSylButton</code></pre>
+    <pre><code class="lang-csharp hljs">public bool DoubleConsStd { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -185,27 +189,27 @@ public ExecTaskOnSylButton updateSylButton</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ColorLib.ExecTaskOnSylButton.html">ExecTaskOnSylButton</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_updateSylButtons.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.updateSylButtons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ModeEcrit.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ModeEcrit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L44">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L98">View Source</a>
   </span>
-  <h4 id="ColorLib_SylConfig_updateSylButtons" data-uid="ColorLib.SylConfig.updateSylButtons">updateSylButtons</h4>
+  <a id="ColorLib_SylConfig_ModeEcrit_" data-uid="ColorLib.SylConfig.ModeEcrit*"></a>
+  <h4 id="ColorLib_SylConfig_ModeEcrit" data-uid="ColorLib.SylConfig.ModeEcrit">ModeEcrit</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NonSerialized]
-public ExecuteTask updateSylButtons</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ModeEcrit { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -215,7 +219,7 @@ public ExecuteTask updateSylButtons</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ColorLib.ExecuteTask.html">ExecuteTask</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -227,7 +231,7 @@ public ExecuteTask updateSylButtons</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ButtonIsActivableOne_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ButtonIsActivableOne(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L72">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L137">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_ButtonIsActivableOne_" data-uid="ColorLib.SylConfig.ButtonIsActivableOne*"></a>
   <h4 id="ColorLib_SylConfig_ButtonIsActivableOne_System_Int32_" data-uid="ColorLib.SylConfig.ButtonIsActivableOne(System.Int32)">ButtonIsActivableOne(Int32)</h4>
@@ -274,7 +278,7 @@ public ExecuteTask updateSylButtons</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ButtonIsLastActive_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ButtonIsLastActive(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L74">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L139">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_ButtonIsLastActive_" data-uid="ColorLib.SylConfig.ButtonIsLastActive*"></a>
   <h4 id="ColorLib_SylConfig_ButtonIsLastActive_System_Int32_" data-uid="ColorLib.SylConfig.ButtonIsLastActive(System.Int32)">ButtonIsLastActive(Int32)</h4>
@@ -321,11 +325,13 @@ public ExecuteTask updateSylButtons</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ClearButton_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ClearButton(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L105">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L185">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_ClearButton_" data-uid="ColorLib.SylConfig.ClearButton*"></a>
   <h4 id="ColorLib_SylConfig_ClearButton_System_Int32_" data-uid="ColorLib.SylConfig.ClearButton(System.Int32)">ClearButton(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Le bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code> est effacé. N'est possible que pour le dernier bouton
+formaté de la série.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -344,69 +350,24 @@ public ExecuteTask updateSylButtons</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">butNr</span></td>
-        <td></td>
+        <td><p>Le numéro du bouton à effacer.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_DoubCons.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.DoubCons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L65">View Source</a>
-  </span>
-  <a id="ColorLib_SylConfig_DoubCons_" data-uid="ColorLib.SylConfig.DoubCons*"></a>
-  <h4 id="ColorLib_SylConfig_DoubCons" data-uid="ColorLib.SylConfig.DoubCons">DoubCons()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool DoubCons()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_DoubleConsModified_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.DoubleConsModified(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L69">View Source</a>
-  </span>
-  <a id="ColorLib_SylConfig_DoubleConsModified_" data-uid="ColorLib.SylConfig.DoubleConsModified*"></a>
-  <h4 id="ColorLib_SylConfig_DoubleConsModified_System_Boolean_" data-uid="ColorLib.SylConfig.DoubleConsModified(System.Boolean)">DoubleConsModified(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DoubleConsModified(bool val)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">val</span></td>
-        <td></td>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>est levée si le bouton ne peut pas être effacé.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -415,7 +376,7 @@ public ExecuteTask updateSylButtons</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_GetSylButtonConfFor_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.GetSylButtonConfFor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L76">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L141">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_GetSylButtonConfFor_" data-uid="ColorLib.SylConfig.GetSylButtonConfFor*"></a>
   <h4 id="ColorLib_SylConfig_GetSylButtonConfFor_System_Int32_" data-uid="ColorLib.SylConfig.GetSylButtonConfFor(System.Int32)">GetSylButtonConfFor(Int32)</h4>
@@ -459,76 +420,16 @@ public ExecuteTask updateSylButtons</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ModeEcrit.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ModeEcrit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L66">View Source</a>
-  </span>
-  <a id="ColorLib_SylConfig_ModeEcrit_" data-uid="ColorLib.SylConfig.ModeEcrit*"></a>
-  <h4 id="ColorLib_SylConfig_ModeEcrit" data-uid="ColorLib.SylConfig.ModeEcrit">ModeEcrit()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ModeEcrit()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ModeEcritModified_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ModeEcritModified(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L70">View Source</a>
-  </span>
-  <a id="ColorLib_SylConfig_ModeEcritModified_" data-uid="ColorLib.SylConfig.ModeEcritModified*"></a>
-  <h4 id="ColorLib_SylConfig_ModeEcritModified_System_Boolean_" data-uid="ColorLib.SylConfig.ModeEcritModified(System.Boolean)">ModeEcritModified(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ModeEcritModified(bool val)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">val</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_NextCF.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.NextCF%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L124">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L212">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_NextCF_" data-uid="ColorLib.SylConfig.NextCF*"></a>
   <h4 id="ColorLib_SylConfig_NextCF" data-uid="ColorLib.SylConfig.NextCF">NextCF()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retourne le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> à utiliser en alternance suivant la configuration actuelle.
+Assure de passer à travers les différents <code>CharFormatting</code> voulus.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -545,20 +446,106 @@ public ExecuteTask updateSylButtons</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
+        <td><p>Le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> à utiliser pour un formatage alterné.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_SylConfig_NextCF_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Si aucun bouton n'a été défini, retourne le <code>CharFormatting</code> neutre.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_OnDoubleConsStdModified.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.OnDoubleConsStdModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L255">View Source</a>
+  </span>
+  <a id="ColorLib_SylConfig_OnDoubleConsStdModified_" data-uid="ColorLib.SylConfig.OnDoubleConsStdModified*"></a>
+  <h4 id="ColorLib_SylConfig_OnDoubleConsStdModified" data-uid="ColorLib.SylConfig.OnDoubleConsStdModified">OnDoubleConsStdModified()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDoubleConsStdModified()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_OnModeEcritModified.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.OnModeEcritModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L262">View Source</a>
+  </span>
+  <a id="ColorLib_SylConfig_OnModeEcritModified_" data-uid="ColorLib.SylConfig.OnModeEcritModified*"></a>
+  <h4 id="ColorLib_SylConfig_OnModeEcritModified" data-uid="ColorLib.SylConfig.OnModeEcritModified">OnModeEcritModified()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnModeEcritModified()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_OnSylButtonModified_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.OnSylButtonModified(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L248">View Source</a>
+  </span>
+  <a id="ColorLib_SylConfig_OnSylButtonModified_" data-uid="ColorLib.SylConfig.OnSylButtonModified*"></a>
+  <h4 id="ColorLib_SylConfig_OnSylButtonModified_System_Int32_" data-uid="ColorLib.SylConfig.OnSylButtonModified(System.Int32)">OnSylButtonModified(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSylButtonModified(int buttonNr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">buttonNr</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_Reset.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L231">View Source</a>
+  </span>
+  <a id="ColorLib_SylConfig_Reset_" data-uid="ColorLib.SylConfig.Reset*"></a>
+  <h4 id="ColorLib_SylConfig_Reset" data-uid="ColorLib.SylConfig.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Réinitialise à la configuration par défaut (rouge et noir)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reset()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset">ConfigBase.Reset()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ResetCounter.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ResetCounter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L134">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L226">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_ResetCounter_" data-uid="ColorLib.SylConfig.ResetCounter*"></a>
   <h4 id="ColorLib_SylConfig_ResetCounter" data-uid="ColorLib.SylConfig.ResetCounter">ResetCounter()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Réinitialise le compteur utilisé par <a class="xref" href="ColorLib.SylConfig.html#ColorLib_SylConfig_NextCF">NextCF()</a> pour retourner les formatages aletrnés.
+Permet de s'assurer que la série retournée commence par le formatage du premier bouton.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -566,29 +553,18 @@ public ExecuteTask updateSylButtons</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ResetStandardColors.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ResetStandardColors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L137">View Source</a>
-  </span>
-  <a id="ColorLib_SylConfig_ResetStandardColors_" data-uid="ColorLib.SylConfig.ResetStandardColors*"></a>
-  <h4 id="ColorLib_SylConfig_ResetStandardColors" data-uid="ColorLib.SylConfig.ResetStandardColors">ResetStandardColors()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetStandardColors()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_SylButtonModified_System_Int32_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.SylButtonModified(System.Int32%2CColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L78">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L151">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_SylButtonModified_" data-uid="ColorLib.SylConfig.SylButtonModified*"></a>
   <h4 id="ColorLib_SylConfig_SylButtonModified_System_Int32_ColorLib_CharFormatting_" data-uid="ColorLib.SylConfig.SylButtonModified(System.Int32,ColorLib.CharFormatting)">SylButtonModified(Int32, CharFormatting)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Indique que le le boouton <code data-dev-comment-type="paramref" class="paramref">butNr</code> (commence à 0) doit être formatté avec
+<code data-dev-comment-type="paramref" class="paramref">inCf</code>.
+La fonction <code>updateSylButton</code> est appelée pour le bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code> (l'événement
+correspondant est généré...)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -607,12 +583,14 @@ public ExecuteTask updateSylButtons</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">butNr</span></td>
-        <td></td>
+        <td><p>Le numéro du bouton dont il faut changer le formatage.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
         <td><span class="parametername">inCf</span></td>
-        <td></td>
+        <td><p>Le nouveau formatage.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -621,7 +599,7 @@ public ExecuteTask updateSylButtons</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_SylButtonModified_System_String_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.SylButtonModified(System.String%2CColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L100">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L174">View Source</a>
   </span>
   <a id="ColorLib_SylConfig_SylButtonModified_" data-uid="ColorLib.SylConfig.SylButtonModified*"></a>
   <h4 id="ColorLib_SylConfig_SylButtonModified_System_String_ColorLib_CharFormatting_" data-uid="ColorLib.SylConfig.SylButtonModified(System.String,ColorLib.CharFormatting)">SylButtonModified(String, CharFormatting)</h4>
@@ -653,6 +631,98 @@ public ExecuteTask updateSylButtons</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_DoubleConsStdModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.DoubleConsStdModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L70">View Source</a>
+  </span>
+  <h4 id="ColorLib_SylConfig_DoubleConsStdModifiedEvent" data-uid="ColorLib.SylConfig.DoubleConsStdModifiedEvent">DoubleConsStdModifiedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand le mode doubleConsStd est modifié.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler DoubleConsStdModifiedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_ModeEcritModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.ModeEcritModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L76">View Source</a>
+  </span>
+  <h4 id="ColorLib_SylConfig_ModeEcritModifiedEvent" data-uid="ColorLib.SylConfig.ModeEcritModifiedEvent">ModeEcritModifiedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand le mode écrit ou oral est modifié.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler ModeEcritModifiedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig_SylButtonModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig.SylButtonModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L64">View Source</a>
+  </span>
+  <h4 id="ColorLib_SylConfig_SylButtonModifiedEvent" data-uid="ColorLib.SylConfig.SylButtonModifiedEvent">SylButtonModifiedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand le bouton pour une syllabe est modifié.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SylButtonModifiedEventArgs&gt; SylButtonModifiedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ColorLib.SylButtonModifiedEventArgs.html">SylButtonModifiedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -664,7 +734,7 @@ public ExecuteTask updateSylButtons</code></pre>
                     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_SylConfig.md&amp;value=---%0Auid%3A%20ColorLib.SylConfig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L30" class="contribution-link">View Source</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/SylConfig.cs/#L42" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

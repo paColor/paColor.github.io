@@ -73,7 +73,10 @@
   
   <h1 id="ColorLib_UnsetBehConf" data-uid="ColorLib.UnsetBehConf" class="text-break">Class UnsetBehConf
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Configuration pour les flags avancés déterminant comment doit se comporter le formatage
+quand un attribut d'un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> sont à la valeur <code>false</code>. Faut-il
+laisser le formatage dans l'état actuel ou forcer à la valeur <code>false</code>?</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -119,7 +122,7 @@ public class UnsetBehConf : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf__ctor.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L40">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L101">View Source</a>
   </span>
   <a id="ColorLib_UnsetBehConf__ctor_" data-uid="ColorLib.UnsetBehConf.#ctor*"></a>
   <h4 id="ColorLib_UnsetBehConf__ctor" data-uid="ColorLib.UnsetBehConf.#ctor">UnsetBehConf()</h4>
@@ -129,24 +132,26 @@ public class UnsetBehConf : ConfigBase</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public UnsetBehConf()</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_updateUCheckBoxes.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.updateUCheckBoxes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_cbuMap.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.cbuMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L33">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L69">View Source</a>
   </span>
-  <h4 id="ColorLib_UnsetBehConf_updateUCheckBoxes" data-uid="ColorLib.UnsetBehConf.updateUCheckBoxes">updateUCheckBoxes</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ColorLib_UnsetBehConf_cbuMap_" data-uid="ColorLib.UnsetBehConf.cbuMap*"></a>
+  <h4 id="ColorLib_UnsetBehConf_cbuMap" data-uid="ColorLib.UnsetBehConf.cbuMap">cbuMap</h4>
+  <div class="markdown level1 summary"><p>permet de faire la conversion checkbox name --&gt; index dans <a class="xref" href="ColorLib.Ucbx.html">Ucbx</a> en utilsant la
+forme <code>int i = cbuMap[name];</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NonSerialized]
-public ExecuteTask updateUCheckBoxes</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, int&gt; cbuMap { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -156,7 +161,39 @@ public ExecuteTask updateUCheckBoxes</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ColorLib.ExecuteTask.html">ExecuteTask</a></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_cbuNames.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.cbuNames%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L62">View Source</a>
+  </span>
+  <a id="ColorLib_UnsetBehConf_cbuNames_" data-uid="ColorLib.UnsetBehConf.cbuNames*"></a>
+  <h4 id="ColorLib_UnsetBehConf_cbuNames" data-uid="ColorLib.UnsetBehConf.cbuNames">cbuNames</h4>
+  <div class="markdown level1 summary"><p>Les différents <code>string</code> qui peuvent être utilisés pour identifier une des checkboxes. Les
+positions dans le tableau correspondent à l'order dans l'énum <a class="xref" href="ColorLib.Ucbx.html">Ucbx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] cbuNames { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -168,11 +205,13 @@ public ExecuteTask updateUCheckBoxes</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_CbuChecked_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.CbuChecked(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L51">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L113">View Source</a>
   </span>
   <a id="ColorLib_UnsetBehConf_CbuChecked_" data-uid="ColorLib.UnsetBehConf.CbuChecked*"></a>
   <h4 id="ColorLib_UnsetBehConf_CbuChecked_System_String_System_Boolean_" data-uid="ColorLib.UnsetBehConf.CbuChecked(System.String,System.Boolean)">CbuChecked(String, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Modifie la valeur du flag identifié par <code data-dev-comment-type="paramref" class="paramref">cbuName</code> pour la
+metter à <code data-dev-comment-type="paramref" class="paramref">val</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -191,12 +230,14 @@ public ExecuteTask updateUCheckBoxes</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">cbuName</span></td>
-        <td></td>
+        <td><p>Le nom de la checkbox à modifier.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">val</span></td>
-        <td></td>
+        <td><p>La nouvelle valeur.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -205,11 +246,12 @@ public ExecuteTask updateUCheckBoxes</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_CbuVal_ColorLib_Ucbx_.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.CbuVal(ColorLib.Ucbx)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L64">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L143">View Source</a>
   </span>
   <a id="ColorLib_UnsetBehConf_CbuVal_" data-uid="ColorLib.UnsetBehConf.CbuVal*"></a>
   <h4 id="ColorLib_UnsetBehConf_CbuVal_ColorLib_Ucbx_" data-uid="ColorLib.UnsetBehConf.CbuVal(ColorLib.Ucbx)">CbuVal(Ucbx)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Donne la valeur du flag identifié par <code data-dev-comment-type="paramref" class="paramref">u</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -228,7 +270,8 @@ public ExecuteTask updateUCheckBoxes</code></pre>
       <tr>
         <td><a class="xref" href="ColorLib.Ucbx.html">Ucbx</a></td>
         <td><span class="parametername">u</span></td>
-        <td></td>
+        <td><p>Le flag dont on veut connaître la valeur.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -252,11 +295,12 @@ public ExecuteTask updateUCheckBoxes</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_CbuVal_System_String_.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.CbuVal(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L63">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L136">View Source</a>
   </span>
   <a id="ColorLib_UnsetBehConf_CbuVal_" data-uid="ColorLib.UnsetBehConf.CbuVal*"></a>
   <h4 id="ColorLib_UnsetBehConf_CbuVal_System_String_" data-uid="ColorLib.UnsetBehConf.CbuVal(System.String)">CbuVal(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Donne la valeur du flag identifié par <code data-dev-comment-type="paramref" class="paramref">cbuName</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -275,7 +319,8 @@ public ExecuteTask updateUCheckBoxes</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">cbuName</span></td>
-        <td></td>
+        <td><p>Le nom du flag dont on veut connaître la valeur.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -294,6 +339,103 @@ public ExecuteTask updateUCheckBoxes</code></pre>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_Init.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.Init%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L71">View Source</a>
+  </span>
+  <a id="ColorLib_UnsetBehConf_Init_" data-uid="ColorLib.UnsetBehConf.Init*"></a>
+  <h4 id="ColorLib_UnsetBehConf_Init" data-uid="ColorLib.UnsetBehConf.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Init()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_OnCheckboxUnsetModified_ColorLib_Ucbx_.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.OnCheckboxUnsetModified(ColorLib.Ucbx)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L157">View Source</a>
+  </span>
+  <a id="ColorLib_UnsetBehConf_OnCheckboxUnsetModified_" data-uid="ColorLib.UnsetBehConf.OnCheckboxUnsetModified*"></a>
+  <h4 id="ColorLib_UnsetBehConf_OnCheckboxUnsetModified_ColorLib_Ucbx_" data-uid="ColorLib.UnsetBehConf.OnCheckboxUnsetModified(ColorLib.Ucbx)">OnCheckboxUnsetModified(Ucbx)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCheckboxUnsetModified(Ucbx u)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Ucbx.html">Ucbx</a></td>
+        <td><span class="parametername">u</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_Reset.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L148">View Source</a>
+  </span>
+  <a id="ColorLib_UnsetBehConf_Reset_" data-uid="ColorLib.UnsetBehConf.Reset*"></a>
+  <h4 id="ColorLib_UnsetBehConf_Reset" data-uid="ColorLib.UnsetBehConf.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Réinitialise tous les flags à <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reset()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset">ConfigBase.Reset()</a></div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf_CheckboxUnsetModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L89">View Source</a>
+  </span>
+  <h4 id="ColorLib_UnsetBehConf_CheckboxUnsetModifiedEvent" data-uid="ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent">CheckboxUnsetModifiedEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand un des flags est modifié.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;CheckboxUnsetModifiedEventArgs&gt; CheckboxUnsetModifiedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ColorLib.CheckboxUnsetModifiedEventArgs.html">CheckboxUnsetModifiedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -305,7 +447,7 @@ public ExecuteTask updateUCheckBoxes</code></pre>
                     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_UnsetBehConf.md&amp;value=---%0Auid%3A%20ColorLib.UnsetBehConf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L30" class="contribution-link">View Source</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/UnsetBehConf.cs/#L50" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

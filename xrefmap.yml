@@ -32,12 +32,12 @@ references:
   commentId: T:Colorization.PPTText
   fullName: Colorization.PPTText
   nameWithType: PPTText
-- uid: Colorization.PPTText.#ctor(Microsoft.Office.Interop.PowerPoint.TextRange,ColorLib.Config)
-  name: PPTText(TextRange, Config)
-  href: api/Colorization.PPTText.html#Colorization_PPTText__ctor_Microsoft_Office_Interop_PowerPoint_TextRange_ColorLib_Config_
-  commentId: M:Colorization.PPTText.#ctor(Microsoft.Office.Interop.PowerPoint.TextRange,ColorLib.Config)
-  fullName: Colorization.PPTText.PPTText(Microsoft.Office.Interop.PowerPoint.TextRange, ColorLib.Config)
-  nameWithType: PPTText.PPTText(TextRange, Config)
+- uid: Colorization.PPTText.#ctor(Microsoft.Office.Interop.PowerPoint.TextRange)
+  name: PPTText(TextRange)
+  href: api/Colorization.PPTText.html#Colorization_PPTText__ctor_Microsoft_Office_Interop_PowerPoint_TextRange_
+  commentId: M:Colorization.PPTText.#ctor(Microsoft.Office.Interop.PowerPoint.TextRange)
+  fullName: Colorization.PPTText.PPTText(Microsoft.Office.Interop.PowerPoint.TextRange)
+  nameWithType: PPTText.PPTText(TextRange)
 - uid: Colorization.PPTText.#ctor*
   name: PPTText
   href: api/Colorization.PPTText.html#Colorization_PPTText__ctor_
@@ -45,19 +45,19 @@ references:
   isSpec: "True"
   fullName: Colorization.PPTText.PPTText
   nameWithType: PPTText.PPTText
-- uid: Colorization.PPTText.ApplyCFToRange(ColorLib.CharFormatting,Microsoft.Office.Interop.PowerPoint.TextRange,ColorLib.Config)
-  name: ApplyCFToRange(CharFormatting, TextRange, Config)
-  href: api/Colorization.PPTText.html#Colorization_PPTText_ApplyCFToRange_ColorLib_CharFormatting_Microsoft_Office_Interop_PowerPoint_TextRange_ColorLib_Config_
-  commentId: M:Colorization.PPTText.ApplyCFToRange(ColorLib.CharFormatting,Microsoft.Office.Interop.PowerPoint.TextRange,ColorLib.Config)
-  fullName: Colorization.PPTText.ApplyCFToRange(ColorLib.CharFormatting, Microsoft.Office.Interop.PowerPoint.TextRange, ColorLib.Config)
-  nameWithType: PPTText.ApplyCFToRange(CharFormatting, TextRange, Config)
-- uid: Colorization.PPTText.ApplyCFToRange*
-  name: ApplyCFToRange
-  href: api/Colorization.PPTText.html#Colorization_PPTText_ApplyCFToRange_
-  commentId: Overload:Colorization.PPTText.ApplyCFToRange
+- uid: Colorization.PPTText.GetLastLinesPos
+  name: GetLastLinesPos()
+  href: api/Colorization.PPTText.html#Colorization_PPTText_GetLastLinesPos
+  commentId: M:Colorization.PPTText.GetLastLinesPos
+  fullName: Colorization.PPTText.GetLastLinesPos()
+  nameWithType: PPTText.GetLastLinesPos()
+- uid: Colorization.PPTText.GetLastLinesPos*
+  name: GetLastLinesPos
+  href: api/Colorization.PPTText.html#Colorization_PPTText_GetLastLinesPos_
+  commentId: Overload:Colorization.PPTText.GetLastLinesPos
   isSpec: "True"
-  fullName: Colorization.PPTText.ApplyCFToRange
-  nameWithType: PPTText.ApplyCFToRange
+  fullName: Colorization.PPTText.GetLastLinesPos
+  nameWithType: PPTText.GetLastLinesPos
 - uid: Colorization.PPTText.Initialize
   name: Initialize()
   href: api/Colorization.PPTText.html#Colorization_PPTText_Initialize
@@ -71,12 +71,12 @@ references:
   isSpec: "True"
   fullName: Colorization.PPTText.Initialize
   nameWithType: PPTText.Initialize
-- uid: Colorization.PPTText.SetChars(ColorLib.FormattedTextEl)
-  name: SetChars(FormattedTextEl)
-  href: api/Colorization.PPTText.html#Colorization_PPTText_SetChars_ColorLib_FormattedTextEl_
-  commentId: M:Colorization.PPTText.SetChars(ColorLib.FormattedTextEl)
-  fullName: Colorization.PPTText.SetChars(ColorLib.FormattedTextEl)
-  nameWithType: PPTText.SetChars(FormattedTextEl)
+- uid: Colorization.PPTText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
+  name: SetChars(FormattedTextEl, Config)
+  href: api/Colorization.PPTText.html#Colorization_PPTText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_
+  commentId: M:Colorization.PPTText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
+  fullName: Colorization.PPTText.SetChars(ColorLib.FormattedTextEl, ColorLib.Config)
+  nameWithType: PPTText.SetChars(FormattedTextEl, Config)
 - uid: Colorization.PPTText.SetChars*
   name: SetChars
   href: api/Colorization.PPTText.html#Colorization_PPTText_SetChars_
@@ -103,12 +103,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.Ribbon1
   nameWithType: Ribbon1.Ribbon1
-- uid: Colorization.Ribbon1.ColorizeSelectedPhons
-  name: ColorizeSelectedPhons()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorizeSelectedPhons
-  commentId: M:Colorization.Ribbon1.ColorizeSelectedPhons
-  fullName: Colorization.Ribbon1.ColorizeSelectedPhons()
-  nameWithType: Ribbon1.ColorizeSelectedPhons()
+- uid: Colorization.Ribbon1.ColorizeSelectedPhons(ColorLib.Config)
+  name: ColorizeSelectedPhons(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorizeSelectedPhons_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorizeSelectedPhons(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorizeSelectedPhons(ColorLib.Config)
+  nameWithType: Ribbon1.ColorizeSelectedPhons(Config)
 - uid: Colorization.Ribbon1.ColorizeSelectedPhons*
   name: ColorizeSelectedPhons
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorizeSelectedPhons_
@@ -116,12 +116,25 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorizeSelectedPhons
   nameWithType: Ribbon1.ColorizeSelectedPhons
-- uid: Colorization.Ribbon1.ColorSelectedLetters
-  name: ColorSelectedLetters()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedLetters
-  commentId: M:Colorization.Ribbon1.ColorSelectedLetters
-  fullName: Colorization.Ribbon1.ColorSelectedLetters()
-  nameWithType: Ribbon1.ColorSelectedLetters()
+- uid: Colorization.Ribbon1.ColorSelectedDuo(ColorLib.Config)
+  name: ColorSelectedDuo(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedDuo_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedDuo(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedDuo(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedDuo(Config)
+- uid: Colorization.Ribbon1.ColorSelectedDuo*
+  name: ColorSelectedDuo
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedDuo_
+  commentId: Overload:Colorization.Ribbon1.ColorSelectedDuo
+  isSpec: "True"
+  fullName: Colorization.Ribbon1.ColorSelectedDuo
+  nameWithType: Ribbon1.ColorSelectedDuo
+- uid: Colorization.Ribbon1.ColorSelectedLetters(ColorLib.Config)
+  name: ColorSelectedLetters(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedLetters_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedLetters(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedLetters(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedLetters(Config)
 - uid: Colorization.Ribbon1.ColorSelectedLetters*
   name: ColorSelectedLetters
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedLetters_
@@ -129,12 +142,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorSelectedLetters
   nameWithType: Ribbon1.ColorSelectedLetters
-- uid: Colorization.Ribbon1.ColorSelectedLignes
-  name: ColorSelectedLignes()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedLignes
-  commentId: M:Colorization.Ribbon1.ColorSelectedLignes
-  fullName: Colorization.Ribbon1.ColorSelectedLignes()
-  nameWithType: Ribbon1.ColorSelectedLignes()
+- uid: Colorization.Ribbon1.ColorSelectedLignes(ColorLib.Config)
+  name: ColorSelectedLignes(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedLignes_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedLignes(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedLignes(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedLignes(Config)
 - uid: Colorization.Ribbon1.ColorSelectedLignes*
   name: ColorSelectedLignes
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedLignes_
@@ -142,12 +155,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorSelectedLignes
   nameWithType: Ribbon1.ColorSelectedLignes
-- uid: Colorization.Ribbon1.ColorSelectedMuettes
-  name: ColorSelectedMuettes()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedMuettes
-  commentId: M:Colorization.Ribbon1.ColorSelectedMuettes
-  fullName: Colorization.Ribbon1.ColorSelectedMuettes()
-  nameWithType: Ribbon1.ColorSelectedMuettes()
+- uid: Colorization.Ribbon1.ColorSelectedMuettes(ColorLib.Config)
+  name: ColorSelectedMuettes(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedMuettes_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedMuettes(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedMuettes(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedMuettes(Config)
 - uid: Colorization.Ribbon1.ColorSelectedMuettes*
   name: ColorSelectedMuettes
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedMuettes_
@@ -155,12 +168,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorSelectedMuettes
   nameWithType: Ribbon1.ColorSelectedMuettes
-- uid: Colorization.Ribbon1.ColorSelectedNoir
-  name: ColorSelectedNoir()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedNoir
-  commentId: M:Colorization.Ribbon1.ColorSelectedNoir
-  fullName: Colorization.Ribbon1.ColorSelectedNoir()
-  nameWithType: Ribbon1.ColorSelectedNoir()
+- uid: Colorization.Ribbon1.ColorSelectedNoir(ColorLib.Config)
+  name: ColorSelectedNoir(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedNoir_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedNoir(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedNoir(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedNoir(Config)
 - uid: Colorization.Ribbon1.ColorSelectedNoir*
   name: ColorSelectedNoir
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedNoir_
@@ -168,12 +181,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorSelectedNoir
   nameWithType: Ribbon1.ColorSelectedNoir
-- uid: Colorization.Ribbon1.ColorSelectedSyls
-  name: ColorSelectedSyls()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedSyls
-  commentId: M:Colorization.Ribbon1.ColorSelectedSyls
-  fullName: Colorization.Ribbon1.ColorSelectedSyls()
-  nameWithType: Ribbon1.ColorSelectedSyls()
+- uid: Colorization.Ribbon1.ColorSelectedSyls(ColorLib.Config)
+  name: ColorSelectedSyls(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedSyls_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedSyls(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedSyls(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedSyls(Config)
 - uid: Colorization.Ribbon1.ColorSelectedSyls*
   name: ColorSelectedSyls
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedSyls_
@@ -181,12 +194,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorSelectedSyls
   nameWithType: Ribbon1.ColorSelectedSyls
-- uid: Colorization.Ribbon1.ColorSelectedVoyCons
-  name: ColorSelectedVoyCons()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedVoyCons
-  commentId: M:Colorization.Ribbon1.ColorSelectedVoyCons
-  fullName: Colorization.Ribbon1.ColorSelectedVoyCons()
-  nameWithType: Ribbon1.ColorSelectedVoyCons()
+- uid: Colorization.Ribbon1.ColorSelectedVoyCons(ColorLib.Config)
+  name: ColorSelectedVoyCons(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedVoyCons_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedVoyCons(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedVoyCons(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedVoyCons(Config)
 - uid: Colorization.Ribbon1.ColorSelectedVoyCons*
   name: ColorSelectedVoyCons
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedVoyCons_
@@ -194,12 +207,12 @@ references:
   isSpec: "True"
   fullName: Colorization.Ribbon1.ColorSelectedVoyCons
   nameWithType: Ribbon1.ColorSelectedVoyCons
-- uid: Colorization.Ribbon1.ColorSelectedWords
-  name: ColorSelectedWords()
-  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedWords
-  commentId: M:Colorization.Ribbon1.ColorSelectedWords
-  fullName: Colorization.Ribbon1.ColorSelectedWords()
-  nameWithType: Ribbon1.ColorSelectedWords()
+- uid: Colorization.Ribbon1.ColorSelectedWords(ColorLib.Config)
+  name: ColorSelectedWords(Config)
+  href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedWords_ColorLib_Config_
+  commentId: M:Colorization.Ribbon1.ColorSelectedWords(ColorLib.Config)
+  fullName: Colorization.Ribbon1.ColorSelectedWords(ColorLib.Config)
+  nameWithType: Ribbon1.ColorSelectedWords(Config)
 - uid: Colorization.Ribbon1.ColorSelectedWords*
   name: ColorSelectedWords
   href: api/Colorization.Ribbon1.html#Colorization_Ribbon1_ColorSelectedWords_
@@ -302,6 +315,12 @@ references:
   commentId: T:ColorizationControls.ConfigControl
   fullName: ColorizationControls.ConfigControl
   nameWithType: ConfigControl
+- uid: ColorizationControls.ConfigControl.#ctor(ColorLib.Config)
+  name: ConfigControl(Config)
+  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl__ctor_ColorLib_Config_
+  commentId: M:ColorizationControls.ConfigControl.#ctor(ColorLib.Config)
+  fullName: ColorizationControls.ConfigControl.ConfigControl(ColorLib.Config)
+  nameWithType: ConfigControl.ConfigControl(Config)
 - uid: ColorizationControls.ConfigControl.#ctor(System.Object,System.Object,System.String)
   name: ConfigControl(Object, Object, String)
   href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl__ctor_System_Object_System_Object_System_String_
@@ -315,6 +334,19 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.ConfigControl.ConfigControl
   nameWithType: ConfigControl.ConfigControl
+- uid: ColorizationControls.ConfigControl.colDuoSelText
+  name: colDuoSelText
+  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_colDuoSelText
+  commentId: P:ColorizationControls.ConfigControl.colDuoSelText
+  fullName: ColorizationControls.ConfigControl.colDuoSelText
+  nameWithType: ConfigControl.colDuoSelText
+- uid: ColorizationControls.ConfigControl.colDuoSelText*
+  name: colDuoSelText
+  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_colDuoSelText_
+  commentId: Overload:ColorizationControls.ConfigControl.colDuoSelText
+  isSpec: "True"
+  fullName: ColorizationControls.ConfigControl.colDuoSelText
+  nameWithType: ConfigControl.colDuoSelText
 - uid: ColorizationControls.ConfigControl.colLignesSelText
   name: colLignesSelText
   href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_colLignesSelText
@@ -445,6 +477,19 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.ConfigControl.markSelLetters
   nameWithType: ConfigControl.markSelLetters
+- uid: ColorizationControls.ConfigControl.ResetConfig(ColorLib.Config)
+  name: ResetConfig(Config)
+  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_ResetConfig_ColorLib_Config_
+  commentId: M:ColorizationControls.ConfigControl.ResetConfig(ColorLib.Config)
+  fullName: ColorizationControls.ConfigControl.ResetConfig(ColorLib.Config)
+  nameWithType: ConfigControl.ResetConfig(Config)
+- uid: ColorizationControls.ConfigControl.ResetConfig*
+  name: ResetConfig
+  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_ResetConfig_
+  commentId: Overload:ColorizationControls.ConfigControl.ResetConfig
+  isSpec: "True"
+  fullName: ColorizationControls.ConfigControl.ResetConfig
+  nameWithType: ConfigControl.ResetConfig
 - uid: ColorizationControls.ConfigControl.ScaleFactor
   name: ScaleFactor
   href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_ScaleFactor
@@ -497,19 +542,6 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.ConfigControl.UpdateCbxSon
   nameWithType: ConfigControl.UpdateCbxSon
-- uid: ColorizationControls.ConfigControl.UpdateConfigName
-  name: UpdateConfigName()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateConfigName
-  commentId: M:ColorizationControls.ConfigControl.UpdateConfigName
-  fullName: ColorizationControls.ConfigControl.UpdateConfigName()
-  nameWithType: ConfigControl.UpdateConfigName()
-- uid: ColorizationControls.ConfigControl.UpdateConfigName*
-  name: UpdateConfigName
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateConfigName_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateConfigName
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateConfigName
-  nameWithType: ConfigControl.UpdateConfigName
 - uid: ColorizationControls.ConfigControl.UpdateLetterButton(System.Int32)
   name: UpdateLetterButton(Int32)
   href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateLetterButton_System_Int32_
@@ -536,32 +568,6 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.ConfigControl.UpdateLetterButtons
   nameWithType: ConfigControl.UpdateLetterButtons
-- uid: ColorizationControls.ConfigControl.UpdateListeConfigs
-  name: UpdateListeConfigs()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateListeConfigs
-  commentId: M:ColorizationControls.ConfigControl.UpdateListeConfigs
-  fullName: ColorizationControls.ConfigControl.UpdateListeConfigs()
-  nameWithType: ConfigControl.UpdateListeConfigs()
-- uid: ColorizationControls.ConfigControl.UpdateListeConfigs*
-  name: UpdateListeConfigs
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateListeConfigs_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateListeConfigs
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateListeConfigs
-  nameWithType: ConfigControl.UpdateListeConfigs
-- uid: ColorizationControls.ConfigControl.UpdateSauvTab
-  name: UpdateSauvTab()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSauvTab
-  commentId: M:ColorizationControls.ConfigControl.UpdateSauvTab
-  fullName: ColorizationControls.ConfigControl.UpdateSauvTab()
-  nameWithType: ConfigControl.UpdateSauvTab()
-- uid: ColorizationControls.ConfigControl.UpdateSauvTab*
-  name: UpdateSauvTab
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSauvTab_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateSauvTab
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateSauvTab
-  nameWithType: ConfigControl.UpdateSauvTab
 - uid: ColorizationControls.ConfigControl.UpdateSonButton(System.String)
   name: UpdateSonButton(String)
   href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSonButton_System_String_
@@ -678,6 +684,76 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.DConsoleTarget.Write
   nameWithType: DConsoleTarget.Write
+- uid: ColorizationControls.DuoConfForm
+  name: DuoConfForm
+  href: api/ColorizationControls.DuoConfForm.html
+  commentId: T:ColorizationControls.DuoConfForm
+  fullName: ColorizationControls.DuoConfForm
+  nameWithType: DuoConfForm
+- uid: ColorizationControls.DuoConfForm.#ctor(ColorLib.Config)
+  name: DuoConfForm(Config)
+  href: api/ColorizationControls.DuoConfForm.html#ColorizationControls_DuoConfForm__ctor_ColorLib_Config_
+  commentId: M:ColorizationControls.DuoConfForm.#ctor(ColorLib.Config)
+  fullName: ColorizationControls.DuoConfForm.DuoConfForm(ColorLib.Config)
+  nameWithType: DuoConfForm.DuoConfForm(Config)
+- uid: ColorizationControls.DuoConfForm.#ctor*
+  name: DuoConfForm
+  href: api/ColorizationControls.DuoConfForm.html#ColorizationControls_DuoConfForm__ctor_
+  commentId: Overload:ColorizationControls.DuoConfForm.#ctor
+  isSpec: "True"
+  fullName: ColorizationControls.DuoConfForm.DuoConfForm
+  nameWithType: DuoConfForm.DuoConfForm
+- uid: ColorizationControls.DuoConfForm.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/ColorizationControls.DuoConfForm.html#ColorizationControls_DuoConfForm_Dispose_System_Boolean_
+  commentId: M:ColorizationControls.DuoConfForm.Dispose(System.Boolean)
+  fullName: ColorizationControls.DuoConfForm.Dispose(System.Boolean)
+  nameWithType: DuoConfForm.Dispose(Boolean)
+- uid: ColorizationControls.DuoConfForm.Dispose*
+  name: Dispose
+  href: api/ColorizationControls.DuoConfForm.html#ColorizationControls_DuoConfForm_Dispose_
+  commentId: Overload:ColorizationControls.DuoConfForm.Dispose
+  isSpec: "True"
+  fullName: ColorizationControls.DuoConfForm.Dispose
+  nameWithType: DuoConfForm.Dispose
+- uid: ColorizationControls.DuoConfFormDummy
+  name: DuoConfFormDummy
+  href: api/ColorizationControls.DuoConfFormDummy.html
+  commentId: T:ColorizationControls.DuoConfFormDummy
+  fullName: ColorizationControls.DuoConfFormDummy
+  nameWithType: DuoConfFormDummy
+- uid: ColorizationControls.DuoConfFormDummy.#ctor
+  name: DuoConfFormDummy()
+  href: api/ColorizationControls.DuoConfFormDummy.html#ColorizationControls_DuoConfFormDummy__ctor
+  commentId: M:ColorizationControls.DuoConfFormDummy.#ctor
+  fullName: ColorizationControls.DuoConfFormDummy.DuoConfFormDummy()
+  nameWithType: DuoConfFormDummy.DuoConfFormDummy()
+- uid: ColorizationControls.DuoConfFormDummy.#ctor*
+  name: DuoConfFormDummy
+  href: api/ColorizationControls.DuoConfFormDummy.html#ColorizationControls_DuoConfFormDummy__ctor_
+  commentId: Overload:ColorizationControls.DuoConfFormDummy.#ctor
+  isSpec: "True"
+  fullName: ColorizationControls.DuoConfFormDummy.DuoConfFormDummy
+  nameWithType: DuoConfFormDummy.DuoConfFormDummy
+- uid: ColorizationControls.DuoConfFormDummy.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/ColorizationControls.DuoConfFormDummy.html#ColorizationControls_DuoConfFormDummy_Dispose_System_Boolean_
+  commentId: M:ColorizationControls.DuoConfFormDummy.Dispose(System.Boolean)
+  fullName: ColorizationControls.DuoConfFormDummy.Dispose(System.Boolean)
+  nameWithType: DuoConfFormDummy.Dispose(Boolean)
+- uid: ColorizationControls.DuoConfFormDummy.Dispose*
+  name: Dispose
+  href: api/ColorizationControls.DuoConfFormDummy.html#ColorizationControls_DuoConfFormDummy_Dispose_
+  commentId: Overload:ColorizationControls.DuoConfFormDummy.Dispose
+  isSpec: "True"
+  fullName: ColorizationControls.DuoConfFormDummy.Dispose
+  nameWithType: DuoConfFormDummy.Dispose
+- uid: ColorizationControls.ExecuteCommand
+  name: ExecuteCommand
+  href: api/ColorizationControls.ExecuteCommand.html
+  commentId: T:ColorizationControls.ExecuteCommand
+  fullName: ColorizationControls.ExecuteCommand
+  nameWithType: ExecuteCommand
 - uid: ColorizationControls.FormatButtonHandler2
   name: FormatButtonHandler2
   href: api/ColorizationControls.FormatButtonHandler2.html
@@ -945,6 +1021,25 @@ references:
   commentId: F:ColorizationControls.StaticColorizControls.customColors
   fullName: ColorizationControls.StaticColorizControls.customColors
   nameWithType: StaticColorizControls.customColors
+- uid: ColorizationControls.StaticColorizControls.GetFontStyle(ColorLib.CharFormatting)
+  name: GetFontStyle(CharFormatting)
+  href: api/ColorizationControls.StaticColorizControls.html#ColorizationControls_StaticColorizControls_GetFontStyle_ColorLib_CharFormatting_
+  commentId: M:ColorizationControls.StaticColorizControls.GetFontStyle(ColorLib.CharFormatting)
+  fullName: ColorizationControls.StaticColorizControls.GetFontStyle(ColorLib.CharFormatting)
+  nameWithType: StaticColorizControls.GetFontStyle(CharFormatting)
+- uid: ColorizationControls.StaticColorizControls.GetFontStyle(System.Boolean,System.Boolean,System.Boolean)
+  name: GetFontStyle(Boolean, Boolean, Boolean)
+  href: api/ColorizationControls.StaticColorizControls.html#ColorizationControls_StaticColorizControls_GetFontStyle_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:ColorizationControls.StaticColorizControls.GetFontStyle(System.Boolean,System.Boolean,System.Boolean)
+  fullName: ColorizationControls.StaticColorizControls.GetFontStyle(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: StaticColorizControls.GetFontStyle(Boolean, Boolean, Boolean)
+- uid: ColorizationControls.StaticColorizControls.GetFontStyle*
+  name: GetFontStyle
+  href: api/ColorizationControls.StaticColorizControls.html#ColorizationControls_StaticColorizControls_GetFontStyle_
+  commentId: Overload:ColorizationControls.StaticColorizControls.GetFontStyle
+  isSpec: "True"
+  fullName: ColorizationControls.StaticColorizControls.GetFontStyle
+  nameWithType: StaticColorizControls.GetFontStyle
 - uid: ColorizationControls.StaticColorizControls.Init
   name: Init()
   href: api/ColorizationControls.StaticColorizControls.html#ColorizationControls_StaticColorizControls_Init
@@ -958,6 +1053,12 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.StaticColorizControls.Init
   nameWithType: StaticColorizControls.Init
+- uid: ColorizationControls.StaticColorizControls.NrCustomColors
+  name: NrCustomColors
+  href: api/ColorizationControls.StaticColorizControls.html#ColorizationControls_StaticColorizControls_NrCustomColors
+  commentId: F:ColorizationControls.StaticColorizControls.NrCustomColors
+  fullName: ColorizationControls.StaticColorizControls.NrCustomColors
+  nameWithType: StaticColorizControls.NrCustomColors
 - uid: ColorizationControls.SylFormatForm
   name: SylFormatForm
   href: api/ColorizationControls.SylFormatForm.html
@@ -1021,12 +1122,12 @@ references:
   commentId: T:ColorizationWord.MSWText
   fullName: ColorizationWord.MSWText
   nameWithType: MSWText
-- uid: ColorizationWord.MSWText.#ctor(Microsoft.Office.Interop.Word.Range,ColorLib.Config)
-  name: MSWText(Range, Config)
-  href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText__ctor_Microsoft_Office_Interop_Word_Range_ColorLib_Config_
-  commentId: M:ColorizationWord.MSWText.#ctor(Microsoft.Office.Interop.Word.Range,ColorLib.Config)
-  fullName: ColorizationWord.MSWText.MSWText(Microsoft.Office.Interop.Word.Range, ColorLib.Config)
-  nameWithType: MSWText.MSWText(Range, Config)
+- uid: ColorizationWord.MSWText.#ctor(Microsoft.Office.Interop.Word.Range)
+  name: MSWText(Range)
+  href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText__ctor_Microsoft_Office_Interop_Word_Range_
+  commentId: M:ColorizationWord.MSWText.#ctor(Microsoft.Office.Interop.Word.Range)
+  fullName: ColorizationWord.MSWText.MSWText(Microsoft.Office.Interop.Word.Range)
+  nameWithType: MSWText.MSWText(Range)
 - uid: ColorizationWord.MSWText.#ctor*
   name: MSWText
   href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText__ctor_
@@ -1047,6 +1148,19 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.MSWText.ApplyCFToRange
   nameWithType: MSWText.ApplyCFToRange
+- uid: ColorizationWord.MSWText.GetLastLinesPos
+  name: GetLastLinesPos()
+  href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText_GetLastLinesPos
+  commentId: M:ColorizationWord.MSWText.GetLastLinesPos
+  fullName: ColorizationWord.MSWText.GetLastLinesPos()
+  nameWithType: MSWText.GetLastLinesPos()
+- uid: ColorizationWord.MSWText.GetLastLinesPos*
+  name: GetLastLinesPos
+  href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText_GetLastLinesPos_
+  commentId: Overload:ColorizationWord.MSWText.GetLastLinesPos
+  isSpec: "True"
+  fullName: ColorizationWord.MSWText.GetLastLinesPos
+  nameWithType: MSWText.GetLastLinesPos
 - uid: ColorizationWord.MSWText.Initialize
   name: Initialize()
   href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText_Initialize
@@ -1060,12 +1174,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.MSWText.Initialize
   nameWithType: MSWText.Initialize
-- uid: ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl)
-  name: SetChars(FormattedTextEl)
-  href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText_SetChars_ColorLib_FormattedTextEl_
-  commentId: M:ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl)
-  fullName: ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl)
-  nameWithType: MSWText.SetChars(FormattedTextEl)
+- uid: ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
+  name: SetChars(FormattedTextEl, Config)
+  href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_
+  commentId: M:ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
+  fullName: ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl, ColorLib.Config)
+  nameWithType: MSWText.SetChars(FormattedTextEl, Config)
 - uid: ColorizationWord.MSWText.SetChars*
   name: SetChars
   href: api/ColorizationWord.MSWText.html#ColorizationWord_MSWText_SetChars_
@@ -1092,12 +1206,25 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.WordRibbon
   nameWithType: WordRibbon.WordRibbon
-- uid: ColorizationWord.WordRibbon.ColorSelectedLetters
-  name: ColorSelectedLetters()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedLetters
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedLetters
-  fullName: ColorizationWord.WordRibbon.ColorSelectedLetters()
-  nameWithType: WordRibbon.ColorSelectedLetters()
+- uid: ColorizationWord.WordRibbon.ColorSelectedDuo(ColorLib.Config)
+  name: ColorSelectedDuo(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedDuo_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedDuo(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedDuo(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedDuo(Config)
+- uid: ColorizationWord.WordRibbon.ColorSelectedDuo*
+  name: ColorSelectedDuo
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedDuo_
+  commentId: Overload:ColorizationWord.WordRibbon.ColorSelectedDuo
+  isSpec: "True"
+  fullName: ColorizationWord.WordRibbon.ColorSelectedDuo
+  nameWithType: WordRibbon.ColorSelectedDuo
+- uid: ColorizationWord.WordRibbon.ColorSelectedLetters(ColorLib.Config)
+  name: ColorSelectedLetters(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedLetters_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedLetters(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedLetters(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedLetters(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedLetters*
   name: ColorSelectedLetters
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedLetters_
@@ -1105,12 +1232,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedLetters
   nameWithType: WordRibbon.ColorSelectedLetters
-- uid: ColorizationWord.WordRibbon.ColorSelectedLignes
-  name: ColorSelectedLignes()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedLignes
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedLignes
-  fullName: ColorizationWord.WordRibbon.ColorSelectedLignes()
-  nameWithType: WordRibbon.ColorSelectedLignes()
+- uid: ColorizationWord.WordRibbon.ColorSelectedLignes(ColorLib.Config)
+  name: ColorSelectedLignes(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedLignes_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedLignes(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedLignes(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedLignes(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedLignes*
   name: ColorSelectedLignes
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedLignes_
@@ -1118,12 +1245,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedLignes
   nameWithType: WordRibbon.ColorSelectedLignes
-- uid: ColorizationWord.WordRibbon.ColorSelectedMuettes
-  name: ColorSelectedMuettes()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedMuettes
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedMuettes
-  fullName: ColorizationWord.WordRibbon.ColorSelectedMuettes()
-  nameWithType: WordRibbon.ColorSelectedMuettes()
+- uid: ColorizationWord.WordRibbon.ColorSelectedMuettes(ColorLib.Config)
+  name: ColorSelectedMuettes(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedMuettes_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedMuettes(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedMuettes(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedMuettes(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedMuettes*
   name: ColorSelectedMuettes
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedMuettes_
@@ -1131,12 +1258,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedMuettes
   nameWithType: WordRibbon.ColorSelectedMuettes
-- uid: ColorizationWord.WordRibbon.ColorSelectedNoir
-  name: ColorSelectedNoir()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedNoir
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedNoir
-  fullName: ColorizationWord.WordRibbon.ColorSelectedNoir()
-  nameWithType: WordRibbon.ColorSelectedNoir()
+- uid: ColorizationWord.WordRibbon.ColorSelectedNoir(ColorLib.Config)
+  name: ColorSelectedNoir(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedNoir_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedNoir(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedNoir(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedNoir(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedNoir*
   name: ColorSelectedNoir
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedNoir_
@@ -1144,12 +1271,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedNoir
   nameWithType: WordRibbon.ColorSelectedNoir
-- uid: ColorizationWord.WordRibbon.ColorSelectedPhons
-  name: ColorSelectedPhons()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedPhons
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedPhons
-  fullName: ColorizationWord.WordRibbon.ColorSelectedPhons()
-  nameWithType: WordRibbon.ColorSelectedPhons()
+- uid: ColorizationWord.WordRibbon.ColorSelectedPhons(ColorLib.Config)
+  name: ColorSelectedPhons(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedPhons_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedPhons(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedPhons(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedPhons(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedPhons*
   name: ColorSelectedPhons
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedPhons_
@@ -1157,12 +1284,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedPhons
   nameWithType: WordRibbon.ColorSelectedPhons
-- uid: ColorizationWord.WordRibbon.ColorSelectedSyls
-  name: ColorSelectedSyls()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedSyls
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedSyls
-  fullName: ColorizationWord.WordRibbon.ColorSelectedSyls()
-  nameWithType: WordRibbon.ColorSelectedSyls()
+- uid: ColorizationWord.WordRibbon.ColorSelectedSyls(ColorLib.Config)
+  name: ColorSelectedSyls(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedSyls_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedSyls(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedSyls(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedSyls(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedSyls*
   name: ColorSelectedSyls
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedSyls_
@@ -1170,12 +1297,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedSyls
   nameWithType: WordRibbon.ColorSelectedSyls
-- uid: ColorizationWord.WordRibbon.ColorSelectedVoyCons
-  name: ColorSelectedVoyCons()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedVoyCons
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedVoyCons
-  fullName: ColorizationWord.WordRibbon.ColorSelectedVoyCons()
-  nameWithType: WordRibbon.ColorSelectedVoyCons()
+- uid: ColorizationWord.WordRibbon.ColorSelectedVoyCons(ColorLib.Config)
+  name: ColorSelectedVoyCons(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedVoyCons_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedVoyCons(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedVoyCons(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedVoyCons(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedVoyCons*
   name: ColorSelectedVoyCons
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedVoyCons_
@@ -1183,12 +1310,12 @@ references:
   isSpec: "True"
   fullName: ColorizationWord.WordRibbon.ColorSelectedVoyCons
   nameWithType: WordRibbon.ColorSelectedVoyCons
-- uid: ColorizationWord.WordRibbon.ColorSelectedWords
-  name: ColorSelectedWords()
-  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedWords
-  commentId: M:ColorizationWord.WordRibbon.ColorSelectedWords
-  fullName: ColorizationWord.WordRibbon.ColorSelectedWords()
-  nameWithType: WordRibbon.ColorSelectedWords()
+- uid: ColorizationWord.WordRibbon.ColorSelectedWords(ColorLib.Config)
+  name: ColorSelectedWords(Config)
+  href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedWords_ColorLib_Config_
+  commentId: M:ColorizationWord.WordRibbon.ColorSelectedWords(ColorLib.Config)
+  fullName: ColorizationWord.WordRibbon.ColorSelectedWords(ColorLib.Config)
+  nameWithType: WordRibbon.ColorSelectedWords(Config)
 - uid: ColorizationWord.WordRibbon.ColorSelectedWords*
   name: ColorSelectedWords
   href: api/ColorizationWord.WordRibbon.html#ColorizationWord_WordRibbon_ColorSelectedWords_
@@ -1269,12 +1396,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.AutomAutomat.CountPhons
   nameWithType: AutomAutomat.CountPhons
-- uid: ColorLib.AutomAutomat.FindPhons(ColorLib.PhonWord)
-  name: FindPhons(PhonWord)
-  href: api/ColorLib.AutomAutomat.html#ColorLib_AutomAutomat_FindPhons_ColorLib_PhonWord_
-  commentId: M:ColorLib.AutomAutomat.FindPhons(ColorLib.PhonWord)
-  fullName: ColorLib.AutomAutomat.FindPhons(ColorLib.PhonWord)
-  nameWithType: AutomAutomat.FindPhons(PhonWord)
+- uid: ColorLib.AutomAutomat.FindPhons(ColorLib.PhonWord,ColorLib.Config)
+  name: FindPhons(PhonWord, Config)
+  href: api/ColorLib.AutomAutomat.html#ColorLib_AutomAutomat_FindPhons_ColorLib_PhonWord_ColorLib_Config_
+  commentId: M:ColorLib.AutomAutomat.FindPhons(ColorLib.PhonWord,ColorLib.Config)
+  fullName: ColorLib.AutomAutomat.FindPhons(ColorLib.PhonWord, ColorLib.Config)
+  nameWithType: AutomAutomat.FindPhons(PhonWord, Config)
 - uid: ColorLib.AutomAutomat.FindPhons*
   name: FindPhons
   href: api/ColorLib.AutomAutomat.html#ColorLib_AutomAutomat_FindPhons_
@@ -1429,15 +1556,15 @@ references:
   isSpec: "True"
   fullName: ColorLib.AutomLetter.CountPhons
   nameWithType: AutomLetter.CountPhons
-- uid: ColorLib.AutomLetter.FireRule(ColorLib.PhonWord,System.Int32@)
-  name: FireRule(PhonWord, ref Int32)
-  href: api/ColorLib.AutomLetter.html#ColorLib_AutomLetter_FireRule_ColorLib_PhonWord_System_Int32__
-  commentId: M:ColorLib.AutomLetter.FireRule(ColorLib.PhonWord,System.Int32@)
-  name.vb: FireRule(PhonWord, ByRef Int32)
-  fullName: ColorLib.AutomLetter.FireRule(ColorLib.PhonWord, ref System.Int32)
-  fullName.vb: ColorLib.AutomLetter.FireRule(ColorLib.PhonWord, ByRef System.Int32)
-  nameWithType: AutomLetter.FireRule(PhonWord, ref Int32)
-  nameWithType.vb: AutomLetter.FireRule(PhonWord, ByRef Int32)
+- uid: ColorLib.AutomLetter.FireRule(ColorLib.PhonWord,System.Int32@,ColorLib.Config)
+  name: FireRule(PhonWord, ref Int32, Config)
+  href: api/ColorLib.AutomLetter.html#ColorLib_AutomLetter_FireRule_ColorLib_PhonWord_System_Int32__ColorLib_Config_
+  commentId: M:ColorLib.AutomLetter.FireRule(ColorLib.PhonWord,System.Int32@,ColorLib.Config)
+  name.vb: FireRule(PhonWord, ByRef Int32, Config)
+  fullName: ColorLib.AutomLetter.FireRule(ColorLib.PhonWord, ref System.Int32, ColorLib.Config)
+  fullName.vb: ColorLib.AutomLetter.FireRule(ColorLib.PhonWord, ByRef System.Int32, ColorLib.Config)
+  nameWithType: AutomLetter.FireRule(PhonWord, ref Int32, Config)
+  nameWithType.vb: AutomLetter.FireRule(PhonWord, ByRef Int32, Config)
 - uid: ColorLib.AutomLetter.FireRule*
   name: FireRule
   href: api/ColorLib.AutomLetter.html#ColorLib_AutomLetter_FireRule_
@@ -1561,15 +1688,15 @@ references:
   isSpec: "True"
   fullName: ColorLib.AutomRule.ToString
   nameWithType: AutomRule.ToString
-- uid: ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord,System.Int32@,System.String,System.String)
-  name: TryApplyRule(PhonWord, ref Int32, String, String)
-  href: api/ColorLib.AutomRule.html#ColorLib_AutomRule_TryApplyRule_ColorLib_PhonWord_System_Int32__System_String_System_String_
-  commentId: M:ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord,System.Int32@,System.String,System.String)
-  name.vb: TryApplyRule(PhonWord, ByRef Int32, String, String)
-  fullName: ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord, ref System.Int32, System.String, System.String)
-  fullName.vb: ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord, ByRef System.Int32, System.String, System.String)
-  nameWithType: AutomRule.TryApplyRule(PhonWord, ref Int32, String, String)
-  nameWithType.vb: AutomRule.TryApplyRule(PhonWord, ByRef Int32, String, String)
+- uid: ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord,System.Int32@,System.String,System.String,ColorLib.Config)
+  name: TryApplyRule(PhonWord, ref Int32, String, String, Config)
+  href: api/ColorLib.AutomRule.html#ColorLib_AutomRule_TryApplyRule_ColorLib_PhonWord_System_Int32__System_String_System_String_ColorLib_Config_
+  commentId: M:ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord,System.Int32@,System.String,System.String,ColorLib.Config)
+  name.vb: TryApplyRule(PhonWord, ByRef Int32, String, String, Config)
+  fullName: ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord, ref System.Int32, System.String, System.String, ColorLib.Config)
+  fullName.vb: ColorLib.AutomRule.TryApplyRule(ColorLib.PhonWord, ByRef System.Int32, System.String, System.String, ColorLib.Config)
+  nameWithType: AutomRule.TryApplyRule(PhonWord, ref Int32, String, String, Config)
+  nameWithType.vb: AutomRule.TryApplyRule(PhonWord, ByRef Int32, String, String, Config)
 - uid: ColorLib.AutomRule.TryApplyRule*
   name: TryApplyRule
   href: api/ColorLib.AutomRule.html#ColorLib_AutomRule_TryApplyRule_
@@ -2366,6 +2493,51 @@ references:
   isSpec: "True"
   fullName: ColorLib.CharFormatting.underline
   nameWithType: CharFormatting.underline
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs
+  name: CheckboxUnsetModifiedEventArgs
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html
+  commentId: T:ColorLib.CheckboxUnsetModifiedEventArgs
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs
+  nameWithType: CheckboxUnsetModifiedEventArgs
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.#ctor(ColorLib.Ucbx)
+  name: CheckboxUnsetModifiedEventArgs(Ucbx)
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs__ctor_ColorLib_Ucbx_
+  commentId: M:ColorLib.CheckboxUnsetModifiedEventArgs.#ctor(ColorLib.Ucbx)
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs(ColorLib.Ucbx)
+  nameWithType: CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs(Ucbx)
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.#ctor*
+  name: CheckboxUnsetModifiedEventArgs
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs__ctor_
+  commentId: Overload:ColorLib.CheckboxUnsetModifiedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs
+  nameWithType: CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBName
+  name: unsetCBName
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs_unsetCBName
+  commentId: P:ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBName
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBName
+  nameWithType: CheckboxUnsetModifiedEventArgs.unsetCBName
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBName*
+  name: unsetCBName
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs_unsetCBName_
+  commentId: Overload:ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBName
+  isSpec: "True"
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBName
+  nameWithType: CheckboxUnsetModifiedEventArgs.unsetCBName
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBX
+  name: unsetCBX
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs_unsetCBX
+  commentId: P:ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBX
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBX
+  nameWithType: CheckboxUnsetModifiedEventArgs.unsetCBX
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBX*
+  name: unsetCBX
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs_unsetCBX_
+  commentId: Overload:ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBX
+  isSpec: "True"
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.unsetCBX
+  nameWithType: CheckboxUnsetModifiedEventArgs.unsetCBX
 - uid: ColorLib.ColConfWin
   name: ColConfWin
   href: api/ColorLib.ColConfWin.html
@@ -2448,19 +2620,18 @@ references:
   commentId: F:ColorLib.ColConfWin.DefBeh.transparent
   fullName: ColorLib.ColConfWin.DefBeh.transparent
   nameWithType: ColConfWin.DefBeh.transparent
-- uid: ColorLib.ColConfWin.DisableCbxSonsEventHandling
-  name: DisableCbxSonsEventHandling()
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_DisableCbxSonsEventHandling
-  commentId: M:ColorLib.ColConfWin.DisableCbxSonsEventHandling
-  fullName: ColorLib.ColConfWin.DisableCbxSonsEventHandling()
-  nameWithType: ColConfWin.DisableCbxSonsEventHandling()
-- uid: ColorLib.ColConfWin.DisableCbxSonsEventHandling*
-  name: DisableCbxSonsEventHandling
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_DisableCbxSonsEventHandling_
-  commentId: Overload:ColorLib.ColConfWin.DisableCbxSonsEventHandling
-  isSpec: "True"
-  fullName: ColorLib.ColConfWin.DisableCbxSonsEventHandling
-  nameWithType: ColConfWin.DisableCbxSonsEventHandling
+- uid: ColorLib.ColConfWin.DefBeh.undefined
+  name: undefined
+  href: api/ColorLib.ColConfWin.DefBeh.html#ColorLib_ColConfWin_DefBeh_undefined
+  commentId: F:ColorLib.ColConfWin.DefBeh.undefined
+  fullName: ColorLib.ColConfWin.DefBeh.undefined
+  nameWithType: ColConfWin.DefBeh.undefined
+- uid: ColorLib.ColConfWin.DefBehModifiedEvent
+  name: DefBehModifiedEvent
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_DefBehModifiedEvent
+  commentId: E:ColorLib.ColConfWin.DefBehModifiedEvent
+  fullName: ColorLib.ColConfWin.DefBehModifiedEvent
+  nameWithType: ColConfWin.DefBehModifiedEvent
 - uid: ColorLib.ColConfWin.DisplayText(System.String)
   name: DisplayText(String)
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_DisplayText_System_String_
@@ -2474,19 +2645,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.DisplayText
   nameWithType: ColConfWin.DisplayText
-- uid: ColorLib.ColConfWin.EnableCbxSonsEventHandling
-  name: EnableCbxSonsEventHandling()
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_EnableCbxSonsEventHandling
-  commentId: M:ColorLib.ColConfWin.EnableCbxSonsEventHandling
-  fullName: ColorLib.ColConfWin.EnableCbxSonsEventHandling()
-  nameWithType: ColConfWin.EnableCbxSonsEventHandling()
-- uid: ColorLib.ColConfWin.EnableCbxSonsEventHandling*
-  name: EnableCbxSonsEventHandling
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_EnableCbxSonsEventHandling_
-  commentId: Overload:ColorLib.ColConfWin.EnableCbxSonsEventHandling
-  isSpec: "True"
-  fullName: ColorLib.ColConfWin.EnableCbxSonsEventHandling
-  nameWithType: ColConfWin.EnableCbxSonsEventHandling
 - uid: ColorLib.ColConfWin.ExampleText(System.String)
   name: ExampleText(String)
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_ExampleText_System_String_
@@ -2506,12 +2664,6 @@ references:
   commentId: M:ColorLib.ColConfWin.Get(ColorLib.Phonemes)
   fullName: ColorLib.ColConfWin.Get(ColorLib.Phonemes)
   nameWithType: ColConfWin.Get(Phonemes)
-- uid: ColorLib.ColConfWin.Get(System.String)
-  name: Get(String)
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_Get_System_String_
-  commentId: M:ColorLib.ColConfWin.Get(System.String)
-  fullName: ColorLib.ColConfWin.Get(System.String)
-  nameWithType: ColConfWin.Get(String)
 - uid: ColorLib.ColConfWin.Get*
   name: Get
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_Get_
@@ -2519,6 +2671,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.Get
   nameWithType: ColConfWin.Get
+- uid: ColorLib.ColConfWin.GetCF(System.String)
+  name: GetCF(String)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetCF_System_String_
+  commentId: M:ColorLib.ColConfWin.GetCF(System.String)
+  fullName: ColorLib.ColConfWin.GetCF(System.String)
+  nameWithType: ColConfWin.GetCF(String)
+- uid: ColorLib.ColConfWin.GetCF*
+  name: GetCF
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetCF_
+  commentId: Overload:ColorLib.ColConfWin.GetCF
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.GetCF
+  nameWithType: ColConfWin.GetCF
 - uid: ColorLib.ColConfWin.GetCheck(System.String)
   name: GetCheck(String)
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetCheck_System_String_
@@ -2545,6 +2710,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.GetListOfSons
   nameWithType: ColConfWin.GetListOfSons
+- uid: ColorLib.ColConfWin.IllModifiedEvent
+  name: IllModifiedEvent
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_IllModifiedEvent
+  commentId: E:ColorLib.ColConfWin.IllModifiedEvent
+  fullName: ColorLib.ColConfWin.IllModifiedEvent
+  nameWithType: ColConfWin.IllModifiedEvent
 - uid: ColorLib.ColConfWin.IllRule
   name: ColConfWin.IllRule
   href: api/ColorLib.ColConfWin.IllRule.html
@@ -2563,6 +2734,12 @@ references:
   commentId: F:ColorLib.ColConfWin.IllRule.lirecouleur
   fullName: ColorLib.ColConfWin.IllRule.lirecouleur
   nameWithType: ColConfWin.IllRule.lirecouleur
+- uid: ColorLib.ColConfWin.IllRule.undefined
+  name: undefined
+  href: api/ColorLib.ColConfWin.IllRule.html#ColorLib_ColConfWin_IllRule_undefined
+  commentId: F:ColorLib.ColConfWin.IllRule.undefined
+  fullName: ColorLib.ColConfWin.IllRule.undefined
+  nameWithType: ColConfWin.IllRule.undefined
 - uid: ColorLib.ColConfWin.IllRuleToUse
   name: IllRuleToUse
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_IllRuleToUse
@@ -2595,6 +2772,58 @@ references:
   commentId: F:ColorLib.ColConfWin.nrSons
   fullName: ColorLib.ColConfWin.nrSons
   nameWithType: ColConfWin.nrSons
+- uid: ColorLib.ColConfWin.OnDefBehModified(ColorLib.PhonConfType)
+  name: OnDefBehModified(PhonConfType)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnDefBehModified_ColorLib_PhonConfType_
+  commentId: M:ColorLib.ColConfWin.OnDefBehModified(ColorLib.PhonConfType)
+  fullName: ColorLib.ColConfWin.OnDefBehModified(ColorLib.PhonConfType)
+  nameWithType: ColConfWin.OnDefBehModified(PhonConfType)
+- uid: ColorLib.ColConfWin.OnDefBehModified*
+  name: OnDefBehModified
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnDefBehModified_
+  commentId: Overload:ColorLib.ColConfWin.OnDefBehModified
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.OnDefBehModified
+  nameWithType: ColConfWin.OnDefBehModified
+- uid: ColorLib.ColConfWin.OnIllModified(ColorLib.PhonConfType)
+  name: OnIllModified(PhonConfType)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnIllModified_ColorLib_PhonConfType_
+  commentId: M:ColorLib.ColConfWin.OnIllModified(ColorLib.PhonConfType)
+  fullName: ColorLib.ColConfWin.OnIllModified(ColorLib.PhonConfType)
+  nameWithType: ColConfWin.OnIllModified(PhonConfType)
+- uid: ColorLib.ColConfWin.OnIllModified*
+  name: OnIllModified
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnIllModified_
+  commentId: Overload:ColorLib.ColConfWin.OnIllModified
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.OnIllModified
+  nameWithType: ColConfWin.OnIllModified
+- uid: ColorLib.ColConfWin.OnSonCBModified(ColorLib.SonConfigModifiedEventArgs)
+  name: OnSonCBModified(SonConfigModifiedEventArgs)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnSonCBModified_ColorLib_SonConfigModifiedEventArgs_
+  commentId: M:ColorLib.ColConfWin.OnSonCBModified(ColorLib.SonConfigModifiedEventArgs)
+  fullName: ColorLib.ColConfWin.OnSonCBModified(ColorLib.SonConfigModifiedEventArgs)
+  nameWithType: ColConfWin.OnSonCBModified(SonConfigModifiedEventArgs)
+- uid: ColorLib.ColConfWin.OnSonCBModified*
+  name: OnSonCBModified
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnSonCBModified_
+  commentId: Overload:ColorLib.ColConfWin.OnSonCBModified
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.OnSonCBModified
+  nameWithType: ColConfWin.OnSonCBModified
+- uid: ColorLib.ColConfWin.OnSonCharFormattingModified(ColorLib.SonConfigModifiedEventArgs)
+  name: OnSonCharFormattingModified(SonConfigModifiedEventArgs)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnSonCharFormattingModified_ColorLib_SonConfigModifiedEventArgs_
+  commentId: M:ColorLib.ColConfWin.OnSonCharFormattingModified(ColorLib.SonConfigModifiedEventArgs)
+  fullName: ColorLib.ColConfWin.OnSonCharFormattingModified(ColorLib.SonConfigModifiedEventArgs)
+  nameWithType: ColConfWin.OnSonCharFormattingModified(SonConfigModifiedEventArgs)
+- uid: ColorLib.ColConfWin.OnSonCharFormattingModified*
+  name: OnSonCharFormattingModified
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_OnSonCharFormattingModified_
+  commentId: Overload:ColorLib.ColConfWin.OnSonCharFormattingModified
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.OnSonCharFormattingModified
+  nameWithType: ColConfWin.OnSonCharFormattingModified
 - uid: ColorLib.ColConfWin.predefCF
   name: predefCF
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_predefCF
@@ -2607,6 +2836,19 @@ references:
   commentId: F:ColorLib.ColConfWin.predefinedColors
   fullName: ColorLib.ColConfWin.predefinedColors
   nameWithType: ColConfWin.predefinedColors
+- uid: ColorLib.ColConfWin.Reset
+  name: Reset()
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_Reset
+  commentId: M:ColorLib.ColConfWin.Reset
+  fullName: ColorLib.ColConfWin.Reset()
+  nameWithType: ColConfWin.Reset()
+- uid: ColorLib.ColConfWin.Reset*
+  name: Reset
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_Reset_
+  commentId: Overload:ColorLib.ColConfWin.Reset
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.Reset
+  nameWithType: ColConfWin.Reset
 - uid: ColorLib.ColConfWin.SetAllCbxSons
   name: SetAllCbxSons()
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetAllCbxSons
@@ -2659,56 +2901,44 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.SetCerasRose
   nameWithType: ColConfWin.SetCerasRose
-- uid: ColorLib.ColConfWin.SonConfCheckedChanged(System.String,System.Boolean)
-  name: SonConfCheckedChanged(String, Boolean)
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SonConfCheckedChanged_System_String_System_Boolean_
-  commentId: M:ColorLib.ColConfWin.SonConfCheckedChanged(System.String,System.Boolean)
-  fullName: ColorLib.ColConfWin.SonConfCheckedChanged(System.String, System.Boolean)
-  nameWithType: ColConfWin.SonConfCheckedChanged(String, Boolean)
-- uid: ColorLib.ColConfWin.SonConfCheckedChanged*
-  name: SonConfCheckedChanged
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SonConfCheckedChanged_
-  commentId: Overload:ColorLib.ColConfWin.SonConfCheckedChanged
+- uid: ColorLib.ColConfWin.SetCFSon(System.String,ColorLib.CharFormatting)
+  name: SetCFSon(String, CharFormatting)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetCFSon_System_String_ColorLib_CharFormatting_
+  commentId: M:ColorLib.ColConfWin.SetCFSon(System.String,ColorLib.CharFormatting)
+  fullName: ColorLib.ColConfWin.SetCFSon(System.String, ColorLib.CharFormatting)
+  nameWithType: ColConfWin.SetCFSon(String, CharFormatting)
+- uid: ColorLib.ColConfWin.SetCFSon*
+  name: SetCFSon
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetCFSon_
+  commentId: Overload:ColorLib.ColConfWin.SetCFSon
   isSpec: "True"
-  fullName: ColorLib.ColConfWin.SonConfCheckedChanged
-  nameWithType: ColConfWin.SonConfCheckedChanged
-- uid: ColorLib.ColConfWin.updateAllSoundCbxAndButtons
-  name: updateAllSoundCbxAndButtons
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_updateAllSoundCbxAndButtons
-  commentId: F:ColorLib.ColConfWin.updateAllSoundCbxAndButtons
-  fullName: ColorLib.ColConfWin.updateAllSoundCbxAndButtons
-  nameWithType: ColConfWin.updateAllSoundCbxAndButtons
-- uid: ColorLib.ColConfWin.updateButton
-  name: updateButton
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_updateButton
-  commentId: F:ColorLib.ColConfWin.updateButton
-  fullName: ColorLib.ColConfWin.updateButton
-  nameWithType: ColConfWin.updateButton
-- uid: ColorLib.ColConfWin.updateCbx
-  name: updateCbx
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_updateCbx
-  commentId: F:ColorLib.ColConfWin.updateCbx
-  fullName: ColorLib.ColConfWin.updateCbx
-  nameWithType: ColConfWin.updateCbx
-- uid: ColorLib.ColConfWin.UpdateCF(System.String,ColorLib.CharFormatting)
-  name: UpdateCF(String, CharFormatting)
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_UpdateCF_System_String_ColorLib_CharFormatting_
-  commentId: M:ColorLib.ColConfWin.UpdateCF(System.String,ColorLib.CharFormatting)
-  fullName: ColorLib.ColConfWin.UpdateCF(System.String, ColorLib.CharFormatting)
-  nameWithType: ColConfWin.UpdateCF(String, CharFormatting)
-- uid: ColorLib.ColConfWin.UpdateCF*
-  name: UpdateCF
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_UpdateCF_
-  commentId: Overload:ColorLib.ColConfWin.UpdateCF
+  fullName: ColorLib.ColConfWin.SetCFSon
+  nameWithType: ColConfWin.SetCFSon
+- uid: ColorLib.ColConfWin.SetChkSon(System.String,System.Boolean)
+  name: SetChkSon(String, Boolean)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetChkSon_System_String_System_Boolean_
+  commentId: M:ColorLib.ColConfWin.SetChkSon(System.String,System.Boolean)
+  fullName: ColorLib.ColConfWin.SetChkSon(System.String, System.Boolean)
+  nameWithType: ColConfWin.SetChkSon(String, Boolean)
+- uid: ColorLib.ColConfWin.SetChkSon*
+  name: SetChkSon
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetChkSon_
+  commentId: Overload:ColorLib.ColConfWin.SetChkSon
   isSpec: "True"
-  fullName: ColorLib.ColConfWin.UpdateCF
-  nameWithType: ColConfWin.UpdateCF
-- uid: ColorLib.ColConfWin.updateIllRule
-  name: updateIllRule
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_updateIllRule
-  commentId: F:ColorLib.ColConfWin.updateIllRule
-  fullName: ColorLib.ColConfWin.updateIllRule
-  nameWithType: ColConfWin.updateIllRule
+  fullName: ColorLib.ColConfWin.SetChkSon
+  nameWithType: ColConfWin.SetChkSon
+- uid: ColorLib.ColConfWin.SonCBModifiedEvent
+  name: SonCBModifiedEvent
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SonCBModifiedEvent
+  commentId: E:ColorLib.ColConfWin.SonCBModifiedEvent
+  fullName: ColorLib.ColConfWin.SonCBModifiedEvent
+  nameWithType: ColConfWin.SonCBModifiedEvent
+- uid: ColorLib.ColConfWin.SonCharFormattingModifiedEvent
+  name: SonCharFormattingModifiedEvent
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SonCharFormattingModifiedEvent
+  commentId: E:ColorLib.ColConfWin.SonCharFormattingModifiedEvent
+  fullName: ColorLib.ColConfWin.SonCharFormattingModifiedEvent
+  nameWithType: ColConfWin.SonCharFormattingModifiedEvent
 - uid: ColorLib.Config
   name: Config
   href: api/ColorLib.Config.html
@@ -2721,6 +2951,12 @@ references:
   commentId: M:ColorLib.Config.#ctor
   fullName: ColorLib.Config.Config()
   nameWithType: Config.Config()
+- uid: ColorLib.Config.#ctor(System.Int32)
+  name: Config(Int32)
+  href: api/ColorLib.Config.html#ColorLib_Config__ctor_System_Int32_
+  commentId: M:ColorLib.Config.#ctor(System.Int32)
+  fullName: ColorLib.Config.Config(System.Int32)
+  nameWithType: Config.Config(Int32)
 - uid: ColorLib.Config.#ctor*
   name: Config
   href: api/ColorLib.Config.html#ColorLib_Config__ctor_
@@ -2741,6 +2977,31 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.colors
   nameWithType: Config.colors
+- uid: ColorLib.Config.ConfigNameModifiedEvent
+  name: ConfigNameModifiedEvent
+  href: api/ColorLib.Config.html#ColorLib_Config_ConfigNameModifiedEvent
+  commentId: E:ColorLib.Config.ConfigNameModifiedEvent
+  fullName: ColorLib.Config.ConfigNameModifiedEvent
+  nameWithType: Config.ConfigNameModifiedEvent
+- uid: ColorLib.Config.ConfigReplacedEvent
+  name: ConfigReplacedEvent
+  href: api/ColorLib.Config.html#ColorLib_Config_ConfigReplacedEvent
+  commentId: E:ColorLib.Config.ConfigReplacedEvent
+  fullName: ColorLib.Config.ConfigReplacedEvent
+  nameWithType: Config.ConfigReplacedEvent
+- uid: ColorLib.Config.DeepCopy
+  name: DeepCopy()
+  href: api/ColorLib.Config.html#ColorLib_Config_DeepCopy
+  commentId: M:ColorLib.Config.DeepCopy
+  fullName: ColorLib.Config.DeepCopy()
+  nameWithType: Config.DeepCopy()
+- uid: ColorLib.Config.DeepCopy*
+  name: DeepCopy
+  href: api/ColorLib.Config.html#ColorLib_Config_DeepCopy_
+  commentId: Overload:ColorLib.Config.DeepCopy
+  isSpec: "True"
+  fullName: ColorLib.Config.DeepCopy
+  nameWithType: Config.DeepCopy
 - uid: ColorLib.Config.DeleteSavedConfig(System.String,System.String@)
   name: DeleteSavedConfig(String, out String)
   href: api/ColorLib.Config.html#ColorLib_Config_DeleteSavedConfig_System_String_System_String__
@@ -2770,6 +3031,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.DocClosed
   nameWithType: Config.DocClosed
+- uid: ColorLib.Config.duoConf
+  name: duoConf
+  href: api/ColorLib.Config.html#ColorLib_Config_duoConf
+  commentId: P:ColorLib.Config.duoConf
+  fullName: ColorLib.Config.duoConf
+  nameWithType: Config.duoConf
+- uid: ColorLib.Config.duoConf*
+  name: duoConf
+  href: api/ColorLib.Config.html#ColorLib_Config_duoConf_
+  commentId: Overload:ColorLib.Config.duoConf
+  isSpec: "True"
+  fullName: ColorLib.Config.duoConf
+  nameWithType: Config.duoConf
+- uid: ColorLib.Config.DuoConfReplacedEvent
+  name: DuoConfReplacedEvent
+  href: api/ColorLib.Config.html#ColorLib_Config_DuoConfReplacedEvent
+  commentId: E:ColorLib.Config.DuoConfReplacedEvent
+  fullName: ColorLib.Config.DuoConfReplacedEvent
+  nameWithType: Config.DuoConfReplacedEvent
 - uid: ColorLib.Config.GetConfigFor(System.Object,System.Object)
   name: GetConfigFor(Object, Object)
   href: api/ColorLib.Config.html#ColorLib_Config_GetConfigFor_System_Object_System_Object_
@@ -2796,19 +3076,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.GetConfigName
   nameWithType: Config.GetConfigName
-- uid: ColorLib.Config.GetDefaultConfigFor(System.Object,System.Object)
-  name: GetDefaultConfigFor(Object, Object)
-  href: api/ColorLib.Config.html#ColorLib_Config_GetDefaultConfigFor_System_Object_System_Object_
-  commentId: M:ColorLib.Config.GetDefaultConfigFor(System.Object,System.Object)
-  fullName: ColorLib.Config.GetDefaultConfigFor(System.Object, System.Object)
-  nameWithType: Config.GetDefaultConfigFor(Object, Object)
-- uid: ColorLib.Config.GetDefaultConfigFor*
-  name: GetDefaultConfigFor
-  href: api/ColorLib.Config.html#ColorLib_Config_GetDefaultConfigFor_
-  commentId: Overload:ColorLib.Config.GetDefaultConfigFor
-  isSpec: "True"
-  fullName: ColorLib.Config.GetDefaultConfigFor
-  nameWithType: Config.GetDefaultConfigFor
 - uid: ColorLib.Config.GetSavedConfigNames
   name: GetSavedConfigNames()
   href: api/ColorLib.Config.html#ColorLib_Config_GetSavedConfigNames
@@ -2835,15 +3102,34 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.Init
   nameWithType: Config.Init
-- uid: ColorLib.Config.LoadConfig(System.String,System.Object,System.Object,System.String@)
-  name: LoadConfig(String, Object, Object, out String)
-  href: api/ColorLib.Config.html#ColorLib_Config_LoadConfig_System_String_System_Object_System_Object_System_String__
-  commentId: M:ColorLib.Config.LoadConfig(System.String,System.Object,System.Object,System.String@)
-  name.vb: LoadConfig(String, Object, Object, ByRef String)
-  fullName: ColorLib.Config.LoadConfig(System.String, System.Object, System.Object, out System.String)
-  fullName.vb: ColorLib.Config.LoadConfig(System.String, System.Object, System.Object, ByRef System.String)
-  nameWithType: Config.LoadConfig(String, Object, Object, out String)
-  nameWithType.vb: Config.LoadConfig(String, Object, Object, ByRef String)
+- uid: ColorLib.Config.IsSubConfig(System.Int32)
+  name: IsSubConfig(Int32)
+  href: api/ColorLib.Config.html#ColorLib_Config_IsSubConfig_System_Int32_
+  commentId: M:ColorLib.Config.IsSubConfig(System.Int32)
+  fullName: ColorLib.Config.IsSubConfig(System.Int32)
+  nameWithType: Config.IsSubConfig(Int32)
+- uid: ColorLib.Config.IsSubConfig*
+  name: IsSubConfig
+  href: api/ColorLib.Config.html#ColorLib_Config_IsSubConfig_
+  commentId: Overload:ColorLib.Config.IsSubConfig
+  isSpec: "True"
+  fullName: ColorLib.Config.IsSubConfig
+  nameWithType: Config.IsSubConfig
+- uid: ColorLib.Config.ListSavedConfigsModified
+  name: ListSavedConfigsModified
+  href: api/ColorLib.Config.html#ColorLib_Config_ListSavedConfigsModified
+  commentId: E:ColorLib.Config.ListSavedConfigsModified
+  fullName: ColorLib.Config.ListSavedConfigsModified
+  nameWithType: Config.ListSavedConfigsModified
+- uid: ColorLib.Config.LoadConfig(System.String,System.String@)
+  name: LoadConfig(String, out String)
+  href: api/ColorLib.Config.html#ColorLib_Config_LoadConfig_System_String_System_String__
+  commentId: M:ColorLib.Config.LoadConfig(System.String,System.String@)
+  name.vb: LoadConfig(String, ByRef String)
+  fullName: ColorLib.Config.LoadConfig(System.String, out System.String)
+  fullName.vb: ColorLib.Config.LoadConfig(System.String, ByRef System.String)
+  nameWithType: Config.LoadConfig(String, out String)
+  nameWithType.vb: Config.LoadConfig(String, ByRef String)
 - uid: ColorLib.Config.LoadConfig*
   name: LoadConfig
   href: api/ColorLib.Config.html#ColorLib_Config_LoadConfig_
@@ -2851,6 +3137,45 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.LoadConfig
   nameWithType: Config.LoadConfig
+- uid: ColorLib.Config.OnConfigNameModified
+  name: OnConfigNameModified()
+  href: api/ColorLib.Config.html#ColorLib_Config_OnConfigNameModified
+  commentId: M:ColorLib.Config.OnConfigNameModified
+  fullName: ColorLib.Config.OnConfigNameModified()
+  nameWithType: Config.OnConfigNameModified()
+- uid: ColorLib.Config.OnConfigNameModified*
+  name: OnConfigNameModified
+  href: api/ColorLib.Config.html#ColorLib_Config_OnConfigNameModified_
+  commentId: Overload:ColorLib.Config.OnConfigNameModified
+  isSpec: "True"
+  fullName: ColorLib.Config.OnConfigNameModified
+  nameWithType: Config.OnConfigNameModified
+- uid: ColorLib.Config.OnConfigReplaced(ColorLib.Config)
+  name: OnConfigReplaced(Config)
+  href: api/ColorLib.Config.html#ColorLib_Config_OnConfigReplaced_ColorLib_Config_
+  commentId: M:ColorLib.Config.OnConfigReplaced(ColorLib.Config)
+  fullName: ColorLib.Config.OnConfigReplaced(ColorLib.Config)
+  nameWithType: Config.OnConfigReplaced(Config)
+- uid: ColorLib.Config.OnConfigReplaced*
+  name: OnConfigReplaced
+  href: api/ColorLib.Config.html#ColorLib_Config_OnConfigReplaced_
+  commentId: Overload:ColorLib.Config.OnConfigReplaced
+  isSpec: "True"
+  fullName: ColorLib.Config.OnConfigReplaced
+  nameWithType: Config.OnConfigReplaced
+- uid: ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)
+  name: OnDuoConfReplaced(DuoConfig)
+  href: api/ColorLib.Config.html#ColorLib_Config_OnDuoConfReplaced_ColorLib_DuoConfig_
+  commentId: M:ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)
+  fullName: ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)
+  nameWithType: Config.OnDuoConfReplaced(DuoConfig)
+- uid: ColorLib.Config.OnDuoConfReplaced*
+  name: OnDuoConfReplaced
+  href: api/ColorLib.Config.html#ColorLib_Config_OnDuoConfReplaced_
+  commentId: Overload:ColorLib.Config.OnDuoConfReplaced
+  isSpec: "True"
+  fullName: ColorLib.Config.OnDuoConfReplaced
+  nameWithType: Config.OnDuoConfReplaced
 - uid: ColorLib.Config.pBDQ
   name: pBDQ
   href: api/ColorLib.Config.html#ColorLib_Config_pBDQ
@@ -2864,6 +3189,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.pBDQ
   nameWithType: Config.pBDQ
+- uid: ColorLib.Config.Reset
+  name: Reset()
+  href: api/ColorLib.Config.html#ColorLib_Config_Reset
+  commentId: M:ColorLib.Config.Reset
+  fullName: ColorLib.Config.Reset()
+  nameWithType: Config.Reset()
+- uid: ColorLib.Config.Reset*
+  name: Reset
+  href: api/ColorLib.Config.html#ColorLib_Config_Reset_
+  commentId: Overload:ColorLib.Config.Reset
+  isSpec: "True"
+  fullName: ColorLib.Config.Reset
+  nameWithType: Config.Reset
 - uid: ColorLib.Config.SaveConfig(System.String,System.String@)
   name: SaveConfig(String, out String)
   href: api/ColorLib.Config.html#ColorLib_Config_SaveConfig_System_String_System_String__
@@ -2906,42 +3244,334 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.unsetBeh
   nameWithType: Config.unsetBeh
-- uid: ColorLib.Config.updateConfigName
-  name: updateConfigName
-  href: api/ColorLib.Config.html#ColorLib_Config_updateConfigName
-  commentId: F:ColorLib.Config.updateConfigName
-  fullName: ColorLib.Config.updateConfigName
-  nameWithType: Config.updateConfigName
-- uid: ColorLib.Config.updateListeConfigs
-  name: updateListeConfigs
-  href: api/ColorLib.Config.html#ColorLib_Config_updateListeConfigs
-  commentId: F:ColorLib.Config.updateListeConfigs
-  fullName: ColorLib.Config.updateListeConfigs
-  nameWithType: Config.updateListeConfigs
 - uid: ColorLib.ConfigBase
   name: ConfigBase
   href: api/ColorLib.ConfigBase.html
   commentId: T:ColorLib.ConfigBase
   fullName: ColorLib.ConfigBase
   nameWithType: ConfigBase
-- uid: ColorLib.ExecTaskOnLetterButton
-  name: ExecTaskOnLetterButton
-  href: api/ColorLib.ExecTaskOnLetterButton.html
-  commentId: T:ColorLib.ExecTaskOnLetterButton
-  fullName: ColorLib.ExecTaskOnLetterButton
-  nameWithType: ExecTaskOnLetterButton
+- uid: ColorLib.ConfigBase.Reset
+  name: Reset()
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset
+  commentId: M:ColorLib.ConfigBase.Reset
+  fullName: ColorLib.ConfigBase.Reset()
+  nameWithType: ConfigBase.Reset()
+- uid: ColorLib.ConfigBase.Reset*
+  name: Reset
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset_
+  commentId: Overload:ColorLib.ConfigBase.Reset
+  isSpec: "True"
+  fullName: ColorLib.ConfigBase.Reset
+  nameWithType: ConfigBase.Reset
+- uid: ColorLib.ConfigReplacedEventArgs
+  name: ConfigReplacedEventArgs
+  href: api/ColorLib.ConfigReplacedEventArgs.html
+  commentId: T:ColorLib.ConfigReplacedEventArgs
+  fullName: ColorLib.ConfigReplacedEventArgs
+  nameWithType: ConfigReplacedEventArgs
+- uid: ColorLib.ConfigReplacedEventArgs.#ctor(ColorLib.Config)
+  name: ConfigReplacedEventArgs(Config)
+  href: api/ColorLib.ConfigReplacedEventArgs.html#ColorLib_ConfigReplacedEventArgs__ctor_ColorLib_Config_
+  commentId: M:ColorLib.ConfigReplacedEventArgs.#ctor(ColorLib.Config)
+  fullName: ColorLib.ConfigReplacedEventArgs.ConfigReplacedEventArgs(ColorLib.Config)
+  nameWithType: ConfigReplacedEventArgs.ConfigReplacedEventArgs(Config)
+- uid: ColorLib.ConfigReplacedEventArgs.#ctor*
+  name: ConfigReplacedEventArgs
+  href: api/ColorLib.ConfigReplacedEventArgs.html#ColorLib_ConfigReplacedEventArgs__ctor_
+  commentId: Overload:ColorLib.ConfigReplacedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.ConfigReplacedEventArgs.ConfigReplacedEventArgs
+  nameWithType: ConfigReplacedEventArgs.ConfigReplacedEventArgs
+- uid: ColorLib.ConfigReplacedEventArgs.newConfig
+  name: newConfig
+  href: api/ColorLib.ConfigReplacedEventArgs.html#ColorLib_ConfigReplacedEventArgs_newConfig
+  commentId: P:ColorLib.ConfigReplacedEventArgs.newConfig
+  fullName: ColorLib.ConfigReplacedEventArgs.newConfig
+  nameWithType: ConfigReplacedEventArgs.newConfig
+- uid: ColorLib.ConfigReplacedEventArgs.newConfig*
+  name: newConfig
+  href: api/ColorLib.ConfigReplacedEventArgs.html#ColorLib_ConfigReplacedEventArgs_newConfig_
+  commentId: Overload:ColorLib.ConfigReplacedEventArgs.newConfig
+  isSpec: "True"
+  fullName: ColorLib.ConfigReplacedEventArgs.newConfig
+  nameWithType: ConfigReplacedEventArgs.newConfig
+- uid: ColorLib.DuoConfig
+  name: DuoConfig
+  href: api/ColorLib.DuoConfig.html
+  commentId: T:ColorLib.DuoConfig
+  fullName: ColorLib.DuoConfig
+  nameWithType: DuoConfig
+- uid: ColorLib.DuoConfig.#ctor
+  name: DuoConfig()
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig__ctor
+  commentId: M:ColorLib.DuoConfig.#ctor
+  fullName: ColorLib.DuoConfig.DuoConfig()
+  nameWithType: DuoConfig.DuoConfig()
+- uid: ColorLib.DuoConfig.#ctor*
+  name: DuoConfig
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig__ctor_
+  commentId: Overload:ColorLib.DuoConfig.#ctor
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.DuoConfig
+  nameWithType: DuoConfig.DuoConfig
+- uid: ColorLib.DuoConfig.alternance
+  name: alternance
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_alternance
+  commentId: P:ColorLib.DuoConfig.alternance
+  fullName: ColorLib.DuoConfig.alternance
+  nameWithType: DuoConfig.alternance
+- uid: ColorLib.DuoConfig.Alternance
+  name: DuoConfig.Alternance
+  href: api/ColorLib.DuoConfig.Alternance.html
+  commentId: T:ColorLib.DuoConfig.Alternance
+  fullName: ColorLib.DuoConfig.Alternance
+  nameWithType: DuoConfig.Alternance
+- uid: ColorLib.DuoConfig.alternance*
+  name: alternance
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_alternance_
+  commentId: Overload:ColorLib.DuoConfig.alternance
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.alternance
+  nameWithType: DuoConfig.alternance
+- uid: ColorLib.DuoConfig.Alternance.lignes
+  name: lignes
+  href: api/ColorLib.DuoConfig.Alternance.html#ColorLib_DuoConfig_Alternance_lignes
+  commentId: F:ColorLib.DuoConfig.Alternance.lignes
+  fullName: ColorLib.DuoConfig.Alternance.lignes
+  nameWithType: DuoConfig.Alternance.lignes
+- uid: ColorLib.DuoConfig.Alternance.mots
+  name: mots
+  href: api/ColorLib.DuoConfig.Alternance.html#ColorLib_DuoConfig_Alternance_mots
+  commentId: F:ColorLib.DuoConfig.Alternance.mots
+  fullName: ColorLib.DuoConfig.Alternance.mots
+  nameWithType: DuoConfig.Alternance.mots
+- uid: ColorLib.DuoConfig.Alternance.undefined
+  name: undefined
+  href: api/ColorLib.DuoConfig.Alternance.html#ColorLib_DuoConfig_Alternance_undefined
+  commentId: F:ColorLib.DuoConfig.Alternance.undefined
+  fullName: ColorLib.DuoConfig.Alternance.undefined
+  nameWithType: DuoConfig.Alternance.undefined
+- uid: ColorLib.DuoConfig.AlternanceModifiedEvent
+  name: AlternanceModifiedEvent
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_AlternanceModifiedEvent
+  commentId: E:ColorLib.DuoConfig.AlternanceModifiedEvent
+  fullName: ColorLib.DuoConfig.AlternanceModifiedEvent
+  nameWithType: DuoConfig.AlternanceModifiedEvent
+- uid: ColorLib.DuoConfig.colorisFunction
+  name: colorisFunction
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_colorisFunction
+  commentId: P:ColorLib.DuoConfig.colorisFunction
+  fullName: ColorLib.DuoConfig.colorisFunction
+  nameWithType: DuoConfig.colorisFunction
+- uid: ColorLib.DuoConfig.ColorisFunction
+  name: DuoConfig.ColorisFunction
+  href: api/ColorLib.DuoConfig.ColorisFunction.html
+  commentId: T:ColorLib.DuoConfig.ColorisFunction
+  fullName: ColorLib.DuoConfig.ColorisFunction
+  nameWithType: DuoConfig.ColorisFunction
+- uid: ColorLib.DuoConfig.colorisFunction*
+  name: colorisFunction
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_colorisFunction_
+  commentId: Overload:ColorLib.DuoConfig.colorisFunction
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.colorisFunction
+  nameWithType: DuoConfig.colorisFunction
+- uid: ColorLib.DuoConfig.ColorisFunction.lettres
+  name: lettres
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_lettres
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.lettres
+  fullName: ColorLib.DuoConfig.ColorisFunction.lettres
+  nameWithType: DuoConfig.ColorisFunction.lettres
+- uid: ColorLib.DuoConfig.ColorisFunction.mots
+  name: mots
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_mots
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.mots
+  fullName: ColorLib.DuoConfig.ColorisFunction.mots
+  nameWithType: DuoConfig.ColorisFunction.mots
+- uid: ColorLib.DuoConfig.ColorisFunction.muettes
+  name: muettes
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_muettes
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.muettes
+  fullName: ColorLib.DuoConfig.ColorisFunction.muettes
+  nameWithType: DuoConfig.ColorisFunction.muettes
+- uid: ColorLib.DuoConfig.ColorisFunction.phonemes
+  name: phonemes
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_phonemes
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.phonemes
+  fullName: ColorLib.DuoConfig.ColorisFunction.phonemes
+  nameWithType: DuoConfig.ColorisFunction.phonemes
+- uid: ColorLib.DuoConfig.ColorisFunction.syllabes
+  name: syllabes
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_syllabes
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.syllabes
+  fullName: ColorLib.DuoConfig.ColorisFunction.syllabes
+  nameWithType: DuoConfig.ColorisFunction.syllabes
+- uid: ColorLib.DuoConfig.ColorisFunction.undefined
+  name: undefined
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_undefined
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.undefined
+  fullName: ColorLib.DuoConfig.ColorisFunction.undefined
+  nameWithType: DuoConfig.ColorisFunction.undefined
+- uid: ColorLib.DuoConfig.ColorisFunction.voyCons
+  name: voyCons
+  href: api/ColorLib.DuoConfig.ColorisFunction.html#ColorLib_DuoConfig_ColorisFunction_voyCons
+  commentId: F:ColorLib.DuoConfig.ColorisFunction.voyCons
+  fullName: ColorLib.DuoConfig.ColorisFunction.voyCons
+  nameWithType: DuoConfig.ColorisFunction.voyCons
+- uid: ColorLib.DuoConfig.ColorisFunctionModifiedEvent
+  name: ColorisFunctionModifiedEvent
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_ColorisFunctionModifiedEvent
+  commentId: E:ColorLib.DuoConfig.ColorisFunctionModifiedEvent
+  fullName: ColorLib.DuoConfig.ColorisFunctionModifiedEvent
+  nameWithType: DuoConfig.ColorisFunctionModifiedEvent
+- uid: ColorLib.DuoConfig.DeepCopy
+  name: DeepCopy()
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_DeepCopy
+  commentId: M:ColorLib.DuoConfig.DeepCopy
+  fullName: ColorLib.DuoConfig.DeepCopy()
+  nameWithType: DuoConfig.DeepCopy()
+- uid: ColorLib.DuoConfig.DeepCopy*
+  name: DeepCopy
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_DeepCopy_
+  commentId: Overload:ColorLib.DuoConfig.DeepCopy
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.DeepCopy
+  nameWithType: DuoConfig.DeepCopy
+- uid: ColorLib.DuoConfig.nbreAlt
+  name: nbreAlt
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_nbreAlt
+  commentId: P:ColorLib.DuoConfig.nbreAlt
+  fullName: ColorLib.DuoConfig.nbreAlt
+  nameWithType: DuoConfig.nbreAlt
+- uid: ColorLib.DuoConfig.nbreAlt*
+  name: nbreAlt
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_nbreAlt_
+  commentId: Overload:ColorLib.DuoConfig.nbreAlt
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.nbreAlt
+  nameWithType: DuoConfig.nbreAlt
+- uid: ColorLib.DuoConfig.NbreAltModifiedEvent
+  name: NbreAltModifiedEvent
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_NbreAltModifiedEvent
+  commentId: E:ColorLib.DuoConfig.NbreAltModifiedEvent
+  fullName: ColorLib.DuoConfig.NbreAltModifiedEvent
+  nameWithType: DuoConfig.NbreAltModifiedEvent
+- uid: ColorLib.DuoConfig.OnAlternanceModified(System.EventArgs)
+  name: OnAlternanceModified(EventArgs)
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_OnAlternanceModified_System_EventArgs_
+  commentId: M:ColorLib.DuoConfig.OnAlternanceModified(System.EventArgs)
+  fullName: ColorLib.DuoConfig.OnAlternanceModified(System.EventArgs)
+  nameWithType: DuoConfig.OnAlternanceModified(EventArgs)
+- uid: ColorLib.DuoConfig.OnAlternanceModified*
+  name: OnAlternanceModified
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_OnAlternanceModified_
+  commentId: Overload:ColorLib.DuoConfig.OnAlternanceModified
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.OnAlternanceModified
+  nameWithType: DuoConfig.OnAlternanceModified
+- uid: ColorLib.DuoConfig.OnColorisFunctionModified(System.EventArgs)
+  name: OnColorisFunctionModified(EventArgs)
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_OnColorisFunctionModified_System_EventArgs_
+  commentId: M:ColorLib.DuoConfig.OnColorisFunctionModified(System.EventArgs)
+  fullName: ColorLib.DuoConfig.OnColorisFunctionModified(System.EventArgs)
+  nameWithType: DuoConfig.OnColorisFunctionModified(EventArgs)
+- uid: ColorLib.DuoConfig.OnColorisFunctionModified*
+  name: OnColorisFunctionModified
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_OnColorisFunctionModified_
+  commentId: Overload:ColorLib.DuoConfig.OnColorisFunctionModified
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.OnColorisFunctionModified
+  nameWithType: DuoConfig.OnColorisFunctionModified
+- uid: ColorLib.DuoConfig.OnNbreAltModifed(System.EventArgs)
+  name: OnNbreAltModifed(EventArgs)
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_OnNbreAltModifed_System_EventArgs_
+  commentId: M:ColorLib.DuoConfig.OnNbreAltModifed(System.EventArgs)
+  fullName: ColorLib.DuoConfig.OnNbreAltModifed(System.EventArgs)
+  nameWithType: DuoConfig.OnNbreAltModifed(EventArgs)
+- uid: ColorLib.DuoConfig.OnNbreAltModifed*
+  name: OnNbreAltModifed
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_OnNbreAltModifed_
+  commentId: Overload:ColorLib.DuoConfig.OnNbreAltModifed
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.OnNbreAltModifed
+  nameWithType: DuoConfig.OnNbreAltModifed
+- uid: ColorLib.DuoConfig.Reset
+  name: Reset()
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_Reset
+  commentId: M:ColorLib.DuoConfig.Reset
+  fullName: ColorLib.DuoConfig.Reset()
+  nameWithType: DuoConfig.Reset()
+- uid: ColorLib.DuoConfig.Reset*
+  name: Reset
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_Reset_
+  commentId: Overload:ColorLib.DuoConfig.Reset
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.Reset
+  nameWithType: DuoConfig.Reset
+- uid: ColorLib.DuoConfig.subConfig1
+  name: subConfig1
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_subConfig1
+  commentId: P:ColorLib.DuoConfig.subConfig1
+  fullName: ColorLib.DuoConfig.subConfig1
+  nameWithType: DuoConfig.subConfig1
+- uid: ColorLib.DuoConfig.subConfig1*
+  name: subConfig1
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_subConfig1_
+  commentId: Overload:ColorLib.DuoConfig.subConfig1
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.subConfig1
+  nameWithType: DuoConfig.subConfig1
+- uid: ColorLib.DuoConfig.subConfig2
+  name: subConfig2
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_subConfig2
+  commentId: P:ColorLib.DuoConfig.subConfig2
+  fullName: ColorLib.DuoConfig.subConfig2
+  nameWithType: DuoConfig.subConfig2
+- uid: ColorLib.DuoConfig.subConfig2*
+  name: subConfig2
+  href: api/ColorLib.DuoConfig.html#ColorLib_DuoConfig_subConfig2_
+  commentId: Overload:ColorLib.DuoConfig.subConfig2
+  isSpec: "True"
+  fullName: ColorLib.DuoConfig.subConfig2
+  nameWithType: DuoConfig.subConfig2
+- uid: ColorLib.DuoConfReplacedEventArgs
+  name: DuoConfReplacedEventArgs
+  href: api/ColorLib.DuoConfReplacedEventArgs.html
+  commentId: T:ColorLib.DuoConfReplacedEventArgs
+  fullName: ColorLib.DuoConfReplacedEventArgs
+  nameWithType: DuoConfReplacedEventArgs
+- uid: ColorLib.DuoConfReplacedEventArgs.#ctor(ColorLib.DuoConfig)
+  name: DuoConfReplacedEventArgs(DuoConfig)
+  href: api/ColorLib.DuoConfReplacedEventArgs.html#ColorLib_DuoConfReplacedEventArgs__ctor_ColorLib_DuoConfig_
+  commentId: M:ColorLib.DuoConfReplacedEventArgs.#ctor(ColorLib.DuoConfig)
+  fullName: ColorLib.DuoConfReplacedEventArgs.DuoConfReplacedEventArgs(ColorLib.DuoConfig)
+  nameWithType: DuoConfReplacedEventArgs.DuoConfReplacedEventArgs(DuoConfig)
+- uid: ColorLib.DuoConfReplacedEventArgs.#ctor*
+  name: DuoConfReplacedEventArgs
+  href: api/ColorLib.DuoConfReplacedEventArgs.html#ColorLib_DuoConfReplacedEventArgs__ctor_
+  commentId: Overload:ColorLib.DuoConfReplacedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.DuoConfReplacedEventArgs.DuoConfReplacedEventArgs
+  nameWithType: DuoConfReplacedEventArgs.DuoConfReplacedEventArgs
+- uid: ColorLib.DuoConfReplacedEventArgs.newDuoConfig
+  name: newDuoConfig
+  href: api/ColorLib.DuoConfReplacedEventArgs.html#ColorLib_DuoConfReplacedEventArgs_newDuoConfig
+  commentId: P:ColorLib.DuoConfReplacedEventArgs.newDuoConfig
+  fullName: ColorLib.DuoConfReplacedEventArgs.newDuoConfig
+  nameWithType: DuoConfReplacedEventArgs.newDuoConfig
+- uid: ColorLib.DuoConfReplacedEventArgs.newDuoConfig*
+  name: newDuoConfig
+  href: api/ColorLib.DuoConfReplacedEventArgs.html#ColorLib_DuoConfReplacedEventArgs_newDuoConfig_
+  commentId: Overload:ColorLib.DuoConfReplacedEventArgs.newDuoConfig
+  isSpec: "True"
+  fullName: ColorLib.DuoConfReplacedEventArgs.newDuoConfig
+  nameWithType: DuoConfReplacedEventArgs.newDuoConfig
 - uid: ColorLib.ExecTaskOnSon
   name: ExecTaskOnSon
   href: api/ColorLib.ExecTaskOnSon.html
   commentId: T:ColorLib.ExecTaskOnSon
   fullName: ColorLib.ExecTaskOnSon
   nameWithType: ExecTaskOnSon
-- uid: ColorLib.ExecTaskOnSylButton
-  name: ExecTaskOnSylButton
-  href: api/ColorLib.ExecTaskOnSylButton.html
-  commentId: T:ColorLib.ExecTaskOnSylButton
-  fullName: ColorLib.ExecTaskOnSylButton
-  nameWithType: ExecTaskOnSylButton
 - uid: ColorLib.ExecuteTask
   name: ExecuteTask
   href: api/ColorLib.ExecuteTask.html
@@ -2986,6 +3616,38 @@ references:
   isSpec: "True"
   fullName: ColorLib.FormattedTextEl.cf
   nameWithType: FormattedTextEl.cf
+- uid: ColorLib.LetterButtonModifiedEventArgs
+  name: LetterButtonModifiedEventArgs
+  href: api/ColorLib.LetterButtonModifiedEventArgs.html
+  commentId: T:ColorLib.LetterButtonModifiedEventArgs
+  fullName: ColorLib.LetterButtonModifiedEventArgs
+  nameWithType: LetterButtonModifiedEventArgs
+- uid: ColorLib.LetterButtonModifiedEventArgs.#ctor(System.Int32)
+  name: LetterButtonModifiedEventArgs(Int32)
+  href: api/ColorLib.LetterButtonModifiedEventArgs.html#ColorLib_LetterButtonModifiedEventArgs__ctor_System_Int32_
+  commentId: M:ColorLib.LetterButtonModifiedEventArgs.#ctor(System.Int32)
+  fullName: ColorLib.LetterButtonModifiedEventArgs.LetterButtonModifiedEventArgs(System.Int32)
+  nameWithType: LetterButtonModifiedEventArgs.LetterButtonModifiedEventArgs(Int32)
+- uid: ColorLib.LetterButtonModifiedEventArgs.#ctor*
+  name: LetterButtonModifiedEventArgs
+  href: api/ColorLib.LetterButtonModifiedEventArgs.html#ColorLib_LetterButtonModifiedEventArgs__ctor_
+  commentId: Overload:ColorLib.LetterButtonModifiedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.LetterButtonModifiedEventArgs.LetterButtonModifiedEventArgs
+  nameWithType: LetterButtonModifiedEventArgs.LetterButtonModifiedEventArgs
+- uid: ColorLib.LetterButtonModifiedEventArgs.buttonNr
+  name: buttonNr
+  href: api/ColorLib.LetterButtonModifiedEventArgs.html#ColorLib_LetterButtonModifiedEventArgs_buttonNr
+  commentId: P:ColorLib.LetterButtonModifiedEventArgs.buttonNr
+  fullName: ColorLib.LetterButtonModifiedEventArgs.buttonNr
+  nameWithType: LetterButtonModifiedEventArgs.buttonNr
+- uid: ColorLib.LetterButtonModifiedEventArgs.buttonNr*
+  name: buttonNr
+  href: api/ColorLib.LetterButtonModifiedEventArgs.html#ColorLib_LetterButtonModifiedEventArgs_buttonNr_
+  commentId: Overload:ColorLib.LetterButtonModifiedEventArgs.buttonNr
+  isSpec: "True"
+  fullName: ColorLib.LetterButtonModifiedEventArgs.buttonNr
+  nameWithType: LetterButtonModifiedEventArgs.buttonNr
 - uid: ColorLib.PBDQConfig
   name: PBDQConfig
   href: api/ColorLib.PBDQConfig.html
@@ -3066,6 +3728,12 @@ references:
   commentId: F:ColorLib.PBDQConfig.inactiveLetter
   fullName: ColorLib.PBDQConfig.inactiveLetter
   nameWithType: PBDQConfig.inactiveLetter
+- uid: ColorLib.PBDQConfig.LetterButtonModifiedEvent
+  name: LetterButtonModifiedEvent
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_LetterButtonModifiedEvent
+  commentId: E:ColorLib.PBDQConfig.LetterButtonModifiedEvent
+  fullName: ColorLib.PBDQConfig.LetterButtonModifiedEvent
+  nameWithType: PBDQConfig.LetterButtonModifiedEvent
 - uid: ColorLib.PBDQConfig.markAsBlack
   name: markAsBlack
   href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_markAsBlack
@@ -3079,19 +3747,57 @@ references:
   isSpec: "True"
   fullName: ColorLib.PBDQConfig.markAsBlack
   nameWithType: PBDQConfig.markAsBlack
-- uid: ColorLib.PBDQConfig.ResetStandardColors
-  name: ResetStandardColors()
-  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_ResetStandardColors
-  commentId: M:ColorLib.PBDQConfig.ResetStandardColors
-  fullName: ColorLib.PBDQConfig.ResetStandardColors()
-  nameWithType: PBDQConfig.ResetStandardColors()
-- uid: ColorLib.PBDQConfig.ResetStandardColors*
-  name: ResetStandardColors
-  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_ResetStandardColors_
-  commentId: Overload:ColorLib.PBDQConfig.ResetStandardColors
+- uid: ColorLib.PBDQConfig.MarkAsBlackModifiedEvent
+  name: MarkAsBlackModifiedEvent
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_MarkAsBlackModifiedEvent
+  commentId: E:ColorLib.PBDQConfig.MarkAsBlackModifiedEvent
+  fullName: ColorLib.PBDQConfig.MarkAsBlackModifiedEvent
+  nameWithType: PBDQConfig.MarkAsBlackModifiedEvent
+- uid: ColorLib.PBDQConfig.nrButtons
+  name: nrButtons
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_nrButtons
+  commentId: F:ColorLib.PBDQConfig.nrButtons
+  fullName: ColorLib.PBDQConfig.nrButtons
+  nameWithType: PBDQConfig.nrButtons
+- uid: ColorLib.PBDQConfig.OnLetterButtonModifed(ColorLib.LetterButtonModifiedEventArgs)
+  name: OnLetterButtonModifed(LetterButtonModifiedEventArgs)
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_OnLetterButtonModifed_ColorLib_LetterButtonModifiedEventArgs_
+  commentId: M:ColorLib.PBDQConfig.OnLetterButtonModifed(ColorLib.LetterButtonModifiedEventArgs)
+  fullName: ColorLib.PBDQConfig.OnLetterButtonModifed(ColorLib.LetterButtonModifiedEventArgs)
+  nameWithType: PBDQConfig.OnLetterButtonModifed(LetterButtonModifiedEventArgs)
+- uid: ColorLib.PBDQConfig.OnLetterButtonModifed*
+  name: OnLetterButtonModifed
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_OnLetterButtonModifed_
+  commentId: Overload:ColorLib.PBDQConfig.OnLetterButtonModifed
   isSpec: "True"
-  fullName: ColorLib.PBDQConfig.ResetStandardColors
-  nameWithType: PBDQConfig.ResetStandardColors
+  fullName: ColorLib.PBDQConfig.OnLetterButtonModifed
+  nameWithType: PBDQConfig.OnLetterButtonModifed
+- uid: ColorLib.PBDQConfig.OnMarkAsBlackModified
+  name: OnMarkAsBlackModified()
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_OnMarkAsBlackModified
+  commentId: M:ColorLib.PBDQConfig.OnMarkAsBlackModified
+  fullName: ColorLib.PBDQConfig.OnMarkAsBlackModified()
+  nameWithType: PBDQConfig.OnMarkAsBlackModified()
+- uid: ColorLib.PBDQConfig.OnMarkAsBlackModified*
+  name: OnMarkAsBlackModified
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_OnMarkAsBlackModified_
+  commentId: Overload:ColorLib.PBDQConfig.OnMarkAsBlackModified
+  isSpec: "True"
+  fullName: ColorLib.PBDQConfig.OnMarkAsBlackModified
+  nameWithType: PBDQConfig.OnMarkAsBlackModified
+- uid: ColorLib.PBDQConfig.Reset
+  name: Reset()
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_Reset
+  commentId: M:ColorLib.PBDQConfig.Reset
+  fullName: ColorLib.PBDQConfig.Reset()
+  nameWithType: PBDQConfig.Reset()
+- uid: ColorLib.PBDQConfig.Reset*
+  name: Reset
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_Reset_
+  commentId: Overload:ColorLib.PBDQConfig.Reset
+  isSpec: "True"
+  fullName: ColorLib.PBDQConfig.Reset
+  nameWithType: PBDQConfig.Reset
 - uid: ColorLib.PBDQConfig.UpdateLetter(System.Int32,ColorLib.CharFormatting)
   name: UpdateLetter(Int32, CharFormatting)
   href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_UpdateLetter_System_Int32_ColorLib_CharFormatting_
@@ -3111,18 +3817,31 @@ references:
   isSpec: "True"
   fullName: ColorLib.PBDQConfig.UpdateLetter
   nameWithType: PBDQConfig.UpdateLetter
-- uid: ColorLib.PBDQConfig.updateLetterButton
-  name: updateLetterButton
-  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_updateLetterButton
-  commentId: F:ColorLib.PBDQConfig.updateLetterButton
-  fullName: ColorLib.PBDQConfig.updateLetterButton
-  nameWithType: PBDQConfig.updateLetterButton
-- uid: ColorLib.PBDQConfig.updateLetterButtons
-  name: updateLetterButtons
-  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_updateLetterButtons
-  commentId: F:ColorLib.PBDQConfig.updateLetterButtons
-  fullName: ColorLib.PBDQConfig.updateLetterButtons
-  nameWithType: PBDQConfig.updateLetterButtons
+- uid: ColorLib.PhonConfModifiedEventArgs
+  name: PhonConfModifiedEventArgs
+  href: api/ColorLib.PhonConfModifiedEventArgs.html
+  commentId: T:ColorLib.PhonConfModifiedEventArgs
+  fullName: ColorLib.PhonConfModifiedEventArgs
+  nameWithType: PhonConfModifiedEventArgs
+- uid: ColorLib.PhonConfModifiedEventArgs.#ctor(ColorLib.PhonConfType)
+  name: PhonConfModifiedEventArgs(PhonConfType)
+  href: api/ColorLib.PhonConfModifiedEventArgs.html#ColorLib_PhonConfModifiedEventArgs__ctor_ColorLib_PhonConfType_
+  commentId: M:ColorLib.PhonConfModifiedEventArgs.#ctor(ColorLib.PhonConfType)
+  fullName: ColorLib.PhonConfModifiedEventArgs.PhonConfModifiedEventArgs(ColorLib.PhonConfType)
+  nameWithType: PhonConfModifiedEventArgs.PhonConfModifiedEventArgs(PhonConfType)
+- uid: ColorLib.PhonConfModifiedEventArgs.#ctor*
+  name: PhonConfModifiedEventArgs
+  href: api/ColorLib.PhonConfModifiedEventArgs.html#ColorLib_PhonConfModifiedEventArgs__ctor_
+  commentId: Overload:ColorLib.PhonConfModifiedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.PhonConfModifiedEventArgs.PhonConfModifiedEventArgs
+  nameWithType: PhonConfModifiedEventArgs.PhonConfModifiedEventArgs
+- uid: ColorLib.PhonConfModifiedEventArgs.pct
+  name: pct
+  href: api/ColorLib.PhonConfModifiedEventArgs.html#ColorLib_PhonConfModifiedEventArgs_pct
+  commentId: F:ColorLib.PhonConfModifiedEventArgs.pct
+  fullName: ColorLib.PhonConfModifiedEventArgs.pct
+  nameWithType: PhonConfModifiedEventArgs.pct
 - uid: ColorLib.PhonConfType
   name: PhonConfType
   href: api/ColorLib.PhonConfType.html
@@ -3630,18 +4349,18 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonInW.Phon2String
   nameWithType: PhonInW.Phon2String
-- uid: ColorLib.PhonInW.PutColor
-  name: PutColor()
-  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PutColor
-  commentId: M:ColorLib.PhonInW.PutColor
-  fullName: ColorLib.PhonInW.PutColor()
-  nameWithType: PhonInW.PutColor()
-- uid: ColorLib.PhonInW.PutColor(ColorLib.PhonConfType)
-  name: PutColor(PhonConfType)
-  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PutColor_ColorLib_PhonConfType_
-  commentId: M:ColorLib.PhonInW.PutColor(ColorLib.PhonConfType)
-  fullName: ColorLib.PhonInW.PutColor(ColorLib.PhonConfType)
-  nameWithType: PhonInW.PutColor(PhonConfType)
+- uid: ColorLib.PhonInW.PutColor(ColorLib.Config)
+  name: PutColor(Config)
+  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PutColor_ColorLib_Config_
+  commentId: M:ColorLib.PhonInW.PutColor(ColorLib.Config)
+  fullName: ColorLib.PhonInW.PutColor(ColorLib.Config)
+  nameWithType: PhonInW.PutColor(Config)
+- uid: ColorLib.PhonInW.PutColor(ColorLib.Config,ColorLib.PhonConfType)
+  name: PutColor(Config, PhonConfType)
+  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PutColor_ColorLib_Config_ColorLib_PhonConfType_
+  commentId: M:ColorLib.PhonInW.PutColor(ColorLib.Config,ColorLib.PhonConfType)
+  fullName: ColorLib.PhonInW.PutColor(ColorLib.Config, ColorLib.PhonConfType)
+  nameWithType: PhonInW.PutColor(Config, PhonConfType)
 - uid: ColorLib.PhonInW.PutColor*
   name: PutColor
   href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PutColor_
@@ -3926,18 +4645,18 @@ references:
   commentId: T:ColorLib.PhonWord
   fullName: ColorLib.PhonWord
   nameWithType: PhonWord
-- uid: ColorLib.PhonWord.#ctor(ColorLib.TheText,System.Int32,System.Int32)
-  name: PhonWord(TheText, Int32, Int32)
-  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord__ctor_ColorLib_TheText_System_Int32_System_Int32_
-  commentId: M:ColorLib.PhonWord.#ctor(ColorLib.TheText,System.Int32,System.Int32)
-  fullName: ColorLib.PhonWord.PhonWord(ColorLib.TheText, System.Int32, System.Int32)
-  nameWithType: PhonWord.PhonWord(TheText, Int32, Int32)
-- uid: ColorLib.PhonWord.#ctor(ColorLib.Word)
-  name: PhonWord(Word)
-  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord__ctor_ColorLib_Word_
-  commentId: M:ColorLib.PhonWord.#ctor(ColorLib.Word)
-  fullName: ColorLib.PhonWord.PhonWord(ColorLib.Word)
-  nameWithType: PhonWord.PhonWord(Word)
+- uid: ColorLib.PhonWord.#ctor(ColorLib.TheText,System.Int32,System.Int32,ColorLib.Config)
+  name: PhonWord(TheText, Int32, Int32, Config)
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord__ctor_ColorLib_TheText_System_Int32_System_Int32_ColorLib_Config_
+  commentId: M:ColorLib.PhonWord.#ctor(ColorLib.TheText,System.Int32,System.Int32,ColorLib.Config)
+  fullName: ColorLib.PhonWord.PhonWord(ColorLib.TheText, System.Int32, System.Int32, ColorLib.Config)
+  nameWithType: PhonWord.PhonWord(TheText, Int32, Int32, Config)
+- uid: ColorLib.PhonWord.#ctor(ColorLib.Word,ColorLib.Config)
+  name: PhonWord(Word, Config)
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord__ctor_ColorLib_Word_ColorLib_Config_
+  commentId: M:ColorLib.PhonWord.#ctor(ColorLib.Word,ColorLib.Config)
+  fullName: ColorLib.PhonWord.PhonWord(ColorLib.Word, ColorLib.Config)
+  nameWithType: PhonWord.PhonWord(Word, Config)
 - uid: ColorLib.PhonWord.#ctor*
   name: PhonWord
   href: api/ColorLib.PhonWord.html#ColorLib_PhonWord__ctor_
@@ -3984,12 +4703,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonWord.ClearPhons
   nameWithType: PhonWord.ClearPhons
-- uid: ColorLib.PhonWord.ColorPhons(ColorLib.PhonConfType)
-  name: ColorPhons(PhonConfType)
-  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ColorPhons_ColorLib_PhonConfType_
-  commentId: M:ColorLib.PhonWord.ColorPhons(ColorLib.PhonConfType)
-  fullName: ColorLib.PhonWord.ColorPhons(ColorLib.PhonConfType)
-  nameWithType: PhonWord.ColorPhons(PhonConfType)
+- uid: ColorLib.PhonWord.ColorPhons(ColorLib.Config,ColorLib.PhonConfType)
+  name: ColorPhons(Config, PhonConfType)
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ColorPhons_ColorLib_Config_ColorLib_PhonConfType_
+  commentId: M:ColorLib.PhonWord.ColorPhons(ColorLib.Config,ColorLib.PhonConfType)
+  fullName: ColorLib.PhonWord.ColorPhons(ColorLib.Config, ColorLib.PhonConfType)
+  nameWithType: PhonWord.ColorPhons(Config, PhonConfType)
 - uid: ColorLib.PhonWord.ColorPhons*
   name: ColorPhons
   href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ColorPhons_
@@ -3997,12 +4716,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonWord.ColorPhons
   nameWithType: PhonWord.ColorPhons
-- uid: ColorLib.PhonWord.ComputeAndColorSyls
-  name: ComputeAndColorSyls()
-  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeAndColorSyls
-  commentId: M:ColorLib.PhonWord.ComputeAndColorSyls
-  fullName: ColorLib.PhonWord.ComputeAndColorSyls()
-  nameWithType: PhonWord.ComputeAndColorSyls()
+- uid: ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)
+  name: ComputeAndColorSyls(Config)
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeAndColorSyls_ColorLib_Config_
+  commentId: M:ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)
+  fullName: ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)
+  nameWithType: PhonWord.ComputeAndColorSyls(Config)
 - uid: ColorLib.PhonWord.ComputeAndColorSyls*
   name: ComputeAndColorSyls
   href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeAndColorSyls_
@@ -4072,6 +4791,12 @@ references:
   commentId: F:ColorLib.PredefCols.darkGreen
   fullName: ColorLib.PredefCols.darkGreen
   nameWithType: PredefCols.darkGreen
+- uid: ColorLib.PredefCols.darkRed
+  name: darkRed
+  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_darkRed
+  commentId: F:ColorLib.PredefCols.darkRed
+  fullName: ColorLib.PredefCols.darkRed
+  nameWithType: PredefCols.darkRed
 - uid: ColorLib.PredefCols.darkYellow
   name: darkYellow
   href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_darkYellow
@@ -4090,6 +4815,12 @@ references:
   commentId: F:ColorLib.PredefCols.grey
   fullName: ColorLib.PredefCols.grey
   nameWithType: PredefCols.grey
+- uid: ColorLib.PredefCols.lightBlue
+  name: lightBlue
+  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_lightBlue
+  commentId: F:ColorLib.PredefCols.lightBlue
+  fullName: ColorLib.PredefCols.lightBlue
+  nameWithType: PredefCols.lightBlue
 - uid: ColorLib.PredefCols.neutral
   name: neutral
   href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_neutral
@@ -4259,6 +4990,83 @@ references:
   isSpec: "True"
   fullName: ColorLib.RGB.ToString
   nameWithType: RGB.ToString
+- uid: ColorLib.SonConfigModifiedEventArgs
+  name: SonConfigModifiedEventArgs
+  href: api/ColorLib.SonConfigModifiedEventArgs.html
+  commentId: T:ColorLib.SonConfigModifiedEventArgs
+  fullName: ColorLib.SonConfigModifiedEventArgs
+  nameWithType: SonConfigModifiedEventArgs
+- uid: ColorLib.SonConfigModifiedEventArgs.#ctor(System.String,ColorLib.PhonConfType)
+  name: SonConfigModifiedEventArgs(String, PhonConfType)
+  href: api/ColorLib.SonConfigModifiedEventArgs.html#ColorLib_SonConfigModifiedEventArgs__ctor_System_String_ColorLib_PhonConfType_
+  commentId: M:ColorLib.SonConfigModifiedEventArgs.#ctor(System.String,ColorLib.PhonConfType)
+  fullName: ColorLib.SonConfigModifiedEventArgs.SonConfigModifiedEventArgs(System.String, ColorLib.PhonConfType)
+  nameWithType: SonConfigModifiedEventArgs.SonConfigModifiedEventArgs(String, PhonConfType)
+- uid: ColorLib.SonConfigModifiedEventArgs.#ctor*
+  name: SonConfigModifiedEventArgs
+  href: api/ColorLib.SonConfigModifiedEventArgs.html#ColorLib_SonConfigModifiedEventArgs__ctor_
+  commentId: Overload:ColorLib.SonConfigModifiedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.SonConfigModifiedEventArgs.SonConfigModifiedEventArgs
+  nameWithType: SonConfigModifiedEventArgs.SonConfigModifiedEventArgs
+- uid: ColorLib.SonConfigModifiedEventArgs.pct
+  name: pct
+  href: api/ColorLib.SonConfigModifiedEventArgs.html#ColorLib_SonConfigModifiedEventArgs_pct
+  commentId: P:ColorLib.SonConfigModifiedEventArgs.pct
+  fullName: ColorLib.SonConfigModifiedEventArgs.pct
+  nameWithType: SonConfigModifiedEventArgs.pct
+- uid: ColorLib.SonConfigModifiedEventArgs.pct*
+  name: pct
+  href: api/ColorLib.SonConfigModifiedEventArgs.html#ColorLib_SonConfigModifiedEventArgs_pct_
+  commentId: Overload:ColorLib.SonConfigModifiedEventArgs.pct
+  isSpec: "True"
+  fullName: ColorLib.SonConfigModifiedEventArgs.pct
+  nameWithType: SonConfigModifiedEventArgs.pct
+- uid: ColorLib.SonConfigModifiedEventArgs.son
+  name: son
+  href: api/ColorLib.SonConfigModifiedEventArgs.html#ColorLib_SonConfigModifiedEventArgs_son
+  commentId: P:ColorLib.SonConfigModifiedEventArgs.son
+  fullName: ColorLib.SonConfigModifiedEventArgs.son
+  nameWithType: SonConfigModifiedEventArgs.son
+- uid: ColorLib.SonConfigModifiedEventArgs.son*
+  name: son
+  href: api/ColorLib.SonConfigModifiedEventArgs.html#ColorLib_SonConfigModifiedEventArgs_son_
+  commentId: Overload:ColorLib.SonConfigModifiedEventArgs.son
+  isSpec: "True"
+  fullName: ColorLib.SonConfigModifiedEventArgs.son
+  nameWithType: SonConfigModifiedEventArgs.son
+- uid: ColorLib.SylButtonModifiedEventArgs
+  name: SylButtonModifiedEventArgs
+  href: api/ColorLib.SylButtonModifiedEventArgs.html
+  commentId: T:ColorLib.SylButtonModifiedEventArgs
+  fullName: ColorLib.SylButtonModifiedEventArgs
+  nameWithType: SylButtonModifiedEventArgs
+- uid: ColorLib.SylButtonModifiedEventArgs.#ctor(System.Int32)
+  name: SylButtonModifiedEventArgs(Int32)
+  href: api/ColorLib.SylButtonModifiedEventArgs.html#ColorLib_SylButtonModifiedEventArgs__ctor_System_Int32_
+  commentId: M:ColorLib.SylButtonModifiedEventArgs.#ctor(System.Int32)
+  fullName: ColorLib.SylButtonModifiedEventArgs.SylButtonModifiedEventArgs(System.Int32)
+  nameWithType: SylButtonModifiedEventArgs.SylButtonModifiedEventArgs(Int32)
+- uid: ColorLib.SylButtonModifiedEventArgs.#ctor*
+  name: SylButtonModifiedEventArgs
+  href: api/ColorLib.SylButtonModifiedEventArgs.html#ColorLib_SylButtonModifiedEventArgs__ctor_
+  commentId: Overload:ColorLib.SylButtonModifiedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.SylButtonModifiedEventArgs.SylButtonModifiedEventArgs
+  nameWithType: SylButtonModifiedEventArgs.SylButtonModifiedEventArgs
+- uid: ColorLib.SylButtonModifiedEventArgs.buttonNr
+  name: buttonNr
+  href: api/ColorLib.SylButtonModifiedEventArgs.html#ColorLib_SylButtonModifiedEventArgs_buttonNr
+  commentId: P:ColorLib.SylButtonModifiedEventArgs.buttonNr
+  fullName: ColorLib.SylButtonModifiedEventArgs.buttonNr
+  nameWithType: SylButtonModifiedEventArgs.buttonNr
+- uid: ColorLib.SylButtonModifiedEventArgs.buttonNr*
+  name: buttonNr
+  href: api/ColorLib.SylButtonModifiedEventArgs.html#ColorLib_SylButtonModifiedEventArgs_buttonNr_
+  commentId: Overload:ColorLib.SylButtonModifiedEventArgs.buttonNr
+  isSpec: "True"
+  fullName: ColorLib.SylButtonModifiedEventArgs.buttonNr
+  nameWithType: SylButtonModifiedEventArgs.buttonNr
 - uid: ColorLib.SylConfig
   name: SylConfig
   href: api/ColorLib.SylConfig.html
@@ -4317,32 +5125,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.ClearButton
   nameWithType: SylConfig.ClearButton
-- uid: ColorLib.SylConfig.DoubCons
-  name: DoubCons()
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubCons
-  commentId: M:ColorLib.SylConfig.DoubCons
-  fullName: ColorLib.SylConfig.DoubCons()
-  nameWithType: SylConfig.DoubCons()
-- uid: ColorLib.SylConfig.DoubCons*
-  name: DoubCons
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubCons_
-  commentId: Overload:ColorLib.SylConfig.DoubCons
+- uid: ColorLib.SylConfig.DoubleConsStd
+  name: DoubleConsStd
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubleConsStd
+  commentId: P:ColorLib.SylConfig.DoubleConsStd
+  fullName: ColorLib.SylConfig.DoubleConsStd
+  nameWithType: SylConfig.DoubleConsStd
+- uid: ColorLib.SylConfig.DoubleConsStd*
+  name: DoubleConsStd
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubleConsStd_
+  commentId: Overload:ColorLib.SylConfig.DoubleConsStd
   isSpec: "True"
-  fullName: ColorLib.SylConfig.DoubCons
-  nameWithType: SylConfig.DoubCons
-- uid: ColorLib.SylConfig.DoubleConsModified(System.Boolean)
-  name: DoubleConsModified(Boolean)
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubleConsModified_System_Boolean_
-  commentId: M:ColorLib.SylConfig.DoubleConsModified(System.Boolean)
-  fullName: ColorLib.SylConfig.DoubleConsModified(System.Boolean)
-  nameWithType: SylConfig.DoubleConsModified(Boolean)
-- uid: ColorLib.SylConfig.DoubleConsModified*
-  name: DoubleConsModified
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubleConsModified_
-  commentId: Overload:ColorLib.SylConfig.DoubleConsModified
-  isSpec: "True"
-  fullName: ColorLib.SylConfig.DoubleConsModified
-  nameWithType: SylConfig.DoubleConsModified
+  fullName: ColorLib.SylConfig.DoubleConsStd
+  nameWithType: SylConfig.DoubleConsStd
+- uid: ColorLib.SylConfig.DoubleConsStdModifiedEvent
+  name: DoubleConsStdModifiedEvent
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_DoubleConsStdModifiedEvent
+  commentId: E:ColorLib.SylConfig.DoubleConsStdModifiedEvent
+  fullName: ColorLib.SylConfig.DoubleConsStdModifiedEvent
+  nameWithType: SylConfig.DoubleConsStdModifiedEvent
 - uid: ColorLib.SylConfig.GetSylButtonConfFor(System.Int32)
   name: GetSylButtonConfFor(Int32)
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_GetSylButtonConfFor_System_Int32_
@@ -4357,11 +5158,11 @@ references:
   fullName: ColorLib.SylConfig.GetSylButtonConfFor
   nameWithType: SylConfig.GetSylButtonConfFor
 - uid: ColorLib.SylConfig.ModeEcrit
-  name: ModeEcrit()
+  name: ModeEcrit
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcrit
-  commentId: M:ColorLib.SylConfig.ModeEcrit
-  fullName: ColorLib.SylConfig.ModeEcrit()
-  nameWithType: SylConfig.ModeEcrit()
+  commentId: P:ColorLib.SylConfig.ModeEcrit
+  fullName: ColorLib.SylConfig.ModeEcrit
+  nameWithType: SylConfig.ModeEcrit
 - uid: ColorLib.SylConfig.ModeEcrit*
   name: ModeEcrit
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcrit_
@@ -4369,19 +5170,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.ModeEcrit
   nameWithType: SylConfig.ModeEcrit
-- uid: ColorLib.SylConfig.ModeEcritModified(System.Boolean)
-  name: ModeEcritModified(Boolean)
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcritModified_System_Boolean_
-  commentId: M:ColorLib.SylConfig.ModeEcritModified(System.Boolean)
-  fullName: ColorLib.SylConfig.ModeEcritModified(System.Boolean)
-  nameWithType: SylConfig.ModeEcritModified(Boolean)
-- uid: ColorLib.SylConfig.ModeEcritModified*
-  name: ModeEcritModified
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcritModified_
-  commentId: Overload:ColorLib.SylConfig.ModeEcritModified
-  isSpec: "True"
-  fullName: ColorLib.SylConfig.ModeEcritModified
-  nameWithType: SylConfig.ModeEcritModified
+- uid: ColorLib.SylConfig.ModeEcritModifiedEvent
+  name: ModeEcritModifiedEvent
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcritModifiedEvent
+  commentId: E:ColorLib.SylConfig.ModeEcritModifiedEvent
+  fullName: ColorLib.SylConfig.ModeEcritModifiedEvent
+  nameWithType: SylConfig.ModeEcritModifiedEvent
 - uid: ColorLib.SylConfig.NextCF
   name: NextCF()
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_NextCF
@@ -4401,6 +5195,58 @@ references:
   commentId: F:ColorLib.SylConfig.nrButtons
   fullName: ColorLib.SylConfig.nrButtons
   nameWithType: SylConfig.nrButtons
+- uid: ColorLib.SylConfig.OnDoubleConsStdModified
+  name: OnDoubleConsStdModified()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnDoubleConsStdModified
+  commentId: M:ColorLib.SylConfig.OnDoubleConsStdModified
+  fullName: ColorLib.SylConfig.OnDoubleConsStdModified()
+  nameWithType: SylConfig.OnDoubleConsStdModified()
+- uid: ColorLib.SylConfig.OnDoubleConsStdModified*
+  name: OnDoubleConsStdModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnDoubleConsStdModified_
+  commentId: Overload:ColorLib.SylConfig.OnDoubleConsStdModified
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.OnDoubleConsStdModified
+  nameWithType: SylConfig.OnDoubleConsStdModified
+- uid: ColorLib.SylConfig.OnModeEcritModified
+  name: OnModeEcritModified()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnModeEcritModified
+  commentId: M:ColorLib.SylConfig.OnModeEcritModified
+  fullName: ColorLib.SylConfig.OnModeEcritModified()
+  nameWithType: SylConfig.OnModeEcritModified()
+- uid: ColorLib.SylConfig.OnModeEcritModified*
+  name: OnModeEcritModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnModeEcritModified_
+  commentId: Overload:ColorLib.SylConfig.OnModeEcritModified
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.OnModeEcritModified
+  nameWithType: SylConfig.OnModeEcritModified
+- uid: ColorLib.SylConfig.OnSylButtonModified(System.Int32)
+  name: OnSylButtonModified(Int32)
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnSylButtonModified_System_Int32_
+  commentId: M:ColorLib.SylConfig.OnSylButtonModified(System.Int32)
+  fullName: ColorLib.SylConfig.OnSylButtonModified(System.Int32)
+  nameWithType: SylConfig.OnSylButtonModified(Int32)
+- uid: ColorLib.SylConfig.OnSylButtonModified*
+  name: OnSylButtonModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnSylButtonModified_
+  commentId: Overload:ColorLib.SylConfig.OnSylButtonModified
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.OnSylButtonModified
+  nameWithType: SylConfig.OnSylButtonModified
+- uid: ColorLib.SylConfig.Reset
+  name: Reset()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_Reset
+  commentId: M:ColorLib.SylConfig.Reset
+  fullName: ColorLib.SylConfig.Reset()
+  nameWithType: SylConfig.Reset()
+- uid: ColorLib.SylConfig.Reset*
+  name: Reset
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_Reset_
+  commentId: Overload:ColorLib.SylConfig.Reset
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.Reset
+  nameWithType: SylConfig.Reset
 - uid: ColorLib.SylConfig.ResetCounter
   name: ResetCounter()
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ResetCounter
@@ -4414,19 +5260,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.ResetCounter
   nameWithType: SylConfig.ResetCounter
-- uid: ColorLib.SylConfig.ResetStandardColors
-  name: ResetStandardColors()
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ResetStandardColors
-  commentId: M:ColorLib.SylConfig.ResetStandardColors
-  fullName: ColorLib.SylConfig.ResetStandardColors()
-  nameWithType: SylConfig.ResetStandardColors()
-- uid: ColorLib.SylConfig.ResetStandardColors*
-  name: ResetStandardColors
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ResetStandardColors_
-  commentId: Overload:ColorLib.SylConfig.ResetStandardColors
-  isSpec: "True"
-  fullName: ColorLib.SylConfig.ResetStandardColors
-  nameWithType: SylConfig.ResetStandardColors
 - uid: ColorLib.SylConfig.SylButtonConf
   name: SylConfig.SylButtonConf
   href: api/ColorLib.SylConfig.SylButtonConf.html
@@ -4464,18 +5297,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.SylButtonModified
   nameWithType: SylConfig.SylButtonModified
-- uid: ColorLib.SylConfig.updateSylButton
-  name: updateSylButton
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_updateSylButton
-  commentId: F:ColorLib.SylConfig.updateSylButton
-  fullName: ColorLib.SylConfig.updateSylButton
-  nameWithType: SylConfig.updateSylButton
-- uid: ColorLib.SylConfig.updateSylButtons
-  name: updateSylButtons
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_updateSylButtons
-  commentId: F:ColorLib.SylConfig.updateSylButtons
-  fullName: ColorLib.SylConfig.updateSylButtons
-  nameWithType: SylConfig.updateSylButtons
+- uid: ColorLib.SylConfig.SylButtonModifiedEvent
+  name: SylButtonModifiedEvent
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SylButtonModifiedEvent
+  commentId: E:ColorLib.SylConfig.SylButtonModifiedEvent
+  fullName: ColorLib.SylConfig.SylButtonModifiedEvent
+  nameWithType: SylConfig.SylButtonModifiedEvent
 - uid: ColorLib.SylInW
   name: SylInW
   href: api/ColorLib.SylInW.html
@@ -4585,12 +5412,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylInW.Init
   nameWithType: SylInW.Init
-- uid: ColorLib.SylInW.PutColor
-  name: PutColor()
-  href: api/ColorLib.SylInW.html#ColorLib_SylInW_PutColor
-  commentId: M:ColorLib.SylInW.PutColor
-  fullName: ColorLib.SylInW.PutColor()
-  nameWithType: SylInW.PutColor()
+- uid: ColorLib.SylInW.PutColor(ColorLib.Config)
+  name: PutColor(Config)
+  href: api/ColorLib.SylInW.html#ColorLib_SylInW_PutColor_ColorLib_Config_
+  commentId: M:ColorLib.SylInW.PutColor(ColorLib.Config)
+  fullName: ColorLib.SylInW.PutColor(ColorLib.Config)
+  nameWithType: SylInW.PutColor(Config)
 - uid: ColorLib.SylInW.PutColor*
   name: PutColor
   href: api/ColorLib.SylInW.html#ColorLib_SylInW_PutColor_
@@ -4727,12 +5554,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TextEl.Last
   nameWithType: TextEl.Last
-- uid: ColorLib.TextEl.PutColor
-  name: PutColor()
-  href: api/ColorLib.TextEl.html#ColorLib_TextEl_PutColor
-  commentId: M:ColorLib.TextEl.PutColor
-  fullName: ColorLib.TextEl.PutColor()
-  nameWithType: TextEl.PutColor()
+- uid: ColorLib.TextEl.PutColor(ColorLib.Config)
+  name: PutColor(Config)
+  href: api/ColorLib.TextEl.html#ColorLib_TextEl_PutColor_ColorLib_Config_
+  commentId: M:ColorLib.TextEl.PutColor(ColorLib.Config)
+  fullName: ColorLib.TextEl.PutColor(ColorLib.Config)
+  nameWithType: TextEl.PutColor(Config)
 - uid: ColorLib.TextEl.PutColor*
   name: PutColor
   href: api/ColorLib.TextEl.html#ColorLib_TextEl_PutColor_
@@ -4785,12 +5612,12 @@ references:
   commentId: T:ColorLib.TheText
   fullName: ColorLib.TheText
   nameWithType: TheText
-- uid: ColorLib.TheText.#ctor(System.String,ColorLib.Config)
-  name: TheText(String, Config)
-  href: api/ColorLib.TheText.html#ColorLib_TheText__ctor_System_String_ColorLib_Config_
-  commentId: M:ColorLib.TheText.#ctor(System.String,ColorLib.Config)
-  fullName: ColorLib.TheText.TheText(System.String, ColorLib.Config)
-  nameWithType: TheText.TheText(String, Config)
+- uid: ColorLib.TheText.#ctor(System.String)
+  name: TheText(String)
+  href: api/ColorLib.TheText.html#ColorLib_TheText__ctor_System_String_
+  commentId: M:ColorLib.TheText.#ctor(System.String)
+  fullName: ColorLib.TheText.TheText(System.String)
+  nameWithType: TheText.TheText(String)
 - uid: ColorLib.TheText.#ctor*
   name: TheText
   href: api/ColorLib.TheText.html#ColorLib_TheText__ctor_
@@ -4798,25 +5625,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.TheText
   nameWithType: TheText.TheText
-- uid: ColorLib.TheText.ApplyFormatting
-  name: ApplyFormatting()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_ApplyFormatting
-  commentId: M:ColorLib.TheText.ApplyFormatting
-  fullName: ColorLib.TheText.ApplyFormatting()
-  nameWithType: TheText.ApplyFormatting()
-- uid: ColorLib.TheText.ApplyFormatting*
-  name: ApplyFormatting
-  href: api/ColorLib.TheText.html#ColorLib_TheText_ApplyFormatting_
-  commentId: Overload:ColorLib.TheText.ApplyFormatting
+- uid: ColorLib.TheText.AddFTE(ColorLib.FormattedTextEl)
+  name: AddFTE(FormattedTextEl)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_AddFTE_ColorLib_FormattedTextEl_
+  commentId: M:ColorLib.TheText.AddFTE(ColorLib.FormattedTextEl)
+  fullName: ColorLib.TheText.AddFTE(ColorLib.FormattedTextEl)
+  nameWithType: TheText.AddFTE(FormattedTextEl)
+- uid: ColorLib.TheText.AddFTE*
+  name: AddFTE
+  href: api/ColorLib.TheText.html#ColorLib_TheText_AddFTE_
+  commentId: Overload:ColorLib.TheText.AddFTE
   isSpec: "True"
-  fullName: ColorLib.TheText.ApplyFormatting
-  nameWithType: TheText.ApplyFormatting
-- uid: ColorLib.TheText.ColorizePhons(ColorLib.PhonConfType)
-  name: ColorizePhons(PhonConfType)
-  href: api/ColorLib.TheText.html#ColorLib_TheText_ColorizePhons_ColorLib_PhonConfType_
-  commentId: M:ColorLib.TheText.ColorizePhons(ColorLib.PhonConfType)
-  fullName: ColorLib.TheText.ColorizePhons(ColorLib.PhonConfType)
-  nameWithType: TheText.ColorizePhons(PhonConfType)
+  fullName: ColorLib.TheText.AddFTE
+  nameWithType: TheText.AddFTE
+- uid: ColorLib.TheText.ColorizePhons(ColorLib.Config,ColorLib.PhonConfType)
+  name: ColorizePhons(Config, PhonConfType)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_ColorizePhons_ColorLib_Config_ColorLib_PhonConfType_
+  commentId: M:ColorLib.TheText.ColorizePhons(ColorLib.Config,ColorLib.PhonConfType)
+  fullName: ColorLib.TheText.ColorizePhons(ColorLib.Config, ColorLib.PhonConfType)
+  nameWithType: TheText.ColorizePhons(Config, PhonConfType)
 - uid: ColorLib.TheText.ColorizePhons*
   name: ColorizePhons
   href: api/ColorLib.TheText.html#ColorLib_TheText_ColorizePhons_
@@ -4824,38 +5651,41 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.ColorizePhons
   nameWithType: TheText.ColorizePhons
-- uid: ColorLib.TheText.Formats
-  name: Formats
-  href: api/ColorLib.TheText.html#ColorLib_TheText_Formats
-  commentId: P:ColorLib.TheText.Formats
-  fullName: ColorLib.TheText.Formats
-  nameWithType: TheText.Formats
-- uid: ColorLib.TheText.Formats*
-  name: Formats
-  href: api/ColorLib.TheText.html#ColorLib_TheText_Formats_
-  commentId: Overload:ColorLib.TheText.Formats
+- uid: ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting,System.Collections.Generic.List{ColorLib.FormattedTextEl},ColorLib.Config)
+  name: DisplayFormat(CharFormatting, List<FormattedTextEl>, Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_DisplayFormat_ColorLib_CharFormatting_System_Collections_Generic_List_ColorLib_FormattedTextEl__ColorLib_Config_
+  commentId: M:ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting,System.Collections.Generic.List{ColorLib.FormattedTextEl},ColorLib.Config)
+  name.vb: DisplayFormat(CharFormatting, List(Of FormattedTextEl), Config)
+  fullName: ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting, System.Collections.Generic.List<ColorLib.FormattedTextEl>, ColorLib.Config)
+  fullName.vb: ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting, System.Collections.Generic.List(Of ColorLib.FormattedTextEl), ColorLib.Config)
+  nameWithType: TheText.DisplayFormat(CharFormatting, List<FormattedTextEl>, Config)
+  nameWithType.vb: TheText.DisplayFormat(CharFormatting, List(Of FormattedTextEl), Config)
+- uid: ColorLib.TheText.DisplayFormat*
+  name: DisplayFormat
+  href: api/ColorLib.TheText.html#ColorLib_TheText_DisplayFormat_
+  commentId: Overload:ColorLib.TheText.DisplayFormat
   isSpec: "True"
-  fullName: ColorLib.TheText.Formats
-  nameWithType: TheText.Formats
-- uid: ColorLib.TheText.GetConfig
-  name: GetConfig()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetConfig
-  commentId: M:ColorLib.TheText.GetConfig
-  fullName: ColorLib.TheText.GetConfig()
-  nameWithType: TheText.GetConfig()
-- uid: ColorLib.TheText.GetConfig*
-  name: GetConfig
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetConfig_
-  commentId: Overload:ColorLib.TheText.GetConfig
+  fullName: ColorLib.TheText.DisplayFormat
+  nameWithType: TheText.DisplayFormat
+- uid: ColorLib.TheText.GetLastLinesPos
+  name: GetLastLinesPos()
+  href: api/ColorLib.TheText.html#ColorLib_TheText_GetLastLinesPos
+  commentId: M:ColorLib.TheText.GetLastLinesPos
+  fullName: ColorLib.TheText.GetLastLinesPos()
+  nameWithType: TheText.GetLastLinesPos()
+- uid: ColorLib.TheText.GetLastLinesPos*
+  name: GetLastLinesPos
+  href: api/ColorLib.TheText.html#ColorLib_TheText_GetLastLinesPos_
+  commentId: Overload:ColorLib.TheText.GetLastLinesPos
   isSpec: "True"
-  fullName: ColorLib.TheText.GetConfig
-  nameWithType: TheText.GetConfig
-- uid: ColorLib.TheText.GetPhonWords
-  name: GetPhonWords()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWords
-  commentId: M:ColorLib.TheText.GetPhonWords
-  fullName: ColorLib.TheText.GetPhonWords()
-  nameWithType: TheText.GetPhonWords()
+  fullName: ColorLib.TheText.GetLastLinesPos
+  nameWithType: TheText.GetLastLinesPos
+- uid: ColorLib.TheText.GetPhonWords(ColorLib.Config)
+  name: GetPhonWords(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWords_ColorLib_Config_
+  commentId: M:ColorLib.TheText.GetPhonWords(ColorLib.Config)
+  fullName: ColorLib.TheText.GetPhonWords(ColorLib.Config)
+  nameWithType: TheText.GetPhonWords(Config)
 - uid: ColorLib.TheText.GetPhonWords*
   name: GetPhonWords
   href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWords_
@@ -4863,19 +5693,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.GetPhonWords
   nameWithType: TheText.GetPhonWords
-- uid: ColorLib.TheText.GetWords
-  name: GetWords()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetWords
-  commentId: M:ColorLib.TheText.GetWords
-  fullName: ColorLib.TheText.GetWords()
-  nameWithType: TheText.GetWords()
-- uid: ColorLib.TheText.GetWords*
-  name: GetWords
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetWords_
-  commentId: Overload:ColorLib.TheText.GetWords
-  isSpec: "True"
-  fullName: ColorLib.TheText.GetWords
-  nameWithType: TheText.GetWords
+- uid: ColorLib.TheText.GetTextPos
+  name: TheText.GetTextPos
+  href: api/ColorLib.TheText.GetTextPos.html
+  commentId: T:ColorLib.TheText.GetTextPos
+  fullName: ColorLib.TheText.GetTextPos
+  nameWithType: TheText.GetTextPos
 - uid: ColorLib.TheText.Init
   name: Init()
   href: api/ColorLib.TheText.html#ColorLib_TheText_Init
@@ -4889,12 +5712,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.Init
   nameWithType: TheText.Init
-- uid: ColorLib.TheText.MarkLetters
-  name: MarkLetters()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkLetters
-  commentId: M:ColorLib.TheText.MarkLetters
-  fullName: ColorLib.TheText.MarkLetters()
-  nameWithType: TheText.MarkLetters()
+- uid: ColorLib.TheText.MarkDuo(ColorLib.Config)
+  name: MarkDuo(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkDuo_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkDuo(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkDuo(ColorLib.Config)
+  nameWithType: TheText.MarkDuo(Config)
+- uid: ColorLib.TheText.MarkDuo*
+  name: MarkDuo
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkDuo_
+  commentId: Overload:ColorLib.TheText.MarkDuo
+  isSpec: "True"
+  fullName: ColorLib.TheText.MarkDuo
+  nameWithType: TheText.MarkDuo
+- uid: ColorLib.TheText.MarkLetters(ColorLib.Config)
+  name: MarkLetters(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkLetters_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkLetters(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkLetters(ColorLib.Config)
+  nameWithType: TheText.MarkLetters(Config)
 - uid: ColorLib.TheText.MarkLetters*
   name: MarkLetters
   href: api/ColorLib.TheText.html#ColorLib_TheText_MarkLetters_
@@ -4902,12 +5738,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkLetters
   nameWithType: TheText.MarkLetters
-- uid: ColorLib.TheText.MarkMuettes
-  name: MarkMuettes()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkMuettes
-  commentId: M:ColorLib.TheText.MarkMuettes
-  fullName: ColorLib.TheText.MarkMuettes()
-  nameWithType: TheText.MarkMuettes()
+- uid: ColorLib.TheText.MarkLignes(ColorLib.Config)
+  name: MarkLignes(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkLignes_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkLignes(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkLignes(ColorLib.Config)
+  nameWithType: TheText.MarkLignes(Config)
+- uid: ColorLib.TheText.MarkLignes*
+  name: MarkLignes
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkLignes_
+  commentId: Overload:ColorLib.TheText.MarkLignes
+  isSpec: "True"
+  fullName: ColorLib.TheText.MarkLignes
+  nameWithType: TheText.MarkLignes
+- uid: ColorLib.TheText.MarkMuettes(ColorLib.Config)
+  name: MarkMuettes(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkMuettes_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkMuettes(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkMuettes(ColorLib.Config)
+  nameWithType: TheText.MarkMuettes(Config)
 - uid: ColorLib.TheText.MarkMuettes*
   name: MarkMuettes
   href: api/ColorLib.TheText.html#ColorLib_TheText_MarkMuettes_
@@ -4915,12 +5764,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkMuettes
   nameWithType: TheText.MarkMuettes
-- uid: ColorLib.TheText.MarkNoir
-  name: MarkNoir()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkNoir
-  commentId: M:ColorLib.TheText.MarkNoir
-  fullName: ColorLib.TheText.MarkNoir()
-  nameWithType: TheText.MarkNoir()
+- uid: ColorLib.TheText.MarkNoir(ColorLib.Config)
+  name: MarkNoir(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkNoir_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkNoir(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkNoir(ColorLib.Config)
+  nameWithType: TheText.MarkNoir(Config)
 - uid: ColorLib.TheText.MarkNoir*
   name: MarkNoir
   href: api/ColorLib.TheText.html#ColorLib_TheText_MarkNoir_
@@ -4928,12 +5777,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkNoir
   nameWithType: TheText.MarkNoir
-- uid: ColorLib.TheText.MarkSyls
-  name: MarkSyls()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkSyls
-  commentId: M:ColorLib.TheText.MarkSyls
-  fullName: ColorLib.TheText.MarkSyls()
-  nameWithType: TheText.MarkSyls()
+- uid: ColorLib.TheText.MarkSyls(ColorLib.Config)
+  name: MarkSyls(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkSyls_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkSyls(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkSyls(ColorLib.Config)
+  nameWithType: TheText.MarkSyls(Config)
 - uid: ColorLib.TheText.MarkSyls*
   name: MarkSyls
   href: api/ColorLib.TheText.html#ColorLib_TheText_MarkSyls_
@@ -4941,12 +5790,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkSyls
   nameWithType: TheText.MarkSyls
-- uid: ColorLib.TheText.MarkVoyCons
-  name: MarkVoyCons()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkVoyCons
-  commentId: M:ColorLib.TheText.MarkVoyCons
-  fullName: ColorLib.TheText.MarkVoyCons()
-  nameWithType: TheText.MarkVoyCons()
+- uid: ColorLib.TheText.MarkVoyCons(ColorLib.Config)
+  name: MarkVoyCons(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkVoyCons_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkVoyCons(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkVoyCons(ColorLib.Config)
+  nameWithType: TheText.MarkVoyCons(Config)
 - uid: ColorLib.TheText.MarkVoyCons*
   name: MarkVoyCons
   href: api/ColorLib.TheText.html#ColorLib_TheText_MarkVoyCons_
@@ -4954,12 +5803,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkVoyCons
   nameWithType: TheText.MarkVoyCons
-- uid: ColorLib.TheText.MarkWords
-  name: MarkWords()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkWords
-  commentId: M:ColorLib.TheText.MarkWords
-  fullName: ColorLib.TheText.MarkWords()
-  nameWithType: TheText.MarkWords()
+- uid: ColorLib.TheText.MarkWords(ColorLib.Config)
+  name: MarkWords(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_MarkWords_ColorLib_Config_
+  commentId: M:ColorLib.TheText.MarkWords(ColorLib.Config)
+  fullName: ColorLib.TheText.MarkWords(ColorLib.Config)
+  nameWithType: TheText.MarkWords(Config)
 - uid: ColorLib.TheText.MarkWords*
   name: MarkWords
   href: api/ColorLib.TheText.html#ColorLib_TheText_MarkWords_
@@ -4967,38 +5816,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkWords
   nameWithType: TheText.MarkWords
-- uid: ColorLib.TheText.NewTestTheText(System.String)
-  name: NewTestTheText(String)
-  href: api/ColorLib.TheText.html#ColorLib_TheText_NewTestTheText_System_String_
-  commentId: M:ColorLib.TheText.NewTestTheText(System.String)
-  fullName: ColorLib.TheText.NewTestTheText(System.String)
-  nameWithType: TheText.NewTestTheText(String)
-- uid: ColorLib.TheText.NewTestTheText*
-  name: NewTestTheText
-  href: api/ColorLib.TheText.html#ColorLib_TheText_NewTestTheText_
-  commentId: Overload:ColorLib.TheText.NewTestTheText
-  isSpec: "True"
-  fullName: ColorLib.TheText.NewTestTheText
-  nameWithType: TheText.NewTestTheText
-- uid: ColorLib.TheText.S
-  name: S
-  href: api/ColorLib.TheText.html#ColorLib_TheText_S
-  commentId: P:ColorLib.TheText.S
-  fullName: ColorLib.TheText.S
-  nameWithType: TheText.S
-- uid: ColorLib.TheText.S*
-  name: S
-  href: api/ColorLib.TheText.html#ColorLib_TheText_S_
-  commentId: Overload:ColorLib.TheText.S
-  isSpec: "True"
-  fullName: ColorLib.TheText.S
-  nameWithType: TheText.S
-- uid: ColorLib.TheText.SetChars(ColorLib.FormattedTextEl)
-  name: SetChars(FormattedTextEl)
-  href: api/ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_
-  commentId: M:ColorLib.TheText.SetChars(ColorLib.FormattedTextEl)
-  fullName: ColorLib.TheText.SetChars(ColorLib.FormattedTextEl)
-  nameWithType: TheText.SetChars(FormattedTextEl)
+- uid: ColorLib.TheText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
+  name: SetChars(FormattedTextEl, Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_
+  commentId: M:ColorLib.TheText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
+  fullName: ColorLib.TheText.SetChars(ColorLib.FormattedTextEl, ColorLib.Config)
+  nameWithType: TheText.SetChars(FormattedTextEl, Config)
 - uid: ColorLib.TheText.SetChars*
   name: SetChars
   href: api/ColorLib.TheText.html#ColorLib_TheText_SetChars_
@@ -5099,6 +5922,32 @@ references:
   isSpec: "True"
   fullName: ColorLib.UnsetBehConf.CbuChecked
   nameWithType: UnsetBehConf.CbuChecked
+- uid: ColorLib.UnsetBehConf.cbuMap
+  name: cbuMap
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuMap
+  commentId: P:ColorLib.UnsetBehConf.cbuMap
+  fullName: ColorLib.UnsetBehConf.cbuMap
+  nameWithType: UnsetBehConf.cbuMap
+- uid: ColorLib.UnsetBehConf.cbuMap*
+  name: cbuMap
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuMap_
+  commentId: Overload:ColorLib.UnsetBehConf.cbuMap
+  isSpec: "True"
+  fullName: ColorLib.UnsetBehConf.cbuMap
+  nameWithType: UnsetBehConf.cbuMap
+- uid: ColorLib.UnsetBehConf.cbuNames
+  name: cbuNames
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuNames
+  commentId: P:ColorLib.UnsetBehConf.cbuNames
+  fullName: ColorLib.UnsetBehConf.cbuNames
+  nameWithType: UnsetBehConf.cbuNames
+- uid: ColorLib.UnsetBehConf.cbuNames*
+  name: cbuNames
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuNames_
+  commentId: Overload:ColorLib.UnsetBehConf.cbuNames
+  isSpec: "True"
+  fullName: ColorLib.UnsetBehConf.cbuNames
+  nameWithType: UnsetBehConf.cbuNames
 - uid: ColorLib.UnsetBehConf.CbuVal(ColorLib.Ucbx)
   name: CbuVal(Ucbx)
   href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CbuVal_ColorLib_Ucbx_
@@ -5118,12 +5967,51 @@ references:
   isSpec: "True"
   fullName: ColorLib.UnsetBehConf.CbuVal
   nameWithType: UnsetBehConf.CbuVal
-- uid: ColorLib.UnsetBehConf.updateUCheckBoxes
-  name: updateUCheckBoxes
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_updateUCheckBoxes
-  commentId: F:ColorLib.UnsetBehConf.updateUCheckBoxes
-  fullName: ColorLib.UnsetBehConf.updateUCheckBoxes
-  nameWithType: UnsetBehConf.updateUCheckBoxes
+- uid: ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent
+  name: CheckboxUnsetModifiedEvent
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CheckboxUnsetModifiedEvent
+  commentId: E:ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent
+  fullName: ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent
+  nameWithType: UnsetBehConf.CheckboxUnsetModifiedEvent
+- uid: ColorLib.UnsetBehConf.Init
+  name: Init()
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_Init
+  commentId: M:ColorLib.UnsetBehConf.Init
+  fullName: ColorLib.UnsetBehConf.Init()
+  nameWithType: UnsetBehConf.Init()
+- uid: ColorLib.UnsetBehConf.Init*
+  name: Init
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_Init_
+  commentId: Overload:ColorLib.UnsetBehConf.Init
+  isSpec: "True"
+  fullName: ColorLib.UnsetBehConf.Init
+  nameWithType: UnsetBehConf.Init
+- uid: ColorLib.UnsetBehConf.OnCheckboxUnsetModified(ColorLib.Ucbx)
+  name: OnCheckboxUnsetModified(Ucbx)
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_OnCheckboxUnsetModified_ColorLib_Ucbx_
+  commentId: M:ColorLib.UnsetBehConf.OnCheckboxUnsetModified(ColorLib.Ucbx)
+  fullName: ColorLib.UnsetBehConf.OnCheckboxUnsetModified(ColorLib.Ucbx)
+  nameWithType: UnsetBehConf.OnCheckboxUnsetModified(Ucbx)
+- uid: ColorLib.UnsetBehConf.OnCheckboxUnsetModified*
+  name: OnCheckboxUnsetModified
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_OnCheckboxUnsetModified_
+  commentId: Overload:ColorLib.UnsetBehConf.OnCheckboxUnsetModified
+  isSpec: "True"
+  fullName: ColorLib.UnsetBehConf.OnCheckboxUnsetModified
+  nameWithType: UnsetBehConf.OnCheckboxUnsetModified
+- uid: ColorLib.UnsetBehConf.Reset
+  name: Reset()
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_Reset
+  commentId: M:ColorLib.UnsetBehConf.Reset
+  fullName: ColorLib.UnsetBehConf.Reset()
+  nameWithType: UnsetBehConf.Reset()
+- uid: ColorLib.UnsetBehConf.Reset*
+  name: Reset
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_Reset_
+  commentId: Overload:ColorLib.UnsetBehConf.Reset
+  isSpec: "True"
+  fullName: ColorLib.UnsetBehConf.Reset
+  nameWithType: UnsetBehConf.Reset
 - uid: ColorLib.Word
   name: Word
   href: api/ColorLib.Word.html
@@ -5175,12 +6063,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.Word.GetWord
   nameWithType: Word.GetWord
-- uid: ColorLib.Word.PutColor
-  name: PutColor()
-  href: api/ColorLib.Word.html#ColorLib_Word_PutColor
-  commentId: M:ColorLib.Word.PutColor
-  fullName: ColorLib.Word.PutColor()
-  nameWithType: Word.PutColor()
+- uid: ColorLib.Word.PutColor(ColorLib.Config)
+  name: PutColor(Config)
+  href: api/ColorLib.Word.html#ColorLib_Word_PutColor_ColorLib_Config_
+  commentId: M:ColorLib.Word.PutColor(ColorLib.Config)
+  fullName: ColorLib.Word.PutColor(ColorLib.Config)
+  nameWithType: Word.PutColor(Config)
 - uid: ColorLib.Word.PutColor*
   name: PutColor
   href: api/ColorLib.Word.html#ColorLib_Word_PutColor_
@@ -5723,19 +6611,6 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.TextElTest.TestSetCharFormat
   nameWithType: TextElTest.TestSetCharFormat
-- uid: ColorLibTest.TextElTest.TstSetCharFormat(ColorLib.TheText)
-  name: TstSetCharFormat(TheText)
-  href: api/ColorLibTest.TextElTest.html#ColorLibTest_TextElTest_TstSetCharFormat_ColorLib_TheText_
-  commentId: M:ColorLibTest.TextElTest.TstSetCharFormat(ColorLib.TheText)
-  fullName: ColorLibTest.TextElTest.TstSetCharFormat(ColorLib.TheText)
-  nameWithType: TextElTest.TstSetCharFormat(TheText)
-- uid: ColorLibTest.TextElTest.TstSetCharFormat*
-  name: TstSetCharFormat
-  href: api/ColorLibTest.TextElTest.html#ColorLibTest_TextElTest_TstSetCharFormat_
-  commentId: Overload:ColorLibTest.TextElTest.TstSetCharFormat
-  isSpec: "True"
-  fullName: ColorLibTest.TextElTest.TstSetCharFormat
-  nameWithType: TextElTest.TstSetCharFormat
 - uid: ColorLibTest.TheTextTest
   name: TheTextTest
   href: api/ColorLibTest.TheTextTest.html

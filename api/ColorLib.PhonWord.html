@@ -91,7 +91,7 @@
       <a class="xref" href="ColorLib.Word.html#ColorLib_Word_GetChar_System_Int32_">Word.GetChar(Int32)</a>
     </div>
     <div>
-      <a class="xref" href="ColorLib.Word.html#ColorLib_Word_PutColor">Word.PutColor()</a>
+      <a class="xref" href="ColorLib.Word.html#ColorLib_Word_PutColor_ColorLib_Config_">Word.PutColor(Config)</a>
     </div>
     <div>
       <a class="xref" href="ColorLib.TextEl.html#ColorLib_TextEl_T">TextEl.T</a>
@@ -143,18 +143,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord__ctor_ColorLib_TheText_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.%23ctor(ColorLib.TheText%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord__ctor_ColorLib_TheText_System_Int32_System_Int32_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.%23ctor(ColorLib.TheText%2CSystem.Int32%2CSystem.Int32%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L33">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L40">View Source</a>
   </span>
   <a id="ColorLib_PhonWord__ctor_" data-uid="ColorLib.PhonWord.#ctor*"></a>
-  <h4 id="ColorLib_PhonWord__ctor_ColorLib_TheText_System_Int32_System_Int32_" data-uid="ColorLib.PhonWord.#ctor(ColorLib.TheText,System.Int32,System.Int32)">PhonWord(TheText, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ColorLib_PhonWord__ctor_ColorLib_TheText_System_Int32_System_Int32_ColorLib_Config_" data-uid="ColorLib.PhonWord.#ctor(ColorLib.TheText,System.Int32,System.Int32,ColorLib.Config)">PhonWord(TheText, Int32, Int32, Config)</h4>
+  <div class="markdown level1 summary"><p>Crée un <code>PhonWord</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PhonWord(TheText inT, int inFirst, int inLast)</code></pre>
+    <pre><code class="lang-csharp hljs">public PhonWord(TheText inT, int inFirst, int inLast, Config conf)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,34 +170,44 @@
       <tr>
         <td><a class="xref" href="ColorLib.TheText.html">TheText</a></td>
         <td><span class="parametername">inT</span></td>
-        <td></td>
+        <td><p>Le <a class="xref" href="ColorLib.TheText.html">TheText</a> sur le quel est construit le <code>PhonWord</code>.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">inFirst</span></td>
-        <td></td>
+        <td><p>La position de la première lettre (zero based) du mot dans le texte.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">inLast</span></td>
-        <td></td>
+        <td><p>La position de la dernière lettre du mot dans le texte.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td><p>La <a class="xref" href="ColorLib.Config.html">Config</a> à utiliser pour la détection des phonèmes.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord__ctor_ColorLib_Word_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.%23ctor(ColorLib.Word)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord__ctor_ColorLib_Word_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.%23ctor(ColorLib.Word%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L41">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L53">View Source</a>
   </span>
   <a id="ColorLib_PhonWord__ctor_" data-uid="ColorLib.PhonWord.#ctor*"></a>
-  <h4 id="ColorLib_PhonWord__ctor_ColorLib_Word_" data-uid="ColorLib.PhonWord.#ctor(ColorLib.Word)">PhonWord(Word)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ColorLib_PhonWord__ctor_ColorLib_Word_ColorLib_Config_" data-uid="ColorLib.PhonWord.#ctor(ColorLib.Word,ColorLib.Config)">PhonWord(Word, Config)</h4>
+  <div class="markdown level1 summary"><p>Crée un <code>PhonWord</code> sur la base d'un <code>Word</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PhonWord(Word w)</code></pre>
+    <pre><code class="lang-csharp hljs">public PhonWord(Word w, Config conf)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,7 +222,14 @@
       <tr>
         <td><a class="xref" href="ColorLib.Word.html">Word</a></td>
         <td><span class="parametername">w</span></td>
-        <td></td>
+        <td><p>Le <code>Word</code> sur la base duquel le <code>PhonWord</code> doit être créé.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td><p>La <a class="xref" href="ColorLib.Config.html">Config</a> à utiliser pour la détection des phonèmes.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -222,11 +240,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_AddPhon_ColorLib_PhonInW_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.AddPhon(ColorLib.PhonInW)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L49">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L65">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_AddPhon_" data-uid="ColorLib.PhonWord.AddPhon*"></a>
   <h4 id="ColorLib_PhonWord_AddPhon_ColorLib_PhonInW_" data-uid="ColorLib.PhonWord.AddPhon(ColorLib.PhonInW)">AddPhon(PhonInW)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ajout un phonème (<a class="xref" href="ColorLib.PhonInW.html">PhonInW</a>) au <code>PhonWord</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -245,7 +264,8 @@
       <tr>
         <td><a class="xref" href="ColorLib.PhonInW.html">PhonInW</a></td>
         <td><span class="parametername">piw</span></td>
-        <td></td>
+        <td><p>Le <a class="xref" href="ColorLib.PhonInW.html">PhonInW</a> à ajouter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -254,7 +274,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_AllStringInfo.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.AllStringInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L200">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L228">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_AllStringInfo_" data-uid="ColorLib.PhonWord.AllStringInfo*"></a>
   <h4 id="ColorLib_PhonWord_AllStringInfo" data-uid="ColorLib.PhonWord.AllStringInfo">AllStringInfo()</h4>
@@ -286,7 +306,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_ClearPhons.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.ClearPhons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L240">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L268">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_ClearPhons_" data-uid="ColorLib.PhonWord.ClearPhons*"></a>
   <h4 id="ColorLib_PhonWord_ClearPhons" data-uid="ColorLib.PhonWord.ClearPhons">ClearPhons()</h4>
@@ -298,18 +318,20 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_ColorPhons_ColorLib_PhonConfType_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.ColorPhons(ColorLib.PhonConfType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_ColorPhons_ColorLib_Config_ColorLib_PhonConfType_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.ColorPhons(ColorLib.Config%2CColorLib.PhonConfType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L55">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L78">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_ColorPhons_" data-uid="ColorLib.PhonWord.ColorPhons*"></a>
-  <h4 id="ColorLib_PhonWord_ColorPhons_ColorLib_PhonConfType_" data-uid="ColorLib.PhonWord.ColorPhons(ColorLib.PhonConfType)">ColorPhons(PhonConfType)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ColorLib_PhonWord_ColorPhons_ColorLib_Config_ColorLib_PhonConfType_" data-uid="ColorLib.PhonWord.ColorPhons(ColorLib.Config,ColorLib.PhonConfType)">ColorPhons(Config, PhonConfType)</h4>
+  <div class="markdown level1 summary"><p>Applique le formatage de phonèmes défini dans le <a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a> <code>pct</code> de
+la <a class="xref" href="ColorLib.Config.html">Config</a> <code>conf</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ColorPhons(PhonConfType pct)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ColorPhons(Config conf, PhonConfType pct)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -322,33 +344,61 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td><p>La <a class="xref" href="ColorLib.Config.html">Config</a> à utiliser pour le formatage des phonèmes.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a></td>
         <td><span class="parametername">pct</span></td>
-        <td></td>
+        <td><p>Le <a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a> définissant s'il s'agit de la configuration pour
+les phonèmes, les muettes, ...</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_ComputeAndColorSyls.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.ComputeAndColorSyls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_ComputeAndColorSyls_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L61">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L89">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_ComputeAndColorSyls_" data-uid="ColorLib.PhonWord.ComputeAndColorSyls*"></a>
-  <h4 id="ColorLib_PhonWord_ComputeAndColorSyls" data-uid="ColorLib.PhonWord.ComputeAndColorSyls">ComputeAndColorSyls()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ColorLib_PhonWord_ComputeAndColorSyls_ColorLib_Config_" data-uid="ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)">ComputeAndColorSyls(Config)</h4>
+  <div class="markdown level1 summary"><p>Calcule et formate les syllabes avec la <a class="xref" href="ColorLib.Config.html">Config</a> donnée.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ComputeAndColorSyls()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ComputeAndColorSyls(Config conf)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td><p>La <code>Config</code> à utiliser pour savoir quelles options sont choisies
+et le formatage à appliquer pour les syllabes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_Phonetique.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.Phonetique%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L190">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L218">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_Phonetique_" data-uid="ColorLib.PhonWord.Phonetique*"></a>
   <h4 id="ColorLib_PhonWord_Phonetique" data-uid="ColorLib.PhonWord.Phonetique">Phonetique()</h4>
@@ -378,7 +428,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PhonWord_Syllabes.md&amp;value=---%0Auid%3A%20ColorLib.PhonWord.Syllabes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L227">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/PhonWord.cs/#L255">View Source</a>
   </span>
   <a id="ColorLib_PhonWord_Syllabes_" data-uid="ColorLib.PhonWord.Syllabes*"></a>
   <h4 id="ColorLib_PhonWord_Syllabes" data-uid="ColorLib.PhonWord.Syllabes">Syllabes()</h4>

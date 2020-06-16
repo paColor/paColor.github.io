@@ -105,6 +105,8 @@ la mise en noir et l&apos;élimination des caractéristique <code>bold</code>, <
       <section><p>Un objet de cette classe correspond à des instruction de formatage. Les différents membres de l'objet
 indiquent comment les différents aspects du formatage doivent être traités.</p>
 </section>
+      <h4><a class="xref" href="ColorLib.CheckboxUnsetModifiedEventArgs.html">CheckboxUnsetModifiedEventArgs</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.Config.html">Config</a></h4>
@@ -113,16 +115,35 @@ indiquent comment les différents aspects du formatage doivent être traités.</
       <h4><a class="xref" href="ColorLib.ConfigBase.html">ConfigBase</a></h4>
       <section><p>Classe de base pour les différentes classes de configuration.</p>
 </section>
+      <h4><a class="xref" href="ColorLib.ConfigReplacedEventArgs.html">ConfigReplacedEventArgs</a></h4>
+      <section><p>Argument passé lors de l'évènement <code>ConfigResetttedEvent</code>.</p>
+</section>
+      <h4><a class="xref" href="ColorLib.DuoConfig.html">DuoConfig</a></h4>
+      <section><p>Données de configuration pour la fonction &quot;Duo&quot; ou &quot;2&quot;.</p>
+</section>
+      <h4><a class="xref" href="ColorLib.DuoConfReplacedEventArgs.html">DuoConfReplacedEventArgs</a></h4>
+      <section><p>Argument passé lors de l'évènement <code>DuoConfReplacedEvent</code>.</p>
+</section>
       <h4><a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a></h4>
       <section></section>
+      <h4><a class="xref" href="ColorLib.LetterButtonModifiedEventArgs.html">LetterButtonModifiedEventArgs</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.PBDQConfig.html">PBDQConfig</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.PhonConfModifiedEventArgs.html">PhonConfModifiedEventArgs</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.PhonInW.html">PhonInW</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.PhonWord.html">PhonWord</a></h4>
       <section></section>
-      <h4><a class="xref" href="ColorLib.SylConfig.html">SylConfig</a></h4>
+      <h4><a class="xref" href="ColorLib.SonConfigModifiedEventArgs.html">SonConfigModifiedEventArgs</a></h4>
       <section></section>
+      <h4><a class="xref" href="ColorLib.SylButtonModifiedEventArgs.html">SylButtonModifiedEventArgs</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.SylConfig.html">SylConfig</a></h4>
+      <section><p>Configuration pour les commandes demandant un formatage alterné comme le marquage des syllabes, des mots
+des lignes...</p>
+</section>
       <h4><a class="xref" href="ColorLib.SylInW.html">SylInW</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.TextEl.html">TextEl</a></h4>
@@ -133,16 +154,16 @@ The class TheText represents the text that is analysed and whose formatting is a
 analysis algorithm.
 </p>
 <p>
-</p>
-<p>
-The idea is that the inheriting class is created with a <code>string</code> and a <code>Config</code> (see the constructor
-<a class="xref" href="ColorLib.TheText.html#ColorLib_TheText__ctor_System_String_ColorLib_Config_">TheText(String, Config)</a>). Once this is done, 
+The idea is that the inheriting class is created with a <code>string</code>. Once this is done, 
 different methods make it possible to apply some kind of formatting to the text. This formatting is applied
-to the inheriting class by calling the method <code>SetChars</code> see <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_">SetChars(FormattedTextEl)</a>.
+to the inheriting class by calling the method <code>SetChars</code> see <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_">SetChars(FormattedTextEl, Config)</a>.
 </p>
 </section>
       <h4><a class="xref" href="ColorLib.UnsetBehConf.html">UnsetBehConf</a></h4>
-      <section></section>
+      <section><p>Configuration pour les flags avancés déterminant comment doit se comporter le formatage
+quand un attribut d'un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> sont à la valeur <code>false</code>. Faut-il
+laisser le formatage dans l'état actuel ou forcer à la valeur <code>false</code>?</p>
+</section>
       <h4><a class="xref" href="ColorLib.Word.html">Word</a></h4>
       <section></section>
     <h3 id="structs">Structs
@@ -163,6 +184,12 @@ mise en couleur des phonèmes qui n'ont pas d'instructions de fomratage.</p>
       <h4><a class="xref" href="ColorLib.ColConfWin.IllRule.html">ColConfWin.IllRule</a></h4>
       <section><p>mode à utiliser pour les &quot;ill&quot;</p>
 </section>
+      <h4><a class="xref" href="ColorLib.DuoConfig.Alternance.html">DuoConfig.Alternance</a></h4>
+      <section><p>Type utilisé pour définir quelle aternance est désirée dans la commande &quot;duo&quot;</p>
+</section>
+      <h4><a class="xref" href="ColorLib.DuoConfig.ColorisFunction.html">DuoConfig.ColorisFunction</a></h4>
+      <section><p>Type utilisé pour définir quelle fonction doit être appliquée par la commande &quot;duo&quot;</p>
+</section>
       <h4><a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a></h4>
       <section><p>Sert à différentier les <a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a>.</p>
 </section>
@@ -173,17 +200,17 @@ mise en couleur des phonèmes qui n'ont pas d'instructions de fomratage.</p>
       <h4><a class="xref" href="ColorLib.PredefCols.html">PredefCols</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.Ucbx.html">Ucbx</a></h4>
-      <section></section>
+      <section><p>Les différentes checkboxes qui existent</p>
+</section>
     <h3 id="delegates">Delegates
   </h3>
-      <h4><a class="xref" href="ColorLib.ExecTaskOnLetterButton.html">ExecTaskOnLetterButton</a></h4>
-      <section></section>
       <h4><a class="xref" href="ColorLib.ExecTaskOnSon.html">ExecTaskOnSon</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ColorLib.ExecTaskOnSylButton.html">ExecTaskOnSylButton</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.ExecuteTask.html">ExecuteTask</a></h4>
       <section></section>
+      <h4><a class="xref" href="ColorLib.TheText.GetTextPos.html">TheText.GetTextPos</a></h4>
+      <section><p>Returns a list of zero based text positions.</p>
+</section>
 </article>
           </div>
           
