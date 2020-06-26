@@ -72,7 +72,7 @@
           "hash": "Ycxdm7ZXvfwypuMPnyGWbw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "/Voqo2zD9qEOapxzMK6xsg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.CFForceBlack.html",
-          "hash": "Y2JG2aj1/LLBHSXLs4h7XA=="
+          "hash": "WlDws9CGvo3eswyFr+nl6g=="
         }
       },
       "is_incremental": false,
@@ -132,7 +132,7 @@
           "hash": "YdT6L2VVp9OrX+tm5m7Q5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "OTHhhj1uMVb3YKX9Az9Ugw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,7 +153,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.ColConfWin.html",
-          "hash": "D22kDHrYBxnyHhHFS12reQ=="
+          "hash": "PlI9a8Y2j787hXrLXZzyGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.CompletedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.CompletedEventArgs.html",
+          "hash": "lnzcm1FpeB0EK1+DXLSiMQ=="
         }
       },
       "is_incremental": false,
@@ -216,7 +228,7 @@
           "hash": "UHmIguhy2aqXBhNELD1Mfg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +240,7 @@
           "hash": "TYATNdjQYdtDRmtud1gI1w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +264,7 @@
           "hash": "/0aKZal5NZfsW/nH2rc7UQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +276,7 @@
           "hash": "mAk/clYLbVCJ8IznZd+tiA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.FormattedTextEl.html",
-          "hash": "R+iZdAN6yRryOVgRfWyqLQ=="
+          "hash": "pyoSg2KcHbN1U/pKkxqUXw=="
         }
       },
       "is_incremental": false,
@@ -333,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.PhonInW.html",
-          "hash": "aM27GD9FfIC2jzQINTk5Yg=="
+          "hash": "XFXVFZMJx7iw7rjCt4R4RQ=="
         }
       },
       "is_incremental": false,
@@ -348,7 +360,7 @@
           "hash": "mQkiEoqXwSYsLYQsy+vVdA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.PhonWord.html",
-          "hash": "xvGEl7rGqBCKvbsbz2XZHA=="
+          "hash": "GicgBEzRivd/VPj6g+iKeg=="
         }
       },
       "is_incremental": false,
@@ -372,7 +384,7 @@
           "hash": "6H1tehW78WaVNejLxZiuSw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -384,7 +396,31 @@
           "hash": "SH83queMHT3oZ4uI1po0Ng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ProgressEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ProgressEventArgs.html",
+          "hash": "M+SSOkeI33Dz9qu55WEujw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ProgressNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ProgressNotifier.html",
+          "hash": "KE3U0mwMfjAVxxNB1vq1ZQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -396,7 +432,7 @@
           "hash": "Lq2JPIe18Exn4CxcL/1WnQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +468,7 @@
           "hash": "xzIO5fDQ2bPlN2Kw+ZHIug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.SylInW.html",
-          "hash": "CKVuqWFlREFRvLOG4Iwxcw=="
+          "hash": "CHFLCtOfg/+fUmiyAtQ26g=="
         }
       },
       "is_incremental": false,
@@ -465,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.TextEl.html",
-          "hash": "9nDQRnM0qxEqxokeSrLs3Q=="
+          "hash": "r1XUsgBCE5koVyjYsZaHfA=="
         }
       },
       "is_incremental": false,
@@ -477,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.TheText.GetTextPos.html",
-          "hash": "xXUhSRAi8h8fAJ9SX3b0QQ=="
+          "hash": "35JWhn20+R6C8GoBZVegpQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.TheText.html",
-          "hash": "N32G6iWSMP5cN06Sg8GmDw=="
+          "hash": "SjxXX9/6PzEnhSvgv3aplg=="
         }
       },
       "is_incremental": false,
@@ -504,7 +540,7 @@
           "hash": "btZTnVcXmllwBztSQ2k03g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.UnsetBehConf.html",
-          "hash": "Z5LkahDZ1mZAMj5UwwE5IQ=="
+          "hash": "LwfSScwOUxGlr+hOLiuUbQ=="
         }
       },
       "is_incremental": false,
@@ -525,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.Word.html",
-          "hash": "BeoZ8IRXy2IdkKA+MKTnaQ=="
+          "hash": "USb50EzXK6og1H1NlJde2w=="
         }
       },
       "is_incremental": false,
@@ -537,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.html",
-          "hash": "AccjLijQW2OD8uux7LPHHg=="
+          "hash": "RZG8/lU/uxsS5QX8RQxjqg=="
         }
       },
       "is_incremental": false,
@@ -552,7 +588,7 @@
           "hash": "Bmr3pA4G2qjRT0u9PwcfEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -564,7 +600,7 @@
           "hash": "+Hrr6PNMI3EMkPhXA+1LwA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -576,7 +612,7 @@
           "hash": "WAbiHCoWjWcxqjKxmHuagg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -588,7 +624,19 @@
           "hash": "6DlZ3vi21ShLvOJ0HP/a5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.PerfParallelTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.PerfParallelTest.html",
+          "hash": "24DbGega1jL5bUNUjp6CQA=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +648,7 @@
           "hash": "h0lLb4F2X/81XgxFFUsiSg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -612,7 +660,7 @@
           "hash": "UGJK571EklGmqIgI0qj5lg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -621,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLibTest.TextElTest.html",
-          "hash": "VQcfX613+klkuzi/gYivNw=="
+          "hash": "brKG22TrLxXBzajbWzIoAA=="
         }
       },
       "is_incremental": false,
@@ -636,7 +684,7 @@
           "hash": "h3ljzhUpy2JM4VdFTAs5dQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -645,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLibTest.html",
-          "hash": "PIUYsDUSoKBrGda9GF/ssg=="
+          "hash": "PaY4Sm9iIMcxaaD4UQETeg=="
         }
       },
       "is_incremental": false,
@@ -660,7 +708,7 @@
           "hash": "aj0DwJBQ3va5CLosCtPu5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -669,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Colorization.PPTText.html",
-          "hash": "go2JP01Q1LGjuJ4luXAhNg=="
+          "hash": "wb0eYGme/XKLmXccq/lOOA=="
         }
       },
       "is_incremental": false,
@@ -708,7 +756,7 @@
           "hash": "XX5nXjKsvd+oyFr9K1TkQA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -732,7 +780,7 @@
           "hash": "PU1gyvjhPC49TxRSKHhenw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -741,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorizationControls.ConfigControl.html",
-          "hash": "tKwYhZPltHJI1WVfbpzb/w=="
+          "hash": "WK9RT3I887df0HByP4hEGQ=="
         }
       },
       "is_incremental": false,
@@ -756,7 +804,7 @@
           "hash": "bN4aHmMMH1+baJJPjZ0clA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -816,7 +864,7 @@
           "hash": "IKdbcxhBm26mlVHvrzNRsA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -837,10 +885,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorizationControls.InitNLog.html",
-          "hash": "LxU+pC/A20S8xyjiAzWYVg=="
+          "hash": "ExgPElx1beMYrVcY2Sm0NA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -888,7 +936,7 @@
           "hash": "T4S2uASNXhqIqEhc0RvQVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -900,7 +948,7 @@
           "hash": "M6JPa8PqfsmHYxuzgpbyPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -917,11 +965,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ColorizationControls.WaitingForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorizationControls.WaitingForm.html",
+          "hash": "g7w0qXPphWSpk/QCQOTH2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ColorizationControls.yml",
       "output": {
         ".html": {
           "relative_path": "api/ColorizationControls.html",
-          "hash": "oazfJG3HHRMzBh9lD06GxQ=="
+          "hash": "g+t5U6rBm4VQo0cnGLKrTw=="
         }
       },
       "is_incremental": false,
@@ -936,7 +996,7 @@
           "hash": "RsPdtTOTrS+3nctn48CJCg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -945,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorizationWord.MSWText.html",
-          "hash": "tBnXNWtcGdTFg1Z9PuJ9mA=="
+          "hash": "yxh1ueKxJMbGl6CwciF2wg=="
         }
       },
       "is_incremental": false,
@@ -984,7 +1044,7 @@
           "hash": "k19ZX3RuGOgr6KpTATkcXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -996,7 +1056,7 @@
           "hash": "ww8lsiWuZxjDF86W1sq6Pg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1008,7 +1068,7 @@
           "hash": "xlfQvNoivbOZ6o5CzIAq5A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1017,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lBzZxPH3l/qeFaJharcEZQ=="
+          "hash": "OicTCgjMh9vdKs1emqc5Wg=="
         }
       },
       "is_incremental": false,
@@ -1136,8 +1196,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 83,
-          "skipped_file_count": 47
+          "total_file_count": 88,
+          "skipped_file_count": 40
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -1091,6 +1091,51 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.SylFormatForm.FormName
   nameWithType: SylFormatForm.FormName
+- uid: ColorizationControls.WaitingForm
+  name: WaitingForm
+  href: api/ColorizationControls.WaitingForm.html
+  commentId: T:ColorizationControls.WaitingForm
+  fullName: ColorizationControls.WaitingForm
+  nameWithType: WaitingForm
+- uid: ColorizationControls.WaitingForm.#ctor
+  name: WaitingForm()
+  href: api/ColorizationControls.WaitingForm.html#ColorizationControls_WaitingForm__ctor
+  commentId: M:ColorizationControls.WaitingForm.#ctor
+  fullName: ColorizationControls.WaitingForm.WaitingForm()
+  nameWithType: WaitingForm.WaitingForm()
+- uid: ColorizationControls.WaitingForm.#ctor*
+  name: WaitingForm
+  href: api/ColorizationControls.WaitingForm.html#ColorizationControls_WaitingForm__ctor_
+  commentId: Overload:ColorizationControls.WaitingForm.#ctor
+  isSpec: "True"
+  fullName: ColorizationControls.WaitingForm.WaitingForm
+  nameWithType: WaitingForm.WaitingForm
+- uid: ColorizationControls.WaitingForm.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/ColorizationControls.WaitingForm.html#ColorizationControls_WaitingForm_Dispose_System_Boolean_
+  commentId: M:ColorizationControls.WaitingForm.Dispose(System.Boolean)
+  fullName: ColorizationControls.WaitingForm.Dispose(System.Boolean)
+  nameWithType: WaitingForm.Dispose(Boolean)
+- uid: ColorizationControls.WaitingForm.Dispose*
+  name: Dispose
+  href: api/ColorizationControls.WaitingForm.html#ColorizationControls_WaitingForm_Dispose_
+  commentId: Overload:ColorizationControls.WaitingForm.Dispose
+  isSpec: "True"
+  fullName: ColorizationControls.WaitingForm.Dispose
+  nameWithType: WaitingForm.Dispose
+- uid: ColorizationControls.WaitingForm.Init
+  name: Init()
+  href: api/ColorizationControls.WaitingForm.html#ColorizationControls_WaitingForm_Init
+  commentId: M:ColorizationControls.WaitingForm.Init
+  fullName: ColorizationControls.WaitingForm.Init()
+  nameWithType: WaitingForm.Init()
+- uid: ColorizationControls.WaitingForm.Init*
+  name: Init
+  href: api/ColorizationControls.WaitingForm.html#ColorizationControls_WaitingForm_Init_
+  commentId: Overload:ColorizationControls.WaitingForm.Init
+  isSpec: "True"
+  fullName: ColorizationControls.WaitingForm.Init
+  nameWithType: WaitingForm.Init
 - uid: ColorizationWord
   name: ColorizationWord
   href: api/ColorizationWord.html
@@ -2939,6 +2984,51 @@ references:
   commentId: E:ColorLib.ColConfWin.SonCharFormattingModifiedEvent
   fullName: ColorLib.ColConfWin.SonCharFormattingModifiedEvent
   nameWithType: ColConfWin.SonCharFormattingModifiedEvent
+- uid: ColorLib.CompletedEventArgs
+  name: CompletedEventArgs
+  href: api/ColorLib.CompletedEventArgs.html
+  commentId: T:ColorLib.CompletedEventArgs
+  fullName: ColorLib.CompletedEventArgs
+  nameWithType: CompletedEventArgs
+- uid: ColorLib.CompletedEventArgs.#ctor(System.Int64)
+  name: CompletedEventArgs(Int64)
+  href: api/ColorLib.CompletedEventArgs.html#ColorLib_CompletedEventArgs__ctor_System_Int64_
+  commentId: M:ColorLib.CompletedEventArgs.#ctor(System.Int64)
+  fullName: ColorLib.CompletedEventArgs.CompletedEventArgs(System.Int64)
+  nameWithType: CompletedEventArgs.CompletedEventArgs(Int64)
+- uid: ColorLib.CompletedEventArgs.#ctor*
+  name: CompletedEventArgs
+  href: api/ColorLib.CompletedEventArgs.html#ColorLib_CompletedEventArgs__ctor_
+  commentId: Overload:ColorLib.CompletedEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.CompletedEventArgs.CompletedEventArgs
+  nameWithType: CompletedEventArgs.CompletedEventArgs
+- uid: ColorLib.CompletedEventArgs.elapsedMilliseconds
+  name: elapsedMilliseconds
+  href: api/ColorLib.CompletedEventArgs.html#ColorLib_CompletedEventArgs_elapsedMilliseconds
+  commentId: P:ColorLib.CompletedEventArgs.elapsedMilliseconds
+  fullName: ColorLib.CompletedEventArgs.elapsedMilliseconds
+  nameWithType: CompletedEventArgs.elapsedMilliseconds
+- uid: ColorLib.CompletedEventArgs.elapsedMilliseconds*
+  name: elapsedMilliseconds
+  href: api/ColorLib.CompletedEventArgs.html#ColorLib_CompletedEventArgs_elapsedMilliseconds_
+  commentId: Overload:ColorLib.CompletedEventArgs.elapsedMilliseconds
+  isSpec: "True"
+  fullName: ColorLib.CompletedEventArgs.elapsedMilliseconds
+  nameWithType: CompletedEventArgs.elapsedMilliseconds
+- uid: ColorLib.CompletedEventArgs.ToString
+  name: ToString()
+  href: api/ColorLib.CompletedEventArgs.html#ColorLib_CompletedEventArgs_ToString
+  commentId: M:ColorLib.CompletedEventArgs.ToString
+  fullName: ColorLib.CompletedEventArgs.ToString()
+  nameWithType: CompletedEventArgs.ToString()
+- uid: ColorLib.CompletedEventArgs.ToString*
+  name: ToString
+  href: api/ColorLib.CompletedEventArgs.html#ColorLib_CompletedEventArgs_ToString_
+  commentId: Overload:ColorLib.CompletedEventArgs.ToString
+  isSpec: "True"
+  fullName: ColorLib.CompletedEventArgs.ToString
+  nameWithType: CompletedEventArgs.ToString
 - uid: ColorLib.Config
   name: Config
   href: api/ColorLib.Config.html
@@ -4869,6 +4959,205 @@ references:
   commentId: F:ColorLib.PredefCols.white
   fullName: ColorLib.PredefCols.white
   nameWithType: PredefCols.white
+- uid: ColorLib.ProgressEventArgs
+  name: ProgressEventArgs
+  href: api/ColorLib.ProgressEventArgs.html
+  commentId: T:ColorLib.ProgressEventArgs
+  fullName: ColorLib.ProgressEventArgs
+  nameWithType: ProgressEventArgs
+- uid: ColorLib.ProgressEventArgs.#ctor(System.Int32,System.Int64,System.Int64)
+  name: ProgressEventArgs(Int32, Int64, Int64)
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs__ctor_System_Int32_System_Int64_System_Int64_
+  commentId: M:ColorLib.ProgressEventArgs.#ctor(System.Int32,System.Int64,System.Int64)
+  fullName: ColorLib.ProgressEventArgs.ProgressEventArgs(System.Int32, System.Int64, System.Int64)
+  nameWithType: ProgressEventArgs.ProgressEventArgs(Int32, Int64, Int64)
+- uid: ColorLib.ProgressEventArgs.#ctor*
+  name: ProgressEventArgs
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs__ctor_
+  commentId: Overload:ColorLib.ProgressEventArgs.#ctor
+  isSpec: "True"
+  fullName: ColorLib.ProgressEventArgs.ProgressEventArgs
+  nameWithType: ProgressEventArgs.ProgressEventArgs
+- uid: ColorLib.ProgressEventArgs.elapsedMilliseconds
+  name: elapsedMilliseconds
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_elapsedMilliseconds
+  commentId: P:ColorLib.ProgressEventArgs.elapsedMilliseconds
+  fullName: ColorLib.ProgressEventArgs.elapsedMilliseconds
+  nameWithType: ProgressEventArgs.elapsedMilliseconds
+- uid: ColorLib.ProgressEventArgs.elapsedMilliseconds*
+  name: elapsedMilliseconds
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_elapsedMilliseconds_
+  commentId: Overload:ColorLib.ProgressEventArgs.elapsedMilliseconds
+  isSpec: "True"
+  fullName: ColorLib.ProgressEventArgs.elapsedMilliseconds
+  nameWithType: ProgressEventArgs.elapsedMilliseconds
+- uid: ColorLib.ProgressEventArgs.progress
+  name: progress
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_progress
+  commentId: P:ColorLib.ProgressEventArgs.progress
+  fullName: ColorLib.ProgressEventArgs.progress
+  nameWithType: ProgressEventArgs.progress
+- uid: ColorLib.ProgressEventArgs.progress*
+  name: progress
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_progress_
+  commentId: Overload:ColorLib.ProgressEventArgs.progress
+  isSpec: "True"
+  fullName: ColorLib.ProgressEventArgs.progress
+  nameWithType: ProgressEventArgs.progress
+- uid: ColorLib.ProgressEventArgs.remainingMilliseconds
+  name: remainingMilliseconds
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_remainingMilliseconds
+  commentId: P:ColorLib.ProgressEventArgs.remainingMilliseconds
+  fullName: ColorLib.ProgressEventArgs.remainingMilliseconds
+  nameWithType: ProgressEventArgs.remainingMilliseconds
+- uid: ColorLib.ProgressEventArgs.remainingMilliseconds*
+  name: remainingMilliseconds
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_remainingMilliseconds_
+  commentId: Overload:ColorLib.ProgressEventArgs.remainingMilliseconds
+  isSpec: "True"
+  fullName: ColorLib.ProgressEventArgs.remainingMilliseconds
+  nameWithType: ProgressEventArgs.remainingMilliseconds
+- uid: ColorLib.ProgressEventArgs.ToString
+  name: ToString()
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_ToString
+  commentId: M:ColorLib.ProgressEventArgs.ToString
+  fullName: ColorLib.ProgressEventArgs.ToString()
+  nameWithType: ProgressEventArgs.ToString()
+- uid: ColorLib.ProgressEventArgs.ToString*
+  name: ToString
+  href: api/ColorLib.ProgressEventArgs.html#ColorLib_ProgressEventArgs_ToString_
+  commentId: Overload:ColorLib.ProgressEventArgs.ToString
+  isSpec: "True"
+  fullName: ColorLib.ProgressEventArgs.ToString
+  nameWithType: ProgressEventArgs.ToString
+- uid: ColorLib.ProgressNotifier
+  name: ProgressNotifier
+  href: api/ColorLib.ProgressNotifier.html
+  commentId: T:ColorLib.ProgressNotifier
+  fullName: ColorLib.ProgressNotifier
+  nameWithType: ProgressNotifier
+- uid: ColorLib.ProgressNotifier.#ctor
+  name: ProgressNotifier()
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier__ctor
+  commentId: M:ColorLib.ProgressNotifier.#ctor
+  fullName: ColorLib.ProgressNotifier.ProgressNotifier()
+  nameWithType: ProgressNotifier.ProgressNotifier()
+- uid: ColorLib.ProgressNotifier.#ctor*
+  name: ProgressNotifier
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier__ctor_
+  commentId: Overload:ColorLib.ProgressNotifier.#ctor
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.ProgressNotifier
+  nameWithType: ProgressNotifier.ProgressNotifier
+- uid: ColorLib.ProgressNotifier.Completed
+  name: Completed()
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed
+  commentId: M:ColorLib.ProgressNotifier.Completed
+  fullName: ColorLib.ProgressNotifier.Completed()
+  nameWithType: ProgressNotifier.Completed()
+- uid: ColorLib.ProgressNotifier.Completed*
+  name: Completed
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed_
+  commentId: Overload:ColorLib.ProgressNotifier.Completed
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.Completed
+  nameWithType: ProgressNotifier.Completed
+- uid: ColorLib.ProgressNotifier.CompletedEvent
+  name: CompletedEvent
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_CompletedEvent
+  commentId: E:ColorLib.ProgressNotifier.CompletedEvent
+  fullName: ColorLib.ProgressNotifier.CompletedEvent
+  nameWithType: ProgressNotifier.CompletedEvent
+- uid: ColorLib.ProgressNotifier.InProgress(System.Int32)
+  name: InProgress(Int32)
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_InProgress_System_Int32_
+  commentId: M:ColorLib.ProgressNotifier.InProgress(System.Int32)
+  fullName: ColorLib.ProgressNotifier.InProgress(System.Int32)
+  nameWithType: ProgressNotifier.InProgress(Int32)
+- uid: ColorLib.ProgressNotifier.InProgress*
+  name: InProgress
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_InProgress_
+  commentId: Overload:ColorLib.ProgressNotifier.InProgress
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.InProgress
+  nameWithType: ProgressNotifier.InProgress
+- uid: ColorLib.ProgressNotifier.OnCompletedEvent
+  name: OnCompletedEvent()
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_OnCompletedEvent
+  commentId: M:ColorLib.ProgressNotifier.OnCompletedEvent
+  fullName: ColorLib.ProgressNotifier.OnCompletedEvent()
+  nameWithType: ProgressNotifier.OnCompletedEvent()
+- uid: ColorLib.ProgressNotifier.OnCompletedEvent*
+  name: OnCompletedEvent
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_OnCompletedEvent_
+  commentId: Overload:ColorLib.ProgressNotifier.OnCompletedEvent
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.OnCompletedEvent
+  nameWithType: ProgressNotifier.OnCompletedEvent
+- uid: ColorLib.ProgressNotifier.OnProgressEvent(System.Int32)
+  name: OnProgressEvent(Int32)
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_OnProgressEvent_System_Int32_
+  commentId: M:ColorLib.ProgressNotifier.OnProgressEvent(System.Int32)
+  fullName: ColorLib.ProgressNotifier.OnProgressEvent(System.Int32)
+  nameWithType: ProgressNotifier.OnProgressEvent(Int32)
+- uid: ColorLib.ProgressNotifier.OnProgressEvent*
+  name: OnProgressEvent
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_OnProgressEvent_
+  commentId: Overload:ColorLib.ProgressNotifier.OnProgressEvent
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.OnProgressEvent
+  nameWithType: ProgressNotifier.OnProgressEvent
+- uid: ColorLib.ProgressNotifier.OnStartEvent
+  name: OnStartEvent()
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_OnStartEvent
+  commentId: M:ColorLib.ProgressNotifier.OnStartEvent
+  fullName: ColorLib.ProgressNotifier.OnStartEvent()
+  nameWithType: ProgressNotifier.OnStartEvent()
+- uid: ColorLib.ProgressNotifier.OnStartEvent*
+  name: OnStartEvent
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_OnStartEvent_
+  commentId: Overload:ColorLib.ProgressNotifier.OnStartEvent
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.OnStartEvent
+  nameWithType: ProgressNotifier.OnStartEvent
+- uid: ColorLib.ProgressNotifier.ProgressEvent
+  name: ProgressEvent
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_ProgressEvent
+  commentId: E:ColorLib.ProgressNotifier.ProgressEvent
+  fullName: ColorLib.ProgressNotifier.ProgressEvent
+  nameWithType: ProgressNotifier.ProgressEvent
+- uid: ColorLib.ProgressNotifier.Start
+  name: Start()
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Start
+  commentId: M:ColorLib.ProgressNotifier.Start
+  fullName: ColorLib.ProgressNotifier.Start()
+  nameWithType: ProgressNotifier.Start()
+- uid: ColorLib.ProgressNotifier.Start*
+  name: Start
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Start_
+  commentId: Overload:ColorLib.ProgressNotifier.Start
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.Start
+  nameWithType: ProgressNotifier.Start
+- uid: ColorLib.ProgressNotifier.StartEvent
+  name: StartEvent
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_StartEvent
+  commentId: E:ColorLib.ProgressNotifier.StartEvent
+  fullName: ColorLib.ProgressNotifier.StartEvent
+  nameWithType: ProgressNotifier.StartEvent
+- uid: ColorLib.ProgressNotifier.thePN
+  name: thePN
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_thePN
+  commentId: P:ColorLib.ProgressNotifier.thePN
+  fullName: ColorLib.ProgressNotifier.thePN
+  nameWithType: ProgressNotifier.thePN
+- uid: ColorLib.ProgressNotifier.thePN*
+  name: thePN
+  href: api/ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_thePN_
+  commentId: Overload:ColorLib.ProgressNotifier.thePN
+  isSpec: "True"
+  fullName: ColorLib.ProgressNotifier.thePN
+  nameWithType: ProgressNotifier.thePN
 - uid: ColorLib.RGB
   name: RGB
   href: api/ColorLib.RGB.html
@@ -5502,6 +5791,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.TextEl.AllStringInfo
   nameWithType: TextEl.AllStringInfo
+- uid: ColorLib.TextEl.CompareTextElByPosition(ColorLib.TextEl,ColorLib.TextEl)
+  name: CompareTextElByPosition(TextEl, TextEl)
+  href: api/ColorLib.TextEl.html#ColorLib_TextEl_CompareTextElByPosition_ColorLib_TextEl_ColorLib_TextEl_
+  commentId: M:ColorLib.TextEl.CompareTextElByPosition(ColorLib.TextEl,ColorLib.TextEl)
+  fullName: ColorLib.TextEl.CompareTextElByPosition(ColorLib.TextEl, ColorLib.TextEl)
+  nameWithType: TextEl.CompareTextElByPosition(TextEl, TextEl)
+- uid: ColorLib.TextEl.CompareTextElByPosition*
+  name: CompareTextElByPosition
+  href: api/ColorLib.TextEl.html#ColorLib_TextEl_CompareTextElByPosition_
+  commentId: Overload:ColorLib.TextEl.CompareTextElByPosition
+  isSpec: "True"
+  fullName: ColorLib.TextEl.CompareTextElByPosition
+  nameWithType: TextEl.CompareTextElByPosition
 - uid: ColorLib.TextEl.EstConsonne(System.Char)
   name: EstConsonne(Char)
   href: api/ColorLib.TextEl.html#ColorLib_TextEl_EstConsonne_System_Char_
@@ -5651,22 +5953,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.ColorizePhons
   nameWithType: TheText.ColorizePhons
-- uid: ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting,System.Collections.Generic.List{ColorLib.FormattedTextEl},ColorLib.Config)
-  name: DisplayFormat(CharFormatting, List<FormattedTextEl>, Config)
-  href: api/ColorLib.TheText.html#ColorLib_TheText_DisplayFormat_ColorLib_CharFormatting_System_Collections_Generic_List_ColorLib_FormattedTextEl__ColorLib_Config_
-  commentId: M:ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting,System.Collections.Generic.List{ColorLib.FormattedTextEl},ColorLib.Config)
-  name.vb: DisplayFormat(CharFormatting, List(Of FormattedTextEl), Config)
-  fullName: ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting, System.Collections.Generic.List<ColorLib.FormattedTextEl>, ColorLib.Config)
-  fullName.vb: ColorLib.TheText.DisplayFormat(ColorLib.CharFormatting, System.Collections.Generic.List(Of ColorLib.FormattedTextEl), ColorLib.Config)
-  nameWithType: TheText.DisplayFormat(CharFormatting, List<FormattedTextEl>, Config)
-  nameWithType.vb: TheText.DisplayFormat(CharFormatting, List(Of FormattedTextEl), Config)
-- uid: ColorLib.TheText.DisplayFormat*
-  name: DisplayFormat
-  href: api/ColorLib.TheText.html#ColorLib_TheText_DisplayFormat_
-  commentId: Overload:ColorLib.TheText.DisplayFormat
-  isSpec: "True"
-  fullName: ColorLib.TheText.DisplayFormat
-  nameWithType: TheText.DisplayFormat
 - uid: ColorLib.TheText.GetLastLinesPos
   name: GetLastLinesPos()
   href: api/ColorLib.TheText.html#ColorLib_TheText_GetLastLinesPos
@@ -5680,19 +5966,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.GetLastLinesPos
   nameWithType: TheText.GetLastLinesPos
-- uid: ColorLib.TheText.GetPhonWords(ColorLib.Config)
-  name: GetPhonWords(Config)
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWords_ColorLib_Config_
-  commentId: M:ColorLib.TheText.GetPhonWords(ColorLib.Config)
-  fullName: ColorLib.TheText.GetPhonWords(ColorLib.Config)
-  nameWithType: TheText.GetPhonWords(Config)
-- uid: ColorLib.TheText.GetPhonWords*
-  name: GetPhonWords
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWords_
-  commentId: Overload:ColorLib.TheText.GetPhonWords
+- uid: ColorLib.TheText.GetPhonWordList(ColorLib.Config)
+  name: GetPhonWordList(Config)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWordList_ColorLib_Config_
+  commentId: M:ColorLib.TheText.GetPhonWordList(ColorLib.Config)
+  fullName: ColorLib.TheText.GetPhonWordList(ColorLib.Config)
+  nameWithType: TheText.GetPhonWordList(Config)
+- uid: ColorLib.TheText.GetPhonWordList*
+  name: GetPhonWordList
+  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWordList_
+  commentId: Overload:ColorLib.TheText.GetPhonWordList
   isSpec: "True"
-  fullName: ColorLib.TheText.GetPhonWords
-  nameWithType: TheText.GetPhonWords
+  fullName: ColorLib.TheText.GetPhonWordList
+  nameWithType: TheText.GetPhonWordList
 - uid: ColorLib.TheText.GetTextPos
   name: TheText.GetTextPos
   href: api/ColorLib.TheText.GetTextPos.html
@@ -6470,6 +6756,90 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.AutomRuleTest.TestTryApplyRule
   nameWithType: AutomRuleTest.TestTryApplyRule
+- uid: ColorLibTest.PerfParallelTest
+  name: PerfParallelTest
+  href: api/ColorLibTest.PerfParallelTest.html
+  commentId: T:ColorLibTest.PerfParallelTest
+  fullName: ColorLibTest.PerfParallelTest
+  nameWithType: PerfParallelTest
+- uid: ColorLibTest.PerfParallelTest.#ctor
+  name: PerfParallelTest()
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest__ctor
+  commentId: M:ColorLibTest.PerfParallelTest.#ctor
+  fullName: ColorLibTest.PerfParallelTest.PerfParallelTest()
+  nameWithType: PerfParallelTest.PerfParallelTest()
+- uid: ColorLibTest.PerfParallelTest.#ctor*
+  name: PerfParallelTest
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest__ctor_
+  commentId: Overload:ColorLibTest.PerfParallelTest.#ctor
+  isSpec: "True"
+  fullName: ColorLibTest.PerfParallelTest.PerfParallelTest
+  nameWithType: PerfParallelTest.PerfParallelTest
+- uid: ColorLibTest.PerfParallelTest.MeasureDuo
+  name: MeasureDuo()
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MeasureDuo
+  commentId: M:ColorLibTest.PerfParallelTest.MeasureDuo
+  fullName: ColorLibTest.PerfParallelTest.MeasureDuo()
+  nameWithType: PerfParallelTest.MeasureDuo()
+- uid: ColorLibTest.PerfParallelTest.MeasureDuo*
+  name: MeasureDuo
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MeasureDuo_
+  commentId: Overload:ColorLibTest.PerfParallelTest.MeasureDuo
+  isSpec: "True"
+  fullName: ColorLibTest.PerfParallelTest.MeasureDuo
+  nameWithType: PerfParallelTest.MeasureDuo
+- uid: ColorLibTest.PerfParallelTest.MeasureMultiplePhons
+  name: MeasureMultiplePhons()
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MeasureMultiplePhons
+  commentId: M:ColorLibTest.PerfParallelTest.MeasureMultiplePhons
+  fullName: ColorLibTest.PerfParallelTest.MeasureMultiplePhons()
+  nameWithType: PerfParallelTest.MeasureMultiplePhons()
+- uid: ColorLibTest.PerfParallelTest.MeasureMultiplePhons*
+  name: MeasureMultiplePhons
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MeasureMultiplePhons_
+  commentId: Overload:ColorLibTest.PerfParallelTest.MeasureMultiplePhons
+  isSpec: "True"
+  fullName: ColorLibTest.PerfParallelTest.MeasureMultiplePhons
+  nameWithType: PerfParallelTest.MeasureMultiplePhons
+- uid: ColorLibTest.PerfParallelTest.MeasurePhons
+  name: MeasurePhons()
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MeasurePhons
+  commentId: M:ColorLibTest.PerfParallelTest.MeasurePhons
+  fullName: ColorLibTest.PerfParallelTest.MeasurePhons()
+  nameWithType: PerfParallelTest.MeasurePhons()
+- uid: ColorLibTest.PerfParallelTest.MeasurePhons*
+  name: MeasurePhons
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MeasurePhons_
+  commentId: Overload:ColorLibTest.PerfParallelTest.MeasurePhons
+  isSpec: "True"
+  fullName: ColorLibTest.PerfParallelTest.MeasurePhons
+  nameWithType: PerfParallelTest.MeasurePhons
+- uid: ColorLibTest.PerfParallelTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.PerfParallelTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.PerfParallelTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: PerfParallelTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.PerfParallelTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.PerfParallelTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.PerfParallelTest.MyClassInitialize
+  nameWithType: PerfParallelTest.MyClassInitialize
+- uid: ColorLibTest.PerfParallelTest.TestContext
+  name: TestContext
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_TestContext
+  commentId: P:ColorLibTest.PerfParallelTest.TestContext
+  fullName: ColorLibTest.PerfParallelTest.TestContext
+  nameWithType: PerfParallelTest.TestContext
+- uid: ColorLibTest.PerfParallelTest.TestContext*
+  name: TestContext
+  href: api/ColorLibTest.PerfParallelTest.html#ColorLibTest_PerfParallelTest_TestContext_
+  commentId: Overload:ColorLibTest.PerfParallelTest.TestContext
+  isSpec: "True"
+  fullName: ColorLibTest.PerfParallelTest.TestContext
+  nameWithType: PerfParallelTest.TestContext
 - uid: ColorLibTest.PhonWordTest
   name: PhonWordTest
   href: api/ColorLibTest.PhonWordTest.html
