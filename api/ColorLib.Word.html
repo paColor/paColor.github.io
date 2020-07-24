@@ -106,6 +106,9 @@
       <a class="xref" href="ColorLib.TextEl.html#ColorLib_TextEl_ToString">TextEl.ToString()</a>
     </div>
     <div>
+      <a class="xref" href="ColorLib.TextEl.html#ColorLib_TextEl_ToLowerString">TextEl.ToLowerString()</a>
+    </div>
+    <div>
       <a class="xref" href="ColorLib.TextEl.html#ColorLib_TextEl_SetCharFormat_ColorLib_CharFormatting_">TextEl.SetCharFormat(CharFormatting)</a>
     </div>
     <div>
@@ -143,7 +146,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Word__ctor_ColorLib_TheText_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.Word.%23ctor(ColorLib.TheText%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L32">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L43">View Source</a>
   </span>
   <a id="ColorLib_Word__ctor_" data-uid="ColorLib.Word.#ctor*"></a>
   <h4 id="ColorLib_Word__ctor_ColorLib_TheText_System_Int32_System_Int32_" data-uid="ColorLib.Word.#ctor(ColorLib.TheText,System.Int32,System.Int32)">Word(TheText, Int32, Int32)</h4>
@@ -185,11 +188,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Word__ctor_ColorLib_Word_.md&amp;value=---%0Auid%3A%20ColorLib.Word.%23ctor(ColorLib.Word)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L38">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L53">View Source</a>
   </span>
   <a id="ColorLib_Word__ctor_" data-uid="ColorLib.Word.#ctor*"></a>
   <h4 id="ColorLib_Word__ctor_ColorLib_Word_" data-uid="ColorLib.Word.#ctor(ColorLib.Word)">Word(Word)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates a <code>Word</code> as a copy of an other one.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -208,7 +212,8 @@
       <tr>
         <td><a class="xref" href="ColorLib.Word.html">Word</a></td>
         <td><span class="parametername">w</span></td>
-        <td></td>
+        <td><p>The <code>Word</code> that is copied. Cannot be <code>null</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -219,11 +224,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Word_GetChar_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.Word.GetChar(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L46">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L70">View Source</a>
   </span>
   <a id="ColorLib_Word_GetChar_" data-uid="ColorLib.Word.GetChar*"></a>
   <h4 id="ColorLib_Word_GetChar_System_Int32_" data-uid="ColorLib.Word.GetChar(System.Int32)">GetChar(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gives the <code>char</code> at the given position in the word.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -242,7 +248,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pos</span></td>
-        <td></td>
+        <td><p>Zero based position of the wanted <code>char</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -257,7 +264,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Char</span></td>
-        <td></td>
+        <td><p>word[pos]</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -266,11 +274,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Word_GetWord.md&amp;value=---%0Auid%3A%20ColorLib.Word.GetWord%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L44">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L63">View Source</a>
   </span>
   <a id="ColorLib_Word_GetWord_" data-uid="ColorLib.Word.GetWord*"></a>
   <h4 id="ColorLib_Word_GetWord" data-uid="ColorLib.Word.GetWord">GetWord()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the word in small caps.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -287,7 +296,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>Word in small caps</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -296,11 +306,14 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Word_PutColor_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.Word.PutColor(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L50">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Word.cs/#L78">View Source</a>
   </span>
   <a id="ColorLib_Word_PutColor_" data-uid="ColorLib.Word.PutColor*"></a>
   <h4 id="ColorLib_Word_PutColor_ColorLib_Config_" data-uid="ColorLib.Word.PutColor(ColorLib.Config)">PutColor(Config)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Makes surte that the <code>Word</code> will be formatted according to the next
+<see cref="!:CHarFormatting"></see> delivered by the <code>sylConf</code> configuration
+of <code>config</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

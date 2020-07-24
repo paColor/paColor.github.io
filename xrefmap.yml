@@ -516,110 +516,6 @@ references:
   isSpec: "True"
   fullName: ColorizationControls.ConfigControl.UpdateAll
   nameWithType: ConfigControl.UpdateAll
-- uid: ColorizationControls.ConfigControl.UpdateAllSoundCbxAndButtons
-  name: UpdateAllSoundCbxAndButtons()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateAllSoundCbxAndButtons
-  commentId: M:ColorizationControls.ConfigControl.UpdateAllSoundCbxAndButtons
-  fullName: ColorizationControls.ConfigControl.UpdateAllSoundCbxAndButtons()
-  nameWithType: ConfigControl.UpdateAllSoundCbxAndButtons()
-- uid: ColorizationControls.ConfigControl.UpdateAllSoundCbxAndButtons*
-  name: UpdateAllSoundCbxAndButtons
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateAllSoundCbxAndButtons_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateAllSoundCbxAndButtons
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateAllSoundCbxAndButtons
-  nameWithType: ConfigControl.UpdateAllSoundCbxAndButtons
-- uid: ColorizationControls.ConfigControl.UpdateCbxSon(System.String)
-  name: UpdateCbxSon(String)
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateCbxSon_System_String_
-  commentId: M:ColorizationControls.ConfigControl.UpdateCbxSon(System.String)
-  fullName: ColorizationControls.ConfigControl.UpdateCbxSon(System.String)
-  nameWithType: ConfigControl.UpdateCbxSon(String)
-- uid: ColorizationControls.ConfigControl.UpdateCbxSon*
-  name: UpdateCbxSon
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateCbxSon_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateCbxSon
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateCbxSon
-  nameWithType: ConfigControl.UpdateCbxSon
-- uid: ColorizationControls.ConfigControl.UpdateLetterButton(System.Int32)
-  name: UpdateLetterButton(Int32)
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateLetterButton_System_Int32_
-  commentId: M:ColorizationControls.ConfigControl.UpdateLetterButton(System.Int32)
-  fullName: ColorizationControls.ConfigControl.UpdateLetterButton(System.Int32)
-  nameWithType: ConfigControl.UpdateLetterButton(Int32)
-- uid: ColorizationControls.ConfigControl.UpdateLetterButton*
-  name: UpdateLetterButton
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateLetterButton_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateLetterButton
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateLetterButton
-  nameWithType: ConfigControl.UpdateLetterButton
-- uid: ColorizationControls.ConfigControl.UpdateLetterButtons
-  name: UpdateLetterButtons()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateLetterButtons
-  commentId: M:ColorizationControls.ConfigControl.UpdateLetterButtons
-  fullName: ColorizationControls.ConfigControl.UpdateLetterButtons()
-  nameWithType: ConfigControl.UpdateLetterButtons()
-- uid: ColorizationControls.ConfigControl.UpdateLetterButtons*
-  name: UpdateLetterButtons
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateLetterButtons_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateLetterButtons
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateLetterButtons
-  nameWithType: ConfigControl.UpdateLetterButtons
-- uid: ColorizationControls.ConfigControl.UpdateSonButton(System.String)
-  name: UpdateSonButton(String)
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSonButton_System_String_
-  commentId: M:ColorizationControls.ConfigControl.UpdateSonButton(System.String)
-  fullName: ColorizationControls.ConfigControl.UpdateSonButton(System.String)
-  nameWithType: ConfigControl.UpdateSonButton(String)
-- uid: ColorizationControls.ConfigControl.UpdateSonButton*
-  name: UpdateSonButton
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSonButton_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateSonButton
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateSonButton
-  nameWithType: ConfigControl.UpdateSonButton
-- uid: ColorizationControls.ConfigControl.UpdateSylButton(System.Int32)
-  name: UpdateSylButton(Int32)
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSylButton_System_Int32_
-  commentId: M:ColorizationControls.ConfigControl.UpdateSylButton(System.Int32)
-  fullName: ColorizationControls.ConfigControl.UpdateSylButton(System.Int32)
-  nameWithType: ConfigControl.UpdateSylButton(Int32)
-- uid: ColorizationControls.ConfigControl.UpdateSylButton*
-  name: UpdateSylButton
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSylButton_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateSylButton
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateSylButton
-  nameWithType: ConfigControl.UpdateSylButton
-- uid: ColorizationControls.ConfigControl.UpdateSylButtons
-  name: UpdateSylButtons()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSylButtons
-  commentId: M:ColorizationControls.ConfigControl.UpdateSylButtons
-  fullName: ColorizationControls.ConfigControl.UpdateSylButtons()
-  nameWithType: ConfigControl.UpdateSylButtons()
-- uid: ColorizationControls.ConfigControl.UpdateSylButtons*
-  name: UpdateSylButtons
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateSylButtons_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateSylButtons
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateSylButtons
-  nameWithType: ConfigControl.UpdateSylButtons
-- uid: ColorizationControls.ConfigControl.UpdateUcheckBoxes
-  name: UpdateUcheckBoxes()
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateUcheckBoxes
-  commentId: M:ColorizationControls.ConfigControl.UpdateUcheckBoxes
-  fullName: ColorizationControls.ConfigControl.UpdateUcheckBoxes()
-  nameWithType: ConfigControl.UpdateUcheckBoxes()
-- uid: ColorizationControls.ConfigControl.UpdateUcheckBoxes*
-  name: UpdateUcheckBoxes
-  href: api/ColorizationControls.ConfigControl.html#ColorizationControls_ConfigControl_UpdateUcheckBoxes_
-  commentId: Overload:ColorizationControls.ConfigControl.UpdateUcheckBoxes
-  isSpec: "True"
-  fullName: ColorizationControls.ConfigControl.UpdateUcheckBoxes
-  nameWithType: ConfigControl.UpdateUcheckBoxes
 - uid: ColorizationControls.ConfigPane
   name: ConfigPane
   href: api/ColorizationControls.ConfigPane.html
@@ -2369,6 +2265,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.CharFormatting.contour
   nameWithType: CharFormatting.contour
+- uid: ColorLib.CharFormatting.Equals(ColorLib.CharFormatting)
+  name: Equals(CharFormatting)
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_Equals_ColorLib_CharFormatting_
+  commentId: M:ColorLib.CharFormatting.Equals(ColorLib.CharFormatting)
+  fullName: ColorLib.CharFormatting.Equals(ColorLib.CharFormatting)
+  nameWithType: CharFormatting.Equals(CharFormatting)
+- uid: ColorLib.CharFormatting.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_Equals_System_Object_
+  commentId: M:ColorLib.CharFormatting.Equals(System.Object)
+  fullName: ColorLib.CharFormatting.Equals(System.Object)
+  nameWithType: CharFormatting.Equals(Object)
+- uid: ColorLib.CharFormatting.Equals*
+  name: Equals
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_Equals_
+  commentId: Overload:ColorLib.CharFormatting.Equals
+  isSpec: "True"
+  fullName: ColorLib.CharFormatting.Equals
+  nameWithType: CharFormatting.Equals
 - uid: ColorLib.CharFormatting.ForceBlackColor(ColorLib.Config)
   name: ForceBlackColor(Config)
   href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_ForceBlackColor_ColorLib_Config_
@@ -2473,6 +2388,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.CharFormatting.ForceNonUnderline
   nameWithType: CharFormatting.ForceNonUnderline
+- uid: ColorLib.CharFormatting.GetHashCode
+  name: GetHashCode()
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_GetHashCode
+  commentId: M:ColorLib.CharFormatting.GetHashCode
+  fullName: ColorLib.CharFormatting.GetHashCode()
+  nameWithType: CharFormatting.GetHashCode()
+- uid: ColorLib.CharFormatting.GetHashCode*
+  name: GetHashCode
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_GetHashCode_
+  commentId: Overload:ColorLib.CharFormatting.GetHashCode
+  isSpec: "True"
+  fullName: ColorLib.CharFormatting.GetHashCode
+  nameWithType: CharFormatting.GetHashCode
 - uid: ColorLib.CharFormatting.hilightColor
   name: hilightColor
   href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_hilightColor
@@ -2499,6 +2427,38 @@ references:
   isSpec: "True"
   fullName: ColorLib.CharFormatting.italic
   nameWithType: CharFormatting.italic
+- uid: ColorLib.CharFormatting.NeutralCF
+  name: NeutralCF
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_NeutralCF
+  commentId: F:ColorLib.CharFormatting.NeutralCF
+  fullName: ColorLib.CharFormatting.NeutralCF
+  nameWithType: CharFormatting.NeutralCF
+- uid: ColorLib.CharFormatting.op_Equality(ColorLib.CharFormatting,ColorLib.CharFormatting)
+  name: Equality(CharFormatting, CharFormatting)
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_op_Equality_ColorLib_CharFormatting_ColorLib_CharFormatting_
+  commentId: M:ColorLib.CharFormatting.op_Equality(ColorLib.CharFormatting,ColorLib.CharFormatting)
+  fullName: ColorLib.CharFormatting.Equality(ColorLib.CharFormatting, ColorLib.CharFormatting)
+  nameWithType: CharFormatting.Equality(CharFormatting, CharFormatting)
+- uid: ColorLib.CharFormatting.op_Equality*
+  name: Equality
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_op_Equality_
+  commentId: Overload:ColorLib.CharFormatting.op_Equality
+  isSpec: "True"
+  fullName: ColorLib.CharFormatting.Equality
+  nameWithType: CharFormatting.Equality
+- uid: ColorLib.CharFormatting.op_Inequality(ColorLib.CharFormatting,ColorLib.CharFormatting)
+  name: Inequality(CharFormatting, CharFormatting)
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_op_Inequality_ColorLib_CharFormatting_ColorLib_CharFormatting_
+  commentId: M:ColorLib.CharFormatting.op_Inequality(ColorLib.CharFormatting,ColorLib.CharFormatting)
+  fullName: ColorLib.CharFormatting.Inequality(ColorLib.CharFormatting, ColorLib.CharFormatting)
+  nameWithType: CharFormatting.Inequality(CharFormatting, CharFormatting)
+- uid: ColorLib.CharFormatting.op_Inequality*
+  name: Inequality
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_op_Inequality_
+  commentId: Overload:ColorLib.CharFormatting.op_Inequality
+  isSpec: "True"
+  fullName: ColorLib.CharFormatting.Inequality
+  nameWithType: CharFormatting.Inequality
 - uid: ColorLib.CharFormatting.percIncrFontSize
   name: percIncrFontSize
   href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_percIncrFontSize
@@ -3385,6 +3345,185 @@ references:
   isSpec: "True"
   fullName: ColorLib.ConfigReplacedEventArgs.newConfig
   nameWithType: ConfigReplacedEventArgs.newConfig
+- uid: ColorLib.Dierese
+  name: ColorLib.Dierese
+  href: api/ColorLib.Dierese.html
+  commentId: N:ColorLib.Dierese
+  fullName: ColorLib.Dierese
+  nameWithType: ColorLib.Dierese
+- uid: ColorLib.Dierese.AnalyseDierese
+  name: AnalyseDierese
+  href: api/ColorLib.Dierese.AnalyseDierese.html
+  commentId: T:ColorLib.Dierese.AnalyseDierese
+  fullName: ColorLib.Dierese.AnalyseDierese
+  nameWithType: AnalyseDierese
+- uid: ColorLib.Dierese.AnalyseDierese.ChercheDierese(ColorLib.TheText,System.Collections.Generic.List{ColorLib.PhonWord},System.Int32)
+  name: ChercheDierese(TheText, List<PhonWord>, Int32)
+  href: api/ColorLib.Dierese.AnalyseDierese.html#ColorLib_Dierese_AnalyseDierese_ChercheDierese_ColorLib_TheText_System_Collections_Generic_List_ColorLib_PhonWord__System_Int32_
+  commentId: M:ColorLib.Dierese.AnalyseDierese.ChercheDierese(ColorLib.TheText,System.Collections.Generic.List{ColorLib.PhonWord},System.Int32)
+  name.vb: ChercheDierese(TheText, List(Of PhonWord), Int32)
+  fullName: ColorLib.Dierese.AnalyseDierese.ChercheDierese(ColorLib.TheText, System.Collections.Generic.List<ColorLib.PhonWord>, System.Int32)
+  fullName.vb: ColorLib.Dierese.AnalyseDierese.ChercheDierese(ColorLib.TheText, System.Collections.Generic.List(Of ColorLib.PhonWord), System.Int32)
+  nameWithType: AnalyseDierese.ChercheDierese(TheText, List<PhonWord>, Int32)
+  nameWithType.vb: AnalyseDierese.ChercheDierese(TheText, List(Of PhonWord), Int32)
+- uid: ColorLib.Dierese.AnalyseDierese.ChercheDierese*
+  name: ChercheDierese
+  href: api/ColorLib.Dierese.AnalyseDierese.html#ColorLib_Dierese_AnalyseDierese_ChercheDierese_
+  commentId: Overload:ColorLib.Dierese.AnalyseDierese.ChercheDierese
+  isSpec: "True"
+  fullName: ColorLib.Dierese.AnalyseDierese.ChercheDierese
+  nameWithType: AnalyseDierese.ChercheDierese
+- uid: ColorLib.Dierese.Vers
+  name: Vers
+  href: api/ColorLib.Dierese.Vers.html
+  commentId: T:ColorLib.Dierese.Vers
+  fullName: ColorLib.Dierese.Vers
+  nameWithType: Vers
+- uid: ColorLib.Dierese.Vers.#ctor(ColorLib.TheText,System.Int32,System.Collections.Generic.List{ColorLib.PhonWord})
+  name: Vers(TheText, Int32, List<PhonWord>)
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers__ctor_ColorLib_TheText_System_Int32_System_Collections_Generic_List_ColorLib_PhonWord__
+  commentId: M:ColorLib.Dierese.Vers.#ctor(ColorLib.TheText,System.Int32,System.Collections.Generic.List{ColorLib.PhonWord})
+  name.vb: Vers(TheText, Int32, List(Of PhonWord))
+  fullName: ColorLib.Dierese.Vers.Vers(ColorLib.TheText, System.Int32, System.Collections.Generic.List<ColorLib.PhonWord>)
+  fullName.vb: ColorLib.Dierese.Vers.Vers(ColorLib.TheText, System.Int32, System.Collections.Generic.List(Of ColorLib.PhonWord))
+  nameWithType: Vers.Vers(TheText, Int32, List<PhonWord>)
+  nameWithType.vb: Vers.Vers(TheText, Int32, List(Of PhonWord))
+- uid: ColorLib.Dierese.Vers.#ctor*
+  name: Vers
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers__ctor_
+  commentId: Overload:ColorLib.Dierese.Vers.#ctor
+  isSpec: "True"
+  fullName: ColorLib.Dierese.Vers.Vers
+  nameWithType: Vers.Vers
+- uid: ColorLib.Dierese.Vers.ChercheDierese(System.Int32)
+  name: ChercheDierese(Int32)
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_ChercheDierese_System_Int32_
+  commentId: M:ColorLib.Dierese.Vers.ChercheDierese(System.Int32)
+  fullName: ColorLib.Dierese.Vers.ChercheDierese(System.Int32)
+  nameWithType: Vers.ChercheDierese(Int32)
+- uid: ColorLib.Dierese.Vers.ChercheDierese*
+  name: ChercheDierese
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_ChercheDierese_
+  commentId: Overload:ColorLib.Dierese.Vers.ChercheDierese
+  isSpec: "True"
+  fullName: ColorLib.Dierese.Vers.ChercheDierese
+  nameWithType: Vers.ChercheDierese
+- uid: ColorLib.Dierese.Vers.MaxNrPieds
+  name: MaxNrPieds
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_MaxNrPieds
+  commentId: F:ColorLib.Dierese.Vers.MaxNrPieds
+  fullName: ColorLib.Dierese.Vers.MaxNrPieds
+  nameWithType: Vers.MaxNrPieds
+- uid: ColorLib.Dierese.Vers.nrPieds
+  name: nrPieds
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_nrPieds
+  commentId: P:ColorLib.Dierese.Vers.nrPieds
+  fullName: ColorLib.Dierese.Vers.nrPieds
+  nameWithType: Vers.nrPieds
+- uid: ColorLib.Dierese.Vers.nrPieds*
+  name: nrPieds
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_nrPieds_
+  commentId: Overload:ColorLib.Dierese.Vers.nrPieds
+  isSpec: "True"
+  fullName: ColorLib.Dierese.Vers.nrPieds
+  nameWithType: Vers.nrPieds
+- uid: ColorLib.Dierese.Vers.Syllabes
+  name: Syllabes()
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_Syllabes
+  commentId: M:ColorLib.Dierese.Vers.Syllabes
+  fullName: ColorLib.Dierese.Vers.Syllabes()
+  nameWithType: Vers.Syllabes()
+- uid: ColorLib.Dierese.Vers.Syllabes*
+  name: Syllabes
+  href: api/ColorLib.Dierese.Vers.html#ColorLib_Dierese_Vers_Syllabes_
+  commentId: Overload:ColorLib.Dierese.Vers.Syllabes
+  isSpec: "True"
+  fullName: ColorLib.Dierese.Vers.Syllabes
+  nameWithType: Vers.Syllabes
+- uid: ColorLib.Dierese.ZonePoeme
+  name: ZonePoeme
+  href: api/ColorLib.Dierese.ZonePoeme.html
+  commentId: T:ColorLib.Dierese.ZonePoeme
+  fullName: ColorLib.Dierese.ZonePoeme
+  nameWithType: ZonePoeme
+- uid: ColorLib.Dierese.ZonePoeme.#ctor(ColorLib.TheText)
+  name: ZonePoeme(TheText)
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme__ctor_ColorLib_TheText_
+  commentId: M:ColorLib.Dierese.ZonePoeme.#ctor(ColorLib.TheText)
+  fullName: ColorLib.Dierese.ZonePoeme.ZonePoeme(ColorLib.TheText)
+  nameWithType: ZonePoeme.ZonePoeme(TheText)
+- uid: ColorLib.Dierese.ZonePoeme.#ctor*
+  name: ZonePoeme
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme__ctor_
+  commentId: Overload:ColorLib.Dierese.ZonePoeme.#ctor
+  isSpec: "True"
+  fullName: ColorLib.Dierese.ZonePoeme.ZonePoeme
+  nameWithType: ZonePoeme.ZonePoeme
+- uid: ColorLib.Dierese.ZonePoeme.AddVers(ColorLib.Dierese.Vers)
+  name: AddVers(Vers)
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_AddVers_ColorLib_Dierese_Vers_
+  commentId: M:ColorLib.Dierese.ZonePoeme.AddVers(ColorLib.Dierese.Vers)
+  fullName: ColorLib.Dierese.ZonePoeme.AddVers(ColorLib.Dierese.Vers)
+  nameWithType: ZonePoeme.AddVers(Vers)
+- uid: ColorLib.Dierese.ZonePoeme.AddVers*
+  name: AddVers
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_AddVers_
+  commentId: Overload:ColorLib.Dierese.ZonePoeme.AddVers
+  isSpec: "True"
+  fullName: ColorLib.Dierese.ZonePoeme.AddVers
+  nameWithType: ZonePoeme.AddVers
+- uid: ColorLib.Dierese.ZonePoeme.ChercheDierese(System.Int32)
+  name: ChercheDierese(Int32)
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_ChercheDierese_System_Int32_
+  commentId: M:ColorLib.Dierese.ZonePoeme.ChercheDierese(System.Int32)
+  fullName: ColorLib.Dierese.ZonePoeme.ChercheDierese(System.Int32)
+  nameWithType: ZonePoeme.ChercheDierese(Int32)
+- uid: ColorLib.Dierese.ZonePoeme.ChercheDierese*
+  name: ChercheDierese
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_ChercheDierese_
+  commentId: Overload:ColorLib.Dierese.ZonePoeme.ChercheDierese
+  isSpec: "True"
+  fullName: ColorLib.Dierese.ZonePoeme.ChercheDierese
+  nameWithType: ZonePoeme.ChercheDierese
+- uid: ColorLib.Dierese.ZonePoeme.nrPiedsVoulu
+  name: nrPiedsVoulu
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_nrPiedsVoulu
+  commentId: P:ColorLib.Dierese.ZonePoeme.nrPiedsVoulu
+  fullName: ColorLib.Dierese.ZonePoeme.nrPiedsVoulu
+  nameWithType: ZonePoeme.nrPiedsVoulu
+- uid: ColorLib.Dierese.ZonePoeme.nrPiedsVoulu*
+  name: nrPiedsVoulu
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_nrPiedsVoulu_
+  commentId: Overload:ColorLib.Dierese.ZonePoeme.nrPiedsVoulu
+  isSpec: "True"
+  fullName: ColorLib.Dierese.ZonePoeme.nrPiedsVoulu
+  nameWithType: ZonePoeme.nrPiedsVoulu
+- uid: ColorLib.Dierese.ZonePoeme.Syllabes
+  name: Syllabes()
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_Syllabes
+  commentId: M:ColorLib.Dierese.ZonePoeme.Syllabes
+  fullName: ColorLib.Dierese.ZonePoeme.Syllabes()
+  nameWithType: ZonePoeme.Syllabes()
+- uid: ColorLib.Dierese.ZonePoeme.Syllabes*
+  name: Syllabes
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_Syllabes_
+  commentId: Overload:ColorLib.Dierese.ZonePoeme.Syllabes
+  isSpec: "True"
+  fullName: ColorLib.Dierese.ZonePoeme.Syllabes
+  nameWithType: ZonePoeme.Syllabes
+- uid: ColorLib.Dierese.ZonePoeme.vList
+  name: vList
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_vList
+  commentId: P:ColorLib.Dierese.ZonePoeme.vList
+  fullName: ColorLib.Dierese.ZonePoeme.vList
+  nameWithType: ZonePoeme.vList
+- uid: ColorLib.Dierese.ZonePoeme.vList*
+  name: vList
+  href: api/ColorLib.Dierese.ZonePoeme.html#ColorLib_Dierese_ZonePoeme_vList_
+  commentId: Overload:ColorLib.Dierese.ZonePoeme.vList
+  isSpec: "True"
+  fullName: ColorLib.Dierese.ZonePoeme.vList
+  nameWithType: ZonePoeme.vList
 - uid: ColorLib.DuoConfig
   name: DuoConfig
   href: api/ColorLib.DuoConfig.html
@@ -4088,6 +4227,12 @@ references:
   commentId: F:ColorLib.Phonemes.j_ill
   fullName: ColorLib.Phonemes.j_ill
   nameWithType: Phonemes.j_ill
+- uid: ColorLib.Phonemes.ji
+  name: ji
+  href: api/ColorLib.Phonemes.html#ColorLib_Phonemes_ji
+  commentId: F:ColorLib.Phonemes.ji
+  fullName: ColorLib.Phonemes.ji
+  nameWithType: Phonemes.ji
 - uid: ColorLib.Phonemes.k
   name: k
   href: api/ColorLib.Phonemes.html#ColorLib_Phonemes_k
@@ -4184,12 +4329,6 @@ references:
   commentId: F:ColorLib.Phonemes.R
   fullName: ColorLib.Phonemes.R
   nameWithType: Phonemes.R
-- uid: ColorLib.Phonemes.reserve3
-  name: reserve3
-  href: api/ColorLib.Phonemes.html#ColorLib_Phonemes_reserve3
-  commentId: F:ColorLib.Phonemes.reserve3
-  fullName: ColorLib.Phonemes.reserve3
-  nameWithType: Phonemes.reserve3
 - uid: ColorLib.Phonemes.reserve4
   name: reserve4
   href: api/ColorLib.Phonemes.html#ColorLib_Phonemes_reserve4
@@ -4387,12 +4526,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonInW.EstSemiVoyelle
   nameWithType: PhonInW.EstSemiVoyelle
-- uid: ColorLib.PhonInW.EstVoyelle
-  name: EstVoyelle()
-  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_EstVoyelle
-  commentId: M:ColorLib.PhonInW.EstVoyelle
-  fullName: ColorLib.PhonInW.EstVoyelle()
-  nameWithType: PhonInW.EstVoyelle()
+- uid: ColorLib.PhonInW.EstVoyelle(System.Boolean)
+  name: EstVoyelle(Boolean)
+  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_EstVoyelle_System_Boolean_
+  commentId: M:ColorLib.PhonInW.EstVoyelle(System.Boolean)
+  fullName: ColorLib.PhonInW.EstVoyelle(System.Boolean)
+  nameWithType: PhonInW.EstVoyelle(Boolean)
 - uid: ColorLib.PhonInW.EstVoyelle*
   name: EstVoyelle
   href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_EstVoyelle_
@@ -4458,12 +4597,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonInW.PutColor
   nameWithType: PhonInW.PutColor
-- uid: ColorLib.PhonInW.pw
-  name: pw
-  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_pw
-  commentId: F:ColorLib.PhonInW.pw
-  fullName: ColorLib.PhonInW.pw
-  nameWithType: PhonInW.pw
+- uid: ColorLib.PhonInW.PW
+  name: PW
+  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PW
+  commentId: P:ColorLib.PhonInW.PW
+  fullName: ColorLib.PhonInW.PW
+  nameWithType: PhonInW.PW
+- uid: ColorLib.PhonInW.PW*
+  name: PW
+  href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_PW_
+  commentId: Overload:ColorLib.PhonInW.PW
+  isSpec: "True"
+  fullName: ColorLib.PhonInW.PW
+  nameWithType: PhonInW.PW
 - uid: ColorLib.PhonInW.String2Phons(System.String)
   name: String2Phons(String)
   href: api/ColorLib.PhonInW.html#ColorLib_PhonInW_String2Phons_System_String_
@@ -4793,6 +4939,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonWord.ClearPhons
   nameWithType: PhonWord.ClearPhons
+- uid: ColorLib.PhonWord.ColorizeSyls(ColorLib.Config)
+  name: ColorizeSyls(Config)
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ColorizeSyls_ColorLib_Config_
+  commentId: M:ColorLib.PhonWord.ColorizeSyls(ColorLib.Config)
+  fullName: ColorLib.PhonWord.ColorizeSyls(ColorLib.Config)
+  nameWithType: PhonWord.ColorizeSyls(Config)
+- uid: ColorLib.PhonWord.ColorizeSyls*
+  name: ColorizeSyls
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ColorizeSyls_
+  commentId: Overload:ColorLib.PhonWord.ColorizeSyls
+  isSpec: "True"
+  fullName: ColorLib.PhonWord.ColorizeSyls
+  nameWithType: PhonWord.ColorizeSyls
 - uid: ColorLib.PhonWord.ColorPhons(ColorLib.Config,ColorLib.PhonConfType)
   name: ColorPhons(Config, PhonConfType)
   href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ColorPhons_ColorLib_Config_ColorLib_PhonConfType_
@@ -4806,19 +4965,32 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonWord.ColorPhons
   nameWithType: PhonWord.ColorPhons
-- uid: ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)
-  name: ComputeAndColorSyls(Config)
-  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeAndColorSyls_ColorLib_Config_
-  commentId: M:ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)
-  fullName: ColorLib.PhonWord.ComputeAndColorSyls(ColorLib.Config)
-  nameWithType: PhonWord.ComputeAndColorSyls(Config)
-- uid: ColorLib.PhonWord.ComputeAndColorSyls*
-  name: ComputeAndColorSyls
-  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeAndColorSyls_
-  commentId: Overload:ColorLib.PhonWord.ComputeAndColorSyls
+- uid: ColorLib.PhonWord.ComputeSyls(System.Boolean)
+  name: ComputeSyls(Boolean)
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeSyls_System_Boolean_
+  commentId: M:ColorLib.PhonWord.ComputeSyls(System.Boolean)
+  fullName: ColorLib.PhonWord.ComputeSyls(System.Boolean)
+  nameWithType: PhonWord.ComputeSyls(Boolean)
+- uid: ColorLib.PhonWord.ComputeSyls*
+  name: ComputeSyls
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_ComputeSyls_
+  commentId: Overload:ColorLib.PhonWord.ComputeSyls
   isSpec: "True"
-  fullName: ColorLib.PhonWord.ComputeAndColorSyls
-  nameWithType: PhonWord.ComputeAndColorSyls
+  fullName: ColorLib.PhonWord.ComputeSyls
+  nameWithType: PhonWord.ComputeSyls
+- uid: ColorLib.PhonWord.GetNbreSyllabes
+  name: GetNbreSyllabes()
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_GetNbreSyllabes
+  commentId: M:ColorLib.PhonWord.GetNbreSyllabes
+  fullName: ColorLib.PhonWord.GetNbreSyllabes()
+  nameWithType: PhonWord.GetNbreSyllabes()
+- uid: ColorLib.PhonWord.GetNbreSyllabes*
+  name: GetNbreSyllabes
+  href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_GetNbreSyllabes_
+  commentId: Overload:ColorLib.PhonWord.GetNbreSyllabes
+  isSpec: "True"
+  fullName: ColorLib.PhonWord.GetNbreSyllabes
+  nameWithType: PhonWord.GetNbreSyllabes
 - uid: ColorLib.PhonWord.Phonetique
   name: Phonetique()
   href: api/ColorLib.PhonWord.html#ColorLib_PhonWord_Phonetique
@@ -5203,6 +5375,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.RGB.Dark
   nameWithType: RGB.Dark
+- uid: ColorLib.RGB.Equals(ColorLib.RGB)
+  name: Equals(RGB)
+  href: api/ColorLib.RGB.html#ColorLib_RGB_Equals_ColorLib_RGB_
+  commentId: M:ColorLib.RGB.Equals(ColorLib.RGB)
+  fullName: ColorLib.RGB.Equals(ColorLib.RGB)
+  nameWithType: RGB.Equals(RGB)
+- uid: ColorLib.RGB.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ColorLib.RGB.html#ColorLib_RGB_Equals_System_Object_
+  commentId: M:ColorLib.RGB.Equals(System.Object)
+  fullName: ColorLib.RGB.Equals(System.Object)
+  nameWithType: RGB.Equals(Object)
+- uid: ColorLib.RGB.Equals*
+  name: Equals
+  href: api/ColorLib.RGB.html#ColorLib_RGB_Equals_
+  commentId: Overload:ColorLib.RGB.Equals
+  isSpec: "True"
+  fullName: ColorLib.RGB.Equals
+  nameWithType: RGB.Equals
 - uid: ColorLib.RGB.G
   name: G
   href: api/ColorLib.RGB.html#ColorLib_RGB_G
@@ -5216,6 +5407,32 @@ references:
   isSpec: "True"
   fullName: ColorLib.RGB.G
   nameWithType: RGB.G
+- uid: ColorLib.RGB.GetHashCode
+  name: GetHashCode()
+  href: api/ColorLib.RGB.html#ColorLib_RGB_GetHashCode
+  commentId: M:ColorLib.RGB.GetHashCode
+  fullName: ColorLib.RGB.GetHashCode()
+  nameWithType: RGB.GetHashCode()
+- uid: ColorLib.RGB.GetHashCode*
+  name: GetHashCode
+  href: api/ColorLib.RGB.html#ColorLib_RGB_GetHashCode_
+  commentId: Overload:ColorLib.RGB.GetHashCode
+  isSpec: "True"
+  fullName: ColorLib.RGB.GetHashCode
+  nameWithType: RGB.GetHashCode
+- uid: ColorLib.RGB.op_Equality(ColorLib.RGB,ColorLib.RGB)
+  name: Equality(RGB, RGB)
+  href: api/ColorLib.RGB.html#ColorLib_RGB_op_Equality_ColorLib_RGB_ColorLib_RGB_
+  commentId: M:ColorLib.RGB.op_Equality(ColorLib.RGB,ColorLib.RGB)
+  fullName: ColorLib.RGB.Equality(ColorLib.RGB, ColorLib.RGB)
+  nameWithType: RGB.Equality(RGB, RGB)
+- uid: ColorLib.RGB.op_Equality*
+  name: Equality
+  href: api/ColorLib.RGB.html#ColorLib_RGB_op_Equality_
+  commentId: Overload:ColorLib.RGB.op_Equality
+  isSpec: "True"
+  fullName: ColorLib.RGB.Equality
+  nameWithType: RGB.Equality
 - uid: ColorLib.RGB.op_Implicit(ColorLib.RGB)~System.Drawing.Color
   name: Implicit(RGB to Color)
   href: api/ColorLib.RGB.html#ColorLib_RGB_op_Implicit_ColorLib_RGB__System_Drawing_Color
@@ -5253,6 +5470,19 @@ references:
   fullName.vb: ColorLib.RGB.Widening
   nameWithType: RGB.Implicit
   nameWithType.vb: RGB.Widening
+- uid: ColorLib.RGB.op_Inequality(ColorLib.RGB,ColorLib.RGB)
+  name: Inequality(RGB, RGB)
+  href: api/ColorLib.RGB.html#ColorLib_RGB_op_Inequality_ColorLib_RGB_ColorLib_RGB_
+  commentId: M:ColorLib.RGB.op_Inequality(ColorLib.RGB,ColorLib.RGB)
+  fullName: ColorLib.RGB.Inequality(ColorLib.RGB, ColorLib.RGB)
+  nameWithType: RGB.Inequality(RGB, RGB)
+- uid: ColorLib.RGB.op_Inequality*
+  name: Inequality
+  href: api/ColorLib.RGB.html#ColorLib_RGB_op_Inequality_
+  commentId: Overload:ColorLib.RGB.op_Inequality
+  isSpec: "True"
+  fullName: ColorLib.RGB.Inequality
+  nameWithType: RGB.Inequality
 - uid: ColorLib.RGB.R
   name: R
   href: api/ColorLib.RGB.html#ColorLib_RGB_R
@@ -5401,6 +5631,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.ButtonIsLastActive
   nameWithType: SylConfig.ButtonIsLastActive
+- uid: ColorLib.SylConfig.chercherDierese
+  name: chercherDierese
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_chercherDierese
+  commentId: P:ColorLib.SylConfig.chercherDierese
+  fullName: ColorLib.SylConfig.chercherDierese
+  nameWithType: SylConfig.chercherDierese
+- uid: ColorLib.SylConfig.chercherDierese*
+  name: chercherDierese
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_chercherDierese_
+  commentId: Overload:ColorLib.SylConfig.chercherDierese
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.chercherDierese
+  nameWithType: SylConfig.chercherDierese
+- uid: ColorLib.SylConfig.ChercherDiereseModified
+  name: ChercherDiereseModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ChercherDiereseModified
+  commentId: E:ColorLib.SylConfig.ChercherDiereseModified
+  fullName: ColorLib.SylConfig.ChercherDiereseModified
+  nameWithType: SylConfig.ChercherDiereseModified
 - uid: ColorLib.SylConfig.ClearButton(System.Int32)
   name: ClearButton(Int32)
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ClearButton_System_Int32_
@@ -5433,6 +5682,12 @@ references:
   commentId: E:ColorLib.SylConfig.DoubleConsStdModifiedEvent
   fullName: ColorLib.SylConfig.DoubleConsStdModifiedEvent
   nameWithType: SylConfig.DoubleConsStdModifiedEvent
+- uid: ColorLib.SylConfig.FinDeVersModified
+  name: FinDeVersModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_FinDeVersModified
+  commentId: E:ColorLib.SylConfig.FinDeVersModified
+  fullName: ColorLib.SylConfig.FinDeVersModified
+  nameWithType: SylConfig.FinDeVersModified
 - uid: ColorLib.SylConfig.GetSylButtonConfFor(System.Int32)
   name: GetSylButtonConfFor(Int32)
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_GetSylButtonConfFor_System_Int32_
@@ -5446,25 +5701,93 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.GetSylButtonConfFor
   nameWithType: SylConfig.GetSylButtonConfFor
-- uid: ColorLib.SylConfig.ModeEcrit
-  name: ModeEcrit
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcrit
-  commentId: P:ColorLib.SylConfig.ModeEcrit
-  fullName: ColorLib.SylConfig.ModeEcrit
-  nameWithType: SylConfig.ModeEcrit
-- uid: ColorLib.SylConfig.ModeEcrit*
-  name: ModeEcrit
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcrit_
-  commentId: Overload:ColorLib.SylConfig.ModeEcrit
+- uid: ColorLib.SylConfig.marquerMuettes
+  name: marquerMuettes
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_marquerMuettes
+  commentId: P:ColorLib.SylConfig.marquerMuettes
+  fullName: ColorLib.SylConfig.marquerMuettes
+  nameWithType: SylConfig.marquerMuettes
+- uid: ColorLib.SylConfig.marquerMuettes*
+  name: marquerMuettes
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_marquerMuettes_
+  commentId: Overload:ColorLib.SylConfig.marquerMuettes
   isSpec: "True"
-  fullName: ColorLib.SylConfig.ModeEcrit
-  nameWithType: SylConfig.ModeEcrit
-- uid: ColorLib.SylConfig.ModeEcritModifiedEvent
-  name: ModeEcritModifiedEvent
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeEcritModifiedEvent
-  commentId: E:ColorLib.SylConfig.ModeEcritModifiedEvent
-  fullName: ColorLib.SylConfig.ModeEcritModifiedEvent
-  nameWithType: SylConfig.ModeEcritModifiedEvent
+  fullName: ColorLib.SylConfig.marquerMuettes
+  nameWithType: SylConfig.marquerMuettes
+- uid: ColorLib.SylConfig.MarquerMuettesModified
+  name: MarquerMuettesModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_MarquerMuettesModified
+  commentId: E:ColorLib.SylConfig.MarquerMuettesModified
+  fullName: ColorLib.SylConfig.MarquerMuettesModified
+  nameWithType: SylConfig.MarquerMuettesModified
+- uid: ColorLib.SylConfig.mode
+  name: mode
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_mode
+  commentId: P:ColorLib.SylConfig.mode
+  fullName: ColorLib.SylConfig.mode
+  nameWithType: SylConfig.mode
+- uid: ColorLib.SylConfig.Mode
+  name: SylConfig.Mode
+  href: api/ColorLib.SylConfig.Mode.html
+  commentId: T:ColorLib.SylConfig.Mode
+  fullName: ColorLib.SylConfig.Mode
+  nameWithType: SylConfig.Mode
+- uid: ColorLib.SylConfig.mode*
+  name: mode
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_mode_
+  commentId: Overload:ColorLib.SylConfig.mode
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.mode
+  nameWithType: SylConfig.mode
+- uid: ColorLib.SylConfig.Mode.ecrit
+  name: ecrit
+  href: api/ColorLib.SylConfig.Mode.html#ColorLib_SylConfig_Mode_ecrit
+  commentId: F:ColorLib.SylConfig.Mode.ecrit
+  fullName: ColorLib.SylConfig.Mode.ecrit
+  nameWithType: SylConfig.Mode.ecrit
+- uid: ColorLib.SylConfig.Mode.oral
+  name: oral
+  href: api/ColorLib.SylConfig.Mode.html#ColorLib_SylConfig_Mode_oral
+  commentId: F:ColorLib.SylConfig.Mode.oral
+  fullName: ColorLib.SylConfig.Mode.oral
+  nameWithType: SylConfig.Mode.oral
+- uid: ColorLib.SylConfig.Mode.poesie
+  name: poesie
+  href: api/ColorLib.SylConfig.Mode.html#ColorLib_SylConfig_Mode_poesie
+  commentId: F:ColorLib.SylConfig.Mode.poesie
+  fullName: ColorLib.SylConfig.Mode.poesie
+  nameWithType: SylConfig.Mode.poesie
+- uid: ColorLib.SylConfig.Mode.undefined
+  name: undefined
+  href: api/ColorLib.SylConfig.Mode.html#ColorLib_SylConfig_Mode_undefined
+  commentId: F:ColorLib.SylConfig.Mode.undefined
+  fullName: ColorLib.SylConfig.Mode.undefined
+  nameWithType: SylConfig.Mode.undefined
+- uid: ColorLib.SylConfig.ModeModifiedEvent
+  name: ModeModifiedEvent
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_ModeModifiedEvent
+  commentId: E:ColorLib.SylConfig.ModeModifiedEvent
+  fullName: ColorLib.SylConfig.ModeModifiedEvent
+  nameWithType: SylConfig.ModeModifiedEvent
+- uid: ColorLib.SylConfig.nbrPieds
+  name: nbrPieds
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_nbrPieds
+  commentId: P:ColorLib.SylConfig.nbrPieds
+  fullName: ColorLib.SylConfig.nbrPieds
+  nameWithType: SylConfig.nbrPieds
+- uid: ColorLib.SylConfig.nbrPieds*
+  name: nbrPieds
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_nbrPieds_
+  commentId: Overload:ColorLib.SylConfig.nbrPieds
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.nbrPieds
+  nameWithType: SylConfig.nbrPieds
+- uid: ColorLib.SylConfig.NbrPiedsModified
+  name: NbrPiedsModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_NbrPiedsModified
+  commentId: E:ColorLib.SylConfig.NbrPiedsModified
+  fullName: ColorLib.SylConfig.NbrPiedsModified
+  nameWithType: SylConfig.NbrPiedsModified
 - uid: ColorLib.SylConfig.NextCF
   name: NextCF()
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_NextCF
@@ -5478,12 +5801,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.NextCF
   nameWithType: SylConfig.NextCF
-- uid: ColorLib.SylConfig.nrButtons
-  name: nrButtons
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_nrButtons
-  commentId: F:ColorLib.SylConfig.nrButtons
-  fullName: ColorLib.SylConfig.nrButtons
-  nameWithType: SylConfig.nrButtons
+- uid: ColorLib.SylConfig.NrButtons
+  name: NrButtons
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_NrButtons
+  commentId: F:ColorLib.SylConfig.NrButtons
+  fullName: ColorLib.SylConfig.NrButtons
+  nameWithType: SylConfig.NrButtons
+- uid: ColorLib.SylConfig.OnChercherDiereseModified
+  name: OnChercherDiereseModified()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnChercherDiereseModified
+  commentId: M:ColorLib.SylConfig.OnChercherDiereseModified
+  fullName: ColorLib.SylConfig.OnChercherDiereseModified()
+  nameWithType: SylConfig.OnChercherDiereseModified()
+- uid: ColorLib.SylConfig.OnChercherDiereseModified*
+  name: OnChercherDiereseModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnChercherDiereseModified_
+  commentId: Overload:ColorLib.SylConfig.OnChercherDiereseModified
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.OnChercherDiereseModified
+  nameWithType: SylConfig.OnChercherDiereseModified
 - uid: ColorLib.SylConfig.OnDoubleConsStdModified
   name: OnDoubleConsStdModified()
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnDoubleConsStdModified
@@ -5497,19 +5833,45 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.OnDoubleConsStdModified
   nameWithType: SylConfig.OnDoubleConsStdModified
-- uid: ColorLib.SylConfig.OnModeEcritModified
-  name: OnModeEcritModified()
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnModeEcritModified
-  commentId: M:ColorLib.SylConfig.OnModeEcritModified
-  fullName: ColorLib.SylConfig.OnModeEcritModified()
-  nameWithType: SylConfig.OnModeEcritModified()
-- uid: ColorLib.SylConfig.OnModeEcritModified*
-  name: OnModeEcritModified
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnModeEcritModified_
-  commentId: Overload:ColorLib.SylConfig.OnModeEcritModified
+- uid: ColorLib.SylConfig.OnMarquerMuettesModified
+  name: OnMarquerMuettesModified()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnMarquerMuettesModified
+  commentId: M:ColorLib.SylConfig.OnMarquerMuettesModified
+  fullName: ColorLib.SylConfig.OnMarquerMuettesModified()
+  nameWithType: SylConfig.OnMarquerMuettesModified()
+- uid: ColorLib.SylConfig.OnMarquerMuettesModified*
+  name: OnMarquerMuettesModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnMarquerMuettesModified_
+  commentId: Overload:ColorLib.SylConfig.OnMarquerMuettesModified
   isSpec: "True"
-  fullName: ColorLib.SylConfig.OnModeEcritModified
-  nameWithType: SylConfig.OnModeEcritModified
+  fullName: ColorLib.SylConfig.OnMarquerMuettesModified
+  nameWithType: SylConfig.OnMarquerMuettesModified
+- uid: ColorLib.SylConfig.OnModeModified
+  name: OnModeModified()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnModeModified
+  commentId: M:ColorLib.SylConfig.OnModeModified
+  fullName: ColorLib.SylConfig.OnModeModified()
+  nameWithType: SylConfig.OnModeModified()
+- uid: ColorLib.SylConfig.OnModeModified*
+  name: OnModeModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnModeModified_
+  commentId: Overload:ColorLib.SylConfig.OnModeModified
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.OnModeModified
+  nameWithType: SylConfig.OnModeModified
+- uid: ColorLib.SylConfig.OnNbrPiedsModified
+  name: OnNbrPiedsModified()
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnNbrPiedsModified
+  commentId: M:ColorLib.SylConfig.OnNbrPiedsModified
+  fullName: ColorLib.SylConfig.OnNbrPiedsModified()
+  nameWithType: SylConfig.OnNbrPiedsModified()
+- uid: ColorLib.SylConfig.OnNbrPiedsModified*
+  name: OnNbrPiedsModified
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnNbrPiedsModified_
+  commentId: Overload:ColorLib.SylConfig.OnNbrPiedsModified
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.OnNbrPiedsModified
+  nameWithType: SylConfig.OnNbrPiedsModified
 - uid: ColorLib.SylConfig.OnSylButtonModified(System.Int32)
   name: OnSylButtonModified(Int32)
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_OnSylButtonModified_System_Int32_
@@ -5895,6 +6257,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.TextEl.T
   nameWithType: TextEl.T
+- uid: ColorLib.TextEl.ToLowerString
+  name: ToLowerString()
+  href: api/ColorLib.TextEl.html#ColorLib_TextEl_ToLowerString
+  commentId: M:ColorLib.TextEl.ToLowerString
+  fullName: ColorLib.TextEl.ToLowerString()
+  nameWithType: TextEl.ToLowerString()
+- uid: ColorLib.TextEl.ToLowerString*
+  name: ToLowerString
+  href: api/ColorLib.TextEl.html#ColorLib_TextEl_ToLowerString_
+  commentId: Overload:ColorLib.TextEl.ToLowerString
+  isSpec: "True"
+  fullName: ColorLib.TextEl.ToLowerString
+  nameWithType: TextEl.ToLowerString
 - uid: ColorLib.TextEl.ToString
   name: ToString()
   href: api/ColorLib.TextEl.html#ColorLib_TextEl_ToString
@@ -5966,12 +6341,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.GetLastLinesPos
   nameWithType: TheText.GetLastLinesPos
-- uid: ColorLib.TheText.GetPhonWordList(ColorLib.Config)
-  name: GetPhonWordList(Config)
-  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWordList_ColorLib_Config_
-  commentId: M:ColorLib.TheText.GetPhonWordList(ColorLib.Config)
-  fullName: ColorLib.TheText.GetPhonWordList(ColorLib.Config)
-  nameWithType: TheText.GetPhonWordList(Config)
+- uid: ColorLib.TheText.GetPhonWordList(ColorLib.Config,System.Boolean)
+  name: GetPhonWordList(Config, Boolean)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWordList_ColorLib_Config_System_Boolean_
+  commentId: M:ColorLib.TheText.GetPhonWordList(ColorLib.Config,System.Boolean)
+  fullName: ColorLib.TheText.GetPhonWordList(ColorLib.Config, System.Boolean)
+  nameWithType: TheText.GetPhonWordList(Config, Boolean)
 - uid: ColorLib.TheText.GetPhonWordList*
   name: GetPhonWordList
   href: api/ColorLib.TheText.html#ColorLib_TheText_GetPhonWordList_
@@ -6102,6 +6477,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.MarkWords
   nameWithType: TheText.MarkWords
+- uid: ColorLib.TheText.S
+  name: S
+  href: api/ColorLib.TheText.html#ColorLib_TheText_S
+  commentId: P:ColorLib.TheText.S
+  fullName: ColorLib.TheText.S
+  nameWithType: TheText.S
+- uid: ColorLib.TheText.S*
+  name: S
+  href: api/ColorLib.TheText.html#ColorLib_TheText_S_
+  commentId: Overload:ColorLib.TheText.S
+  isSpec: "True"
+  fullName: ColorLib.TheText.S
+  nameWithType: TheText.S
 - uid: ColorLib.TheText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)
   name: SetChars(FormattedTextEl, Config)
   href: api/ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_
@@ -6115,6 +6503,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.TheText.SetChars
   nameWithType: TheText.SetChars
+- uid: ColorLib.TheText.ToLowerString
+  name: ToLowerString()
+  href: api/ColorLib.TheText.html#ColorLib_TheText_ToLowerString
+  commentId: M:ColorLib.TheText.ToLowerString
+  fullName: ColorLib.TheText.ToLowerString()
+  nameWithType: TheText.ToLowerString()
+- uid: ColorLib.TheText.ToLowerString*
+  name: ToLowerString
+  href: api/ColorLib.TheText.html#ColorLib_TheText_ToLowerString_
+  commentId: Overload:ColorLib.TheText.ToLowerString
+  isSpec: "True"
+  fullName: ColorLib.TheText.ToLowerString
+  nameWithType: TheText.ToLowerString
 - uid: ColorLib.TheText.ToString
   name: ToString()
   href: api/ColorLib.TheText.html#ColorLib_TheText_ToString
@@ -6756,6 +7157,418 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.AutomRuleTest.TestTryApplyRule
   nameWithType: AutomRuleTest.TestTryApplyRule
+- uid: ColorLibTest.ConfigTest
+  name: ColorLibTest.ConfigTest
+  href: api/ColorLibTest.ConfigTest.html
+  commentId: N:ColorLibTest.ConfigTest
+  fullName: ColorLibTest.ConfigTest
+  nameWithType: ColorLibTest.ConfigTest
+- uid: ColorLibTest.ConfigTest.SylConfigTest
+  name: SylConfigTest
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html
+  commentId: T:ColorLibTest.ConfigTest.SylConfigTest
+  fullName: ColorLibTest.ConfigTest.SylConfigTest
+  nameWithType: SylConfigTest
+- uid: ColorLibTest.ConfigTest.SylConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: SylConfigTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.ConfigTest.SylConfigTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.MyClassInitialize
+  nameWithType: SylConfigTest.MyClassInitialize
+- uid: ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_MyTestInitialize
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize()
+  nameWithType: SylConfigTest.MyTestInitialize()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize
+  nameWithType: SylConfigTest.MyTestInitialize
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod1
+  name: TestMethod1()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod1
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestMethod1
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod1()
+  nameWithType: SylConfigTest.TestMethod1()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod1*
+  name: TestMethod1
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod1_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestMethod1
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod1
+  nameWithType: SylConfigTest.TestMethod1
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod2
+  name: TestMethod2()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod2
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestMethod2
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod2()
+  nameWithType: SylConfigTest.TestMethod2()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod2*
+  name: TestMethod2
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod2_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestMethod2
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod2
+  nameWithType: SylConfigTest.TestMethod2
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod3
+  name: TestMethod3()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod3
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestMethod3
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod3()
+  nameWithType: SylConfigTest.TestMethod3()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod3*
+  name: TestMethod3
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod3_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestMethod3
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod3
+  nameWithType: SylConfigTest.TestMethod3
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod4
+  name: TestMethod4()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod4
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestMethod4
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod4()
+  nameWithType: SylConfigTest.TestMethod4()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod4*
+  name: TestMethod4
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod4_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestMethod4
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod4
+  nameWithType: SylConfigTest.TestMethod4
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod5
+  name: TestMethod5()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod5
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestMethod5
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod5()
+  nameWithType: SylConfigTest.TestMethod5()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod5*
+  name: TestMethod5
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod5_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestMethod5
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod5
+  nameWithType: SylConfigTest.TestMethod5
+- uid: ColorLibTest.Dierese
+  name: ColorLibTest.Dierese
+  href: api/ColorLibTest.Dierese.html
+  commentId: N:ColorLibTest.Dierese
+  fullName: ColorLibTest.Dierese
+  nameWithType: ColorLibTest.Dierese
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest
+  name: AnalyseDiereseTest
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html
+  commentId: T:ColorLibTest.Dierese.AnalyseDiereseTest
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest
+  nameWithType: AnalyseDiereseTest
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.Dierese.AnalyseDiereseTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: AnalyseDiereseTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.Dierese.AnalyseDiereseTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.MyClassInitialize
+  nameWithType: AnalyseDiereseTest.MyClassInitialize
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_MyTestInitialize
+  commentId: M:ColorLibTest.Dierese.AnalyseDiereseTest.MyTestInitialize
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.MyTestInitialize()
+  nameWithType: AnalyseDiereseTest.MyTestInitialize()
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.Dierese.AnalyseDiereseTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.MyTestInitialize
+  nameWithType: AnalyseDiereseTest.MyTestInitialize
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.TestChercheDierese
+  name: TestChercheDierese()
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_TestChercheDierese
+  commentId: M:ColorLibTest.Dierese.AnalyseDiereseTest.TestChercheDierese
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.TestChercheDierese()
+  nameWithType: AnalyseDiereseTest.TestChercheDierese()
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.TestChercheDierese*
+  name: TestChercheDierese
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_TestChercheDierese_
+  commentId: Overload:ColorLibTest.Dierese.AnalyseDiereseTest.TestChercheDierese
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.TestChercheDierese
+  nameWithType: AnalyseDiereseTest.TestChercheDierese
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.TestContext
+  name: TestContext
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_TestContext
+  commentId: P:ColorLibTest.Dierese.AnalyseDiereseTest.TestContext
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.TestContext
+  nameWithType: AnalyseDiereseTest.TestContext
+- uid: ColorLibTest.Dierese.AnalyseDiereseTest.TestContext*
+  name: TestContext
+  href: api/ColorLibTest.Dierese.AnalyseDiereseTest.html#ColorLibTest_Dierese_AnalyseDiereseTest_TestContext_
+  commentId: Overload:ColorLibTest.Dierese.AnalyseDiereseTest.TestContext
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.AnalyseDiereseTest.TestContext
+  nameWithType: AnalyseDiereseTest.TestContext
+- uid: ColorLibTest.Dierese.CreerSyllabes
+  name: CreerSyllabes
+  href: api/ColorLibTest.Dierese.CreerSyllabes.html
+  commentId: T:ColorLibTest.Dierese.CreerSyllabes
+  fullName: ColorLibTest.Dierese.CreerSyllabes
+  nameWithType: CreerSyllabes
+- uid: ColorLibTest.Dierese.CreerSyllabes.WriteSyllabes
+  name: WriteSyllabes()
+  href: api/ColorLibTest.Dierese.CreerSyllabes.html#ColorLibTest_Dierese_CreerSyllabes_WriteSyllabes
+  commentId: M:ColorLibTest.Dierese.CreerSyllabes.WriteSyllabes
+  fullName: ColorLibTest.Dierese.CreerSyllabes.WriteSyllabes()
+  nameWithType: CreerSyllabes.WriteSyllabes()
+- uid: ColorLibTest.Dierese.CreerSyllabes.WriteSyllabes*
+  name: WriteSyllabes
+  href: api/ColorLibTest.Dierese.CreerSyllabes.html#ColorLibTest_Dierese_CreerSyllabes_WriteSyllabes_
+  commentId: Overload:ColorLibTest.Dierese.CreerSyllabes.WriteSyllabes
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.CreerSyllabes.WriteSyllabes
+  nameWithType: CreerSyllabes.WriteSyllabes
+- uid: ColorLibTest.Dierese.PoesieTest
+  name: PoesieTest
+  href: api/ColorLibTest.Dierese.PoesieTest.html
+  commentId: T:ColorLibTest.Dierese.PoesieTest
+  fullName: ColorLibTest.Dierese.PoesieTest
+  nameWithType: PoesieTest
+- uid: ColorLibTest.Dierese.PoesieTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.Dierese.PoesieTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.Dierese.PoesieTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: PoesieTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.Dierese.PoesieTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.MyClassInitialize
+  nameWithType: PoesieTest.MyClassInitialize
+- uid: ColorLibTest.Dierese.PoesieTest.TestCigogne
+  name: TestCigogne()
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestCigogne
+  commentId: M:ColorLibTest.Dierese.PoesieTest.TestCigogne
+  fullName: ColorLibTest.Dierese.PoesieTest.TestCigogne()
+  nameWithType: PoesieTest.TestCigogne()
+- uid: ColorLibTest.Dierese.PoesieTest.TestCigogne*
+  name: TestCigogne
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestCigogne_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.TestCigogne
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.TestCigogne
+  nameWithType: PoesieTest.TestCigogne
+- uid: ColorLibTest.Dierese.PoesieTest.TestContext
+  name: TestContext
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestContext
+  commentId: P:ColorLibTest.Dierese.PoesieTest.TestContext
+  fullName: ColorLibTest.Dierese.PoesieTest.TestContext
+  nameWithType: PoesieTest.TestContext
+- uid: ColorLibTest.Dierese.PoesieTest.TestContext*
+  name: TestContext
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestContext_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.TestContext
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.TestContext
+  nameWithType: PoesieTest.TestContext
+- uid: ColorLibTest.Dierese.PoesieTest.TestHymne
+  name: TestHymne()
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestHymne
+  commentId: M:ColorLibTest.Dierese.PoesieTest.TestHymne
+  fullName: ColorLibTest.Dierese.PoesieTest.TestHymne()
+  nameWithType: PoesieTest.TestHymne()
+- uid: ColorLibTest.Dierese.PoesieTest.TestHymne*
+  name: TestHymne
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestHymne_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.TestHymne
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.TestHymne
+  nameWithType: PoesieTest.TestHymne
+- uid: ColorLibTest.Dierese.PoesieTest.TestPernelle
+  name: TestPernelle()
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestPernelle
+  commentId: M:ColorLibTest.Dierese.PoesieTest.TestPernelle
+  fullName: ColorLibTest.Dierese.PoesieTest.TestPernelle()
+  nameWithType: PoesieTest.TestPernelle()
+- uid: ColorLibTest.Dierese.PoesieTest.TestPernelle*
+  name: TestPernelle
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestPernelle_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.TestPernelle
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.TestPernelle
+  nameWithType: PoesieTest.TestPernelle
+- uid: ColorLibTest.Dierese.PoesieTest.TestTartuffe
+  name: TestTartuffe()
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestTartuffe
+  commentId: M:ColorLibTest.Dierese.PoesieTest.TestTartuffe
+  fullName: ColorLibTest.Dierese.PoesieTest.TestTartuffe()
+  nameWithType: PoesieTest.TestTartuffe()
+- uid: ColorLibTest.Dierese.PoesieTest.TestTartuffe*
+  name: TestTartuffe
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestTartuffe_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.TestTartuffe
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.TestTartuffe
+  nameWithType: PoesieTest.TestTartuffe
+- uid: ColorLibTest.Dierese.VersTest
+  name: VersTest
+  href: api/ColorLibTest.Dierese.VersTest.html
+  commentId: T:ColorLibTest.Dierese.VersTest
+  fullName: ColorLibTest.Dierese.VersTest
+  nameWithType: VersTest
+- uid: ColorLibTest.Dierese.VersTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.Dierese.VersTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.Dierese.VersTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: VersTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.Dierese.VersTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.Dierese.VersTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.VersTest.MyClassInitialize
+  nameWithType: VersTest.MyClassInitialize
+- uid: ColorLibTest.Dierese.VersTest.TestConstructeur
+  name: TestConstructeur()
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestConstructeur
+  commentId: M:ColorLibTest.Dierese.VersTest.TestConstructeur
+  fullName: ColorLibTest.Dierese.VersTest.TestConstructeur()
+  nameWithType: VersTest.TestConstructeur()
+- uid: ColorLibTest.Dierese.VersTest.TestConstructeur*
+  name: TestConstructeur
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestConstructeur_
+  commentId: Overload:ColorLibTest.Dierese.VersTest.TestConstructeur
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.VersTest.TestConstructeur
+  nameWithType: VersTest.TestConstructeur
+- uid: ColorLibTest.Dierese.VersTest.TestContext
+  name: TestContext
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestContext
+  commentId: P:ColorLibTest.Dierese.VersTest.TestContext
+  fullName: ColorLibTest.Dierese.VersTest.TestContext
+  nameWithType: VersTest.TestContext
+- uid: ColorLibTest.Dierese.VersTest.TestContext*
+  name: TestContext
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestContext_
+  commentId: Overload:ColorLibTest.Dierese.VersTest.TestContext
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.VersTest.TestContext
+  nameWithType: VersTest.TestContext
+- uid: ColorLibTest.Dierese.VersTest.TestDierese
+  name: TestDierese()
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestDierese
+  commentId: M:ColorLibTest.Dierese.VersTest.TestDierese
+  fullName: ColorLibTest.Dierese.VersTest.TestDierese()
+  nameWithType: VersTest.TestDierese()
+- uid: ColorLibTest.Dierese.VersTest.TestDierese*
+  name: TestDierese
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestDierese_
+  commentId: Overload:ColorLibTest.Dierese.VersTest.TestDierese
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.VersTest.TestDierese
+  nameWithType: VersTest.TestDierese
+- uid: ColorLibTest.Dierese.VersTest.TestExceptionsConstructeur
+  name: TestExceptionsConstructeur()
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestExceptionsConstructeur
+  commentId: M:ColorLibTest.Dierese.VersTest.TestExceptionsConstructeur
+  fullName: ColorLibTest.Dierese.VersTest.TestExceptionsConstructeur()
+  nameWithType: VersTest.TestExceptionsConstructeur()
+- uid: ColorLibTest.Dierese.VersTest.TestExceptionsConstructeur*
+  name: TestExceptionsConstructeur
+  href: api/ColorLibTest.Dierese.VersTest.html#ColorLibTest_Dierese_VersTest_TestExceptionsConstructeur_
+  commentId: Overload:ColorLibTest.Dierese.VersTest.TestExceptionsConstructeur
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.VersTest.TestExceptionsConstructeur
+  nameWithType: VersTest.TestExceptionsConstructeur
+- uid: ColorLibTest.Dierese.ZonePoemeTest
+  name: ZonePoemeTest
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html
+  commentId: T:ColorLibTest.Dierese.ZonePoemeTest
+  fullName: ColorLibTest.Dierese.ZonePoemeTest
+  nameWithType: ZonePoemeTest
+- uid: ColorLibTest.Dierese.ZonePoemeTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.Dierese.ZonePoemeTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: ZonePoemeTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.Dierese.ZonePoemeTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.Dierese.ZonePoemeTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.MyClassInitialize
+  nameWithType: ZonePoemeTest.MyClassInitialize
+- uid: ColorLibTest.Dierese.ZonePoemeTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_MyTestInitialize
+  commentId: M:ColorLibTest.Dierese.ZonePoemeTest.MyTestInitialize
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.MyTestInitialize()
+  nameWithType: ZonePoemeTest.MyTestInitialize()
+- uid: ColorLibTest.Dierese.ZonePoemeTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.Dierese.ZonePoemeTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.MyTestInitialize
+  nameWithType: ZonePoemeTest.MyTestInitialize
+- uid: ColorLibTest.Dierese.ZonePoemeTest.Test151
+  name: Test151()
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_Test151
+  commentId: M:ColorLibTest.Dierese.ZonePoemeTest.Test151
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.Test151()
+  nameWithType: ZonePoemeTest.Test151()
+- uid: ColorLibTest.Dierese.ZonePoemeTest.Test151*
+  name: Test151
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_Test151_
+  commentId: Overload:ColorLibTest.Dierese.ZonePoemeTest.Test151
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.Test151
+  nameWithType: ZonePoemeTest.Test151
+- uid: ColorLibTest.Dierese.ZonePoemeTest.Test8
+  name: Test8()
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_Test8
+  commentId: M:ColorLibTest.Dierese.ZonePoemeTest.Test8
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.Test8()
+  nameWithType: ZonePoemeTest.Test8()
+- uid: ColorLibTest.Dierese.ZonePoemeTest.Test8*
+  name: Test8
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_Test8_
+  commentId: Overload:ColorLibTest.Dierese.ZonePoemeTest.Test8
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.Test8
+  nameWithType: ZonePoemeTest.Test8
+- uid: ColorLibTest.Dierese.ZonePoemeTest.TestContext
+  name: TestContext
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_TestContext
+  commentId: P:ColorLibTest.Dierese.ZonePoemeTest.TestContext
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.TestContext
+  nameWithType: ZonePoemeTest.TestContext
+- uid: ColorLibTest.Dierese.ZonePoemeTest.TestContext*
+  name: TestContext
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_TestContext_
+  commentId: Overload:ColorLibTest.Dierese.ZonePoemeTest.TestContext
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.TestContext
+  nameWithType: ZonePoemeTest.TestContext
 - uid: ColorLibTest.PerfParallelTest
   name: PerfParallelTest
   href: api/ColorLibTest.PerfParallelTest.html
@@ -6898,6 +7711,25 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.PhonWordTest.TransformTextToPhons
   nameWithType: PhonWordTest.TransformTextToPhons
+- uid: ColorLibTest.RGBTest
+  name: RGBTest
+  href: api/ColorLibTest.RGBTest.html
+  commentId: T:ColorLibTest.RGBTest
+  fullName: ColorLibTest.RGBTest
+  nameWithType: RGBTest
+- uid: ColorLibTest.RGBTest.TestComparison
+  name: TestComparison()
+  href: api/ColorLibTest.RGBTest.html#ColorLibTest_RGBTest_TestComparison
+  commentId: M:ColorLibTest.RGBTest.TestComparison
+  fullName: ColorLibTest.RGBTest.TestComparison()
+  nameWithType: RGBTest.TestComparison()
+- uid: ColorLibTest.RGBTest.TestComparison*
+  name: TestComparison
+  href: api/ColorLibTest.RGBTest.html#ColorLibTest_RGBTest_TestComparison_
+  commentId: Overload:ColorLibTest.RGBTest.TestComparison
+  isSpec: "True"
+  fullName: ColorLibTest.RGBTest.TestComparison
+  nameWithType: RGBTest.TestComparison
 - uid: ColorLibTest.SpeedTest
   name: SpeedTest
   href: api/ColorLibTest.SpeedTest.html
@@ -6968,19 +7800,38 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.TextElTest.TestEstConsonne
   nameWithType: TextElTest.TestEstConsonne
-- uid: ColorLibTest.TextElTest.TestSetCharFormat
-  name: TestSetCharFormat()
-  href: api/ColorLibTest.TextElTest.html#ColorLibTest_TextElTest_TestSetCharFormat
-  commentId: M:ColorLibTest.TextElTest.TestSetCharFormat
-  fullName: ColorLibTest.TextElTest.TestSetCharFormat()
-  nameWithType: TextElTest.TestSetCharFormat()
-- uid: ColorLibTest.TextElTest.TestSetCharFormat*
-  name: TestSetCharFormat
-  href: api/ColorLibTest.TextElTest.html#ColorLibTest_TextElTest_TestSetCharFormat_
-  commentId: Overload:ColorLibTest.TextElTest.TestSetCharFormat
+- uid: ColorLibTest.TextElTestExecution
+  name: TextElTestExecution
+  href: api/ColorLibTest.TextElTestExecution.html
+  commentId: T:ColorLibTest.TextElTestExecution
+  fullName: ColorLibTest.TextElTestExecution
+  nameWithType: TextElTestExecution
+- uid: ColorLibTest.TextElTestExecution.TestInvalidTextEl
+  name: TestInvalidTextEl()
+  href: api/ColorLibTest.TextElTestExecution.html#ColorLibTest_TextElTestExecution_TestInvalidTextEl
+  commentId: M:ColorLibTest.TextElTestExecution.TestInvalidTextEl
+  fullName: ColorLibTest.TextElTestExecution.TestInvalidTextEl()
+  nameWithType: TextElTestExecution.TestInvalidTextEl()
+- uid: ColorLibTest.TextElTestExecution.TestInvalidTextEl*
+  name: TestInvalidTextEl
+  href: api/ColorLibTest.TextElTestExecution.html#ColorLibTest_TextElTestExecution_TestInvalidTextEl_
+  commentId: Overload:ColorLibTest.TextElTestExecution.TestInvalidTextEl
   isSpec: "True"
-  fullName: ColorLibTest.TextElTest.TestSetCharFormat
-  nameWithType: TextElTest.TestSetCharFormat
+  fullName: ColorLibTest.TextElTestExecution.TestInvalidTextEl
+  nameWithType: TextElTestExecution.TestInvalidTextEl
+- uid: ColorLibTest.TextElTestExecution.TestSetCharFormat
+  name: TestSetCharFormat()
+  href: api/ColorLibTest.TextElTestExecution.html#ColorLibTest_TextElTestExecution_TestSetCharFormat
+  commentId: M:ColorLibTest.TextElTestExecution.TestSetCharFormat
+  fullName: ColorLibTest.TextElTestExecution.TestSetCharFormat()
+  nameWithType: TextElTestExecution.TestSetCharFormat()
+- uid: ColorLibTest.TextElTestExecution.TestSetCharFormat*
+  name: TestSetCharFormat
+  href: api/ColorLibTest.TextElTestExecution.html#ColorLibTest_TextElTestExecution_TestSetCharFormat_
+  commentId: Overload:ColorLibTest.TextElTestExecution.TestSetCharFormat
+  isSpec: "True"
+  fullName: ColorLibTest.TextElTestExecution.TestSetCharFormat
+  nameWithType: TextElTestExecution.TestSetCharFormat
 - uid: ColorLibTest.TheTextTest
   name: TheTextTest
   href: api/ColorLibTest.TheTextTest.html
@@ -7000,6 +7851,32 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.TheTextTest.TestGetPhonWords
   nameWithType: TheTextTest.TestGetPhonWords
+- uid: ColorLibTest.TheTextTest.TestGetPhonWords2
+  name: TestGetPhonWords2()
+  href: api/ColorLibTest.TheTextTest.html#ColorLibTest_TheTextTest_TestGetPhonWords2
+  commentId: M:ColorLibTest.TheTextTest.TestGetPhonWords2
+  fullName: ColorLibTest.TheTextTest.TestGetPhonWords2()
+  nameWithType: TheTextTest.TestGetPhonWords2()
+- uid: ColorLibTest.TheTextTest.TestGetPhonWords2*
+  name: TestGetPhonWords2
+  href: api/ColorLibTest.TheTextTest.html#ColorLibTest_TheTextTest_TestGetPhonWords2_
+  commentId: Overload:ColorLibTest.TheTextTest.TestGetPhonWords2
+  isSpec: "True"
+  fullName: ColorLibTest.TheTextTest.TestGetPhonWords2
+  nameWithType: TheTextTest.TestGetPhonWords2
+- uid: ColorLibTest.TheTextTest.TestTexteVide
+  name: TestTexteVide()
+  href: api/ColorLibTest.TheTextTest.html#ColorLibTest_TheTextTest_TestTexteVide
+  commentId: M:ColorLibTest.TheTextTest.TestTexteVide
+  fullName: ColorLibTest.TheTextTest.TestTexteVide()
+  nameWithType: TheTextTest.TestTexteVide()
+- uid: ColorLibTest.TheTextTest.TestTexteVide*
+  name: TestTexteVide
+  href: api/ColorLibTest.TheTextTest.html#ColorLibTest_TheTextTest_TestTexteVide_
+  commentId: Overload:ColorLibTest.TheTextTest.TestTexteVide
+  isSpec: "True"
+  fullName: ColorLibTest.TheTextTest.TestTexteVide
+  nameWithType: TheTextTest.TestTexteVide
 - uid: TestForms
   name: TestForms
   href: api/TestForms.html

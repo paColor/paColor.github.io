@@ -73,12 +73,17 @@
   
   <h1 id="ColorLib_TextEl" data-uid="ColorLib.TextEl" class="text-break">Class TextEl
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Un élément du texte référencé <code>T</code>. Commence à <code>First</code> et se termine à
+<code>Last</code>. Si <code>Last</code> = <code>First</code>, l'élément contient exactement 1
+caractère.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TextEl</span></div>
+      <div class="level2"><a class="xref" href="ColorLib.Dierese.Vers.html">Vers</a></div>
+      <div class="level2"><a class="xref" href="ColorLib.Dierese.ZonePoeme.html">ZonePoeme</a></div>
       <div class="level2"><a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a></div>
       <div class="level2"><a class="xref" href="ColorLib.PhonInW.html">PhonInW</a></div>
       <div class="level2"><a class="xref" href="ColorLib.Word.html">Word</a></div>
@@ -118,7 +123,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl__ctor_ColorLib_TextEl_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.%23ctor(ColorLib.TextEl)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L85">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L137">View Source</a>
   </span>
   <a id="ColorLib_TextEl__ctor_" data-uid="ColorLib.TextEl.#ctor*"></a>
   <h4 id="ColorLib_TextEl__ctor_ColorLib_TextEl_" data-uid="ColorLib.TextEl.#ctor(ColorLib.TextEl)">TextEl(TextEl)</h4>
@@ -150,15 +155,17 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl__ctor_ColorLib_TheText_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.%23ctor(ColorLib.TheText%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L77">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L108">View Source</a>
   </span>
   <a id="ColorLib_TextEl__ctor_" data-uid="ColorLib.TextEl.#ctor*"></a>
   <h4 id="ColorLib_TextEl__ctor_ColorLib_TheText_System_Int32_System_Int32_" data-uid="ColorLib.TextEl.#ctor(ColorLib.TheText,System.Int32,System.Int32)">TextEl(TheText, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Crée un <code>TextEl</code> qui correspond à une partie du texte <code>inT</code>. Ne
+peut pas être vide!</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextEl(TheText inT, int inFirst, int inLast)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextEl(TheText tt, int inFirst, int inLast)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,18 +179,24 @@
     <tbody>
       <tr>
         <td><a class="xref" href="ColorLib.TheText.html">TheText</a></td>
-        <td><span class="parametername">inT</span></td>
-        <td></td>
+        <td><span class="parametername">tt</span></td>
+        <td><p>Le texte dont le <code>TextEl</code> est une partie. Ne peut pas
+être vide, ni <code>null</code>!</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">inFirst</span></td>
-        <td></td>
+        <td><p>La position du premier caractère dans <code>inT</code>. Doit
+être plus grand ou égal à 0.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">inLast</span></td>
-        <td></td>
+        <td><p>La position du dernier caractère dans <code>inT</code>. S'il est plus
+petit que <code>inFirst</code>, l'élément est considéré comme vide.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -194,11 +207,13 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_First.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.First%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L62">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L77">View Source</a>
   </span>
   <a id="ColorLib_TextEl_First_" data-uid="ColorLib.TextEl.First*"></a>
   <h4 id="ColorLib_TextEl_First" data-uid="ColorLib.TextEl.First">First</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>La position (zero-based) dans <code>T</code> du premier caractère du <code>TextEl</code>. Doit
+être plus grand ou égal à zéro.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -224,11 +239,13 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_Last.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.Last%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L63">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L83">View Source</a>
   </span>
   <a id="ColorLib_TextEl_Last_" data-uid="ColorLib.TextEl.Last*"></a>
   <h4 id="ColorLib_TextEl_Last" data-uid="ColorLib.TextEl.Last">Last</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>La position (zero-based) dans <code>T</code> du dernier caractère du <code>TextEl</code>.
+S'il est plus petit que <code>First</code>, l'élément est considéré comme vide.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -254,11 +271,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_T.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.T%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L61">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L71">View Source</a>
   </span>
   <a id="ColorLib_TextEl_T_" data-uid="ColorLib.TextEl.T*"></a>
   <h4 id="ColorLib_TextEl_T" data-uid="ColorLib.TextEl.T">T</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Le <a class="xref" href="ColorLib.TheText.html">TheText</a> auquel se rapporte le <code>TextEl</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -286,11 +304,12 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_AllStringInfo.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.AllStringInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L122">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L199">View Source</a>
   </span>
   <a id="ColorLib_TextEl_AllStringInfo_" data-uid="ColorLib.TextEl.AllStringInfo*"></a>
   <h4 id="ColorLib_TextEl_AllStringInfo" data-uid="ColorLib.TextEl.AllStringInfo">AllStringInfo()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a dump of all members of the object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -307,7 +326,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>A string containing a text representation of all members.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -316,7 +336,7 @@
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_CompareTextElByPosition_ColorLib_TextEl_ColorLib_TextEl_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.CompareTextElByPosition(ColorLib.TextEl%2CColorLib.TextEl)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L41">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L47">View Source</a>
   </span>
   <a id="ColorLib_TextEl_CompareTextElByPosition_" data-uid="ColorLib.TextEl.CompareTextElByPosition*"></a>
   <h4 id="ColorLib_TextEl_CompareTextElByPosition_ColorLib_TextEl_ColorLib_TextEl_" data-uid="ColorLib.TextEl.CompareTextElByPosition(ColorLib.TextEl,ColorLib.TextEl)">CompareTextElByPosition(TextEl, TextEl)</h4>
@@ -370,7 +390,7 @@ N'a un sens que pour des éléments se rapportant au même <a class="xref" href=
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_EstConsonne_System_Char_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.EstConsonne(System.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L67">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L88">View Source</a>
   </span>
   <a id="ColorLib_TextEl_EstConsonne_" data-uid="ColorLib.TextEl.EstConsonne*"></a>
   <h4 id="ColorLib_TextEl_EstConsonne_System_Char_" data-uid="ColorLib.TextEl.EstConsonne(System.Char)">EstConsonne(Char)</h4>
@@ -417,7 +437,7 @@ N'a un sens que pour des éléments se rapportant au même <a class="xref" href=
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_EstVoyelle_System_Char_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.EstVoyelle(System.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L72">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L93">View Source</a>
   </span>
   <a id="ColorLib_TextEl_EstVoyelle_" data-uid="ColorLib.TextEl.EstVoyelle*"></a>
   <h4 id="ColorLib_TextEl_EstVoyelle_System_Char_" data-uid="ColorLib.TextEl.EstVoyelle(System.Char)">EstVoyelle(Char)</h4>
@@ -464,7 +484,7 @@ N'a un sens que pour des éléments se rapportant au même <a class="xref" href=
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_PutColor_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.PutColor(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L115">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L189">View Source</a>
   </span>
   <a id="ColorLib_TextEl_PutColor_" data-uid="ColorLib.TextEl.PutColor*"></a>
   <h4 id="ColorLib_TextEl_PutColor_ColorLib_Config_" data-uid="ColorLib.TextEl.PutColor(ColorLib.Config)">PutColor(Config)</h4>
@@ -500,7 +520,7 @@ ce comportement.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_SetCharFormat_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.SetCharFormat(ColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L103">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L174">View Source</a>
   </span>
   <a id="ColorLib_TextEl_SetCharFormat_" data-uid="ColorLib.TextEl.SetCharFormat*"></a>
   <h4 id="ColorLib_TextEl_SetCharFormat_ColorLib_CharFormatting_" data-uid="ColorLib.TextEl.SetCharFormat(ColorLib.CharFormatting)">SetCharFormat(CharFormatting)</h4>
@@ -533,14 +553,47 @@ au <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> <code 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_ToLowerString.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.ToLowerString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L160">View Source</a>
+  </span>
+  <a id="ColorLib_TextEl_ToLowerString_" data-uid="ColorLib.TextEl.ToLowerString*"></a>
+  <h4 id="ColorLib_TextEl_ToLowerString" data-uid="ColorLib.TextEl.ToLowerString">ToLowerString()</h4>
+  <div class="markdown level1 summary"><p>Returns the characters of the <code>TextEl</code> in lower case.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToLowerString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>lower case string of the <code>TextEl</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl_ToString.md&amp;value=---%0Auid%3A%20ColorLib.TextEl.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L92">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L148">View Source</a>
   </span>
   <a id="ColorLib_TextEl_ToString_" data-uid="ColorLib.TextEl.ToString*"></a>
   <h4 id="ColorLib_TextEl_ToString" data-uid="ColorLib.TextEl.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>returns a string that contains the characters of the <code>TextEl</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -557,7 +610,8 @@ au <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> <code 
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The characters of the <code>TextEl</code></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -574,7 +628,7 @@ au <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> <code 
                     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TextEl.md&amp;value=---%0Auid%3A%20ColorLib.TextEl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L28" class="contribution-link">View Source</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TextEl.cs/#L34" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
