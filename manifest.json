@@ -156,7 +156,7 @@
           "hash": "mBXWeYmW6D2ncT+ZS6tvoA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "OrSZJnOZ8FvtSTr2srtXcw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "c8NjOhzDXQKKVK+8n40cNw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "k+yod1WVEa9Pml31ORejWA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "bfjPhuvxd8EYoJC0qWCkGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "eRFSHkL5R07pGKv+dpImrg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.PBDQConfig.html",
-          "hash": "gQypoS77Iu5OMhzb4wk8dw=="
+          "hash": "0QaYYT1+wk4DPCku3ZuXXg=="
         }
       },
       "is_incremental": true,
@@ -384,7 +384,7 @@
           "hash": "6Vo8+X4CvuHaRDCQVW/+Eg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -396,7 +396,7 @@
           "hash": "3kyr5pUi4/jcBpvBFwfhAA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -420,7 +420,7 @@
           "hash": "2Ovv/IcpC+W4q8Nb4gDdng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -552,7 +552,7 @@
           "hash": "ICW1k7ttrfaqMaqNvE/yEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -564,7 +564,7 @@
           "hash": "2+KU93wAJ1V/629xIABorQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.TheText.html",
-          "hash": "ldhC/oHHpXD1ilwSrpjy0A=="
+          "hash": "3MxJcv0O18sCXZb6eIY9uw=="
         }
       },
       "is_incremental": true,
@@ -621,10 +621,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.Word.html",
-          "hash": "MZ1ufnKLaxDF5BAXC5sErA=="
+          "hash": "LI1eqAXxo+Xk/XTkHwXUTA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -840,7 +840,7 @@
           "hash": "4i5h9T7mfQw3VDwu/EF/ZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -876,7 +876,7 @@
           "hash": "nTz1O3QIGB11h+9qRvaT0Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
