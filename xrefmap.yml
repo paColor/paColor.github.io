@@ -656,12 +656,12 @@ references:
   commentId: T:ColorizationControls.FormatButtonHandler2
   fullName: ColorizationControls.FormatButtonHandler2
   nameWithType: FormatButtonHandler2
-- uid: ColorizationControls.FormatButtonHandler2.#ctor(System.Windows.Forms.PictureBox,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,ColorLib.ExecuteTask,ColorLib.ExecuteTask,System.Boolean)
-  name: FormatButtonHandler2(PictureBox, Image, Image, Image, Image, ExecuteTask, ExecuteTask, Boolean)
-  href: api/ColorizationControls.FormatButtonHandler2.html#ColorizationControls_FormatButtonHandler2__ctor_System_Windows_Forms_PictureBox_System_Drawing_Image_System_Drawing_Image_System_Drawing_Image_System_Drawing_Image_ColorLib_ExecuteTask_ColorLib_ExecuteTask_System_Boolean_
-  commentId: M:ColorizationControls.FormatButtonHandler2.#ctor(System.Windows.Forms.PictureBox,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,ColorLib.ExecuteTask,ColorLib.ExecuteTask,System.Boolean)
-  fullName: ColorizationControls.FormatButtonHandler2.FormatButtonHandler2(System.Windows.Forms.PictureBox, System.Drawing.Image, System.Drawing.Image, System.Drawing.Image, System.Drawing.Image, ColorLib.ExecuteTask, ColorLib.ExecuteTask, System.Boolean)
-  nameWithType: FormatButtonHandler2.FormatButtonHandler2(PictureBox, Image, Image, Image, Image, ExecuteTask, ExecuteTask, Boolean)
+- uid: ColorizationControls.FormatButtonHandler2.#ctor(System.Windows.Forms.PictureBox,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.Action,System.Action,System.Boolean)
+  name: FormatButtonHandler2(PictureBox, Image, Image, Image, Image, Action, Action, Boolean)
+  href: api/ColorizationControls.FormatButtonHandler2.html#ColorizationControls_FormatButtonHandler2__ctor_System_Windows_Forms_PictureBox_System_Drawing_Image_System_Drawing_Image_System_Drawing_Image_System_Drawing_Image_System_Action_System_Action_System_Boolean_
+  commentId: M:ColorizationControls.FormatButtonHandler2.#ctor(System.Windows.Forms.PictureBox,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.Action,System.Action,System.Boolean)
+  fullName: ColorizationControls.FormatButtonHandler2.FormatButtonHandler2(System.Windows.Forms.PictureBox, System.Drawing.Image, System.Drawing.Image, System.Drawing.Image, System.Drawing.Image, System.Action, System.Action, System.Boolean)
+  nameWithType: FormatButtonHandler2.FormatButtonHandler2(PictureBox, Image, Image, Image, Image, Action, Action, Boolean)
 - uid: ColorizationControls.FormatButtonHandler2.#ctor*
   name: FormatButtonHandler2
   href: api/ColorizationControls.FormatButtonHandler2.html#ColorizationControls_FormatButtonHandler2__ctor_
@@ -1925,90 +1925,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.BaseConfig.Init
   nameWithType: BaseConfig.Init
-- uid: ColorLib.CERASColors
-  name: CERASColors
-  href: api/ColorLib.CERASColors.html
-  commentId: T:ColorLib.CERASColors
-  fullName: ColorLib.CERASColors
-  nameWithType: CERASColors
-- uid: ColorLib.CERASColors.CERAS_5
-  name: CERAS_5
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_5
-  commentId: F:ColorLib.CERASColors.CERAS_5
-  fullName: ColorLib.CERASColors.CERAS_5
-  nameWithType: CERASColors.CERAS_5
-- uid: ColorLib.CERASColors.CERAS_an
-  name: CERAS_an
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_an
-  commentId: F:ColorLib.CERASColors.CERAS_an
-  fullName: ColorLib.CERASColors.CERAS_an
-  nameWithType: CERASColors.CERAS_an
-- uid: ColorLib.CERASColors.CERAS_e
-  name: CERAS_e
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_e
-  commentId: F:ColorLib.CERASColors.CERAS_e
-  fullName: ColorLib.CERASColors.CERAS_e
-  nameWithType: CERASColors.CERAS_e
-- uid: ColorLib.CERASColors.CERAS_E
-  name: CERAS_E
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_E
-  commentId: F:ColorLib.CERASColors.CERAS_E
-  fullName: ColorLib.CERASColors.CERAS_E
-  nameWithType: CERASColors.CERAS_E
-- uid: ColorLib.CERASColors.CERAS_eu
-  name: CERAS_eu
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_eu
-  commentId: F:ColorLib.CERASColors.CERAS_eu
-  fullName: ColorLib.CERASColors.CERAS_eu
-  nameWithType: CERASColors.CERAS_eu
-- uid: ColorLib.CERASColors.CERAS_ill
-  name: CERAS_ill
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_ill
-  commentId: F:ColorLib.CERASColors.CERAS_ill
-  fullName: ColorLib.CERASColors.CERAS_ill
-  nameWithType: CERASColors.CERAS_ill
-- uid: ColorLib.CERASColors.CERAS_muet
-  name: CERAS_muet
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_muet
-  commentId: F:ColorLib.CERASColors.CERAS_muet
-  fullName: ColorLib.CERASColors.CERAS_muet
-  nameWithType: CERASColors.CERAS_muet
-- uid: ColorLib.CERASColors.CERAS_o
-  name: CERAS_o
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_o
-  commentId: F:ColorLib.CERASColors.CERAS_o
-  fullName: ColorLib.CERASColors.CERAS_o
-  nameWithType: CERASColors.CERAS_o
-- uid: ColorLib.CERASColors.CERAS_oi
-  name: CERAS_oi
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_oi
-  commentId: F:ColorLib.CERASColors.CERAS_oi
-  fullName: ColorLib.CERASColors.CERAS_oi
-  nameWithType: CERASColors.CERAS_oi
-- uid: ColorLib.CERASColors.CERAS_oin
-  name: CERAS_oin
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_oin
-  commentId: F:ColorLib.CERASColors.CERAS_oin
-  fullName: ColorLib.CERASColors.CERAS_oin
-  nameWithType: CERASColors.CERAS_oin
-- uid: ColorLib.CERASColors.CERAS_on
-  name: CERAS_on
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_on
-  commentId: F:ColorLib.CERASColors.CERAS_on
-  fullName: ColorLib.CERASColors.CERAS_on
-  nameWithType: CERASColors.CERAS_on
-- uid: ColorLib.CERASColors.CERAS_rosé
-  name: CERAS_rosé
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_ros_
-  commentId: F:ColorLib.CERASColors.CERAS_rosé
-  fullName: ColorLib.CERASColors.CERAS_rosé
-  nameWithType: CERASColors.CERAS_rosé
-- uid: ColorLib.CERASColors.CERAS_u
-  name: CERAS_u
-  href: api/ColorLib.CERASColors.html#ColorLib_CERASColors_CERAS_u
-  commentId: F:ColorLib.CERASColors.CERAS_u
-  fullName: ColorLib.CERASColors.CERAS_u
-  nameWithType: CERASColors.CERAS_u
 - uid: ColorLib.CFForceBlack
   name: CFForceBlack
   href: api/ColorLib.CFForceBlack.html
@@ -2174,6 +2090,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.CharFormatting.CharFormatting
   nameWithType: CharFormatting.CharFormatting
+- uid: ColorLib.CharFormatting.BlackCF
+  name: BlackCF
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_BlackCF
+  commentId: F:ColorLib.CharFormatting.BlackCF
+  fullName: ColorLib.CharFormatting.BlackCF
+  nameWithType: CharFormatting.BlackCF
 - uid: ColorLib.CharFormatting.bold
   name: bold
   href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_bold
@@ -2485,6 +2407,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.CharFormatting.serif
   nameWithType: CharFormatting.serif
+- uid: ColorLib.CharFormatting.ToString
+  name: ToString()
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_ToString
+  commentId: M:ColorLib.CharFormatting.ToString
+  fullName: ColorLib.CharFormatting.ToString()
+  nameWithType: CharFormatting.ToString()
+- uid: ColorLib.CharFormatting.ToString*
+  name: ToString
+  href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_ToString_
+  commentId: Overload:ColorLib.CharFormatting.ToString
+  isSpec: "True"
+  fullName: ColorLib.CharFormatting.ToString
+  nameWithType: CharFormatting.ToString
 - uid: ColorLib.CharFormatting.underline
   name: underline
   href: api/ColorLib.CharFormatting.html#ColorLib_CharFormatting_underline
@@ -2588,19 +2523,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.ClearSon
   nameWithType: ColConfWin.ClearSon
-- uid: ColorLib.ColConfWin.DefaultBehaviourChangedTo(System.Boolean)
-  name: DefaultBehaviourChangedTo(Boolean)
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_DefaultBehaviourChangedTo_System_Boolean_
-  commentId: M:ColorLib.ColConfWin.DefaultBehaviourChangedTo(System.Boolean)
-  fullName: ColorLib.ColConfWin.DefaultBehaviourChangedTo(System.Boolean)
-  nameWithType: ColConfWin.DefaultBehaviourChangedTo(Boolean)
-- uid: ColorLib.ColConfWin.DefaultBehaviourChangedTo*
-  name: DefaultBehaviourChangedTo
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_DefaultBehaviourChangedTo_
-  commentId: Overload:ColorLib.ColConfWin.DefaultBehaviourChangedTo
+- uid: ColorLib.ColConfWin.coloredCF
+  name: coloredCF
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_coloredCF
+  commentId: P:ColorLib.ColConfWin.coloredCF
+  fullName: ColorLib.ColConfWin.coloredCF
+  nameWithType: ColConfWin.coloredCF
+- uid: ColorLib.ColConfWin.coloredCF*
+  name: coloredCF
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_coloredCF_
+  commentId: Overload:ColorLib.ColConfWin.coloredCF
   isSpec: "True"
-  fullName: ColorLib.ColConfWin.DefaultBehaviourChangedTo
-  nameWithType: ColConfWin.DefaultBehaviourChangedTo
+  fullName: ColorLib.ColConfWin.coloredCF
+  nameWithType: ColConfWin.coloredCF
 - uid: ColorLib.ColConfWin.defBeh
   name: defBeh
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_defBeh
@@ -2663,19 +2598,12 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.ExampleText
   nameWithType: ColConfWin.ExampleText
-- uid: ColorLib.ColConfWin.Get(ColorLib.Phonemes)
-  name: Get(Phonemes)
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_Get_ColorLib_Phonemes_
-  commentId: M:ColorLib.ColConfWin.Get(ColorLib.Phonemes)
-  fullName: ColorLib.ColConfWin.Get(ColorLib.Phonemes)
-  nameWithType: ColConfWin.Get(Phonemes)
-- uid: ColorLib.ColConfWin.Get*
-  name: Get
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_Get_
-  commentId: Overload:ColorLib.ColConfWin.Get
-  isSpec: "True"
-  fullName: ColorLib.ColConfWin.Get
-  nameWithType: ColConfWin.Get
+- uid: ColorLib.ColConfWin.GetCF(ColorLib.Phonemes)
+  name: GetCF(Phonemes)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetCF_ColorLib_Phonemes_
+  commentId: M:ColorLib.ColConfWin.GetCF(ColorLib.Phonemes)
+  fullName: ColorLib.ColConfWin.GetCF(ColorLib.Phonemes)
+  nameWithType: ColConfWin.GetCF(Phonemes)
 - uid: ColorLib.ColConfWin.GetCF(System.String)
   name: GetCF(String)
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetCF_System_String_
@@ -2702,6 +2630,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.GetCheck
   nameWithType: ColConfWin.GetCheck
+- uid: ColorLib.ColConfWin.GetFlag(ColorLib.ColConfWin.RuleFlag)
+  name: GetFlag(ColConfWin.RuleFlag)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetFlag_ColorLib_ColConfWin_RuleFlag_
+  commentId: M:ColorLib.ColConfWin.GetFlag(ColorLib.ColConfWin.RuleFlag)
+  fullName: ColorLib.ColConfWin.GetFlag(ColorLib.ColConfWin.RuleFlag)
+  nameWithType: ColConfWin.GetFlag(ColConfWin.RuleFlag)
+- uid: ColorLib.ColConfWin.GetFlag*
+  name: GetFlag
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetFlag_
+  commentId: Overload:ColorLib.ColConfWin.GetFlag
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.GetFlag
+  nameWithType: ColConfWin.GetFlag
 - uid: ColorLib.ColConfWin.GetListOfSons
   name: GetListOfSons()
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_GetListOfSons
@@ -2829,12 +2770,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.OnSonCharFormattingModified
   nameWithType: ColConfWin.OnSonCharFormattingModified
-- uid: ColorLib.ColConfWin.predefCF
-  name: predefCF
-  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_predefCF
-  commentId: F:ColorLib.ColConfWin.predefCF
-  fullName: ColorLib.ColConfWin.predefCF
-  nameWithType: ColConfWin.predefCF
 - uid: ColorLib.ColConfWin.predefinedColors
   name: predefinedColors
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_predefinedColors
@@ -2854,6 +2789,36 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.Reset
   nameWithType: ColConfWin.Reset
+- uid: ColorLib.ColConfWin.RuleFlag
+  name: ColConfWin.RuleFlag
+  href: api/ColorLib.ColConfWin.RuleFlag.html
+  commentId: T:ColorLib.ColConfWin.RuleFlag
+  fullName: ColorLib.ColConfWin.RuleFlag
+  nameWithType: ColConfWin.RuleFlag
+- uid: ColorLib.ColConfWin.RuleFlag.IllCeras
+  name: IllCeras
+  href: api/ColorLib.ColConfWin.RuleFlag.html#ColorLib_ColConfWin_RuleFlag_IllCeras
+  commentId: F:ColorLib.ColConfWin.RuleFlag.IllCeras
+  fullName: ColorLib.ColConfWin.RuleFlag.IllCeras
+  nameWithType: ColConfWin.RuleFlag.IllCeras
+- uid: ColorLib.ColConfWin.RuleFlag.IllLireCouleur
+  name: IllLireCouleur
+  href: api/ColorLib.ColConfWin.RuleFlag.html#ColorLib_ColConfWin_RuleFlag_IllLireCouleur
+  commentId: F:ColorLib.ColConfWin.RuleFlag.IllLireCouleur
+  fullName: ColorLib.ColConfWin.RuleFlag.IllLireCouleur
+  nameWithType: ColConfWin.RuleFlag.IllLireCouleur
+- uid: ColorLib.ColConfWin.RuleFlag.last
+  name: last
+  href: api/ColorLib.ColConfWin.RuleFlag.html#ColorLib_ColConfWin_RuleFlag_last
+  commentId: F:ColorLib.ColConfWin.RuleFlag.last
+  fullName: ColorLib.ColConfWin.RuleFlag.last
+  nameWithType: ColConfWin.RuleFlag.last
+- uid: ColorLib.ColConfWin.RuleFlag.undefined
+  name: undefined
+  href: api/ColorLib.ColConfWin.RuleFlag.html#ColorLib_ColConfWin_RuleFlag_undefined
+  commentId: F:ColorLib.ColConfWin.RuleFlag.undefined
+  fullName: ColorLib.ColConfWin.RuleFlag.undefined
+  nameWithType: ColConfWin.RuleFlag.undefined
 - uid: ColorLib.ColConfWin.SetAllCbxSons
   name: SetAllCbxSons()
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetAllCbxSons
@@ -2932,6 +2897,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.ColConfWin.SetChkSon
   nameWithType: ColConfWin.SetChkSon
+- uid: ColorLib.ColConfWin.SetDefaultBehaviourTo(ColorLib.ColConfWin.DefBeh)
+  name: SetDefaultBehaviourTo(ColConfWin.DefBeh)
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetDefaultBehaviourTo_ColorLib_ColConfWin_DefBeh_
+  commentId: M:ColorLib.ColConfWin.SetDefaultBehaviourTo(ColorLib.ColConfWin.DefBeh)
+  fullName: ColorLib.ColConfWin.SetDefaultBehaviourTo(ColorLib.ColConfWin.DefBeh)
+  nameWithType: ColConfWin.SetDefaultBehaviourTo(ColConfWin.DefBeh)
+- uid: ColorLib.ColConfWin.SetDefaultBehaviourTo*
+  name: SetDefaultBehaviourTo
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SetDefaultBehaviourTo_
+  commentId: Overload:ColorLib.ColConfWin.SetDefaultBehaviourTo
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.SetDefaultBehaviourTo
+  nameWithType: ColConfWin.SetDefaultBehaviourTo
 - uid: ColorLib.ColConfWin.SonCBModifiedEvent
   name: SonCBModifiedEvent
   href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_SonCBModifiedEvent
@@ -2944,6 +2922,19 @@ references:
   commentId: E:ColorLib.ColConfWin.SonCharFormattingModifiedEvent
   fullName: ColorLib.ColConfWin.SonCharFormattingModifiedEvent
   nameWithType: ColConfWin.SonCharFormattingModifiedEvent
+- uid: ColorLib.ColConfWin.sonsValides
+  name: sonsValides
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_sonsValides
+  commentId: P:ColorLib.ColConfWin.sonsValides
+  fullName: ColorLib.ColConfWin.sonsValides
+  nameWithType: ColConfWin.sonsValides
+- uid: ColorLib.ColConfWin.sonsValides*
+  name: sonsValides
+  href: api/ColorLib.ColConfWin.html#ColorLib_ColConfWin_sonsValides_
+  commentId: Overload:ColorLib.ColConfWin.sonsValides
+  isSpec: "True"
+  fullName: ColorLib.ColConfWin.sonsValides
+  nameWithType: ColConfWin.sonsValides
 - uid: ColorLib.CompletedEventArgs
   name: CompletedEventArgs
   href: api/ColorLib.CompletedEventArgs.html
@@ -3795,18 +3786,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.DuoConfReplacedEventArgs.newDuoConfig
   nameWithType: DuoConfReplacedEventArgs.newDuoConfig
-- uid: ColorLib.ExecTaskOnSon
-  name: ExecTaskOnSon
-  href: api/ColorLib.ExecTaskOnSon.html
-  commentId: T:ColorLib.ExecTaskOnSon
-  fullName: ColorLib.ExecTaskOnSon
-  nameWithType: ExecTaskOnSon
-- uid: ColorLib.ExecuteTask
-  name: ExecuteTask
-  href: api/ColorLib.ExecuteTask.html
-  commentId: T:ColorLib.ExecuteTask
-  fullName: ColorLib.ExecuteTask
-  nameWithType: ExecuteTask
 - uid: ColorLib.FormattedTextEl
   name: FormattedTextEl
   href: api/ColorLib.FormattedTextEl.html
@@ -3896,19 +3875,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.PBDQConfig.PBDQConfig
   nameWithType: PBDQConfig.PBDQConfig
-- uid: ColorLib.PBDQConfig.BlackSettingCheckChangedTo(System.Boolean)
-  name: BlackSettingCheckChangedTo(Boolean)
-  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_BlackSettingCheckChangedTo_System_Boolean_
-  commentId: M:ColorLib.PBDQConfig.BlackSettingCheckChangedTo(System.Boolean)
-  fullName: ColorLib.PBDQConfig.BlackSettingCheckChangedTo(System.Boolean)
-  nameWithType: PBDQConfig.BlackSettingCheckChangedTo(Boolean)
-- uid: ColorLib.PBDQConfig.BlackSettingCheckChangedTo*
-  name: BlackSettingCheckChangedTo
-  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_BlackSettingCheckChangedTo_
-  commentId: Overload:ColorLib.PBDQConfig.BlackSettingCheckChangedTo
-  isSpec: "True"
-  fullName: ColorLib.PBDQConfig.BlackSettingCheckChangedTo
-  nameWithType: PBDQConfig.BlackSettingCheckChangedTo
 - uid: ColorLib.PBDQConfig.GetCfForPBDQButton(System.Int32,System.Char@)
   name: GetCfForPBDQButton(Int32, out Char)
   href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_GetCfForPBDQButton_System_Int32_System_Char__
@@ -4027,6 +3993,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.PBDQConfig.Reset
   nameWithType: PBDQConfig.Reset
+- uid: ColorLib.PBDQConfig.SetMarkAsBlackTo(System.Boolean)
+  name: SetMarkAsBlackTo(Boolean)
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_SetMarkAsBlackTo_System_Boolean_
+  commentId: M:ColorLib.PBDQConfig.SetMarkAsBlackTo(System.Boolean)
+  fullName: ColorLib.PBDQConfig.SetMarkAsBlackTo(System.Boolean)
+  nameWithType: PBDQConfig.SetMarkAsBlackTo(Boolean)
+- uid: ColorLib.PBDQConfig.SetMarkAsBlackTo*
+  name: SetMarkAsBlackTo
+  href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_SetMarkAsBlackTo_
+  commentId: Overload:ColorLib.PBDQConfig.SetMarkAsBlackTo
+  isSpec: "True"
+  fullName: ColorLib.PBDQConfig.SetMarkAsBlackTo
+  nameWithType: PBDQConfig.SetMarkAsBlackTo
 - uid: ColorLib.PBDQConfig.UpdateLetter(System.Int32,ColorLib.CharFormatting)
   name: UpdateLetter(Int32, CharFormatting)
   href: api/ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_UpdateLetter_System_Int32_ColorLib_CharFormatting_
@@ -5017,120 +4996,126 @@ references:
   isSpec: "True"
   fullName: ColorLib.PhonWord.Syllabes
   nameWithType: PhonWord.Syllabes
-- uid: ColorLib.PredefCols
-  name: PredefCols
-  href: api/ColorLib.PredefCols.html
-  commentId: T:ColorLib.PredefCols
-  fullName: ColorLib.PredefCols
-  nameWithType: PredefCols
-- uid: ColorLib.PredefCols.black
+- uid: ColorLib.PredefCol
+  name: PredefCol
+  href: api/ColorLib.PredefCol.html
+  commentId: T:ColorLib.PredefCol
+  fullName: ColorLib.PredefCol
+  nameWithType: PredefCol
+- uid: ColorLib.PredefCol.black
   name: black
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_black
-  commentId: F:ColorLib.PredefCols.black
-  fullName: ColorLib.PredefCols.black
-  nameWithType: PredefCols.black
-- uid: ColorLib.PredefCols.blue
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_black
+  commentId: F:ColorLib.PredefCol.black
+  fullName: ColorLib.PredefCol.black
+  nameWithType: PredefCol.black
+- uid: ColorLib.PredefCol.blue
   name: blue
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_blue
-  commentId: F:ColorLib.PredefCols.blue
-  fullName: ColorLib.PredefCols.blue
-  nameWithType: PredefCols.blue
-- uid: ColorLib.PredefCols.brown
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_blue
+  commentId: F:ColorLib.PredefCol.blue
+  fullName: ColorLib.PredefCol.blue
+  nameWithType: PredefCol.blue
+- uid: ColorLib.PredefCol.brown
   name: brown
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_brown
-  commentId: F:ColorLib.PredefCols.brown
-  fullName: ColorLib.PredefCols.brown
-  nameWithType: PredefCols.brown
-- uid: ColorLib.PredefCols.darkBlue
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_brown
+  commentId: F:ColorLib.PredefCol.brown
+  fullName: ColorLib.PredefCol.brown
+  nameWithType: PredefCol.brown
+- uid: ColorLib.PredefCol.cerasUn
+  name: cerasUn
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_cerasUn
+  commentId: F:ColorLib.PredefCol.cerasUn
+  fullName: ColorLib.PredefCol.cerasUn
+  nameWithType: PredefCol.cerasUn
+- uid: ColorLib.PredefCol.darkBlue
   name: darkBlue
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_darkBlue
-  commentId: F:ColorLib.PredefCols.darkBlue
-  fullName: ColorLib.PredefCols.darkBlue
-  nameWithType: PredefCols.darkBlue
-- uid: ColorLib.PredefCols.darkGreen
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_darkBlue
+  commentId: F:ColorLib.PredefCol.darkBlue
+  fullName: ColorLib.PredefCol.darkBlue
+  nameWithType: PredefCol.darkBlue
+- uid: ColorLib.PredefCol.darkGreen
   name: darkGreen
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_darkGreen
-  commentId: F:ColorLib.PredefCols.darkGreen
-  fullName: ColorLib.PredefCols.darkGreen
-  nameWithType: PredefCols.darkGreen
-- uid: ColorLib.PredefCols.darkRed
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_darkGreen
+  commentId: F:ColorLib.PredefCol.darkGreen
+  fullName: ColorLib.PredefCol.darkGreen
+  nameWithType: PredefCol.darkGreen
+- uid: ColorLib.PredefCol.darkRed
   name: darkRed
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_darkRed
-  commentId: F:ColorLib.PredefCols.darkRed
-  fullName: ColorLib.PredefCols.darkRed
-  nameWithType: PredefCols.darkRed
-- uid: ColorLib.PredefCols.darkYellow
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_darkRed
+  commentId: F:ColorLib.PredefCol.darkRed
+  fullName: ColorLib.PredefCol.darkRed
+  nameWithType: PredefCol.darkRed
+- uid: ColorLib.PredefCol.darkYellow
   name: darkYellow
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_darkYellow
-  commentId: F:ColorLib.PredefCols.darkYellow
-  fullName: ColorLib.PredefCols.darkYellow
-  nameWithType: PredefCols.darkYellow
-- uid: ColorLib.PredefCols.frogGreen
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_darkYellow
+  commentId: F:ColorLib.PredefCol.darkYellow
+  fullName: ColorLib.PredefCol.darkYellow
+  nameWithType: PredefCol.darkYellow
+- uid: ColorLib.PredefCol.frogGreen
   name: frogGreen
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_frogGreen
-  commentId: F:ColorLib.PredefCols.frogGreen
-  fullName: ColorLib.PredefCols.frogGreen
-  nameWithType: PredefCols.frogGreen
-- uid: ColorLib.PredefCols.grey
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_frogGreen
+  commentId: F:ColorLib.PredefCol.frogGreen
+  fullName: ColorLib.PredefCol.frogGreen
+  nameWithType: PredefCol.frogGreen
+- uid: ColorLib.PredefCol.grey
   name: grey
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_grey
-  commentId: F:ColorLib.PredefCols.grey
-  fullName: ColorLib.PredefCols.grey
-  nameWithType: PredefCols.grey
-- uid: ColorLib.PredefCols.lightBlue
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_grey
+  commentId: F:ColorLib.PredefCol.grey
+  fullName: ColorLib.PredefCol.grey
+  nameWithType: PredefCol.grey
+- uid: ColorLib.PredefCol.lightBlue
   name: lightBlue
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_lightBlue
-  commentId: F:ColorLib.PredefCols.lightBlue
-  fullName: ColorLib.PredefCols.lightBlue
-  nameWithType: PredefCols.lightBlue
-- uid: ColorLib.PredefCols.neutral
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_lightBlue
+  commentId: F:ColorLib.PredefCol.lightBlue
+  fullName: ColorLib.PredefCol.lightBlue
+  nameWithType: PredefCol.lightBlue
+- uid: ColorLib.PredefCol.neutral
   name: neutral
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_neutral
-  commentId: F:ColorLib.PredefCols.neutral
-  fullName: ColorLib.PredefCols.neutral
-  nameWithType: PredefCols.neutral
-- uid: ColorLib.PredefCols.orange
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_neutral
+  commentId: F:ColorLib.PredefCol.neutral
+  fullName: ColorLib.PredefCol.neutral
+  nameWithType: PredefCol.neutral
+- uid: ColorLib.PredefCol.orange
   name: orange
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_orange
-  commentId: F:ColorLib.PredefCols.orange
-  fullName: ColorLib.PredefCols.orange
-  nameWithType: PredefCols.orange
-- uid: ColorLib.PredefCols.pink
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_orange
+  commentId: F:ColorLib.PredefCol.orange
+  fullName: ColorLib.PredefCol.orange
+  nameWithType: PredefCol.orange
+- uid: ColorLib.PredefCol.pink
   name: pink
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_pink
-  commentId: F:ColorLib.PredefCols.pink
-  fullName: ColorLib.PredefCols.pink
-  nameWithType: PredefCols.pink
-- uid: ColorLib.PredefCols.pureBlue
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_pink
+  commentId: F:ColorLib.PredefCol.pink
+  fullName: ColorLib.PredefCol.pink
+  nameWithType: PredefCol.pink
+- uid: ColorLib.PredefCol.pureBlue
   name: pureBlue
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_pureBlue
-  commentId: F:ColorLib.PredefCols.pureBlue
-  fullName: ColorLib.PredefCols.pureBlue
-  nameWithType: PredefCols.pureBlue
-- uid: ColorLib.PredefCols.red
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_pureBlue
+  commentId: F:ColorLib.PredefCol.pureBlue
+  fullName: ColorLib.PredefCol.pureBlue
+  nameWithType: PredefCol.pureBlue
+- uid: ColorLib.PredefCol.red
   name: red
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_red
-  commentId: F:ColorLib.PredefCols.red
-  fullName: ColorLib.PredefCols.red
-  nameWithType: PredefCols.red
-- uid: ColorLib.PredefCols.turquoise
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_red
+  commentId: F:ColorLib.PredefCol.red
+  fullName: ColorLib.PredefCol.red
+  nameWithType: PredefCol.red
+- uid: ColorLib.PredefCol.turquoise
   name: turquoise
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_turquoise
-  commentId: F:ColorLib.PredefCols.turquoise
-  fullName: ColorLib.PredefCols.turquoise
-  nameWithType: PredefCols.turquoise
-- uid: ColorLib.PredefCols.violet
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_turquoise
+  commentId: F:ColorLib.PredefCol.turquoise
+  fullName: ColorLib.PredefCol.turquoise
+  nameWithType: PredefCol.turquoise
+- uid: ColorLib.PredefCol.violet
   name: violet
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_violet
-  commentId: F:ColorLib.PredefCols.violet
-  fullName: ColorLib.PredefCols.violet
-  nameWithType: PredefCols.violet
-- uid: ColorLib.PredefCols.white
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_violet
+  commentId: F:ColorLib.PredefCol.violet
+  fullName: ColorLib.PredefCol.violet
+  nameWithType: PredefCol.violet
+- uid: ColorLib.PredefCol.white
   name: white
-  href: api/ColorLib.PredefCols.html#ColorLib_PredefCols_white
-  commentId: F:ColorLib.PredefCols.white
-  fullName: ColorLib.PredefCols.white
-  nameWithType: PredefCols.white
+  href: api/ColorLib.PredefCol.html#ColorLib_PredefCol_white
+  commentId: F:ColorLib.PredefCol.white
+  fullName: ColorLib.PredefCol.white
+  nameWithType: PredefCol.white
 - uid: ColorLib.ProgressEventArgs
   name: ProgressEventArgs
   href: api/ColorLib.ProgressEventArgs.html
@@ -5911,6 +5896,25 @@ references:
   isSpec: "True"
   fullName: ColorLib.SylConfig.ResetCounter
   nameWithType: SylConfig.ResetCounter
+- uid: ColorLib.SylConfig.SetSylButtonCF(System.Int32,ColorLib.CharFormatting)
+  name: SetSylButtonCF(Int32, CharFormatting)
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SetSylButtonCF_System_Int32_ColorLib_CharFormatting_
+  commentId: M:ColorLib.SylConfig.SetSylButtonCF(System.Int32,ColorLib.CharFormatting)
+  fullName: ColorLib.SylConfig.SetSylButtonCF(System.Int32, ColorLib.CharFormatting)
+  nameWithType: SylConfig.SetSylButtonCF(Int32, CharFormatting)
+- uid: ColorLib.SylConfig.SetSylButtonCF(System.String,ColorLib.CharFormatting)
+  name: SetSylButtonCF(String, CharFormatting)
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SetSylButtonCF_System_String_ColorLib_CharFormatting_
+  commentId: M:ColorLib.SylConfig.SetSylButtonCF(System.String,ColorLib.CharFormatting)
+  fullName: ColorLib.SylConfig.SetSylButtonCF(System.String, ColorLib.CharFormatting)
+  nameWithType: SylConfig.SetSylButtonCF(String, CharFormatting)
+- uid: ColorLib.SylConfig.SetSylButtonCF*
+  name: SetSylButtonCF
+  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SetSylButtonCF_
+  commentId: Overload:ColorLib.SylConfig.SetSylButtonCF
+  isSpec: "True"
+  fullName: ColorLib.SylConfig.SetSylButtonCF
+  nameWithType: SylConfig.SetSylButtonCF
 - uid: ColorLib.SylConfig.SylButtonConf
   name: SylConfig.SylButtonConf
   href: api/ColorLib.SylConfig.SylButtonConf.html
@@ -5929,25 +5933,6 @@ references:
   commentId: F:ColorLib.SylConfig.SylButtonConf.cf
   fullName: ColorLib.SylConfig.SylButtonConf.cf
   nameWithType: SylConfig.SylButtonConf.cf
-- uid: ColorLib.SylConfig.SylButtonModified(System.Int32,ColorLib.CharFormatting)
-  name: SylButtonModified(Int32, CharFormatting)
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SylButtonModified_System_Int32_ColorLib_CharFormatting_
-  commentId: M:ColorLib.SylConfig.SylButtonModified(System.Int32,ColorLib.CharFormatting)
-  fullName: ColorLib.SylConfig.SylButtonModified(System.Int32, ColorLib.CharFormatting)
-  nameWithType: SylConfig.SylButtonModified(Int32, CharFormatting)
-- uid: ColorLib.SylConfig.SylButtonModified(System.String,ColorLib.CharFormatting)
-  name: SylButtonModified(String, CharFormatting)
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SylButtonModified_System_String_ColorLib_CharFormatting_
-  commentId: M:ColorLib.SylConfig.SylButtonModified(System.String,ColorLib.CharFormatting)
-  fullName: ColorLib.SylConfig.SylButtonModified(System.String, ColorLib.CharFormatting)
-  nameWithType: SylConfig.SylButtonModified(String, CharFormatting)
-- uid: ColorLib.SylConfig.SylButtonModified*
-  name: SylButtonModified
-  href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SylButtonModified_
-  commentId: Overload:ColorLib.SylConfig.SylButtonModified
-  isSpec: "True"
-  fullName: ColorLib.SylConfig.SylButtonModified
-  nameWithType: SylConfig.SylButtonModified
 - uid: ColorLib.SylConfig.SylButtonModifiedEvent
   name: SylButtonModifiedEvent
   href: api/ColorLib.SylConfig.html#ColorLib_SylConfig_SylButtonModifiedEvent
@@ -7163,6 +7148,498 @@ references:
   commentId: N:ColorLibTest.ConfigTest
   fullName: ColorLibTest.ConfigTest
   nameWithType: ColorLibTest.ConfigTest
+- uid: ColorLibTest.ConfigTest.ColConfWinTest
+  name: ColConfWinTest
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html
+  commentId: T:ColorLibTest.ConfigTest.ColConfWinTest
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest
+  nameWithType: ColConfWinTest
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cBlanc
+  name: cBlanc
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cBlanc
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cBlanc
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cBlanc
+  nameWithType: ColConfWinTest.cBlanc
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cBleu
+  name: cBleu
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cBleu
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cBleu
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cBleu
+  nameWithType: ColConfWinTest.cBleu
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cBleuClair
+  name: cBleuClair
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cBleuClair
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cBleuClair
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cBleuClair
+  nameWithType: ColConfWinTest.cBleuClair
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cBleuFoncé
+  name: cBleuFoncé
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cBleuFonc_
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cBleuFoncé
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cBleuFoncé
+  nameWithType: ColConfWinTest.cBleuFoncé
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cBleuPur
+  name: cBleuPur
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cBleuPur
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cBleuPur
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cBleuPur
+  nameWithType: ColConfWinTest.cBleuPur
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cf1
+  name: cf1
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cf1
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cf1
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cf1
+  nameWithType: ColConfWinTest.cf1
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cf2
+  name: cf2
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cf2
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cf2
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cf2
+  nameWithType: ColConfWinTest.cf2
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cf5
+  name: cf5
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cf5
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cf5
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cf5
+  nameWithType: ColConfWinTest.cf5
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfAN
+  name: cfAN
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfAN
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfAN
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfAN
+  nameWithType: ColConfWinTest.cfAN
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfBlack
+  name: cfBlack
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfBlack
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfBlack
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfBlack
+  nameWithType: ColConfWinTest.cfBlack
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfBLANC
+  name: cfBLANC
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfBLANC
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfBLANC
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfBLANC
+  nameWithType: ColConfWinTest.cfBLANC
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfBLEU
+  name: cfBLEU
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfBLEU
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfBLEU
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfBLEU
+  nameWithType: ColConfWinTest.cfBLEU
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfBLEUCLAIR
+  name: cfBLEUCLAIR
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfBLEUCLAIR
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfBLEUCLAIR
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfBLEUCLAIR
+  nameWithType: ColConfWinTest.cfBLEUCLAIR
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfe
+  name: cfe
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfe
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfe
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfe
+  nameWithType: ColConfWinTest.cfe
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfE
+  name: cfE
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfE
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfE
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfE
+  nameWithType: ColConfWinTest.cfE
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfeRose
+  name: cfeRose
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfeRose
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfeRose
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfeRose
+  nameWithType: ColConfWinTest.cfeRose
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfGrisUn
+  name: cfGrisUn
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfGrisUn
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfGrisUn
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfGrisUn
+  nameWithType: ColConfWinTest.cfGrisUn
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfILL
+  name: cfILL
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfILL
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfILL
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfILL
+  nameWithType: ColConfWinTest.cfILL
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfMUET
+  name: cfMUET
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfMUET
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfMUET
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfMUET
+  nameWithType: ColConfWinTest.cfMUET
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfNeutre
+  name: cfNeutre
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfNeutre
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfNeutre
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfNeutre
+  nameWithType: ColConfWinTest.cfNeutre
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfO
+  name: cfO
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfO
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfO
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfO
+  nameWithType: ColConfWinTest.cfO
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfOI
+  name: cfOI
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfOI
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfOI
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfOI
+  nameWithType: ColConfWinTest.cfOI
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfOIN
+  name: cfOIN
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfOIN
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfOIN
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfOIN
+  nameWithType: ColConfWinTest.cfOIN
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfON
+  name: cfON
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfON
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfON
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfON
+  nameWithType: ColConfWinTest.cfON
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfROUGEF
+  name: cfROUGEF
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfROUGEF
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfROUGEF
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfROUGEF
+  nameWithType: ColConfWinTest.cfROUGEF
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfu
+  name: cfu
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfu
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfu
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfu
+  nameWithType: ColConfWinTest.cfu
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cfVGrenou
+  name: cfVGrenou
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cfVGrenou
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cfVGrenou
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cfVGrenou
+  nameWithType: ColConfWinTest.cfVGrenou
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cGris
+  name: cGris
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cGris
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cGris
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cGris
+  nameWithType: ColConfWinTest.cGris
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cGrisNeutre
+  name: cGrisNeutre
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cGrisNeutre
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cGrisNeutre
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cGrisNeutre
+  nameWithType: ColConfWinTest.cGrisNeutre
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cGrisUn
+  name: cGrisUn
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cGrisUn
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cGrisUn
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cGrisUn
+  nameWithType: ColConfWinTest.cGrisUn
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cJaune
+  name: cJaune
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cJaune
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cJaune
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cJaune
+  nameWithType: ColConfWinTest.cJaune
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cMarron
+  name: cMarron
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cMarron
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cMarron
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cMarron
+  nameWithType: ColConfWinTest.cMarron
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cNoir
+  name: cNoir
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cNoir
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cNoir
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cNoir
+  nameWithType: ColConfWinTest.cNoir
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cOrange
+  name: cOrange
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cOrange
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cOrange
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cOrange
+  nameWithType: ColConfWinTest.cOrange
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cRose
+  name: cRose
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cRose
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cRose
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cRose
+  nameWithType: ColConfWinTest.cRose
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cRouge
+  name: cRouge
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cRouge
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cRouge
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cRouge
+  nameWithType: ColConfWinTest.cRouge
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cRougeFonce
+  name: cRougeFonce
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cRougeFonce
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cRougeFonce
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cRougeFonce
+  nameWithType: ColConfWinTest.cRougeFonce
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cTurquoise
+  name: cTurquoise
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cTurquoise
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cTurquoise
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cTurquoise
+  nameWithType: ColConfWinTest.cTurquoise
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cVertGren
+  name: cVertGren
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cVertGren
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cVertGren
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cVertGren
+  nameWithType: ColConfWinTest.cVertGren
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cVertSapin
+  name: cVertSapin
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cVertSapin
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cVertSapin
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cVertSapin
+  nameWithType: ColConfWinTest.cVertSapin
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.cViolet
+  name: cViolet
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_cViolet
+  commentId: F:ColorLibTest.ConfigTest.ColConfWinTest.cViolet
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.cViolet
+  nameWithType: ColConfWinTest.cViolet
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: ColConfWinTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.MyClassInitialize
+  nameWithType: ColConfWinTest.MyClassInitialize
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_MyTestInitialize
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.MyTestInitialize
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.MyTestInitialize()
+  nameWithType: ColConfWinTest.MyTestInitialize()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.MyTestInitialize
+  nameWithType: ColConfWinTest.MyTestInitialize
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestDefaultMuettes
+  name: TestDefaultMuettes()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestDefaultMuettes
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestDefaultMuettes
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestDefaultMuettes()
+  nameWithType: ColConfWinTest.TestDefaultMuettes()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestDefaultMuettes*
+  name: TestDefaultMuettes
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestDefaultMuettes_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestDefaultMuettes
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestDefaultMuettes
+  nameWithType: ColConfWinTest.TestDefaultMuettes
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestePredefCols
+  name: TestePredefCols()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestePredefCols
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestePredefCols
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestePredefCols()
+  nameWithType: ColConfWinTest.TestePredefCols()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestePredefCols*
+  name: TestePredefCols
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestePredefCols_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestePredefCols
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestePredefCols
+  nameWithType: ColConfWinTest.TestePredefCols
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents1
+  name: TestEvents1()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestEvents1
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestEvents1
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents1()
+  nameWithType: ColConfWinTest.TestEvents1()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents1*
+  name: TestEvents1
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestEvents1_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestEvents1
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents1
+  nameWithType: ColConfWinTest.TestEvents1
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents2
+  name: TestEvents2()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestEvents2
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestEvents2
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents2()
+  nameWithType: ColConfWinTest.TestEvents2()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents2*
+  name: TestEvents2
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestEvents2_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestEvents2
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents2
+  nameWithType: ColConfWinTest.TestEvents2
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents3
+  name: TestEvents3()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestEvents3
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestEvents3
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents3()
+  nameWithType: ColConfWinTest.TestEvents3()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents3*
+  name: TestEvents3
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestEvents3_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestEvents3
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestEvents3
+  nameWithType: ColConfWinTest.TestEvents3
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestGetForPhons
+  name: TestGetForPhons()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestGetForPhons
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestGetForPhons
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestGetForPhons()
+  nameWithType: ColConfWinTest.TestGetForPhons()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestGetForPhons*
+  name: TestGetForPhons
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestGetForPhons_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestGetForPhons
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestGetForPhons
+  nameWithType: ColConfWinTest.TestGetForPhons
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestMiseEnCouleur
+  name: TestMiseEnCouleur()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestMiseEnCouleur
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestMiseEnCouleur
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestMiseEnCouleur()
+  nameWithType: ColConfWinTest.TestMiseEnCouleur()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestMiseEnCouleur*
+  name: TestMiseEnCouleur
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestMiseEnCouleur_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestMiseEnCouleur
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestMiseEnCouleur
+  nameWithType: ColConfWinTest.TestMiseEnCouleur
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestOutOfRange
+  name: TestOutOfRange()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestOutOfRange
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestOutOfRange
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestOutOfRange()
+  nameWithType: ColConfWinTest.TestOutOfRange()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestOutOfRange*
+  name: TestOutOfRange
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestOutOfRange_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestOutOfRange
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestOutOfRange
+  nameWithType: ColConfWinTest.TestOutOfRange
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags
+  name: TestRuleFlags()
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestRuleFlags
+  commentId: M:ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags()
+  nameWithType: ColConfWinTest.TestRuleFlags()
+- uid: ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags*
+  name: TestRuleFlags
+  href: api/ColorLibTest.ConfigTest.ColConfWinTest.html#ColorLibTest_ConfigTest_ColConfWinTest_TestRuleFlags_
+  commentId: Overload:ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags
+  nameWithType: ColConfWinTest.TestRuleFlags
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest
+  name: PBDQConfigTest
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html
+  commentId: T:ColorLibTest.ConfigTest.PBDQConfigTest
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest
+  nameWithType: PBDQConfigTest
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: PBDQConfigTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.MyClassInitialize
+  nameWithType: PBDQConfigTest.MyClassInitialize
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_MyTestInitialize
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.MyTestInitialize
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.MyTestInitialize()
+  nameWithType: PBDQConfigTest.MyTestInitialize()
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.MyTestInitialize
+  nameWithType: PBDQConfigTest.MyTestInitialize
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestDefault
+  name: TestDefault()
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestDefault
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.TestDefault
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestDefault()
+  nameWithType: PBDQConfigTest.TestDefault()
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestDefault*
+  name: TestDefault
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestDefault_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.TestDefault
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestDefault
+  nameWithType: PBDQConfigTest.TestDefault
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod1
+  name: TestMethod1()
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod1
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod1
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod1()
+  nameWithType: PBDQConfigTest.TestMethod1()
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod1*
+  name: TestMethod1
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod1_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod1
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod1
+  nameWithType: PBDQConfigTest.TestMethod1
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod2
+  name: TestMethod2()
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod2
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod2
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod2()
+  nameWithType: PBDQConfigTest.TestMethod2()
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod2*
+  name: TestMethod2
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod2_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod2
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod2
+  nameWithType: PBDQConfigTest.TestMethod2
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod3
+  name: TestMethod3()
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod3
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod3
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod3()
+  nameWithType: PBDQConfigTest.TestMethod3()
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod3*
+  name: TestMethod3
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod3_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod3
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod3
+  nameWithType: PBDQConfigTest.TestMethod3
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod4
+  name: TestMethod4()
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod4
+  commentId: M:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod4
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod4()
+  nameWithType: PBDQConfigTest.TestMethod4()
+- uid: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod4*
+  name: TestMethod4
+  href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html#ColorLibTest_ConfigTest_PBDQConfigTest_TestMethod4_
+  commentId: Overload:ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod4
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.PBDQConfigTest.TestMethod4
+  nameWithType: PBDQConfigTest.TestMethod4
 - uid: ColorLibTest.ConfigTest.SylConfigTest
   name: SylConfigTest
   href: api/ColorLibTest.ConfigTest.SylConfigTest.html
@@ -7195,6 +7672,19 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.ConfigTest.SylConfigTest.MyTestInitialize
   nameWithType: SylConfigTest.MyTestInitialize
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestDefault
+  name: TestDefault()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestDefault
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestDefault
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestDefault()
+  nameWithType: SylConfigTest.TestDefault()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestDefault*
+  name: TestDefault
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestDefault_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestDefault
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestDefault
+  nameWithType: SylConfigTest.TestDefault
 - uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod1
   name: TestMethod1()
   href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod1
@@ -7260,6 +7750,19 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod5
   nameWithType: SylConfigTest.TestMethod5
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod6
+  name: TestMethod6()
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod6
+  commentId: M:ColorLibTest.ConfigTest.SylConfigTest.TestMethod6
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod6()
+  nameWithType: SylConfigTest.TestMethod6()
+- uid: ColorLibTest.ConfigTest.SylConfigTest.TestMethod6*
+  name: TestMethod6
+  href: api/ColorLibTest.ConfigTest.SylConfigTest.html#ColorLibTest_ConfigTest_SylConfigTest_TestMethod6_
+  commentId: Overload:ColorLibTest.ConfigTest.SylConfigTest.TestMethod6
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod6
+  nameWithType: SylConfigTest.TestMethod6
 - uid: ColorLibTest.Dierese
   name: ColorLibTest.Dierese
   href: api/ColorLibTest.Dierese.html

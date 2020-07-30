@@ -77,23 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ColorLib.CERASColors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ColorLib.CERASColors.html",
-          "hash": "/Voqo2zD9qEOapxzMK6xsg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ColorLib.CFForceBlack.yml",
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.CFForceBlack.html",
-          "hash": "R23O2T7AeKtUTZKk3tDP9Q=="
+          "hash": "uFRRBekzISNiJ53v5QJliQ=="
         }
       },
       "is_incremental": true,
@@ -105,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.CharFormatting.html",
-          "hash": "j1DPnCRVcUrXnEL5uMmVbg=="
+          "hash": "lgi4ailpq38Ix7+OYnEcKQ=="
         }
       },
       "is_incremental": true,
@@ -129,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.ColConfWin.DefBeh.html",
-          "hash": "YdT6L2VVp9OrX+tm5m7Q5Q=="
+          "hash": "4+lfodxZQu6m5NuVWvQmQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +129,22 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.ColConfWin.IllRule.html",
-          "hash": "OTHhhj1uMVb3YKX9Az9Ugw=="
+          "hash": "O/niW4ILRac/pd14lDhFDA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLib.ColConfWin.RuleFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLib.ColConfWin.RuleFlag.html",
+          "hash": "q/OsuxI3/scoow9PBtWtKg=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.ColConfWin.html",
-          "hash": "mBXWeYmW6D2ncT+ZS6tvoA=="
+          "hash": "c9dJDao3m2sUehihTbdJkg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "OrSZJnOZ8FvtSTr2srtXcw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "c8NjOhzDXQKKVK+8n40cNw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "k+yod1WVEa9Pml31ORejWA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "bfjPhuvxd8EYoJC0qWCkGg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -305,30 +305,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ColorLib.ExecTaskOnSon.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ColorLib.ExecTaskOnSon.html",
-          "hash": "/0aKZal5NZfsW/nH2rc7UQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ColorLib.ExecuteTask.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ColorLib.ExecuteTask.html",
-          "hash": "mAk/clYLbVCJ8IznZd+tiA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ColorLib.FormattedTextEl.yml",
       "output": {
         ".html": {
@@ -336,7 +312,7 @@
           "hash": "eRFSHkL5R07pGKv+dpImrg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.PBDQConfig.html",
-          "hash": "0QaYYT1+wk4DPCku3ZuXXg=="
+          "hash": "oxldlFYMODfo3DlV84/I1w=="
         }
       },
       "is_incremental": true,
@@ -384,7 +360,7 @@
           "hash": "6Vo8+X4CvuHaRDCQVW/+Eg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -396,7 +372,7 @@
           "hash": "3kyr5pUi4/jcBpvBFwfhAA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -420,7 +396,7 @@
           "hash": "2Ovv/IcpC+W4q8Nb4gDdng=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -437,11 +413,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ColorLib.PredefCols.yml",
+      "source_relative_path": "api/ColorLib.PredefCol.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ColorLib.PredefCols.html",
-          "hash": "SH83queMHT3oZ4uI1po0Ng=="
+          "relative_path": "api/ColorLib.PredefCol.html",
+          "hash": "VmZRi3rpyyivWWB2ksGHRw=="
         }
       },
       "is_incremental": true,
@@ -537,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.SylConfig.html",
-          "hash": "QyrRu+sXZ8hO0CVwNmiyPg=="
+          "hash": "4xrrtePYw69aRp7J1NMQiA=="
         }
       },
       "is_incremental": true,
@@ -552,7 +528,7 @@
           "hash": "ICW1k7ttrfaqMaqNvE/yEw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -564,7 +540,7 @@
           "hash": "2+KU93wAJ1V/629xIABorQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -588,7 +564,7 @@
           "hash": "3MxJcv0O18sCXZb6eIY9uw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -624,7 +600,7 @@
           "hash": "LI1eqAXxo+Xk/XTkHwXUTA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -633,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLib.html",
-          "hash": "7HZQNMzEabi/NKeUm9Df3A=="
+          "hash": "ipgN1Ac9qRHifd3qY7kzYw=="
         }
       },
       "is_incremental": false,
@@ -689,11 +665,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.ConfigTest.ColConfWinTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.ConfigTest.ColConfWinTest.html",
+          "hash": "m+K5UPuNVgMKnj/y0XOhrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ColorLibTest.ConfigTest.PBDQConfigTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ColorLibTest.ConfigTest.PBDQConfigTest.html",
+          "hash": "CjBNDdZEeWrkAR/I0ZlINA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ColorLibTest.ConfigTest.SylConfigTest.yml",
       "output": {
         ".html": {
           "relative_path": "api/ColorLibTest.ConfigTest.SylConfigTest.html",
-          "hash": "FQjX2E/AwG0bzPsy0nzapw=="
+          "hash": "Wa0zO9t8xq9M5uy02HuT8A=="
         }
       },
       "is_incremental": true,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorLibTest.ConfigTest.html",
-          "hash": "ByEcvA10Zqc8IrFtA0Vyvg=="
+          "hash": "Z2/Mj1CfphqqqO/1K0mOCQ=="
         }
       },
       "is_incremental": true,
@@ -840,7 +840,7 @@
           "hash": "4i5h9T7mfQw3VDwu/EF/ZQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -876,7 +876,7 @@
           "hash": "nTz1O3QIGB11h+9qRvaT0Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -900,7 +900,7 @@
           "hash": "+qbLiCE+9RxAo5X4u9w9Vw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -924,7 +924,7 @@
           "hash": "QsfNGhiMh/fZWcqCiNv9bw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1041,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ColorizationControls.FormatButtonHandler2.html",
-          "hash": "IKdbcxhBm26mlVHvrzNRsA=="
+          "hash": "X0qEYjm2rCdQW5d70vv/kA=="
         }
       },
       "is_incremental": true,
@@ -1188,7 +1188,7 @@
           "hash": "YuFDXpQt/yJc8H8dQ0r6jg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1212,7 +1212,7 @@
           "hash": "nXVGYmrUL434Gwes/UOXJw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1257,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "WYYTC0WrTyaoZy6AjiHRsQ=="
+          "hash": "qe4HAYb3LeUtrmg3/W8QHA=="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1377,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 103,
-          "skipped_file_count": 102
+          "skipped_file_count": 99
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

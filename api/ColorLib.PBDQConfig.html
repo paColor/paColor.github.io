@@ -119,11 +119,12 @@ public class PBDQConfig : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig__ctor.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L83">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L105">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig__ctor_" data-uid="ColorLib.PBDQConfig.#ctor*"></a>
   <h4 id="ColorLib_PBDQConfig__ctor" data-uid="ColorLib.PBDQConfig.#ctor">PBDQConfig()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Crée un <code>PBDQConfig</code>. <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_Reset">Reset()</a> est appliqué.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -136,10 +137,12 @@ public class PBDQConfig : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_inactiveLetter.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.inactiveLetter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L40">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L44">View Source</a>
   </span>
   <h4 id="ColorLib_PBDQConfig_inactiveLetter" data-uid="ColorLib.PBDQConfig.inactiveLetter">inactiveLetter</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Lettre que traite un bouton inactif, c'est-à-dire pour lequel aucun
+<a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> ne sera retourné.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -165,10 +168,11 @@ public class PBDQConfig : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_nrButtons.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.nrButtons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L41">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L49">View Source</a>
   </span>
   <h4 id="ColorLib_PBDQConfig_nrButtons" data-uid="ColorLib.PBDQConfig.nrButtons">nrButtons</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Nombre de boutons géré par un objet <code>PBDQConfig</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -196,7 +200,7 @@ public class PBDQConfig : ConfigBase</code></pre>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_markAsBlack.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.markAsBlack%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L69">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L88">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_markAsBlack_" data-uid="ColorLib.PBDQConfig.markAsBlack*"></a>
   <h4 id="ColorLib_PBDQConfig_markAsBlack" data-uid="ColorLib.PBDQConfig.markAsBlack">markAsBlack</h4>
@@ -223,57 +227,34 @@ quelles <code>false</code> ou mises en noir <code>true</code>.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="ColorLib_PBDQConfig_markAsBlack_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Peut être modifié par la méthode <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_SetMarkAsBlackTo_System_Boolean_">SetMarkAsBlackTo(Boolean)</a>.
+On n&apos;a pas modifié le &apos;setter&apos; pour ne pas se poser de questions sur la compatibilité
+avec les anciennes versions des fichiers de sauvegarde. 
+</p>
+<p>
+Seule la culeur est mise à noir. Les autres caractéristiques comme &apos;bold&apos; ne sont
+pas touchées.
+</p>
+</div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_BlackSettingCheckChangedTo_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.BlackSettingCheckChangedTo(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L204">View Source</a>
-  </span>
-  <a id="ColorLib_PBDQConfig_BlackSettingCheckChangedTo_" data-uid="ColorLib.PBDQConfig.BlackSettingCheckChangedTo*"></a>
-  <h4 id="ColorLib_PBDQConfig_BlackSettingCheckChangedTo_System_Boolean_" data-uid="ColorLib.PBDQConfig.BlackSettingCheckChangedTo(System.Boolean)">BlackSettingCheckChangedTo(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Modifie la valeur du flag <code>markAsBlack</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BlackSettingCheckChangedTo(bool val)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">val</span></td>
-        <td><p>Nouvelle valeur du flag.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_GetCfForPBDQButton_System_Int32_System_Char__.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.GetCfForPBDQButton(System.Int32%2CSystem.Char%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L111">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L141">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_GetCfForPBDQButton_" data-uid="ColorLib.PBDQConfig.GetCfForPBDQButton*"></a>
   <h4 id="ColorLib_PBDQConfig_GetCfForPBDQButton_System_Int32_System_Char__" data-uid="ColorLib.PBDQConfig.GetCfForPBDQButton(System.Int32,System.Char@)">GetCfForPBDQButton(Int32, out Char)</h4>
-  <div class="markdown level1 summary"><p>Retourne le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> et la lettre choisie pour le bouton <code data-dev-comment-type="paramref" class="paramref">i</code>.</p>
+  <div class="markdown level1 summary"><p>Retourne le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> et la lettre choisie pour le bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharFormatting GetCfForPBDQButton(int i, out char c)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharFormatting GetCfForPBDQButton(int butNr, out char c)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,14 +268,15 @@ quelles <code>false</code> ou mises en noir <code>true</code>.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">i</span></td>
+        <td><span class="parametername">butNr</span></td>
         <td><p>Numéro du bouton dont on veut le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> et la lettre.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Char</span></td>
         <td><span class="parametername">c</span></td>
-        <td><p>Retourne la lettre traitée par le bouton <code data-dev-comment-type="paramref" class="paramref">i</code>.</p>
+        <td><p>Retourne la lettre traitée par le bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code>. Si le
+bouton est inutilisé, retourne <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_inactiveLetter">inactiveLetter</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -310,8 +292,25 @@ quelles <code>false</code> ou mises en noir <code>true</code>.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
-        <td><p>Le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> attribué au bouton <code data-dev-comment-type="paramref" class="paramref">i</code> ou <code>null</code>
+        <td><p>Le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> attribué au bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code> ou <code>null</code>
 s'il n'existe pas pour le bouton en question.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Si <code>i</code> n'a pas une valeur entre <code>0</code> et
+<code>nrButtons - 1</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -321,11 +320,11 @@ s'il n'existe pas pour le bouton en question.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_GetCfForPBDQLetter_System_Char_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.GetCfForPBDQLetter(System.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L96">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L122">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_GetCfForPBDQLetter_" data-uid="ColorLib.PBDQConfig.GetCfForPBDQLetter*"></a>
   <h4 id="ColorLib_PBDQConfig_GetCfForPBDQLetter_System_Char_" data-uid="ColorLib.PBDQConfig.GetCfForPBDQLetter(System.Char)">GetCfForPBDQLetter(Char)</h4>
-  <div class="markdown level1 summary"><p><code><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> pour la lettre <code data-dev-comment-type="paramref" class="paramref">c</code>.</code></p>
+  <div class="markdown level1 summary"><p><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> pour la lettre <code data-dev-comment-type="paramref" class="paramref">c</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -361,8 +360,10 @@ s'il n'existe pas pour le bouton en question.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
-        <td><p>Le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> recherché ou <code>null</code> si la lettre n'est pas
-trouvée.</p>
+        <td><p>Le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> recherché. Si aucun <code>CharFormatting</code>
+n'est géré pour <code>c</code>, retourne le <code>CharFormatting</code> à appliquer pour
+les autres lettres. Celui-ci dépend du flag <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_markAsBlack">markAsBlack</a>; ls sera soit
+neutre ou impliquera un formattage noir.</p>
 </td>
       </tr>
     </tbody>
@@ -372,11 +373,11 @@ trouvée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_GetLetterForButtonNr_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.GetLetterForButtonNr(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L124">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L161">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_GetLetterForButtonNr_" data-uid="ColorLib.PBDQConfig.GetLetterForButtonNr*"></a>
   <h4 id="ColorLib_PBDQConfig_GetLetterForButtonNr_System_Int32_" data-uid="ColorLib.PBDQConfig.GetLetterForButtonNr(System.Int32)">GetLetterForButtonNr(Int32)</h4>
-  <div class="markdown level1 summary"><p>Retourne la lettre pour le bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code>.</p>
+  <div class="markdown level1 summary"><p>Retourne la lettre traitée par le bouton <code data-dev-comment-type="paramref" class="paramref">butNr</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -417,16 +418,35 @@ trouvée.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Si <code>butNr</code> n'a pas une valeur entre <code>0</code> et
+<code>nrButtons - 1</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_OnLetterButtonModifed_ColorLib_LetterButtonModifiedEventArgs_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.OnLetterButtonModifed(ColorLib.LetterButtonModifiedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L235">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L303">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_OnLetterButtonModifed_" data-uid="ColorLib.PBDQConfig.OnLetterButtonModifed*"></a>
   <h4 id="ColorLib_PBDQConfig_OnLetterButtonModifed_ColorLib_LetterButtonModifiedEventArgs_" data-uid="ColorLib.PBDQConfig.OnLetterButtonModifed(ColorLib.LetterButtonModifiedEventArgs)">OnLetterButtonModifed(LetterButtonModifiedEventArgs)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Méthode appelée quand un des boutons est modifié. Elle déclenche l'évènement
+<a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_LetterButtonModifiedEvent">LetterButtonModifiedEvent</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -445,7 +465,8 @@ trouvée.</p>
       <tr>
         <td><a class="xref" href="ColorLib.LetterButtonModifiedEventArgs.html">LetterButtonModifiedEventArgs</a></td>
         <td><span class="parametername">e</span></td>
-        <td></td>
+        <td><p>Les paramètres à joindre à l'évènement déclenché.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -454,11 +475,13 @@ trouvée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_OnMarkAsBlackModified.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.OnMarkAsBlackModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L242">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L314">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_OnMarkAsBlackModified_" data-uid="ColorLib.PBDQConfig.OnMarkAsBlackModified*"></a>
   <h4 id="ColorLib_PBDQConfig_OnMarkAsBlackModified" data-uid="ColorLib.PBDQConfig.OnMarkAsBlackModified">OnMarkAsBlackModified()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Méthode appelée quand le flag <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_markAsBlack">markAsBlack</a> est modifié. Déclenche
+l'évènement <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_MarkAsBlackModifiedEvent">MarkAsBlackModifiedEvent</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -469,11 +492,12 @@ trouvée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_Reset.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L216">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L278">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_Reset_" data-uid="ColorLib.PBDQConfig.Reset*"></a>
   <h4 id="ColorLib_PBDQConfig_Reset" data-uid="ColorLib.PBDQConfig.Reset">Reset()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Réinitialise l'objet entièrement à ses valeurs par défaut.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -483,10 +507,44 @@ trouvée.</p>
   <div><a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset">ConfigBase.Reset()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_SetMarkAsBlackTo_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.SetMarkAsBlackTo(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L264">View Source</a>
+  </span>
+  <a id="ColorLib_PBDQConfig_SetMarkAsBlackTo_" data-uid="ColorLib.PBDQConfig.SetMarkAsBlackTo*"></a>
+  <h4 id="ColorLib_PBDQConfig_SetMarkAsBlackTo_System_Boolean_" data-uid="ColorLib.PBDQConfig.SetMarkAsBlackTo(System.Boolean)">SetMarkAsBlackTo(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Modifie la valeur du flag <code>markAsBlack</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMarkAsBlackTo(bool val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">val</span></td>
+        <td><p>Nouvelle valeur du flag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_UpdateLetter_System_Int32_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.UpdateLetter(System.Int32%2CColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L133">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L181">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_UpdateLetter_" data-uid="ColorLib.PBDQConfig.UpdateLetter*"></a>
   <h4 id="ColorLib_PBDQConfig_UpdateLetter_System_Int32_ColorLib_CharFormatting_" data-uid="ColorLib.PBDQConfig.UpdateLetter(System.Int32,ColorLib.CharFormatting)">UpdateLetter(Int32, CharFormatting)</h4>
@@ -495,7 +553,7 @@ trouvée.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool UpdateLetter(int buttonNr, CharFormatting cf)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool UpdateLetter(int butNr, CharFormatting cf)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -509,7 +567,7 @@ trouvée.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">buttonNr</span></td>
+        <td><span class="parametername">butNr</span></td>
         <td><p>Le nr du bouton pour lequel il y a un nouveau <code>cf</code></p>
 </td>
       </tr>
@@ -538,12 +596,29 @@ moment-là, rien n'est fait. <code>true</code> si la modification a été effect
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Si <code>buttonNr</code> n'a pas une valeur entre <code>0</code> et
+<code>nrButtons - 1</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_UpdateLetter_System_Int32_System_Char_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.UpdateLetter(System.Int32%2CSystem.Char%2CColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L157">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L213">View Source</a>
   </span>
   <a id="ColorLib_PBDQConfig_UpdateLetter_" data-uid="ColorLib.PBDQConfig.UpdateLetter*"></a>
   <h4 id="ColorLib_PBDQConfig_UpdateLetter_System_Int32_System_Char_ColorLib_CharFormatting_" data-uid="ColorLib.PBDQConfig.UpdateLetter(System.Int32,System.Char,ColorLib.CharFormatting)">UpdateLetter(Int32, Char, CharFormatting)</h4>
@@ -554,7 +629,7 @@ le caractère inactif ' ', le bouton est &quot;effacé&quot;.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool UpdateLetter(int buttonNr, char c, CharFormatting cf)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool UpdateLetter(int butNr, char c, CharFormatting cf)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -568,14 +643,15 @@ le caractère inactif ' ', le bouton est &quot;effacé&quot;.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">buttonNr</span></td>
+        <td><span class="parametername">butNr</span></td>
         <td><p>Identifie le bouton à modifier par son numéro.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Char</span></td>
         <td><span class="parametername">c</span></td>
-        <td><p>Le caractère pour le bouton.</p>
+        <td><p>Le caractère pour le bouton. <a class="xref" href="ColorLib.PBDQConfig.html#ColorLib_PBDQConfig_inactiveLetter">inactiveLetter</a> correspond
+à un effacement du bouton.</p>
 </td>
       </tr>
       <tr>
@@ -603,6 +679,23 @@ déjà traitée.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Si <code>buttonNr</code> n'a pas une valeur entre <code>0</code> et
+<code>nrButtons - 1</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="events">Events
   </h3>
   <span class="small pull-right mobile-hide">
@@ -610,7 +703,7 @@ déjà traitée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_LetterButtonModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.LetterButtonModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L53">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L61">View Source</a>
   </span>
   <h4 id="ColorLib_PBDQConfig_LetterButtonModifiedEvent" data-uid="ColorLib.PBDQConfig.LetterButtonModifiedEvent">LetterButtonModifiedEvent</h4>
   <div class="markdown level1 summary"><p>Evènement déclenché quand un des boutons est modifié.</p>
@@ -640,7 +733,7 @@ déjà traitée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_PBDQConfig_MarkAsBlackModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.PBDQConfig.MarkAsBlackModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L59">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/PBDQConfig.cs/#L67">View Source</a>
   </span>
   <h4 id="ColorLib_PBDQConfig_MarkAsBlackModifiedEvent" data-uid="ColorLib.PBDQConfig.MarkAsBlackModifiedEvent">MarkAsBlackModifiedEvent</h4>
   <div class="markdown level1 summary"><p>Evènement déclenché <code>markAsBlack</code> est modifié.</p>

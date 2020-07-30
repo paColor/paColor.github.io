@@ -108,7 +108,20 @@ indiquent comment les différents aspects du formatage doivent être traités.</
       <h4><a class="xref" href="ColorLib.CheckboxUnsetModifiedEventArgs.html">CheckboxUnsetModifiedEventArgs</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a></h4>
-      <section></section>
+      <section><p>
+Classe pour la gestion des éléments de configuration nécessaires pour la colorisation des
+phonèmes. C&apos;est ici qu&apos;on trouve la définition des &quot;sons&quot; qui sont utilisés par l&apos;interface
+utilisateur. On trouve en particulier le &apos;mapping&apos; entre les sons et les 
+<a class="xref" href="ColorLib.Phonemes.html">Phonemes</a>. La table correspondante (<code>sonMap</code>) est de fait la définition
+formelle des sons et de leur nom, tels qu&apos;ils sont acceptés par le programme.
+</p>
+<p>
+Pour chaque son on a un flag (checkbox) qui indique si la colorisation pour ce son est
+activée et un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> à utiliser si le flag correspondant est mis.
+Les méthodes principales permettent de lire et d&apos;écrire ces deux paramètres pour chaque
+son.
+</p>
+</section>
       <h4><a class="xref" href="ColorLib.CompletedEventArgs.html">CompletedEventArgs</a></h4>
       <section><p>Crée une instance d'arguments pour l'évènement.</p>
 </section>
@@ -188,14 +201,16 @@ laisser le formatage dans l'état actuel ou forcer à la valeur <code>false</cod
       <section></section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="ColorLib.CERASColors.html">CERASColors</a></h4>
-      <section></section>
       <h4><a class="xref" href="ColorLib.ColConfWin.DefBeh.html">ColConfWin.DefBeh</a></h4>
       <section><p>posibilités de valeur pour le flag <code>defBeh</code> qui indique comment doit se comporter la
 mise en couleur des phonèmes qui n'ont pas d'instructions de fomratage.</p>
 </section>
       <h4><a class="xref" href="ColorLib.ColConfWin.IllRule.html">ColConfWin.IllRule</a></h4>
       <section><p>mode à utiliser pour les &quot;ill&quot;</p>
+</section>
+      <h4><a class="xref" href="ColorLib.ColConfWin.RuleFlag.html">ColConfWin.RuleFlag</a></h4>
+      <section><p>Identifiants pour les flags de contrôle des règles de l'automate. Est typiquement
+utilisé comme indice dans un tableau de flags.</p>
 </section>
       <h4><a class="xref" href="ColorLib.DuoConfig.Alternance.html">DuoConfig.Alternance</a></h4>
       <section><p>Type utilisé pour définir quelle aternance est désirée dans la commande &quot;duo&quot;</p>
@@ -211,8 +226,11 @@ mise en couleur des phonèmes qui n'ont pas d'instructions de fomratage.</p>
 </section>
       <h4><a class="xref" href="ColorLib.PhonLexique.html">PhonLexique</a></h4>
       <section></section>
-      <h4><a class="xref" href="ColorLib.PredefCols.html">PredefCols</a></h4>
-      <section></section>
+      <h4><a class="xref" href="ColorLib.PredefCol.html">PredefCol</a></h4>
+      <section><p>Liste de couleurs prédéfinies. L'idée est d'utiliser
+les valeurs de cet énuméré comme indice dans <code>predefinedColors</code>.
+L'utilisation dans <code>cerasCF</code> est par contre interdite!</p>
+</section>
       <h4><a class="xref" href="ColorLib.SylConfig.Mode.html">SylConfig.Mode</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.Ucbx.html">Ucbx</a></h4>
@@ -220,10 +238,6 @@ mise en couleur des phonèmes qui n'ont pas d'instructions de fomratage.</p>
 </section>
     <h3 id="delegates">Delegates
   </h3>
-      <h4><a class="xref" href="ColorLib.ExecTaskOnSon.html">ExecTaskOnSon</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ColorLib.ExecuteTask.html">ExecuteTask</a></h4>
-      <section></section>
       <h4><a class="xref" href="ColorLib.TheText.GetTextPos.html">TheText.GetTextPos</a></h4>
       <section><p>Returns a list of zero based text positions.</p>
 </section>
