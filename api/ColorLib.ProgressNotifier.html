@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ProgressNotifier
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ProgressNotifier
+   ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ColorLib.ProgressNotifier">
+  
+  
+  <h1 id="ColorLib_ProgressNotifier" data-uid="ColorLib.ProgressNotifier" class="text-break">Class ProgressNotifier
+  </h1>
+  <div class="markdown level0 summary"><p>Sert d'interface entre la couche de présentation et <code>ColorLib</code> en ce qui concerne le
+progrès fait par l'exécution d'une opération.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ProgressNotifier</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ColorLib.html">ColorLib</a></h6>
+  <h6><strong>Assembly</strong>: ColorLib.dll</h6>
+  <h5 id="ColorLib_ProgressNotifier_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ProgressNotifier</code></pre>
+  </div>
+  <h5 id="ColorLib_ProgressNotifier_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+J&apos;avais conçu ceci à l&apos;origine avec l&apos;idée qu&apos;il pourrait y avoir plusieurs fenêtres dans
+lesquelles on pourrait exécuter une colorisation en parallèle. Cependant ce n&apos;est pas
+possible dans Office et pas vraiment non plus sous Windows.Forms.
+</p>
+<p>
+On peut donc partir sur une vision simple avec un seul <code>ProgressNotifier</code> qu&apos;on
+trouve sous la variable statique <code>ProgressNotifier.thePN</code>.
+</p>
+<p>
+La classe n&apos;est pas statique car il y a des événements et qu&apos;ils ont besoin d&apos;un objet
+émetteur.
+</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier__ctor.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L145">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier__ctor_" data-uid="ColorLib.ProgressNotifier.#ctor*"></a>
+  <h4 id="ColorLib_ProgressNotifier__ctor" data-uid="ColorLib.ProgressNotifier.#ctor">ProgressNotifier()</h4>
+  <div class="markdown level1 summary"><p>Crée un <code>ProgressNotifier</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProgressNotifier()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_thePN.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.thePN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L103">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_thePN_" data-uid="ColorLib.ProgressNotifier.thePN*"></a>
+  <h4 id="ColorLib_ProgressNotifier_thePN" data-uid="ColorLib.ProgressNotifier.thePN">thePN</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ProgressNotifier thePN { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_Completed.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.Completed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L177">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_Completed_" data-uid="ColorLib.ProgressNotifier.Completed*"></a>
+  <h4 id="ColorLib_ProgressNotifier_Completed" data-uid="ColorLib.ProgressNotifier.Completed">Completed()</h4>
+  <div class="markdown level1 summary"><p>Tâche terminée</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Completed()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_InProgress_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.InProgress(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L168">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_InProgress_" data-uid="ColorLib.ProgressNotifier.InProgress*"></a>
+  <h4 id="ColorLib_ProgressNotifier_InProgress_System_Int32_" data-uid="ColorLib.ProgressNotifier.InProgress(System.Int32)">InProgress(Int32)</h4>
+  <div class="markdown level1 summary"><p>Indique la progression de la tâche.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InProgress(int progression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">progression</span></td>
+        <td><p>en pourcents (0 - 100) l'état de progression de la tâche.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_ProgressNotifier_InProgress_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Autant que possible, ne pas appeler cette méthode plus d'une fois par pourcent.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_OnCompletedEvent.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.OnCompletedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L209">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_OnCompletedEvent_" data-uid="ColorLib.ProgressNotifier.OnCompletedEvent*"></a>
+  <h4 id="ColorLib_ProgressNotifier_OnCompletedEvent" data-uid="ColorLib.ProgressNotifier.OnCompletedEvent">OnCompletedEvent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCompletedEvent()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_OnProgressEvent_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.OnProgressEvent(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L190">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_OnProgressEvent_" data-uid="ColorLib.ProgressNotifier.OnProgressEvent*"></a>
+  <h4 id="ColorLib_ProgressNotifier_OnProgressEvent_System_Int32_" data-uid="ColorLib.ProgressNotifier.OnProgressEvent(System.Int32)">OnProgressEvent(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnProgressEvent(int progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_OnStartEvent.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.OnStartEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L184">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_OnStartEvent_" data-uid="ColorLib.ProgressNotifier.OnStartEvent*"></a>
+  <h4 id="ColorLib_ProgressNotifier_OnStartEvent" data-uid="ColorLib.ProgressNotifier.OnStartEvent">OnStartEvent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStartEvent()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_Start.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L153">View Source</a>
+  </span>
+  <a id="ColorLib_ProgressNotifier_Start_" data-uid="ColorLib.ProgressNotifier.Start*"></a>
+  <h4 id="ColorLib_ProgressNotifier_Start" data-uid="ColorLib.ProgressNotifier.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Démarrage de la tâche.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_CompletedEvent.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.CompletedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L130">View Source</a>
+  </span>
+  <h4 id="ColorLib_ProgressNotifier_CompletedEvent" data-uid="ColorLib.ProgressNotifier.CompletedEvent">CompletedEvent</h4>
+  <div class="markdown level1 summary"><p>/// Evènement déclenché quand la tâche est terminée.                                                        ///</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;CompletedEventArgs&gt; CompletedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ColorLib.CompletedEventArgs.html">CompletedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_ProgressEvent.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.ProgressEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L126">View Source</a>
+  </span>
+  <h4 id="ColorLib_ProgressNotifier_ProgressEvent" data-uid="ColorLib.ProgressNotifier.ProgressEvent">ProgressEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand une évolution de la progression est connue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ProgressEventArgs&gt; ProgressEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="ColorLib.ProgressEventArgs.html">ProgressEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier_StartEvent.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier.StartEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L121">View Source</a>
+  </span>
+  <h4 id="ColorLib_ProgressNotifier_StartEvent" data-uid="ColorLib.ProgressNotifier.StartEvent">StartEvent</h4>
+  <div class="markdown level1 summary"><p>Evènement déclenché quand la tâche commence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; StartEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_ProgressNotifier.md&amp;value=---%0Auid%3A%20ColorLib.ProgressNotifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ProgressNotifier.cs/#L92" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
