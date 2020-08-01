@@ -2439,12 +2439,12 @@ references:
   commentId: T:ColorLib.CheckboxUnsetModifiedEventArgs
   fullName: ColorLib.CheckboxUnsetModifiedEventArgs
   nameWithType: CheckboxUnsetModifiedEventArgs
-- uid: ColorLib.CheckboxUnsetModifiedEventArgs.#ctor(ColorLib.Ucbx)
-  name: CheckboxUnsetModifiedEventArgs(Ucbx)
-  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs__ctor_ColorLib_Ucbx_
-  commentId: M:ColorLib.CheckboxUnsetModifiedEventArgs.#ctor(ColorLib.Ucbx)
-  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs(ColorLib.Ucbx)
-  nameWithType: CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs(Ucbx)
+- uid: ColorLib.CheckboxUnsetModifiedEventArgs.#ctor(ColorLib.Ucbx,System.String)
+  name: CheckboxUnsetModifiedEventArgs(Ucbx, String)
+  href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs__ctor_ColorLib_Ucbx_System_String_
+  commentId: M:ColorLib.CheckboxUnsetModifiedEventArgs.#ctor(ColorLib.Ucbx,System.String)
+  fullName: ColorLib.CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs(ColorLib.Ucbx, System.String)
+  nameWithType: CheckboxUnsetModifiedEventArgs.CheckboxUnsetModifiedEventArgs(Ucbx, String)
 - uid: ColorLib.CheckboxUnsetModifiedEventArgs.#ctor*
   name: CheckboxUnsetModifiedEventArgs
   href: api/ColorLib.CheckboxUnsetModifiedEventArgs.html#ColorLib_CheckboxUnsetModifiedEventArgs__ctor_
@@ -6581,83 +6581,31 @@ references:
   isSpec: "True"
   fullName: ColorLib.UnsetBehConf.UnsetBehConf
   nameWithType: UnsetBehConf.UnsetBehConf
-- uid: ColorLib.UnsetBehConf.CbuChecked(System.String,System.Boolean)
-  name: CbuChecked(String, Boolean)
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CbuChecked_System_String_System_Boolean_
-  commentId: M:ColorLib.UnsetBehConf.CbuChecked(System.String,System.Boolean)
-  fullName: ColorLib.UnsetBehConf.CbuChecked(System.String, System.Boolean)
-  nameWithType: UnsetBehConf.CbuChecked(String, Boolean)
-- uid: ColorLib.UnsetBehConf.CbuChecked*
-  name: CbuChecked
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CbuChecked_
-  commentId: Overload:ColorLib.UnsetBehConf.CbuChecked
-  isSpec: "True"
-  fullName: ColorLib.UnsetBehConf.CbuChecked
-  nameWithType: UnsetBehConf.CbuChecked
-- uid: ColorLib.UnsetBehConf.cbuMap
-  name: cbuMap
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuMap
-  commentId: P:ColorLib.UnsetBehConf.cbuMap
-  fullName: ColorLib.UnsetBehConf.cbuMap
-  nameWithType: UnsetBehConf.cbuMap
-- uid: ColorLib.UnsetBehConf.cbuMap*
-  name: cbuMap
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuMap_
-  commentId: Overload:ColorLib.UnsetBehConf.cbuMap
-  isSpec: "True"
-  fullName: ColorLib.UnsetBehConf.cbuMap
-  nameWithType: UnsetBehConf.cbuMap
-- uid: ColorLib.UnsetBehConf.cbuNames
-  name: cbuNames
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuNames
-  commentId: P:ColorLib.UnsetBehConf.cbuNames
-  fullName: ColorLib.UnsetBehConf.cbuNames
-  nameWithType: UnsetBehConf.cbuNames
-- uid: ColorLib.UnsetBehConf.cbuNames*
-  name: cbuNames
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_cbuNames_
-  commentId: Overload:ColorLib.UnsetBehConf.cbuNames
-  isSpec: "True"
-  fullName: ColorLib.UnsetBehConf.cbuNames
-  nameWithType: UnsetBehConf.cbuNames
-- uid: ColorLib.UnsetBehConf.CbuVal(ColorLib.Ucbx)
-  name: CbuVal(Ucbx)
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CbuVal_ColorLib_Ucbx_
-  commentId: M:ColorLib.UnsetBehConf.CbuVal(ColorLib.Ucbx)
-  fullName: ColorLib.UnsetBehConf.CbuVal(ColorLib.Ucbx)
-  nameWithType: UnsetBehConf.CbuVal(Ucbx)
-- uid: ColorLib.UnsetBehConf.CbuVal(System.String)
-  name: CbuVal(String)
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CbuVal_System_String_
-  commentId: M:ColorLib.UnsetBehConf.CbuVal(System.String)
-  fullName: ColorLib.UnsetBehConf.CbuVal(System.String)
-  nameWithType: UnsetBehConf.CbuVal(String)
-- uid: ColorLib.UnsetBehConf.CbuVal*
-  name: CbuVal
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CbuVal_
-  commentId: Overload:ColorLib.UnsetBehConf.CbuVal
-  isSpec: "True"
-  fullName: ColorLib.UnsetBehConf.CbuVal
-  nameWithType: UnsetBehConf.CbuVal
 - uid: ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent
   name: CheckboxUnsetModifiedEvent
   href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_CheckboxUnsetModifiedEvent
   commentId: E:ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent
   fullName: ColorLib.UnsetBehConf.CheckboxUnsetModifiedEvent
   nameWithType: UnsetBehConf.CheckboxUnsetModifiedEvent
-- uid: ColorLib.UnsetBehConf.Init
-  name: Init()
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_Init
-  commentId: M:ColorLib.UnsetBehConf.Init
-  fullName: ColorLib.UnsetBehConf.Init()
-  nameWithType: UnsetBehConf.Init()
-- uid: ColorLib.UnsetBehConf.Init*
-  name: Init
-  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_Init_
-  commentId: Overload:ColorLib.UnsetBehConf.Init
+- uid: ColorLib.UnsetBehConf.GetCbuFlag(ColorLib.Ucbx)
+  name: GetCbuFlag(Ucbx)
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_GetCbuFlag_ColorLib_Ucbx_
+  commentId: M:ColorLib.UnsetBehConf.GetCbuFlag(ColorLib.Ucbx)
+  fullName: ColorLib.UnsetBehConf.GetCbuFlag(ColorLib.Ucbx)
+  nameWithType: UnsetBehConf.GetCbuFlag(Ucbx)
+- uid: ColorLib.UnsetBehConf.GetCbuFlag(System.String)
+  name: GetCbuFlag(String)
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_GetCbuFlag_System_String_
+  commentId: M:ColorLib.UnsetBehConf.GetCbuFlag(System.String)
+  fullName: ColorLib.UnsetBehConf.GetCbuFlag(System.String)
+  nameWithType: UnsetBehConf.GetCbuFlag(String)
+- uid: ColorLib.UnsetBehConf.GetCbuFlag*
+  name: GetCbuFlag
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_GetCbuFlag_
+  commentId: Overload:ColorLib.UnsetBehConf.GetCbuFlag
   isSpec: "True"
-  fullName: ColorLib.UnsetBehConf.Init
-  nameWithType: UnsetBehConf.Init
+  fullName: ColorLib.UnsetBehConf.GetCbuFlag
+  nameWithType: UnsetBehConf.GetCbuFlag
 - uid: ColorLib.UnsetBehConf.OnCheckboxUnsetModified(ColorLib.Ucbx)
   name: OnCheckboxUnsetModified(Ucbx)
   href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_OnCheckboxUnsetModified_ColorLib_Ucbx_
@@ -6684,6 +6632,19 @@ references:
   isSpec: "True"
   fullName: ColorLib.UnsetBehConf.Reset
   nameWithType: UnsetBehConf.Reset
+- uid: ColorLib.UnsetBehConf.SetCbuFlag(System.String,System.Boolean)
+  name: SetCbuFlag(String, Boolean)
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_SetCbuFlag_System_String_System_Boolean_
+  commentId: M:ColorLib.UnsetBehConf.SetCbuFlag(System.String,System.Boolean)
+  fullName: ColorLib.UnsetBehConf.SetCbuFlag(System.String, System.Boolean)
+  nameWithType: UnsetBehConf.SetCbuFlag(String, Boolean)
+- uid: ColorLib.UnsetBehConf.SetCbuFlag*
+  name: SetCbuFlag
+  href: api/ColorLib.UnsetBehConf.html#ColorLib_UnsetBehConf_SetCbuFlag_
+  commentId: Overload:ColorLib.UnsetBehConf.SetCbuFlag
+  isSpec: "True"
+  fullName: ColorLib.UnsetBehConf.SetCbuFlag
+  nameWithType: UnsetBehConf.SetCbuFlag
 - uid: ColorLib.Word
   name: Word
   href: api/ColorLib.Word.html
@@ -7763,6 +7724,129 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.ConfigTest.SylConfigTest.TestMethod6
   nameWithType: SylConfigTest.TestMethod6
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest
+  name: UnsetBehConfTest
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html
+  commentId: T:ColorLibTest.ConfigTest.UnsetBehConfTest
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest
+  nameWithType: UnsetBehConfTest
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: UnsetBehConfTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.MyClassInitialize
+  nameWithType: UnsetBehConfTest.MyClassInitialize
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_MyTestInitialize
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.MyTestInitialize
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.MyTestInitialize()
+  nameWithType: UnsetBehConfTest.MyTestInitialize()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.MyTestInitialize
+  nameWithType: UnsetBehConfTest.MyTestInitialize
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestAll
+  name: TestAll()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestAll
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestAll
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestAll()
+  nameWithType: UnsetBehConfTest.TestAll()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestAll*
+  name: TestAll
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestAll_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestAll
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestAll
+  nameWithType: UnsetBehConfTest.TestAll
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestDefault
+  name: TestDefault()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestDefault
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestDefault
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestDefault()
+  nameWithType: UnsetBehConfTest.TestDefault()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestDefault*
+  name: TestDefault
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestDefault_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestDefault
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestDefault
+  nameWithType: UnsetBehConfTest.TestDefault
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestExceptions
+  name: TestExceptions()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestExceptions
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestExceptions
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestExceptions()
+  nameWithType: UnsetBehConfTest.TestExceptions()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestExceptions*
+  name: TestExceptions
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestExceptions_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestExceptions
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestExceptions
+  nameWithType: UnsetBehConfTest.TestExceptions
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFlags
+  name: TestFlags()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestFlags
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestFlags
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFlags()
+  nameWithType: UnsetBehConfTest.TestFlags()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFlags*
+  name: TestFlags
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestFlags_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestFlags
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFlags
+  nameWithType: UnsetBehConfTest.TestFlags
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage1
+  name: TestFormatage1()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestFormatage1
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage1
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage1()
+  nameWithType: UnsetBehConfTest.TestFormatage1()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage1*
+  name: TestFormatage1
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestFormatage1_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage1
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage1
+  nameWithType: UnsetBehConfTest.TestFormatage1
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage2
+  name: TestFormatage2()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestFormatage2
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage2
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage2()
+  nameWithType: UnsetBehConfTest.TestFormatage2()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage2*
+  name: TestFormatage2
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestFormatage2_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage2
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestFormatage2
+  nameWithType: UnsetBehConfTest.TestFormatage2
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestReset
+  name: TestReset()
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestReset
+  commentId: M:ColorLibTest.ConfigTest.UnsetBehConfTest.TestReset
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestReset()
+  nameWithType: UnsetBehConfTest.TestReset()
+- uid: ColorLibTest.ConfigTest.UnsetBehConfTest.TestReset*
+  name: TestReset
+  href: api/ColorLibTest.ConfigTest.UnsetBehConfTest.html#ColorLibTest_ConfigTest_UnsetBehConfTest_TestReset_
+  commentId: Overload:ColorLibTest.ConfigTest.UnsetBehConfTest.TestReset
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.UnsetBehConfTest.TestReset
+  nameWithType: UnsetBehConfTest.TestReset
 - uid: ColorLibTest.Dierese
   name: ColorLibTest.Dierese
   href: api/ColorLibTest.Dierese.html
@@ -7891,6 +7975,19 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.Dierese.PoesieTest.TestContext
   nameWithType: PoesieTest.TestContext
+- uid: ColorLibTest.Dierese.PoesieTest.TestHarle
+  name: TestHarle()
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestHarle
+  commentId: M:ColorLibTest.Dierese.PoesieTest.TestHarle
+  fullName: ColorLibTest.Dierese.PoesieTest.TestHarle()
+  nameWithType: PoesieTest.TestHarle()
+- uid: ColorLibTest.Dierese.PoesieTest.TestHarle*
+  name: TestHarle
+  href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestHarle_
+  commentId: Overload:ColorLibTest.Dierese.PoesieTest.TestHarle
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.PoesieTest.TestHarle
+  nameWithType: PoesieTest.TestHarle
 - uid: ColorLibTest.Dierese.PoesieTest.TestHymne
   name: TestHymne()
   href: api/ColorLibTest.Dierese.PoesieTest.html#ColorLibTest_Dierese_PoesieTest_TestHymne
@@ -8072,6 +8169,19 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.Dierese.ZonePoemeTest.TestContext
   nameWithType: ZonePoemeTest.TestContext
+- uid: ColorLibTest.Dierese.ZonePoemeTest.TestExceptions
+  name: TestExceptions()
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_TestExceptions
+  commentId: M:ColorLibTest.Dierese.ZonePoemeTest.TestExceptions
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.TestExceptions()
+  nameWithType: ZonePoemeTest.TestExceptions()
+- uid: ColorLibTest.Dierese.ZonePoemeTest.TestExceptions*
+  name: TestExceptions
+  href: api/ColorLibTest.Dierese.ZonePoemeTest.html#ColorLibTest_Dierese_ZonePoemeTest_TestExceptions_
+  commentId: Overload:ColorLibTest.Dierese.ZonePoemeTest.TestExceptions
+  isSpec: "True"
+  fullName: ColorLibTest.Dierese.ZonePoemeTest.TestExceptions
+  nameWithType: ZonePoemeTest.TestExceptions
 - uid: ColorLibTest.PerfParallelTest
   name: PerfParallelTest
   href: api/ColorLibTest.PerfParallelTest.html

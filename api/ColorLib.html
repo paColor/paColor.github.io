@@ -186,9 +186,26 @@ to the inheriting class by calling the method <code>SetChars</code> see <a class
 </p>
 </section>
       <h4><a class="xref" href="ColorLib.UnsetBehConf.html">UnsetBehConf</a></h4>
-      <section><p>Configuration pour les flags avancés déterminant comment doit se comporter le formatage
-quand un attribut d'un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> sont à la valeur <code>false</code>. Faut-il
-laisser le formatage dans l'état actuel ou forcer à la valeur <code>false</code>?</p>
+      <section><p>
+UnsetBehaviourConfiguration:
+</p>
+<p>
+Configuration pour les flags avancés déterminant comment doit se comporter le formatage
+quand un attribut d&apos;un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> est à la valeur <code>false</code>. Faut-il
+laisser le formatage dans l&apos;état actuel ou forcer à la valeur <code>false</code>?
+</p>
+<p>
+Chacun des flags indique comment traiter un des attributs de <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a>.
+La liste des attributs gérés par la classe est donnée par l&apos;enum <a class="xref" href="ColorLib.Ucbx.html">Ucbx</a>. On
+peut également accéder à chaque flag par son nom sous forme de <code>string</code>. Les valeurs
+admises sont:
+<pre><code>{ &quot;Bold&quot;,       Ucbx.bold },
+{ &quot;Italic&quot;,     Ucbx.},
+{ &quot;Underline&quot;,  Ucbx.underline },
+{ &quot;Color&quot;,      Ucbx.color },
+{ &quot;Hilight&quot;,    Ucbx.hilight },
+{ &quot;All&quot;,        Ucbx.all }</code></pre>
+</p>
 </section>
       <h4><a class="xref" href="ColorLib.Word.html">Word</a></h4>
       <section></section>
