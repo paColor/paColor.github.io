@@ -1888,43 +1888,6 @@ references:
   isSpec: "True"
   fullName: ColorLib.AutomRuleFilter.ToString
   nameWithType: AutomRuleFilter.ToString
-- uid: ColorLib.BaseConfig
-  name: BaseConfig
-  href: api/ColorLib.BaseConfig.html
-  commentId: T:ColorLib.BaseConfig
-  fullName: ColorLib.BaseConfig
-  nameWithType: BaseConfig
-- uid: ColorLib.BaseConfig.colorizationDirPath
-  name: colorizationDirPath
-  href: api/ColorLib.BaseConfig.html#ColorLib_BaseConfig_colorizationDirPath
-  commentId: F:ColorLib.BaseConfig.colorizationDirPath
-  fullName: ColorLib.BaseConfig.colorizationDirPath
-  nameWithType: BaseConfig.colorizationDirPath
-- uid: ColorLib.BaseConfig.ColorizationName
-  name: ColorizationName
-  href: api/ColorLib.BaseConfig.html#ColorLib_BaseConfig_ColorizationName
-  commentId: F:ColorLib.BaseConfig.ColorizationName
-  fullName: ColorLib.BaseConfig.ColorizationName
-  nameWithType: BaseConfig.ColorizationName
-- uid: ColorLib.BaseConfig.cultF
-  name: cultF
-  href: api/ColorLib.BaseConfig.html#ColorLib_BaseConfig_cultF
-  commentId: F:ColorLib.BaseConfig.cultF
-  fullName: ColorLib.BaseConfig.cultF
-  nameWithType: BaseConfig.cultF
-- uid: ColorLib.BaseConfig.Init
-  name: Init()
-  href: api/ColorLib.BaseConfig.html#ColorLib_BaseConfig_Init
-  commentId: M:ColorLib.BaseConfig.Init
-  fullName: ColorLib.BaseConfig.Init()
-  nameWithType: BaseConfig.Init()
-- uid: ColorLib.BaseConfig.Init*
-  name: Init
-  href: api/ColorLib.BaseConfig.html#ColorLib_BaseConfig_Init_
-  commentId: Overload:ColorLib.BaseConfig.Init
-  isSpec: "True"
-  fullName: ColorLib.BaseConfig.Init
-  nameWithType: BaseConfig.Init
 - uid: ColorLib.CFForceBlack
   name: CFForceBlack
   href: api/ColorLib.CFForceBlack.html
@@ -3091,12 +3054,15 @@ references:
   commentId: E:ColorLib.Config.DuoConfReplacedEvent
   fullName: ColorLib.Config.DuoConfReplacedEvent
   nameWithType: Config.DuoConfReplacedEvent
-- uid: ColorLib.Config.GetConfigFor(System.Object,System.Object)
-  name: GetConfigFor(Object, Object)
-  href: api/ColorLib.Config.html#ColorLib_Config_GetConfigFor_System_Object_System_Object_
-  commentId: M:ColorLib.Config.GetConfigFor(System.Object,System.Object)
-  fullName: ColorLib.Config.GetConfigFor(System.Object, System.Object)
-  nameWithType: Config.GetConfigFor(Object, Object)
+- uid: ColorLib.Config.GetConfigFor(System.Object,System.Object,System.String@)
+  name: GetConfigFor(Object, Object, out String)
+  href: api/ColorLib.Config.html#ColorLib_Config_GetConfigFor_System_Object_System_Object_System_String__
+  commentId: M:ColorLib.Config.GetConfigFor(System.Object,System.Object,System.String@)
+  name.vb: GetConfigFor(Object, Object, ByRef String)
+  fullName: ColorLib.Config.GetConfigFor(System.Object, System.Object, out System.String)
+  fullName.vb: ColorLib.Config.GetConfigFor(System.Object, System.Object, ByRef System.String)
+  nameWithType: Config.GetConfigFor(Object, Object, out String)
+  nameWithType.vb: Config.GetConfigFor(Object, Object, ByRef String)
 - uid: ColorLib.Config.GetConfigFor*
   name: GetConfigFor
   href: api/ColorLib.Config.html#ColorLib_Config_GetConfigFor_
@@ -3130,12 +3096,15 @@ references:
   isSpec: "True"
   fullName: ColorLib.Config.GetSavedConfigNames
   nameWithType: Config.GetSavedConfigNames
-- uid: ColorLib.Config.Init
-  name: Init()
-  href: api/ColorLib.Config.html#ColorLib_Config_Init
-  commentId: M:ColorLib.Config.Init
-  fullName: ColorLib.Config.Init()
-  nameWithType: Config.Init()
+- uid: ColorLib.Config.Init(System.Collections.Generic.List{System.String})
+  name: Init(List<String>)
+  href: api/ColorLib.Config.html#ColorLib_Config_Init_System_Collections_Generic_List_System_String__
+  commentId: M:ColorLib.Config.Init(System.Collections.Generic.List{System.String})
+  name.vb: Init(List(Of String))
+  fullName: ColorLib.Config.Init(System.Collections.Generic.List<System.String>)
+  fullName.vb: ColorLib.Config.Init(System.Collections.Generic.List(Of System.String))
+  nameWithType: Config.Init(List<String>)
+  nameWithType.vb: Config.Init(List(Of String))
 - uid: ColorLib.Config.Init*
   name: Init
   href: api/ColorLib.Config.html#ColorLib_Config_Init_
@@ -3291,6 +3260,47 @@ references:
   commentId: T:ColorLib.ConfigBase
   fullName: ColorLib.ConfigBase
   nameWithType: ConfigBase
+- uid: ColorLib.ConfigBase.colorizationDirPath
+  name: colorizationDirPath
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_colorizationDirPath
+  commentId: F:ColorLib.ConfigBase.colorizationDirPath
+  fullName: ColorLib.ConfigBase.colorizationDirPath
+  nameWithType: ConfigBase.colorizationDirPath
+- uid: ColorLib.ConfigBase.ColorizationName
+  name: ColorizationName
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_ColorizationName
+  commentId: P:ColorLib.ConfigBase.ColorizationName
+  fullName: ColorLib.ConfigBase.ColorizationName
+  nameWithType: ConfigBase.ColorizationName
+- uid: ColorLib.ConfigBase.ColorizationName*
+  name: ColorizationName
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_ColorizationName_
+  commentId: Overload:ColorLib.ConfigBase.ColorizationName
+  isSpec: "True"
+  fullName: ColorLib.ConfigBase.ColorizationName
+  nameWithType: ConfigBase.ColorizationName
+- uid: ColorLib.ConfigBase.cultF
+  name: cultF
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_cultF
+  commentId: F:ColorLib.ConfigBase.cultF
+  fullName: ColorLib.ConfigBase.cultF
+  nameWithType: ConfigBase.cultF
+- uid: ColorLib.ConfigBase.Init(System.Collections.Generic.List{System.String})
+  name: Init(List<String>)
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_Init_System_Collections_Generic_List_System_String__
+  commentId: M:ColorLib.ConfigBase.Init(System.Collections.Generic.List{System.String})
+  name.vb: Init(List(Of String))
+  fullName: ColorLib.ConfigBase.Init(System.Collections.Generic.List<System.String>)
+  fullName.vb: ColorLib.ConfigBase.Init(System.Collections.Generic.List(Of System.String))
+  nameWithType: ConfigBase.Init(List<String>)
+  nameWithType.vb: ConfigBase.Init(List(Of String))
+- uid: ColorLib.ConfigBase.Init*
+  name: Init
+  href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_Init_
+  commentId: Overload:ColorLib.ConfigBase.Init
+  isSpec: "True"
+  fullName: ColorLib.ConfigBase.Init
+  nameWithType: ConfigBase.Init
 - uid: ColorLib.ConfigBase.Reset
   name: Reset()
   href: api/ColorLib.ConfigBase.html#ColorLib_ConfigBase_Reset
@@ -6345,12 +6355,15 @@ references:
   commentId: T:ColorLib.TheText.GetTextPos
   fullName: ColorLib.TheText.GetTextPos
   nameWithType: TheText.GetTextPos
-- uid: ColorLib.TheText.Init
-  name: Init()
-  href: api/ColorLib.TheText.html#ColorLib_TheText_Init
-  commentId: M:ColorLib.TheText.Init
-  fullName: ColorLib.TheText.Init()
-  nameWithType: TheText.Init()
+- uid: ColorLib.TheText.Init(System.Collections.Generic.List{System.String})
+  name: Init(List<String>)
+  href: api/ColorLib.TheText.html#ColorLib_TheText_Init_System_Collections_Generic_List_System_String__
+  commentId: M:ColorLib.TheText.Init(System.Collections.Generic.List{System.String})
+  name.vb: Init(List(Of String))
+  fullName: ColorLib.TheText.Init(System.Collections.Generic.List<System.String>)
+  fullName.vb: ColorLib.TheText.Init(System.Collections.Generic.List(Of System.String))
+  nameWithType: TheText.Init(List<String>)
+  nameWithType.vb: TheText.Init(List(Of String))
 - uid: ColorLib.TheText.Init*
   name: Init
   href: api/ColorLib.TheText.html#ColorLib_TheText_Init_
@@ -7504,6 +7517,51 @@ references:
   isSpec: "True"
   fullName: ColorLibTest.ConfigTest.ColConfWinTest.TestRuleFlags
   nameWithType: ColConfWinTest.TestRuleFlags
+- uid: ColorLibTest.ConfigTest.ConfigTest
+  name: ConfigTest
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html
+  commentId: T:ColorLibTest.ConfigTest.ConfigTest
+  fullName: ColorLibTest.ConfigTest.ConfigTest
+  nameWithType: ConfigTest
+- uid: ColorLibTest.ConfigTest.ConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  name: MyClassInitialize(TestContext)
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html#ColorLibTest_ConfigTest_ConfigTest_MyClassInitialize_Microsoft_VisualStudio_TestTools_UnitTesting_TestContext_
+  commentId: M:ColorLibTest.ConfigTest.ConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  fullName: ColorLibTest.ConfigTest.ConfigTest.MyClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)
+  nameWithType: ConfigTest.MyClassInitialize(TestContext)
+- uid: ColorLibTest.ConfigTest.ConfigTest.MyClassInitialize*
+  name: MyClassInitialize
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html#ColorLibTest_ConfigTest_ConfigTest_MyClassInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.ConfigTest.MyClassInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ConfigTest.MyClassInitialize
+  nameWithType: ConfigTest.MyClassInitialize
+- uid: ColorLibTest.ConfigTest.ConfigTest.MyTestInitialize
+  name: MyTestInitialize()
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html#ColorLibTest_ConfigTest_ConfigTest_MyTestInitialize
+  commentId: M:ColorLibTest.ConfigTest.ConfigTest.MyTestInitialize
+  fullName: ColorLibTest.ConfigTest.ConfigTest.MyTestInitialize()
+  nameWithType: ConfigTest.MyTestInitialize()
+- uid: ColorLibTest.ConfigTest.ConfigTest.MyTestInitialize*
+  name: MyTestInitialize
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html#ColorLibTest_ConfigTest_ConfigTest_MyTestInitialize_
+  commentId: Overload:ColorLibTest.ConfigTest.ConfigTest.MyTestInitialize
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ConfigTest.MyTestInitialize
+  nameWithType: ConfigTest.MyTestInitialize
+- uid: ColorLibTest.ConfigTest.ConfigTest.TestEvents1
+  name: TestEvents1()
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html#ColorLibTest_ConfigTest_ConfigTest_TestEvents1
+  commentId: M:ColorLibTest.ConfigTest.ConfigTest.TestEvents1
+  fullName: ColorLibTest.ConfigTest.ConfigTest.TestEvents1()
+  nameWithType: ConfigTest.TestEvents1()
+- uid: ColorLibTest.ConfigTest.ConfigTest.TestEvents1*
+  name: TestEvents1
+  href: api/ColorLibTest.ConfigTest.ConfigTest.html#ColorLibTest_ConfigTest_ConfigTest_TestEvents1_
+  commentId: Overload:ColorLibTest.ConfigTest.ConfigTest.TestEvents1
+  isSpec: "True"
+  fullName: ColorLibTest.ConfigTest.ConfigTest.TestEvents1
+  nameWithType: ConfigTest.TestEvents1
 - uid: ColorLibTest.ConfigTest.PBDQConfigTest
   name: PBDQConfigTest
   href: api/ColorLibTest.ConfigTest.PBDQConfigTest.html

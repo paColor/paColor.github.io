@@ -85,6 +85,15 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_cultF">ConfigBase.cultF</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_ColorizationName">ConfigBase.ColorizationName</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.ConfigBase.html#ColorLib_ConfigBase_colorizationDirPath">ConfigBase.colorizationDirPath</a>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
@@ -121,14 +130,23 @@ modifier à sa guise.
 </p>
 <p>
 Comme il n&apos;est pas possible de recevoir un événement quand une fenêtre est fermée (en tout cas je n&apos;ai
-pas trouvé comment faire), les fenêtre sont rattachées à un document (il peut y avoir plusieurs fenêtres
+pas trouvé comment faire), les fenêtres sont rattachées à un document (il peut y avoir plusieurs fenêtres
 pour le même document). L&apos;évènement de fermeture de document peut appeler <a class="xref" href="ColorLib.Config.html#ColorLib_Config_DocClosed_System_Object_">DocClosed(Object)</a>
 qui libérera les ressources nécessaires.
 </p>
 <p>
-La méthode de base de la partie statique est <a class="xref" href="ColorLib.Config.html#ColorLib_Config_GetConfigFor_System_Object_System_Object_">GetConfigFor(Object, Object)</a> qui retourne une 
+La méthode de base de la partie statique est <a class="xref" href="ColorLib.Config.html#ColorLib_Config_GetConfigFor_System_Object_System_Object_System_String__">GetConfigFor(Object, Object, out String)</a> 
+qui retourne une 
 <code>Config</code> pour la fenêtre donnée. Un certain nombre d&apos;autres méthodes permettent d&apos;obtenir une 
 <code>Config</code> par défaut ou de charger une config sauvegardée.
+</p>
+<p>La suvegarde et le chargement d&apos;une configuration depuis le disque se fait dans cette
+classe. Le nom de la <a class="xref" href="ColorLib.Config.html">Config</a> est défini au moment de la sauvegarde sur le
+disque.</p>
+<p>Lorsque le dernier document est fermé, la configuration est sauvegardée sur le disque.
+Cette sauvegarde est rechargée lorsqu&apos;une premipre configuration est demandée. C&apos;est ce qui
+permet à l&apos;utilisateur de se retrouver dans la situation qu&apos;il a laissée lors de sa 
+précédente session.
 </p>
 </div>
   <h3 id="constructors">Constructors
@@ -138,7 +156,7 @@ La méthode de base de la partie statique est <a class="xref" href="ColorLib.Con
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config__ctor.md&amp;value=---%0Auid%3A%20ColorLib.Config.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L531">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L568">View Source</a>
   </span>
   <a id="ColorLib_Config__ctor_" data-uid="ColorLib.Config.#ctor*"></a>
   <h4 id="ColorLib_Config__ctor" data-uid="ColorLib.Config.#ctor">Config()</h4>
@@ -154,7 +172,7 @@ La méthode de base de la partie statique est <a class="xref" href="ColorLib.Con
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.Config.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L545">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L582">View Source</a>
   </span>
   <a id="ColorLib_Config__ctor_" data-uid="ColorLib.Config.#ctor*"></a>
   <h4 id="ColorLib_Config__ctor_System_Int32_" data-uid="ColorLib.Config.#ctor(System.Int32)">Config(Int32)</h4>
@@ -190,7 +208,7 @@ La méthode de base de la partie statique est <a class="xref" href="ColorLib.Con
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_colors.md&amp;value=---%0Auid%3A%20ColorLib.Config.colors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L445">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L482">View Source</a>
   </span>
   <a id="ColorLib_Config_colors_" data-uid="ColorLib.Config.colors*"></a>
   <h4 id="ColorLib_Config_colors" data-uid="ColorLib.Config.colors">colors</h4>
@@ -227,7 +245,7 @@ prévus dans <a class="xref" href="ColorLib.PhonConfType.html">PhonConfType</a>.
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_duoConf.md&amp;value=---%0Auid%3A%20ColorLib.Config.duoConf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L463">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L500">View Source</a>
   </span>
   <a id="ColorLib_Config_duoConf_" data-uid="ColorLib.Config.duoConf*"></a>
   <h4 id="ColorLib_Config_duoConf" data-uid="ColorLib.Config.duoConf">duoConf</h4>
@@ -259,7 +277,7 @@ qui sont des &quot;subConfigs&quot;.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_pBDQ.md&amp;value=---%0Auid%3A%20ColorLib.Config.pBDQ%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L432">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L469">View Source</a>
   </span>
   <a id="ColorLib_Config_pBDQ_" data-uid="ColorLib.Config.pBDQ*"></a>
   <h4 id="ColorLib_Config_pBDQ" data-uid="ColorLib.Config.pBDQ">pBDQ</h4>
@@ -290,7 +308,7 @@ qui sont des &quot;subConfigs&quot;.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_sylConf.md&amp;value=---%0Auid%3A%20ColorLib.Config.sylConf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L451">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L488">View Source</a>
   </span>
   <a id="ColorLib_Config_sylConf_" data-uid="ColorLib.Config.sylConf*"></a>
   <h4 id="ColorLib_Config_sylConf" data-uid="ColorLib.Config.sylConf">sylConf</h4>
@@ -322,7 +340,7 @@ besoin d'un formatage alterné.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_unsetBeh.md&amp;value=---%0Auid%3A%20ColorLib.Config.unsetBeh%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L457">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L494">View Source</a>
   </span>
   <a id="ColorLib_Config_unsetBeh_" data-uid="ColorLib.Config.unsetBeh*"></a>
   <h4 id="ColorLib_Config_unsetBeh" data-uid="ColorLib.Config.unsetBeh">unsetBeh</h4>
@@ -356,7 +374,7 @@ les flags de <code>CharFormatting</code> comme <code>bold</code> sont sur <code>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DeepCopy.md&amp;value=---%0Auid%3A%20ColorLib.Config.DeepCopy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L642">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L702">View Source</a>
   </span>
   <a id="ColorLib_Config_DeepCopy_" data-uid="ColorLib.Config.DeepCopy*"></a>
   <h4 id="ColorLib_Config_DeepCopy" data-uid="ColorLib.Config.DeepCopy">DeepCopy()</h4>
@@ -390,11 +408,11 @@ en cas d'erreur.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DeleteSavedConfig_System_String_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.DeleteSavedConfig(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L273">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L310">View Source</a>
   </span>
   <a id="ColorLib_Config_DeleteSavedConfig_" data-uid="ColorLib.Config.DeleteSavedConfig*"></a>
   <h4 id="ColorLib_Config_DeleteSavedConfig_System_String_System_String__" data-uid="ColorLib.Config.DeleteSavedConfig(System.String,System.String@)">DeleteSavedConfig(String, out String)</h4>
-  <div class="markdown level1 summary"><p>Efface la configuration portant le nom <code>confName</code>.</p>
+  <div class="markdown level1 summary"><p>Efface la configuration portant le nom <code data-dev-comment-type="paramref" class="paramref">confName</code> du disque.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -437,7 +455,7 @@ en cas d'erreur.</p>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p><code>true</code> si <code>confName</code> a pu être effacé, <code>false</code> en cas de problème. Dans ce dernier cas,
-<code data-dev-comment-type="paramref" class="paramref">msgTxt</code> contient un message d'erreur.</p>
+<code data-dev-comment-type="paramref" class="paramref">msgTxt</code> contient un message d'erreur. &quot;&quot; (empty string) sinon.</p>
 </td>
       </tr>
     </tbody>
@@ -447,11 +465,12 @@ en cas d'erreur.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DocClosed_System_Object_.md&amp;value=---%0Auid%3A%20ColorLib.Config.DocClosed(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L236">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L272">View Source</a>
   </span>
   <a id="ColorLib_Config_DocClosed_" data-uid="ColorLib.Config.DocClosed*"></a>
   <h4 id="ColorLib_Config_DocClosed_System_Object_" data-uid="ColorLib.Config.DocClosed(System.Object)">DocClosed(Object)</h4>
-  <div class="markdown level1 summary"><p>Informe la gestion de configurations, que le document <code>doc</code> a été fermé par l'utilisateur.</p>
+  <div class="markdown level1 summary"><p>Informe la gestion de configurations, que le document <code>doc</code> a été fermé par
+l'utilisateur.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -477,26 +496,33 @@ en cas d'erreur.</p>
     </tbody>
   </table>
   <h5 id="ColorLib_Config_DocClosed_System_Object__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>S'assure que tous les configs, liées au document soient sauvegardées, et oubliées et met à jour la
-gestion de fenêtres et de documents.</p>
+  <div class="markdown level1 remarks"><p>S'assure que toutes les configurations liées au document soient sauvegardées, et
+oubliées. Met à jour la gestion de fenêtres et de documents.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetConfigFor_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetConfigFor(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetConfigFor_System_Object_System_Object_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetConfigFor(System.Object%2CSystem.Object%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L190">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L224">View Source</a>
   </span>
   <a id="ColorLib_Config_GetConfigFor_" data-uid="ColorLib.Config.GetConfigFor*"></a>
-  <h4 id="ColorLib_Config_GetConfigFor_System_Object_System_Object_" data-uid="ColorLib.Config.GetConfigFor(System.Object,System.Object)">GetConfigFor(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Donne la confiuration qui correspond à la fenêtre <code>win</code>. Mémorise les infos pour
-que l'évènement de fermeture du document <code>doc</code> soit traité correctement. Voir
-<a class="xref" href="ColorLib.Config.html#ColorLib_Config_DocClosed_System_Object_">DocClosed(Object)</a>.</p>
+  <h4 id="ColorLib_Config_GetConfigFor_System_Object_System_Object_System_String__" data-uid="ColorLib.Config.GetConfigFor(System.Object,System.Object,System.String@)">GetConfigFor(Object, Object, out String)</h4>
+  <div class="markdown level1 summary"><p>
+Donne la confiuration qui correspond à la fenêtre <code>win</code>. Mémorise les infos pour
+que l&apos;évènement de fermeture du document <code>doc</code> soit traité correctement. Voir
+<a class="xref" href="ColorLib.Config.html#ColorLib_Config_DocClosed_System_Object_">DocClosed(Object)</a>.
+</p>
+<p>
+Si une configuration a été sauvegardée à la fin de la session de travail précédente,
+c&apos;est elle qui est chargée. Dans le cas contraire, ou si le chargement échoue, une
+nouvelle <a class="xref" href="ColorLib.Config.html">Config</a> est créée avec des valeurs par défaut.
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Config GetConfigFor(object win, object doc)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Config GetConfigFor(object win, object doc, out string errMsg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -511,13 +537,21 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">win</span></td>
-        <td><p>La fenêtre pour laquelle on veut un objet <code>Config</code>.</p>
+        <td><p>La fenêtre pour laquelle on veut une <a class="xref" href="ColorLib.Config.html">Config</a>.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">doc</span></td>
         <td><p>Le document attaché à la fenêtre.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">errMsg</span></td>
+        <td><p>OUT: En cas de problème lors du chargement de la configuration de
+la dernière session, ce paramètre contient le message pour l'utilisateur. <code>null</code>
+si tout s'est bien passé.</p>
 </td>
       </tr>
     </tbody>
@@ -538,12 +572,23 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
       </tr>
     </tbody>
   </table>
+  <h5 id="ColorLib_Config_GetConfigFor_System_Object_System_Object_System_String___examples">Examples</h5>
+  <p>Il est vivement conseillé de tester la valeur de <code>errMsg</code> et le cas échéant de
+présenter le message à l'utilisateur. Par exemple, dans une application
+<code>Windows.Forms</code> on peut utiliser <code>MessageBox</code> comme ci-dessous.</p>
+<pre><code>using System.Windows.Forms;
+
+string errMsg;
+Config conf = Config.GetConfigFor(theWin, theDoc, out errMsg));
+if (!string.IsNullOrEmpty(errMsg))
+    MessageBox.Show(errMsg, ConfigBase.ColorizationName, MessageBoxButtons.OK, MessageBoxIcon.Error);</code></pre>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetConfigName.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetConfigName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L590">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L627">View Source</a>
   </span>
   <a id="ColorLib_Config_GetConfigName_" data-uid="ColorLib.Config.GetConfigName*"></a>
   <h4 id="ColorLib_Config_GetConfigName" data-uid="ColorLib.Config.GetConfigName">GetConfigName()</h4>
@@ -575,7 +620,7 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_GetSavedConfigNames.md&amp;value=---%0Auid%3A%20ColorLib.Config.GetSavedConfigNames%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L162">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L173">View Source</a>
   </span>
   <a id="ColorLib_Config_GetSavedConfigNames_" data-uid="ColorLib.Config.GetSavedConfigNames*"></a>
   <h4 id="ColorLib_Config_GetSavedConfigNames" data-uid="ColorLib.Config.GetSavedConfigNames">GetSavedConfigNames()</h4>
@@ -607,22 +652,42 @@ que l'évènement de fermeture du document <code>doc</code> soit traité correct
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_Init.md&amp;value=---%0Auid%3A%20ColorLib.Config.Init%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_Init_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.Init(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L135">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L146">View Source</a>
   </span>
   <a id="ColorLib_Config_Init_" data-uid="ColorLib.Config.Init*"></a>
-  <h4 id="ColorLib_Config_Init" data-uid="ColorLib.Config.Init">Init()</h4>
+  <h4 id="ColorLib_Config_Init_System_Collections_Generic_List_System_String__" data-uid="ColorLib.Config.Init(System.Collections.Generic.List{System.String})">Init(List&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Initialise la partie statique de la classe (la gestion du  mapping entre documents, fenêtres et configurations).
 Appelle les <code>Init()</code> statiques des autres classes de configuration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Init()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Init(List&lt;string&gt; errMsgs = null)</code></pre>
   </div>
-  <h5 id="ColorLib_Config_Init_remarks">Remarks</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">errMsgs</span></td>
+        <td><p>Si une erreur se produit, un message est ajouté à la liste.
+La liste n'est pas touchée si tout se passe bien. <code>null</code> indique que le message
+n'est pas souhaité par l'appelant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_Config_Init_System_Collections_Generic_List_System_String___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Est responsable de la création du répertoire où seront sauvegardées les configs.</p>
 </div>
   <span class="small pull-right mobile-hide">
@@ -630,7 +695,7 @@ Appelle les <code>Init()</code> statiques des autres classes de configuration.</
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_IsSubConfig_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.Config.IsSubConfig(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L558">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L595">View Source</a>
   </span>
   <a id="ColorLib_Config_IsSubConfig_" data-uid="ColorLib.Config.IsSubConfig*"></a>
   <h4 id="ColorLib_Config_IsSubConfig_System_Int32_" data-uid="ColorLib.Config.IsSubConfig(System.Int32)">IsSubConfig(Int32)</h4>
@@ -664,12 +729,12 @@ Appelle les <code>Init()</code> statiques des autres classes de configuration.</
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_LoadConfig_System_String_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.LoadConfig(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L601">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L661">View Source</a>
   </span>
   <a id="ColorLib_Config_LoadConfig_" data-uid="ColorLib.Config.LoadConfig*"></a>
   <h4 id="ColorLib_Config_LoadConfig_System_String_System_String__" data-uid="ColorLib.Config.LoadConfig(System.String,System.String@)">LoadConfig(String, out String)</h4>
   <div class="markdown level1 summary"><p>Charge la <code>Config</code> sauvgardée identifiée par <code data-dev-comment-type="paramref" class="paramref">name</code>. Si ça marche,
-un évènement <code>ConfigReplacedEvent</code> est déclenché avec la référence de la nouvelle
+un évènement <a class="xref" href="ColorLib.Config.html#ColorLib_Config_ConfigReplacedEvent">ConfigReplacedEvent</a> est déclenché avec la référence de la nouvelle
 config et <code>true</code> est retourné. Si ça échoue, <code>false</code> est retourné et
 <code data-dev-comment-type="paramref" class="paramref">errMsg</code> contient le message d'erreur.</p>
 </div>
@@ -718,12 +783,32 @@ config et <code>true</code> est retourné. Si ça échoue, <code>false</code> es
       </tr>
     </tbody>
   </table>
+  <h5 id="ColorLib_Config_LoadConfig_System_String_System_String___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Les évènements <a class="xref" href="ColorLib.Config.html#ColorLib_Config_ConfigNameModifiedEvent">ConfigNameModifiedEvent</a> et <a class="xref" href="ColorLib.Config.html#ColorLib_Config_DuoConfReplacedEvent">DuoConfReplacedEvent</a> ne
+sont pas déclenchés! L'idée est que <a class="xref" href="ColorLib.Config.html#ColorLib_Config_ConfigReplacedEvent">ConfigReplacedEvent</a> suffit.</p>
+</div>
+  <h5 id="ColorLib_Config_LoadConfig_System_String_System_String___examples">Examples</h5>
+  <p>Deux choses sont un peu surprenantes: 1 - Devoir disposer d'une <a class="xref" href="ColorLib.Config.html">Config</a>
+pour en charger une autre. Cela provient de l'interface utilisateur actuelle de
+Colorization. 2 - Devoir aller chercher la nouvelle <a class="xref" href="ColorLib.Config.html">Config</a>
+dans les paramètres de l'évènement...</p>
+<pre><code>Config conf = new Config();
+conf.LoadConfig(&quot;SuperbeConf&quot;, out errMsg);
+
+// L&apos;évènement &apos;ConfigReplacedEvent&apos; a lieu ici.
+
+private void HandleConfigReplaced(object sender, ConfigReplacedEventArgs e)
+{
+   conf = e.newConfig;
+   AssignHandlersTo(conf);
+}</code></pre>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_OnConfigNameModified.md&amp;value=---%0Auid%3A%20ColorLib.Config.OnConfigNameModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L774">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L834">View Source</a>
   </span>
   <a id="ColorLib_Config_OnConfigNameModified_" data-uid="ColorLib.Config.OnConfigNameModified*"></a>
   <h4 id="ColorLib_Config_OnConfigNameModified" data-uid="ColorLib.Config.OnConfigNameModified">OnConfigNameModified()</h4>
@@ -738,7 +823,7 @@ config et <code>true</code> est retourné. Si ça échoue, <code>false</code> es
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_OnConfigReplaced_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.Config.OnConfigReplaced(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L754">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L814">View Source</a>
   </span>
   <a id="ColorLib_Config_OnConfigReplaced_" data-uid="ColorLib.Config.OnConfigReplaced*"></a>
   <h4 id="ColorLib_Config_OnConfigReplaced_ColorLib_Config_" data-uid="ColorLib.Config.OnConfigReplaced(ColorLib.Config)">OnConfigReplaced(Config)</h4>
@@ -770,7 +855,7 @@ config et <code>true</code> est retourné. Si ça échoue, <code>false</code> es
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_OnDuoConfReplaced_ColorLib_DuoConfig_.md&amp;value=---%0Auid%3A%20ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L767">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L827">View Source</a>
   </span>
   <a id="ColorLib_Config_OnDuoConfReplaced_" data-uid="ColorLib.Config.OnDuoConfReplaced*"></a>
   <h4 id="ColorLib_Config_OnDuoConfReplaced_ColorLib_DuoConfig_" data-uid="ColorLib.Config.OnDuoConfReplaced(ColorLib.DuoConfig)">OnDuoConfReplaced(DuoConfig)</h4>
@@ -802,7 +887,7 @@ config et <code>true</code> est retourné. Si ça échoue, <code>false</code> es
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_Reset.md&amp;value=---%0Auid%3A%20ColorLib.Config.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L565">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L602">View Source</a>
   </span>
   <a id="ColorLib_Config_Reset_" data-uid="ColorLib.Config.Reset*"></a>
   <h4 id="ColorLib_Config_Reset" data-uid="ColorLib.Config.Reset">Reset()</h4>
@@ -819,7 +904,7 @@ config et <code>true</code> est retourné. Si ça échoue, <code>false</code> es
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_SaveConfig_System_String_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.Config.SaveConfig(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L624">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L684">View Source</a>
   </span>
   <a id="ColorLib_Config_SaveConfig_" data-uid="ColorLib.Config.SaveConfig*"></a>
   <h4 id="ColorLib_Config_SaveConfig_System_String_System_String__" data-uid="ColorLib.Config.SaveConfig(System.String,System.String@)">SaveConfig(String, out String)</h4>
@@ -878,7 +963,7 @@ sauvegardée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_ConfigNameModifiedEvent.md&amp;value=---%0Auid%3A%20ColorLib.Config.ConfigNameModifiedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L422">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L459">View Source</a>
   </span>
   <h4 id="ColorLib_Config_ConfigNameModifiedEvent" data-uid="ColorLib.Config.ConfigNameModifiedEvent">ConfigNameModifiedEvent</h4>
   <div class="markdown level1 summary"><p>Evènement déclenché quand le nom de la <code>Config</code> est modifié.</p>
@@ -908,7 +993,7 @@ sauvegardée.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_ConfigReplacedEvent.md&amp;value=---%0Auid%3A%20ColorLib.Config.ConfigReplacedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L409">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L446">View Source</a>
   </span>
   <h4 id="ColorLib_Config_ConfigReplacedEvent" data-uid="ColorLib.Config.ConfigReplacedEvent">ConfigReplacedEvent</h4>
   <div class="markdown level1 summary"><p>Evènement déclenché quand la <code>Config</code> est remplacée par une nouvelle <code>Config</code>. Le paramètre
@@ -939,7 +1024,7 @@ de l'évènement contient la nouvelle <code>Config</code>.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_DuoConfReplacedEvent.md&amp;value=---%0Auid%3A%20ColorLib.Config.DuoConfReplacedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L416">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L453">View Source</a>
   </span>
   <h4 id="ColorLib_Config_DuoConfReplacedEvent" data-uid="ColorLib.Config.DuoConfReplacedEvent">DuoConfReplacedEvent</h4>
   <div class="markdown level1 summary"><p>Evènement déclenché quand la <a class="xref" href="ColorLib.DuoConfig.html">DuoConfig</a> est remplacée. Les arguments de
@@ -970,7 +1055,7 @@ de l'évènement contiennent la nouvelle <code>DuoConfig</code>.</p>
     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config_ListSavedConfigsModified.md&amp;value=---%0Auid%3A%20ColorLib.Config.ListSavedConfigsModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L107">View Source</a>
+    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L115">View Source</a>
   </span>
   <h4 id="ColorLib_Config_ListSavedConfigsModified" data-uid="ColorLib.Config.ListSavedConfigsModified">ListSavedConfigsModified</h4>
   <div class="markdown level1 summary"><p>Evènement déclenché quand la la liste des <code>Config</code>(s) sauvegardées est modifiée.</p>
@@ -1006,7 +1091,7 @@ de l'évènement contiennent la nouvelle <code>DuoConfig</code>.</p>
                     <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_Config.md&amp;value=---%0Auid%3A%20ColorLib.Config%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L96" class="contribution-link">View Source</a>
+                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/ConfigInterface/Config.cs/#L104" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
