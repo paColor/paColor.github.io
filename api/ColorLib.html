@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace ColorLib
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -77,8 +77,16 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="ColorLib.ArcButtonModifiedEventArgs.html">ArcButtonModifiedEventArgs</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.ArcConfig.html">ArcConfig</a></h4>
+      <section><p>Configuration pour les arcs</p>
+</section>
       <h4><a class="xref" href="ColorLib.AutomAutomat.html">AutomAutomat</a></h4>
       <section></section>
+      <h4><a class="xref" href="ColorLib.AutomDictionary.html">AutomDictionary</a></h4>
+      <section><p>Gestion du dictionnaire des exceptions.</p>
+</section>
       <h4><a class="xref" href="ColorLib.AutomElement.html">AutomElement</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.AutomLetter.html">AutomLetter</a></h4>
@@ -105,6 +113,14 @@ indiquent comment les différents aspects du formatage doivent être traités.</
 </section>
       <h4><a class="xref" href="ColorLib.CheckboxUnsetModifiedEventArgs.html">CheckboxUnsetModifiedEventArgs</a></h4>
       <section></section>
+      <h4><a class="xref" href="ColorLib.CLAction.html">CLAction</a></h4>
+      <section><p>L'enregistrement d'une action qui a été exécutée. Elle peut être annulée (Undo) ou
+réexécutée (Redo).</p>
+</section>
+      <h4><a class="xref" href="ColorLib.CLActionStack.html">CLActionStack</a></h4>
+      <section><p>Implémente une FILO à capacité limitée. Une fois la capacité atteinte, les éléments les
+plus anciens sont oubliés.</p>
+</section>
       <h4><a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a></h4>
       <section><p>
 Classe pour la gestion des éléments de configuration nécessaires pour la colorisation des
@@ -120,12 +136,16 @@ Les méthodes principales permettent de lire et d&apos;écrire ces deux paramèt
 son.
 </p>
 </section>
+      <h4><a class="xref" href="ColorLib.ColPhonAct.html">ColPhonAct</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.CompletedEventArgs.html">CompletedEventArgs</a></h4>
       <section><p>Crée une instance d'arguments pour l'évènement.</p>
 </section>
       <h4><a class="xref" href="ColorLib.Config.html">Config</a></h4>
       <section><p>Stocke la configuration nécessaire au comportement des outils de fomatage de <a class="xref" href="ColorLib.TheText.html">TheText</a>.</p>
 </section>
+      <h4><a class="xref" href="ColorLib.ConfigAction.html">ConfigAction</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.ConfigBase.html">ConfigBase</a></h4>
       <section><p>Classe de base pour les différentes classes de configuration.</p>
 </section>
@@ -138,9 +158,14 @@ son.
       <h4><a class="xref" href="ColorLib.DuoConfReplacedEventArgs.html">DuoConfReplacedEventArgs</a></h4>
       <section><p>Argument passé lors de l'évènement <code>DuoConfReplacedEvent</code>.</p>
 </section>
+      <h4><a class="xref" href="ColorLib.ExceptionMots.html">ExceptionMots</a></h4>
+      <section><p>contient les informations pour la fenêtre d'édition des exceptions.</p>
+</section>
       <h4><a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.LetterButtonModifiedEventArgs.html">LetterButtonModifiedEventArgs</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.PBDQAction.html">PBDQAction</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.PBDQConfig.html">PBDQConfig</a></h4>
       <section></section>
@@ -149,6 +174,19 @@ son.
       <h4><a class="xref" href="ColorLib.PhonInW.html">PhonInW</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.PhonWord.html">PhonWord</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.PonctAction.html">PonctAction</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.PonctConfig.html">PonctConfig</a></h4>
+      <section><p>Contient la configuration pour chacune des familles de symboles de ponctuation définies
+dans <a class="xref" href="ColorLib.PonctInT.html">PonctInT</a>.</p>
+<p>On considère qu&apos;il existe un bouton pour chacune des familles et un bouton général qui permet
+de les définir tous. Ce dernier peut être dans les états master ou off.</p>
+</section>
+      <h4><a class="xref" href="ColorLib.PonctInT.html">PonctInT</a></h4>
+      <section><p>Un signe de ponctuation dans une <a class="xref" href="ColorLib.TheText.html">TheText</a>.</p>
+</section>
+      <h4><a class="xref" href="ColorLib.PonctModifiedEventArgs.html">PonctModifiedEventArgs</a></h4>
       <section></section>
       <h4><a class="xref" href="ColorLib.ProgressEventArgs.html">ProgressEventArgs</a></h4>
       <section><p>Argument passé lors de l'évènement <code>ConfigResetttedEvent</code>.</p>
@@ -183,6 +221,8 @@ different methods make it possible to apply some kind of formatting to the text.
 to the inheriting class by calling the method <code>SetChars</code> see <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_">SetChars(FormattedTextEl, Config)</a>.
 </p>
 </section>
+      <h4><a class="xref" href="ColorLib.UndoFactory.html">UndoFactory</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.UnsetBehConf.html">UnsetBehConf</a></h4>
       <section><p>
 UnsetBehaviourConfiguration:
@@ -198,7 +238,7 @@ La liste des attributs gérés par la classe est donnée par l&apos;enum <a clas
 peut également accéder à chaque flag par son nom sous forme de <code>string</code>. Les valeurs
 admises sont:
 <pre><code>{ &quot;Bold&quot;,       Ucbx.bold },
-{ &quot;Italic&quot;,     Ucbx.},
+{ &quot;Italic&quot;,     Ucbx.italic},
 { &quot;Underline&quot;,  Ucbx.underline },
 { &quot;Color&quot;,      Ucbx.color },
 { &quot;Hilight&quot;,    Ucbx.hilight },
@@ -209,6 +249,8 @@ admises sont:
       <section></section>
     <h3 id="structs">Structs
   </h3>
+      <h4><a class="xref" href="ColorLib.ArcConfig.ArcButtonConf.html">ArcConfig.ArcButtonConf</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.RGB.html">RGB</a></h4>
       <section><p>Représentation d'une couleur au format RGB (Red, Green, Blue).</p>
 </section>
@@ -227,6 +269,8 @@ mise en couleur des phonèmes qui n'ont pas d'instructions de fomratage.</p>
       <section><p>Identifiants pour les flags de contrôle des règles de l'automate. Est typiquement
 utilisé comme indice dans un tableau de flags.</p>
 </section>
+      <h4><a class="xref" href="ColorLib.ConfigAction.ConfigActionType.html">ConfigAction.ConfigActionType</a></h4>
+      <section></section>
       <h4><a class="xref" href="ColorLib.DuoConfig.Alternance.html">DuoConfig.Alternance</a></h4>
       <section><p>Type utilisé pour définir quelle aternance est désirée dans la commande &quot;duo&quot;</p>
 </section>
@@ -241,6 +285,11 @@ utilisé comme indice dans un tableau de flags.</p>
 </section>
       <h4><a class="xref" href="ColorLib.PhonLexique.html">PhonLexique</a></h4>
       <section></section>
+      <h4><a class="xref" href="ColorLib.PonctConfig.State.html">PonctConfig.State</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ColorLib.Ponctuation.html">Ponctuation</a></h4>
+      <section><p>Les signes de ponctuation différentiés.</p>
+</section>
       <h4><a class="xref" href="ColorLib.PredefCol.html">PredefCol</a></h4>
       <section><p>Liste de couleurs prédéfinies. L'idée est d'utiliser
 les valeurs de cet énuméré comme indice dans <code>predefinedColors</code>.
@@ -266,7 +315,8 @@ L'utilisation dans <code>cerasCF</code> est par contre interdite!</p>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

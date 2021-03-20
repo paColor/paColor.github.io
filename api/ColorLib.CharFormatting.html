@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CharFormatting
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -107,13 +107,8 @@ public class CharFormatting</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L215">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
   <h4 id="ColorLib_CharFormatting__ctor" data-uid="ColorLib.CharFormatting.#ctor">CharFormatting()</h4>
   <div class="markdown level1 summary"><p>Creates a neutral <code>CharFormatting</code></p>
@@ -123,13 +118,8 @@ public class CharFormatting</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected CharFormatting()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor_ColorLib_CharFormatting_ColorLib_RGB_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor(ColorLib.CharFormatting%2CColorLib.RGB)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L330">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
   <h4 id="ColorLib_CharFormatting__ctor_ColorLib_CharFormatting_ColorLib_RGB_" data-uid="ColorLib.CharFormatting.#ctor(ColorLib.CharFormatting,ColorLib.RGB)">CharFormatting(CharFormatting, RGB)</h4>
   <div class="markdown level1 summary"><p>Crée un <code>CharFormatting</code> comme une copie de <code>cfToCopy</code> et en mettant <code>color</code> à
@@ -164,13 +154,50 @@ public class CharFormatting</code></pre>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor_ColorLib_CharFormatting_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor(ColorLib.CharFormatting%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L303">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
+  <h4 id="ColorLib_CharFormatting__ctor_ColorLib_CharFormatting_System_Boolean_ColorLib_RGB_" data-uid="ColorLib.CharFormatting.#ctor(ColorLib.CharFormatting,System.Boolean,ColorLib.RGB)">CharFormatting(CharFormatting, Boolean, RGB)</h4>
+  <div class="markdown level1 summary"><p>Crée un <code>CharFormatting</code> comme une copie de <code>cfToCopy</code> et en mettant
+<code>changeHilight</code> et <code>hilightColor</code> aux valeurs demandées.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharFormatting(CharFormatting cfToCopy, bool inChangeHilight, RGB inHilightColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
+        <td><span class="parametername">cfToCopy</span></td>
+        <td><p>Le <code>CharFormatting</code> qui doit être recopié. Non null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inChangeHilight</span></td>
+        <td><p>La nouvelle valeur pour <code>changeHilight</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
+        <td><span class="parametername">inHilightColor</span></td>
+        <td><p>La nouvelle valeur pour <code>hilightColor</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
   <h4 id="ColorLib_CharFormatting__ctor_ColorLib_CharFormatting_System_Boolean_System_Boolean_System_Boolean_" data-uid="ColorLib.CharFormatting.#ctor(ColorLib.CharFormatting,System.Boolean,System.Boolean,System.Boolean)">CharFormatting(CharFormatting, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Crée un <code>CharFormatting</code> comme une copie de <code>cfToCopy</code> avec trois aspects qui peuvent
@@ -217,13 +244,8 @@ changer: <code>bold</code>, <code>italic</code> et <code>underline</code>.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor_ColorLib_RGB_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor(ColorLib.RGB)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L254">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
   <h4 id="ColorLib_CharFormatting__ctor_ColorLib_RGB_" data-uid="ColorLib.CharFormatting.#ctor(ColorLib.RGB)">CharFormatting(RGB)</h4>
   <div class="markdown level1 summary"><p>Create a <code>CharFormatting</code> setting the given color. <code>changeColor</code> is set to <code>true</code>.</p>
@@ -251,16 +273,80 @@ changer: <code>bold</code>, <code>italic</code> et <code>underline</code>.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor(System.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L283">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
+  <h4 id="ColorLib_CharFormatting__ctor_System_Boolean_" data-uid="ColorLib.CharFormatting.#ctor(System.Boolean)">CharFormatting(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Crée un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> pour l'effacement des arcs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharFormatting(bool inRemoveArcs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inRemoveArcs</span></td>
+        <td><p>Doit être <code>true</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
+  <h4 id="ColorLib_CharFormatting__ctor_System_Boolean_ColorLib_RGB_" data-uid="ColorLib.CharFormatting.#ctor(System.Boolean,ColorLib.RGB)">CharFormatting(Boolean, RGB)</h4>
+  <div class="markdown level1 summary"><p>Créé un <code>CharFormatting</code> pour la colorisation d'arcs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharFormatting(bool inDrawArc, RGB inArcColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inDrawArc</span></td>
+        <td><p>La valeur du champ <code>drawArc</code>. Doit être <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
+        <td><span class="parametername">inArcColor</span></td>
+        <td><p>La couleur de l'arc.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_CharFormatting__ctor_System_Boolean_ColorLib_RGB__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><code data-dev-comment-type="paramref" class="paramref">inDrawArc</code> doit être <code>true</code>. La seule raison de sa
+présence est la nécessité d'avoir une signature de fonction différente.</p>
+</div>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
   <h4 id="ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_" data-uid="ColorLib.CharFormatting.#ctor(System.Boolean,System.Boolean,System.Boolean)">CharFormatting(Boolean, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Création d'un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> avec les trois caractéristiques d'un caractère</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -293,16 +379,13 @@ changer: <code>bold</code>, <code>italic</code> et <code>underline</code>.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_ColorLib_RGB_System_Boolean_ColorLib_RGB_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CColorLib.RGB%2CSystem.Boolean%2CColorLib.RGB)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L261">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
   <h4 id="ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_ColorLib_RGB_System_Boolean_ColorLib_RGB_" data-uid="ColorLib.CharFormatting.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,ColorLib.RGB,System.Boolean,ColorLib.RGB)">CharFormatting(Boolean, Boolean, Boolean, Boolean, Boolean, RGB, Boolean, RGB)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Crée un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> avec les paramètres que l'utilisateur peut configurer dans
+la fenêtre de définition du formatage.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -360,20 +443,16 @@ changer: <code>bold</code>, <code>italic</code> et <code>underline</code>.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_ColorLib_RGB_System_Boolean_ColorLib_RGB_System_Boolean_System_Boolean_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.%23ctor(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CColorLib.RGB%2CSystem.Boolean%2CColorLib.RGB%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L220">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting__ctor_" data-uid="ColorLib.CharFormatting.#ctor*"></a>
-  <h4 id="ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_ColorLib_RGB_System_Boolean_ColorLib_RGB_System_Boolean_System_Boolean_System_Boolean_System_Int32_" data-uid="ColorLib.CharFormatting.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,ColorLib.RGB,System.Boolean,ColorLib.RGB,System.Boolean,System.Boolean,System.Boolean,System.Int32)">CharFormatting(Boolean, Boolean, Boolean, Boolean, Boolean, RGB, Boolean, RGB, Boolean, Boolean, Boolean, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ColorLib_CharFormatting__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_ColorLib_RGB_System_Boolean_ColorLib_RGB_System_Boolean_System_Boolean_System_Boolean_System_Int32_System_Boolean_ColorLib_RGB_System_Boolean_" data-uid="ColorLib.CharFormatting.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,ColorLib.RGB,System.Boolean,ColorLib.RGB,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Boolean,ColorLib.RGB,System.Boolean)">CharFormatting(Boolean, Boolean, Boolean, Boolean, Boolean, RGB, Boolean, RGB, Boolean, Boolean, Boolean, Int32, Boolean, RGB, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Constructeur permettant de définir tous les champs d'un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CharFormatting(bool inBold, bool inItalic, bool inUnderline, bool inCaps, bool inChangeColor, RGB inColor, bool inChangeHilight, RGB inHilightColor, bool inContour, bool inSerif, bool inChangeFontSize, int inPercIncrFontSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public CharFormatting(bool inBold, bool inItalic, bool inUnderline, bool inCaps, bool inChangeColor, RGB inColor, bool inChangeHilight, RGB inHilightColor, bool inContour, bool inSerif, bool inChangeFontSize, int inPercIncrFontSize, bool inDrawArc, RGB inArcColor, bool inRemoveArcs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -445,17 +524,54 @@ changer: <code>bold</code>, <code>italic</code> et <code>underline</code>.</p>
         <td><span class="parametername">inPercIncrFontSize</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inDrawArc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
+        <td><span class="parametername">inArcColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inRemoveArcs</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_BlackCF.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.BlackCF%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L47">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting_arcColor_" data-uid="ColorLib.CharFormatting.arcColor*"></a>
+  <h4 id="ColorLib_CharFormatting_arcColor" data-uid="ColorLib.CharFormatting.arcColor">arcColor</h4>
+  <div class="markdown level1 summary"><p>La couleur de l'arc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RGB arcColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_CharFormatting_BlackCF_" data-uid="ColorLib.CharFormatting.BlackCF*"></a>
   <h4 id="ColorLib_CharFormatting_BlackCF" data-uid="ColorLib.CharFormatting.BlackCF">BlackCF</h4>
   <div class="markdown level1 summary"><p>A <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> containing only the instruction to color the text in
 black.</p>
@@ -463,9 +579,9 @@ black.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly CharFormatting BlackCF</code></pre>
+    <pre><code class="lang-csharp hljs">public static CharFormatting BlackCF { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -480,45 +596,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_NeutralCF.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.NeutralCF%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L41">View Source</a>
-  </span>
-  <h4 id="ColorLib_CharFormatting_NeutralCF" data-uid="ColorLib.CharFormatting.NeutralCF">NeutralCF</h4>
-  <div class="markdown level1 summary"><p>A <code>CharFormatting</code> as generated by the constructor without parameters. No flag set.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly CharFormatting NeutralCF</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_bold.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.bold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L56">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_bold_" data-uid="ColorLib.CharFormatting.bold*"></a>
   <h4 id="ColorLib_CharFormatting_bold" data-uid="ColorLib.CharFormatting.bold">bold</h4>
   <div class="markdown level1 summary"><p>true means set it bold. false no change</p>
@@ -543,13 +622,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_caps.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.caps%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L74">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_caps_" data-uid="ColorLib.CharFormatting.caps*"></a>
   <h4 id="ColorLib_CharFormatting_caps" data-uid="ColorLib.CharFormatting.caps">caps</h4>
   <div class="markdown level1 summary"><p>true means capital letter formatiing. Not used yet.</p>
@@ -574,13 +648,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_changeColor.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.changeColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L79">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_changeColor_" data-uid="ColorLib.CharFormatting.changeColor*"></a>
   <h4 id="ColorLib_CharFormatting_changeColor" data-uid="ColorLib.CharFormatting.changeColor">changeColor</h4>
   <div class="markdown level1 summary"><p>if true the color is newly defined by the color member</p>
@@ -605,13 +674,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_changeFontSize.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.changeFontSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L112">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_changeFontSize_" data-uid="ColorLib.CharFormatting.changeFontSize*"></a>
   <h4 id="ColorLib_CharFormatting_changeFontSize" data-uid="ColorLib.CharFormatting.changeFontSize">changeFontSize</h4>
   <div class="markdown level1 summary"><p>FOR FUTURE USE
@@ -637,13 +701,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_changeHilight.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.changeHilight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L89">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_changeHilight_" data-uid="ColorLib.CharFormatting.changeHilight*"></a>
   <h4 id="ColorLib_CharFormatting_changeHilight" data-uid="ColorLib.CharFormatting.changeHilight">changeHilight</h4>
   <div class="markdown level1 summary"><p>true means that the hilight must be set to the value given in <code>hilightColor</code></p>
@@ -668,16 +727,11 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_color.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.color%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L84">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_color_" data-uid="ColorLib.CharFormatting.color*"></a>
   <h4 id="ColorLib_CharFormatting_color" data-uid="ColorLib.CharFormatting.color">color</h4>
-  <div class="markdown level1 summary"><p>RGB color</p>
+  <div class="markdown level1 summary"><p>Couleur à utiliser pour la colorisation des lettres</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -699,13 +753,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_contour.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.contour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L100">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_contour_" data-uid="ColorLib.CharFormatting.contour*"></a>
   <h4 id="ColorLib_CharFormatting_contour" data-uid="ColorLib.CharFormatting.contour">contour</h4>
   <div class="markdown level1 summary"><p>FOR FUTURE USE
@@ -731,13 +780,35 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_hilightColor.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.hilightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L94">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting_drawArc_" data-uid="ColorLib.CharFormatting.drawArc*"></a>
+  <h4 id="ColorLib_CharFormatting_drawArc" data-uid="ColorLib.CharFormatting.drawArc">drawArc</h4>
+  <div class="markdown level1 summary"><p>Indique si un arc doit être tracé sous le groupe de letres. La couleur
+est donnée pas <a class="xref" href="ColorLib.CharFormatting.html#ColorLib_CharFormatting_arcColor">arcColor</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool drawArc { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_CharFormatting_hilightColor_" data-uid="ColorLib.CharFormatting.hilightColor*"></a>
   <h4 id="ColorLib_CharFormatting_hilightColor" data-uid="ColorLib.CharFormatting.hilightColor">hilightColor</h4>
   <div class="markdown level1 summary"><p>The color the hilight has to be set to if <code>changeHilight</code> is true.</p>
@@ -762,13 +833,8 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_italic.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.italic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L61">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_italic_" data-uid="ColorLib.CharFormatting.italic*"></a>
   <h4 id="ColorLib_CharFormatting_italic" data-uid="ColorLib.CharFormatting.italic">italic</h4>
   <div class="markdown level1 summary"><p>true means set it italic. false no change</p>
@@ -793,13 +859,60 @@ black.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_percIncrFontSize.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.percIncrFontSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L119">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting_neutralArcsCol_" data-uid="ColorLib.CharFormatting.neutralArcsCol*"></a>
+  <h4 id="ColorLib_CharFormatting_neutralArcsCol" data-uid="ColorLib.CharFormatting.neutralArcsCol">neutralArcsCol</h4>
+  <div class="markdown level1 summary"><p>La couleur utilisée pour <code>arcColor</code> quand un arc ne doit pas être dessiné.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RGB neutralArcsCol { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_CharFormatting_NeutralCF_" data-uid="ColorLib.CharFormatting.NeutralCF*"></a>
+  <h4 id="ColorLib_CharFormatting_NeutralCF" data-uid="ColorLib.CharFormatting.NeutralCF">NeutralCF</h4>
+  <div class="markdown level1 summary"><p>A <code>CharFormatting</code> as generated by the constructor without parameters. No flag set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CharFormatting NeutralCF { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_CharFormatting_percIncrFontSize_" data-uid="ColorLib.CharFormatting.percIncrFontSize*"></a>
   <h4 id="ColorLib_CharFormatting_percIncrFontSize" data-uid="ColorLib.CharFormatting.percIncrFontSize">percIncrFontSize</h4>
   <div class="markdown level1 summary"><p>FOR FUTURE USE
@@ -826,13 +939,34 @@ newSize = (1 + incrFontSize) * currentSize</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_serif.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.serif%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L106">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting_removeArcs_" data-uid="ColorLib.CharFormatting.removeArcs*"></a>
+  <h4 id="ColorLib_CharFormatting_removeArcs" data-uid="ColorLib.CharFormatting.removeArcs">removeArcs</h4>
+  <div class="markdown level1 summary"><p>Indique si les arcs liés au groupe de lettres doivent être effacés.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool removeArcs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_CharFormatting_serif_" data-uid="ColorLib.CharFormatting.serif*"></a>
   <h4 id="ColorLib_CharFormatting_serif" data-uid="ColorLib.CharFormatting.serif">serif</h4>
   <div class="markdown level1 summary"><p>FOR FUTURE USE
@@ -858,13 +992,8 @@ newSize = (1 + incrFontSize) * currentSize</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_underline.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.underline%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L66">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_underline_" data-uid="ColorLib.CharFormatting.underline*"></a>
   <h4 id="ColorLib_CharFormatting_underline" data-uid="ColorLib.CharFormatting.underline">underline</h4>
   <div class="markdown level1 summary"><p>true means underline it. false no change</p>
@@ -891,13 +1020,8 @@ newSize = (1 + incrFontSize) * currentSize</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_Equals_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.Equals(ColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L358">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_Equals_" data-uid="ColorLib.CharFormatting.Equals*"></a>
   <h4 id="ColorLib_CharFormatting_Equals_ColorLib_CharFormatting_" data-uid="ColorLib.CharFormatting.Equals(ColorLib.CharFormatting)">Equals(CharFormatting)</h4>
   <div class="markdown level1 summary"></div>
@@ -938,13 +1062,8 @@ newSize = (1 + incrFontSize) * currentSize</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_Equals_System_Object_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L353">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_Equals_" data-uid="ColorLib.CharFormatting.Equals*"></a>
   <h4 id="ColorLib_CharFormatting_Equals_System_Object_" data-uid="ColorLib.CharFormatting.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"></div>
@@ -987,13 +1106,8 @@ newSize = (1 + incrFontSize) * currentSize</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceBlackColor_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceBlackColor(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L159">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceBlackColor_" data-uid="ColorLib.CharFormatting.ForceBlackColor*"></a>
   <h4 id="ColorLib_CharFormatting_ForceBlackColor_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceBlackColor(ColorLib.Config)">ForceBlackColor(Config)</h4>
   <div class="markdown level1 summary"><p>Indicates how to react when <code>changeColor</code> is <code>false</code>. If the response is <code>true</code>, the
@@ -1039,13 +1153,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceHilightClear_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceHilightClear(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L168">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceHilightClear_" data-uid="ColorLib.CharFormatting.ForceHilightClear*"></a>
   <h4 id="ColorLib_CharFormatting_ForceHilightClear_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceHilightClear(ColorLib.Config)">ForceHilightClear(Config)</h4>
   <div class="markdown level1 summary"><p>Indicates how to react when <code>changeHilight</code> is <code>false</code>. If the response is <code>true</code>, the
@@ -1091,13 +1200,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceNonBold_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceNonBold(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L132">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceNonBold_" data-uid="ColorLib.CharFormatting.ForceNonBold*"></a>
   <h4 id="ColorLib_CharFormatting_ForceNonBold_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceNonBold(ColorLib.Config)">ForceNonBold(Config)</h4>
   <div class="markdown level1 summary"><p>Indicates whether a <code>false</code> value for the member <code>bold</code> should be interpreted as 'do nothing'
@@ -1143,13 +1247,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceNonCaps_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceNonCaps(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L169">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceNonCaps_" data-uid="ColorLib.CharFormatting.ForceNonCaps*"></a>
   <h4 id="ColorLib_CharFormatting_ForceNonCaps_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceNonCaps(ColorLib.Config)">ForceNonCaps(Config)</h4>
   <div class="markdown level1 summary"></div>
@@ -1190,13 +1289,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceNonContour_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceNonContour(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L170">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceNonContour_" data-uid="ColorLib.CharFormatting.ForceNonContour*"></a>
   <h4 id="ColorLib_CharFormatting_ForceNonContour_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceNonContour(ColorLib.Config)">ForceNonContour(Config)</h4>
   <div class="markdown level1 summary"></div>
@@ -1237,13 +1331,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceNonItalic_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceNonItalic(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L141">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceNonItalic_" data-uid="ColorLib.CharFormatting.ForceNonItalic*"></a>
   <h4 id="ColorLib_CharFormatting_ForceNonItalic_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceNonItalic(ColorLib.Config)">ForceNonItalic(Config)</h4>
   <div class="markdown level1 summary"><p>Indicates whether a <code>false</code> value for the member <code>italic</code> should be interpreted as 'do nothing'
@@ -1289,13 +1378,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceNonSerif_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceNonSerif(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L171">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceNonSerif_" data-uid="ColorLib.CharFormatting.ForceNonSerif*"></a>
   <h4 id="ColorLib_CharFormatting_ForceNonSerif_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceNonSerif(ColorLib.Config)">ForceNonSerif(Config)</h4>
   <div class="markdown level1 summary"></div>
@@ -1336,13 +1420,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ForceNonUnderline_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ForceNonUnderline(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L150">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_ForceNonUnderline_" data-uid="ColorLib.CharFormatting.ForceNonUnderline*"></a>
   <h4 id="ColorLib_CharFormatting_ForceNonUnderline_ColorLib_Config_" data-uid="ColorLib.CharFormatting.ForceNonUnderline(ColorLib.Config)">ForceNonUnderline(Config)</h4>
   <div class="markdown level1 summary"><p>Indicates whether a <code>false</code> value for the member <code>underline</code> should be interpreted as 'do nothing'
@@ -1388,13 +1467,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_GetHashCode.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L403">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_GetHashCode_" data-uid="ColorLib.CharFormatting.GetHashCode*"></a>
   <h4 id="ColorLib_CharFormatting_GetHashCode" data-uid="ColorLib.CharFormatting.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"></div>
@@ -1420,13 +1494,18 @@ is <code>false</code></p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Object.GetHashCode()</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_ToString.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L177">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_CharFormatting_Init_" data-uid="ColorLib.CharFormatting.Init*"></a>
+  <h4 id="ColorLib_CharFormatting_Init" data-uid="ColorLib.CharFormatting.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Init()</code></pre>
+  </div>
+  
+  
   <a id="ColorLib_CharFormatting_ToString_" data-uid="ColorLib.CharFormatting.ToString*"></a>
   <h4 id="ColorLib_CharFormatting_ToString" data-uid="ColorLib.CharFormatting.ToString">ToString()</h4>
   <div class="markdown level1 summary"></div>
@@ -1454,13 +1533,8 @@ is <code>false</code></p>
   <div><span class="xref">System.Object.ToString()</span></div>
   <h3 id="operators">Operators
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_op_Equality_ColorLib_CharFormatting_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.op_Equality(ColorLib.CharFormatting%2CColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L429">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_op_Equality_" data-uid="ColorLib.CharFormatting.op_Equality*"></a>
   <h4 id="ColorLib_CharFormatting_op_Equality_ColorLib_CharFormatting_ColorLib_CharFormatting_" data-uid="ColorLib.CharFormatting.op_Equality(ColorLib.CharFormatting,ColorLib.CharFormatting)">Equality(CharFormatting, CharFormatting)</h4>
   <div class="markdown level1 summary"></div>
@@ -1506,13 +1580,8 @@ is <code>false</code></p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting_op_Inequality_ColorLib_CharFormatting_ColorLib_CharFormatting_.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting.op_Inequality(ColorLib.CharFormatting%2CColorLib.CharFormatting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L447">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_CharFormatting_op_Inequality_" data-uid="ColorLib.CharFormatting.op_Inequality*"></a>
   <h4 id="ColorLib_CharFormatting_op_Inequality_ColorLib_CharFormatting_ColorLib_CharFormatting_" data-uid="ColorLib.CharFormatting.op_Inequality(ColorLib.CharFormatting,ColorLib.CharFormatting)">Inequality(CharFormatting, CharFormatting)</h4>
   <div class="markdown level1 summary"></div>
@@ -1565,16 +1634,11 @@ is <code>false</code></p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_CharFormatting.md&amp;value=---%0Auid%3A%20ColorLib.CharFormatting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/CharFormatting.cs/#L31" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

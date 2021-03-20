@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MSWText
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -84,10 +84,16 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_rxWords">TheText.rxWords</a>
+    </div>
+    <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Init_System_Collections_Generic_List_System_String__">TheText.Init(List&lt;String&gt;)</a>
     </div>
     <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_S">TheText.S</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_empty">TheText.empty</a>
     </div>
     <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_ToString">TheText.ToString()</a>
@@ -126,6 +132,18 @@
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkDuo_ColorLib_Config_">TheText.MarkDuo(Config)</a>
     </div>
     <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkArcs_ColorLib_Config_">TheText.MarkArcs(Config)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_RemoveArcs_ColorLib_Config_">TheText.RemoveArcs(Config)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkPonct_ColorLib_Config_">TheText.MarkPonct(Config)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkMajDebut_ColorLib_Config_">TheText.MarkMajDebut(Config)</a>
+    </div>
+    <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_AddFTE_ColorLib_FormattedTextEl_">TheText.AddFTE(FormattedTextEl)</a>
     </div>
     <div>
@@ -155,13 +173,8 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationWord_MSWText__ctor_Microsoft_Office_Interop_Word_Range_.md&amp;value=---%0Auid%3A%20ColorizationWord.MSWText.%23ctor(Microsoft.Office.Interop.Word.Range)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationWord/MSWText.cs/#L153">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationWord_MSWText__ctor_" data-uid="ColorizationWord.MSWText.#ctor*"></a>
   <h4 id="ColorizationWord_MSWText__ctor_Microsoft_Office_Interop_Word_Range_" data-uid="ColorizationWord.MSWText.#ctor(Microsoft.Office.Interop.Word.Range)">MSWText(Range)</h4>
   <div class="markdown level1 summary"></div>
@@ -189,55 +202,8 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationWord_MSWText_ApplyCFToRange_ColorLib_CharFormatting_Microsoft_Office_Interop_Word_Range_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorizationWord.MSWText.ApplyCFToRange(ColorLib.CharFormatting%2CMicrosoft.Office.Interop.Word.Range%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationWord/MSWText.cs/#L118">View Source</a>
-  </span>
-  <a id="ColorizationWord_MSWText_ApplyCFToRange_" data-uid="ColorizationWord.MSWText.ApplyCFToRange*"></a>
-  <h4 id="ColorizationWord_MSWText_ApplyCFToRange_ColorLib_CharFormatting_Microsoft_Office_Interop_Word_Range_ColorLib_Config_" data-uid="ColorizationWord.MSWText.ApplyCFToRange(ColorLib.CharFormatting,Microsoft.Office.Interop.Word.Range,ColorLib.Config)">ApplyCFToRange(CharFormatting, Range, Config)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ApplyCFToRange(CharFormatting cf, Range toR, Config inConf)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
-        <td><span class="parametername">cf</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.Office.Interop.Word.Range</span></td>
-        <td><span class="parametername">toR</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
-        <td><span class="parametername">inConf</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationWord_MSWText_GetLastLinesPos.md&amp;value=---%0Auid%3A%20ColorizationWord.MSWText.GetLastLinesPos%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationWord/MSWText.cs/#L189">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationWord_MSWText_GetLastLinesPos_" data-uid="ColorizationWord.MSWText.GetLastLinesPos*"></a>
   <h4 id="ColorizationWord_MSWText_GetLastLinesPos" data-uid="ColorizationWord.MSWText.GetLastLinesPos">GetLastLinesPos()</h4>
   <div class="markdown level1 summary"><p>Retourne la liste des positions des derniers caractères de chaque ligne (dans S).</p>
@@ -268,13 +234,8 @@
   <h5 id="ColorizationWord_MSWText_GetLastLinesPos_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Utilise <code>finDeLignes</code> comme cache.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationWord_MSWText_Initialize.md&amp;value=---%0Auid%3A%20ColorizationWord.MSWText.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationWord/MSWText.cs/#L107">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationWord_MSWText_Initialize_" data-uid="ColorizationWord.MSWText.Initialize*"></a>
   <h4 id="ColorizationWord_MSWText_Initialize" data-uid="ColorizationWord.MSWText.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
@@ -283,13 +244,8 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Initialize()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationWord_MSWText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationWord/MSWText.cs/#L178">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationWord_MSWText_SetChars_" data-uid="ColorizationWord.MSWText.SetChars*"></a>
   <h4 id="ColorizationWord_MSWText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_" data-uid="ColorizationWord.MSWText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)">SetChars(FormattedTextEl, Config)</h4>
   <div class="markdown level1 summary"><p>Applique le formatage voulu au <a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a> sur l'affichage.</p>
@@ -318,13 +274,30 @@
       <tr>
         <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
         <td><span class="parametername">conf</span></td>
-        <td><p>La <a class="xref" href="ColorLib.Config.html">Config</a> à prendre en compte pour l'application du formatage.</p>
+        <td><p>La <a class="xref" href="ColorLib.Config.html">Config</a> à prendre en compte pour l'application du
+formatage.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_">TheText.SetChars(FormattedTextEl, Config)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>si <code data-dev-comment-type="paramref" class="paramref">fte</code> est <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -332,16 +305,11 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationWord_MSWText.md&amp;value=---%0Auid%3A%20ColorizationWord.MSWText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationWord/MSWText.cs/#L35" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

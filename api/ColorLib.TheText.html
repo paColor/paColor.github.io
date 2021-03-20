@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TheText
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -134,13 +134,8 @@ Obviously this possibility will not be used often, but there are some cases wher
 </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText__ctor_System_String_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L492">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText__ctor_" data-uid="ColorLib.TheText.#ctor*"></a>
   <h4 id="ColorLib_TheText__ctor_System_String_" data-uid="ColorLib.TheText.#ctor(System.String)">TheText(String)</h4>
   <div class="markdown level1 summary"><p>Creates a <code>TheText</code> with the passed <code>string</code> and the passed <code>Config</code>. The <code>Config</code>
@@ -169,15 +164,71 @@ will be used when applying formattings.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="ColorLib_TheText_empty" data-uid="ColorLib.TheText.empty">empty</h4>
+  <div class="markdown level1 summary"><p>Caractère à utiliser pour remplacer d'éventuels caractères problématiques dans le
+string passé à <a class="xref" href="ColorLib.TheText.html">TheText</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const string empty = &quot; &quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_TheText_empty_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Ses caractéristiques: (théoriques. en pratique je n'ai pas encore trouvé de
+caractère qui remplisse les critères. J'ai donc un traitement spécial dans MSWText...)</p>
+<p>- Est considéré comme faisant partie de la famille Autres pour la colorisation de
+caractères spéciaux.</p>
+<p>- Sera considéré comme un espace pour la colorisation des majsucules après le
+point.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_S.md&amp;value=---%0Auid%3A%20ColorLib.TheText.S%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L471">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_TheText_rxWords_" data-uid="ColorLib.TheText.rxWords*"></a>
+  <h4 id="ColorLib_TheText_rxWords" data-uid="ColorLib.TheText.rxWords">rxWords</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Regex rxWords { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.RegularExpressions.Regex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_TheText_S_" data-uid="ColorLib.TheText.S*"></a>
   <h4 id="ColorLib_TheText_S" data-uid="ColorLib.TheText.S">S</h4>
   <div class="markdown level1 summary"><p>The text that was entered when the object was constructed. Cannot be null, but can be
@@ -205,16 +256,12 @@ empty.</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_AddFTE_ColorLib_FormattedTextEl_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.AddFTE(ColorLib.FormattedTextEl)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L907">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_AddFTE_" data-uid="ColorLib.TheText.AddFTE*"></a>
   <h4 id="ColorLib_TheText_AddFTE_ColorLib_FormattedTextEl_" data-uid="ColorLib.TheText.AddFTE(ColorLib.FormattedTextEl)">AddFTE(FormattedTextEl)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ajoute le <a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a> à la liste des éléments formatés pour le texte.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -233,17 +280,29 @@ empty.</p>
       <tr>
         <td><a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a></td>
         <td><span class="parametername">fte</span></td>
-        <td></td>
+        <td><p>L'élément formaté à ajouter.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_ColorizePhons_ColorLib_Config_ColorLib_PhonConfType_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.ColorizePhons(ColorLib.Config%2CColorLib.PhonConfType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L606">View Source</a>
-  </span>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>si <code data-dev-comment-type="paramref" class="paramref">fte</code> est <code>null</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_TheText_ColorizePhons_" data-uid="ColorLib.TheText.ColorizePhons*"></a>
   <h4 id="ColorLib_TheText_ColorizePhons_ColorLib_Config_ColorLib_PhonConfType_" data-uid="ColorLib.TheText.ColorizePhons(ColorLib.Config,ColorLib.PhonConfType)">ColorizePhons(Config, PhonConfType)</h4>
   <div class="markdown level1 summary"><p>Applies the formattings defined in the <code>ColConfWin</code> identified by <code data-dev-comment-type="paramref" class="paramref">conf</code> and
@@ -286,13 +345,8 @@ be used when coloring the &quot;phonèmes&quot;.</p>
 from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a> is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_GetLastLinesPos.md&amp;value=---%0Auid%3A%20ColorLib.TheText.GetLastLinesPos%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L941">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_GetLastLinesPos_" data-uid="ColorLib.TheText.GetLastLinesPos*"></a>
   <h4 id="ColorLib_TheText_GetLastLinesPos" data-uid="ColorLib.TheText.GetLastLinesPos">GetLastLinesPos()</h4>
   <div class="markdown level1 summary"><p>Returns the list of the positions of the last characters of each line. Must be overridden
@@ -320,13 +374,8 @@ list if the text is empty.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_GetPhonWordList_ColorLib_Config_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.GetPhonWordList(ColorLib.Config%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L583">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_GetPhonWordList_" data-uid="ColorLib.TheText.GetPhonWordList*"></a>
   <h4 id="ColorLib_TheText_GetPhonWordList_ColorLib_Config_System_Boolean_" data-uid="ColorLib.TheText.GetPhonWordList(ColorLib.Config,System.Boolean)">GetPhonWordList(Config, Boolean)</h4>
   <div class="markdown level1 summary"><p>Returns the list of <code>PhonWords</code> contained in the text.</p>
@@ -378,16 +427,11 @@ list if the text is empty.</p>
   <h5 id="ColorLib_TheText_GetPhonWordList_ColorLib_Config_System_Boolean__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Is not needed by a normal consumer of the class and should only be used for testing.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_Init_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20ColorLib.TheText.Init(System.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L453">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_Init_" data-uid="ColorLib.TheText.Init*"></a>
   <h4 id="ColorLib_TheText_Init_System_Collections_Generic_List_System_String__" data-uid="ColorLib.TheText.Init(System.Collections.Generic.List{System.String})">Init(List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Initializes the static elements of the whole <code>ColorLib</code> library. Must be called y
+  <div class="markdown level1 summary"><p>Initializes the static elements of the whole <code>ColorLib</code> library. Must be called
 before an usage of the library.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -423,13 +467,38 @@ TheText.Init(errMsgs);
 foreach(string errMsg in errMsgs)
     MessageBox.Show(errMsg, ConfigBase.ColorizationName, MessageBoxButtons.OK, MessageBoxIcon.Error);</code></pre>
 
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkDuo_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkDuo(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L827">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_TheText_MarkArcs_" data-uid="ColorLib.TheText.MarkArcs*"></a>
+  <h4 id="ColorLib_TheText_MarkArcs_ColorLib_Config_" data-uid="ColorLib.TheText.MarkArcs(ColorLib.Config)">MarkArcs(Config)</h4>
+  <div class="markdown level1 summary"><p>Marque un arc sous chaque syllabe. Les syllabes sont séparées en fonction des paramètres
+de <code data-dev-comment-type="paramref" class="paramref">conf</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkArcs(Config conf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td><p>Configuration à utiliser pour le traçage d'arcs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_TheText_MarkDuo_" data-uid="ColorLib.TheText.MarkDuo*"></a>
   <h4 id="ColorLib_TheText_MarkDuo_ColorLib_Config_" data-uid="ColorLib.TheText.MarkDuo(ColorLib.Config)">MarkDuo(Config)</h4>
   <div class="markdown level1 summary"><p>Formats the text to the duo formatting defined in <code>conf</code>.</p>
@@ -464,13 +533,8 @@ from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a>
 is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkLetters_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkLetters(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L633">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_MarkLetters_" data-uid="ColorLib.TheText.MarkLetters*"></a>
   <h4 id="ColorLib_TheText_MarkLetters_ColorLib_Config_" data-uid="ColorLib.TheText.MarkLetters(ColorLib.Config)">MarkLetters(Config)</h4>
   <div class="markdown level1 summary"><p>Colors the letters in the text, according to the <a class="xref" href="ColorLib.PBDQConfig.html">PBDQConfig</a> <code>conf</code>,
@@ -505,13 +569,8 @@ i.e. fills <span class="xref">ColorLib.TheText.formatsMgmt</span>and makes sure 
 from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a> is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkLignes_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkLignes(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L794">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_MarkLignes_" data-uid="ColorLib.TheText.MarkLignes*"></a>
   <h4 id="ColorLib_TheText_MarkLignes_ColorLib_Config_" data-uid="ColorLib.TheText.MarkLignes(ColorLib.Config)">MarkLignes(Config)</h4>
   <div class="markdown level1 summary"><p>Formats the lines of the text, according to the given <a class="xref" href="ColorLib.Config.html">Config</a>. It fills
@@ -547,13 +606,37 @@ from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a>
 is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkMuettes_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkMuettes(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L720">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_TheText_MarkMajDebut_" data-uid="ColorLib.TheText.MarkMajDebut*"></a>
+  <h4 id="ColorLib_TheText_MarkMajDebut_ColorLib_Config_" data-uid="ColorLib.TheText.MarkMajDebut(ColorLib.Config)">MarkMajDebut(Config)</h4>
+  <div class="markdown level1 summary"><p>Marque les majuscules qui suivent les points.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkMajDebut(Config conf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td><p>La config à appliquer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_TheText_MarkMuettes_" data-uid="ColorLib.TheText.MarkMuettes*"></a>
   <h4 id="ColorLib_TheText_MarkMuettes_ColorLib_Config_" data-uid="ColorLib.TheText.MarkMuettes(ColorLib.Config)">MarkMuettes(Config)</h4>
   <div class="markdown level1 summary"><p>Colors the &quot;unspoken letters&quot; (muettes :-)) in the text, according to the <a class="xref" href="ColorLib.ColConfWin.html">ColConfWin</a>
@@ -590,13 +673,8 @@ from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a>
 is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkNoir_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkNoir(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L764">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_MarkNoir_" data-uid="ColorLib.TheText.MarkNoir*"></a>
   <h4 id="ColorLib_TheText_MarkNoir_ColorLib_Config_" data-uid="ColorLib.TheText.MarkNoir(ColorLib.Config)">MarkNoir(Config)</h4>
   <div class="markdown level1 summary"><p>Forces the text to black color and no bold, italic, underline, ... formatting.</p>
@@ -630,13 +708,35 @@ from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a>
 is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkSyls_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkSyls(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L659">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_TheText_MarkPonct_" data-uid="ColorLib.TheText.MarkPonct*"></a>
+  <h4 id="ColorLib_TheText_MarkPonct_ColorLib_Config_" data-uid="ColorLib.TheText.MarkPonct(ColorLib.Config)">MarkPonct(Config)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkPonct(Config conf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_TheText_MarkSyls_" data-uid="ColorLib.TheText.MarkSyls*"></a>
   <h4 id="ColorLib_TheText_MarkSyls_ColorLib_Config_" data-uid="ColorLib.TheText.MarkSyls(ColorLib.Config)">MarkSyls(Config)</h4>
   <div class="markdown level1 summary"><p>Colors the &quot;syllabes&quot; in the text, according to the <a class="xref" href="ColorLib.SylConfig.html">SylConfig</a> attached to <code>conf</code>,
@@ -671,13 +771,8 @@ i.e. fills <span class="xref">ColorLib.TheText.formatsMgmt</span> and makes sure
 from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a> is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkVoyCons_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkVoyCons(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L739">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_MarkVoyCons_" data-uid="ColorLib.TheText.MarkVoyCons*"></a>
   <h4 id="ColorLib_TheText_MarkVoyCons_ColorLib_Config_" data-uid="ColorLib.TheText.MarkVoyCons(ColorLib.Config)">MarkVoyCons(Config)</h4>
   <div class="markdown level1 summary"><p>Colors the &quot;voyelles&quot; and &quot;consonnes&quot; in the text, according to the alternate colors
@@ -713,13 +808,8 @@ attached to <code>conf</code>, i.e. fills <span class="xref">ColorLib.TheText.fo
 from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a> is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_MarkWords_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.MarkWords(ColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L693">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_MarkWords_" data-uid="ColorLib.TheText.MarkWords*"></a>
   <h4 id="ColorLib_TheText_MarkWords_ColorLib_Config_" data-uid="ColorLib.TheText.MarkWords(ColorLib.Config)">MarkWords(Config)</h4>
   <div class="markdown level1 summary"><p>Colors the &quot;words&quot; in the text, according to the <a class="xref" href="ColorLib.SylConfig.html">SylConfig</a> attached to <code>conf</code>,
@@ -755,13 +845,35 @@ from 1% to 99%. <code>ProgressNotifier.thePN</code> is not 'completed',
 i.e. <a class="xref" href="ColorLib.ProgressNotifier.html#ColorLib_ProgressNotifier_Completed">Completed()</a> method of <a class="xref" href="ColorLib.ProgressNotifier.html">ProgressNotifier</a>
 is not called.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_.md&amp;value=---%0Auid%3A%20ColorLib.TheText.SetChars(ColorLib.FormattedTextEl%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L928">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_TheText_RemoveArcs_" data-uid="ColorLib.TheText.RemoveArcs*"></a>
+  <h4 id="ColorLib_TheText_RemoveArcs_ColorLib_Config_" data-uid="ColorLib.TheText.RemoveArcs(ColorLib.Config)">RemoveArcs(Config)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveArcs(Config conf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.Config.html">Config</a></td>
+        <td><span class="parametername">conf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_TheText_SetChars_" data-uid="ColorLib.TheText.SetChars*"></a>
   <h4 id="ColorLib_TheText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_" data-uid="ColorLib.TheText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)">SetChars(FormattedTextEl, Config)</h4>
   <div class="markdown level1 summary"><p>
@@ -805,13 +917,8 @@ Is not abstract in order to make it possible to instantiate <code>TheText</code>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_ToLowerString.md&amp;value=---%0Auid%3A%20ColorLib.TheText.ToLowerString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L516">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_ToLowerString_" data-uid="ColorLib.TheText.ToLowerString*"></a>
   <h4 id="ColorLib_TheText_ToLowerString" data-uid="ColorLib.TheText.ToLowerString">ToLowerString()</h4>
   <div class="markdown level1 summary"><p>Returns the lower case version of the text.</p>
@@ -837,13 +944,8 @@ Is not abstract in order to make it possible to instantiate <code>TheText</code>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText_ToString.md&amp;value=---%0Auid%3A%20ColorLib.TheText.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L507">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_TheText_ToString_" data-uid="ColorLib.TheText.ToString*"></a>
   <h4 id="ColorLib_TheText_ToString" data-uid="ColorLib.TheText.ToString">ToString()</h4>
   <div class="markdown level1 summary"><p>Returns the text as string.</p>
@@ -878,16 +980,11 @@ Is not abstract in order to make it possible to instantiate <code>TheText</code>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_TheText.md&amp;value=---%0Auid%3A%20ColorLib.TheText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/TheText.cs/#L84" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

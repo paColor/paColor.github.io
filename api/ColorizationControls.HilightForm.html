@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HilightForm
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -1649,20 +1649,16 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm__ctor_ColorLib_RGB_.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm.%23ctor(ColorLib.RGB)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.cs/#L66">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationControls_HilightForm__ctor_" data-uid="ColorizationControls.HilightForm.#ctor*"></a>
-  <h4 id="ColorizationControls_HilightForm__ctor_ColorLib_RGB_" data-uid="ColorizationControls.HilightForm.#ctor(ColorLib.RGB)">HilightForm(RGB)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ColorizationControls_HilightForm__ctor_ColorLib_CharFormatting_" data-uid="ColorizationControls.HilightForm.#ctor(ColorLib.CharFormatting)">HilightForm(CharFormatting)</h4>
+  <div class="markdown level1 summary"><p>Crée un dialogue pour modifier la couleur de surlignage d'un <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HilightForm(RGB selectedCol)</code></pre>
+    <pre><code class="lang-csharp hljs">public HilightForm(CharFormatting cf)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1675,21 +1671,30 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
-        <td><span class="parametername">selectedCol</span></td>
-        <td></td>
+        <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
+        <td><span class="parametername">cf</span></td>
+        <td><p>Le <a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a> actuel. Non null.</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="ColorizationControls_HilightForm__ctor_ColorLib_CharFormatting__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A utiliser de la façon suivante:</p>
+<pre><code>// position relative à l&apos;écran (exemple du menu clic droit)
+Point p = cmsEffacerCopier.PointToScreen(tsmiCouleur.Bounds.Location); 
+HilightForm hiForm = new HilightForm(theCF);
+p.Offset((int)(ScaleFactor* (-hiForm.Width)), (int) (ScaleFactor* (-(hiForm.Height / 2))));
+hiForm.Location = p;
+if (hiForm.ShowDialog() == DialogResult.OK)
+{
+    theCF = hiForm.ResultCF;
+}
+hiForm.Dispose();</code></pre>
+</div>
   <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm_nrColors.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm.nrColors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.cs/#L42">View Source</a>
-  </span>
+  
+  
   <h4 id="ColorizationControls_HilightForm_nrColors" data-uid="ColorizationControls.HilightForm.nrColors">nrColors</h4>
   <div class="markdown level1 summary"><p>nr of colors that are handled by the form.</p>
 </div>
@@ -1715,13 +1720,8 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm_hiliColors.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm.hiliColors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.cs/#L53">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationControls_HilightForm_hiliColors_" data-uid="ColorizationControls.HilightForm.hiliColors*"></a>
   <h4 id="ColorizationControls_HilightForm_hiliColors" data-uid="ColorizationControls.HilightForm.hiliColors">hiliColors</h4>
   <div class="markdown level1 summary"><p>array with nrColors RGB datasets.
@@ -1752,15 +1752,35 @@ the corresponding color in hiliColors.</p>
   <div class="markdown level1 remarks"><p>If hiliCOlors is not set, it means that the application cannot handle hilighting. In this case,
 <a class="xref" href="ColorizationControls.HilightForm.html#ColorizationControls_HilightForm_CanOperate">CanOperate()</a> will return <code>false</code></p>
 </div>
+  
+  
+  <a id="ColorizationControls_HilightForm_ResultCF_" data-uid="ColorizationControls.HilightForm.ResultCF*"></a>
+  <h4 id="ColorizationControls_HilightForm_ResultCF" data-uid="ColorizationControls.HilightForm.ResultCF">ResultCF</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharFormatting ResultCF { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ColorLib.CharFormatting.html">CharFormatting</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm_CanOperate.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm.CanOperate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.cs/#L60">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationControls_HilightForm_CanOperate_" data-uid="ColorizationControls.HilightForm.CanOperate*"></a>
   <h4 id="ColorizationControls_HilightForm_CanOperate" data-uid="ColorizationControls.HilightForm.CanOperate">CanOperate()</h4>
   <div class="markdown level1 summary"><p>indicates whether the selection of hilight colors is possible.
@@ -1787,13 +1807,8 @@ no HilightForm should be crated if the response is <code>false</code>.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.Designer.cs/#L14">View Source</a>
-  </span>
+  
+  
   <a id="ColorizationControls_HilightForm_Dispose_" data-uid="ColorizationControls.HilightForm.Dispose*"></a>
   <h4 id="ColorizationControls_HilightForm_Dispose_System_Boolean_" data-uid="ColorizationControls.HilightForm.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>Clean up any resources being used.</p>
@@ -1823,36 +1838,6 @@ no HilightForm should be crated if the response is <code>false</code>.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Windows.Forms.Form.Dispose(System.Boolean)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm_GetSelectedColor.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm.GetSelectedColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.cs/#L99">View Source</a>
-  </span>
-  <a id="ColorizationControls_HilightForm_GetSelectedColor_" data-uid="ColorizationControls.HilightForm.GetSelectedColor*"></a>
-  <h4 id="ColorizationControls_HilightForm_GetSelectedColor" data-uid="ColorizationControls.HilightForm.GetSelectedColor">GetSelectedColor()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RGB GetSelectedColor()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ColorLib.RGB.html">RGB</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Windows.Forms.IDropTarget</span>
@@ -1882,16 +1867,11 @@ no HilightForm should be crated if the response is <code>false</code>.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorizationControls_HilightForm.md&amp;value=---%0Auid%3A%20ColorizationControls.HilightForm%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorizationControls/HilightForm.Designer.cs/#L3" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

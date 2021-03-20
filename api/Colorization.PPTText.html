@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PPTText
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -84,10 +84,16 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_rxWords">TheText.rxWords</a>
+    </div>
+    <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_Init_System_Collections_Generic_List_System_String__">TheText.Init(List&lt;String&gt;)</a>
     </div>
     <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_S">TheText.S</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_empty">TheText.empty</a>
     </div>
     <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_ToString">TheText.ToString()</a>
@@ -126,6 +132,18 @@
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkDuo_ColorLib_Config_">TheText.MarkDuo(Config)</a>
     </div>
     <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkArcs_ColorLib_Config_">TheText.MarkArcs(Config)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_RemoveArcs_ColorLib_Config_">TheText.RemoveArcs(Config)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkPonct_ColorLib_Config_">TheText.MarkPonct(Config)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_MarkMajDebut_ColorLib_Config_">TheText.MarkMajDebut(Config)</a>
+    </div>
+    <div>
       <a class="xref" href="ColorLib.TheText.html#ColorLib_TheText_AddFTE_ColorLib_FormattedTextEl_">TheText.AddFTE(FormattedTextEl)</a>
     </div>
     <div>
@@ -155,20 +173,16 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=Colorization_PPTText__ctor_Microsoft_Office_Interop_PowerPoint_TextRange_.md&amp;value=---%0Auid%3A%20Colorization.PPTText.%23ctor(Microsoft.Office.Interop.PowerPoint.TextRange)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/Colorization/PPTText.cs/#L54">View Source</a>
-  </span>
+  
+  
   <a id="Colorization_PPTText__ctor_" data-uid="Colorization.PPTText.#ctor*"></a>
-  <h4 id="Colorization_PPTText__ctor_Microsoft_Office_Interop_PowerPoint_TextRange_" data-uid="Colorization.PPTText.#ctor(Microsoft.Office.Interop.PowerPoint.TextRange)">PPTText(TextRange)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Colorization_PPTText__ctor_Microsoft_Office_Interop_PowerPoint_TextRange_Microsoft_Office_Interop_PowerPoint_Slide_System_Boolean_System_Single_System_Single_" data-uid="Colorization.PPTText.#ctor(Microsoft.Office.Interop.PowerPoint.TextRange,Microsoft.Office.Interop.PowerPoint.Slide,System.Boolean,System.Single,System.Single)">PPTText(TextRange, Slide, Boolean, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Crée le PPTText.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PPTText(TextRange txtRange)</code></pre>
+    <pre><code class="lang-csharp hljs">public PPTText(TextRange inTxtRange, Slide theSlide, bool inWithinTable = false, float incrX = 0F, float incrY = 0F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,20 +196,43 @@
     <tbody>
       <tr>
         <td><span class="xref">Microsoft.Office.Interop.PowerPoint.TextRange</span></td>
-        <td><span class="parametername">txtRange</span></td>
-        <td></td>
+        <td><span class="parametername">inTxtRange</span></td>
+        <td><p>Le <code>TextRange</code> sur lequel on travaille.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Office.Interop.PowerPoint.Slide</span></td>
+        <td><span class="parametername">theSlide</span></td>
+        <td><p>Le transparent sur lequel se trouve le texte. <code>null</code> si
+ce transparent neu peut être identifié.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inWithinTable</span></td>
+        <td><p>Indique si le texte se situe à l'intérieur d'une table.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">incrX</span></td>
+        <td><p>L'incrément en x pour trouver la position des lettres du texte.
+N'a un sens que dans le cas où <code>inWithinTable</code> est <code>true</code>.&quot;/&gt;</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">incrY</span></td>
+        <td><p>L'incrément en y pour trouver la position des lettres du texte.
+N'a un sens que dans le cas où <code>inWithinTable</code> est <code>true</code>.&quot;/&gt;</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=Colorization_PPTText_GetLastLinesPos.md&amp;value=---%0Auid%3A%20Colorization.PPTText.GetLastLinesPos%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/Colorization/PPTText.cs/#L105">View Source</a>
-  </span>
+  
+  
   <a id="Colorization_PPTText_GetLastLinesPos_" data-uid="Colorization.PPTText.GetLastLinesPos*"></a>
   <h4 id="Colorization_PPTText_GetLastLinesPos" data-uid="Colorization.PPTText.GetLastLinesPos">GetLastLinesPos()</h4>
   <div class="markdown level1 summary"><p>Retourne la liste des positions des derniers caractères de chaque ligne (dans S).</p>
@@ -226,13 +263,8 @@
   <h5 id="Colorization_PPTText_GetLastLinesPos_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Utilise <code>finDeLignes</code> comme cache.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=Colorization_PPTText_Initialize.md&amp;value=---%0Auid%3A%20Colorization.PPTText.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/Colorization/PPTText.cs/#L38">View Source</a>
-  </span>
+  
+  
   <a id="Colorization_PPTText_Initialize_" data-uid="Colorization.PPTText.Initialize*"></a>
   <h4 id="Colorization_PPTText_Initialize" data-uid="Colorization.PPTText.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
@@ -241,13 +273,8 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Initialize()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=Colorization_PPTText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_.md&amp;value=---%0Auid%3A%20Colorization.PPTText.SetChars(ColorLib.FormattedTextEl%2CColorLib.Config)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/Colorization/PPTText.cs/#L94">View Source</a>
-  </span>
+  
+  
   <a id="Colorization_PPTText_SetChars_" data-uid="Colorization.PPTText.SetChars*"></a>
   <h4 id="Colorization_PPTText_SetChars_ColorLib_FormattedTextEl_ColorLib_Config_" data-uid="Colorization.PPTText.SetChars(ColorLib.FormattedTextEl,ColorLib.Config)">SetChars(FormattedTextEl, Config)</h4>
   <div class="markdown level1 summary"><p>Applique le formatage voulu au <a class="xref" href="ColorLib.FormattedTextEl.html">FormattedTextEl</a> sur l'affichage.</p>
@@ -290,16 +317,11 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=Colorization_PPTText.md&amp;value=---%0Auid%3A%20Colorization.PPTText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/Colorization/PPTText.cs/#L34" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

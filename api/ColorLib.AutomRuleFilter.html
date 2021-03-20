@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AutomRuleFilter
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -84,7 +84,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="ColorLib.AutomElement.html#ColorLib_AutomElement_s">AutomElement.s</a>
+      <a class="xref" href="ColorLib.AutomElement.html#ColorLib_AutomElement_automS">AutomElement.automS</a>
     </div>
     <div>
       <a class="xref" href="ColorLib.AutomElement.html#ColorLib_AutomElement_start">AutomElement.start</a>
@@ -94,6 +94,9 @@
     </div>
     <div>
       <a class="xref" href="ColorLib.AutomElement.html#ColorLib_AutomElement_GetNextChar_System_Int32_">AutomElement.GetNextChar(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="ColorLib.AutomElement.html#ColorLib_AutomElement_ErrorExcerpt_System_Int32_System_String_">AutomElement.ErrorExcerpt(Int32, String)</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -122,13 +125,8 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter__ctor_System_String_System_Int32__.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.%23ctor(System.String%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L58">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter__ctor_" data-uid="ColorLib.AutomRuleFilter.#ctor*"></a>
   <h4 id="ColorLib_AutomRuleFilter__ctor_System_String_System_Int32__" data-uid="ColorLib.AutomRuleFilter.#ctor(System.String,System.Int32@)">AutomRuleFilter(String, ref Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -159,15 +157,38 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="ColorLib_AutomRuleFilter_motsRe6" data-uid="ColorLib.AutomRuleFilter.motsRe6">motsRe6</h4>
+  <div class="markdown level1 summary"><p>Liste des groupes de 6 lettres (ou moins) au début des mots commençant par &quot;re&quot; et où
+le 'e' ne se prononce pas [°].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HashSet&lt;string&gt; motsRe6</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_ChaineSansAccents_System_String_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.ChaineSansAccents(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L258">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_ChaineSansAccents_" data-uid="ColorLib.AutomRuleFilter.ChaineSansAccents*"></a>
   <h4 id="ColorLib_AutomRuleFilter_ChaineSansAccents_System_String_" data-uid="ColorLib.AutomRuleFilter.ChaineSansAccents(System.String)">ChaineSansAccents(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -208,13 +229,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Check_ColorLib_PhonWord_System_Int32_System_String_System_String_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Check(ColorLib.PhonWord%2CSystem.Int32%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L762">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Check_" data-uid="ColorLib.AutomRuleFilter.Check*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Check_ColorLib_PhonWord_System_Int32_System_String_System_String_" data-uid="ColorLib.AutomRuleFilter.Check(ColorLib.PhonWord,System.Int32,System.String,System.String)">Check(PhonWord, Int32, String, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -270,13 +286,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_InitAutomat.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.InitAutomat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L208">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_InitAutomat_" data-uid="ColorLib.AutomRuleFilter.InitAutomat*"></a>
   <h4 id="ColorLib_AutomRuleFilter_InitAutomat" data-uid="ColorLib.AutomRuleFilter.InitAutomat">InitAutomat()</h4>
   <div class="markdown level1 summary"></div>
@@ -285,13 +296,8 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void InitAutomat()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_avoir_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_avoir(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L556">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_avoir_" data-uid="ColorLib.AutomRuleFilter.Regle_avoir*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_avoir_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_avoir(System.String,System.Int32)">Regle_avoir(String, Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -337,20 +343,117 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_er_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_er(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L498">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_ChK_" data-uid="ColorLib.AutomRuleFilter.Regle_ChK*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_ChK_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_ChK(System.String,System.Int32)">Regle_ChK(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Checrhe si le 'ch' identifié par <code data-dev-comment-type="paramref" class="paramref">pos</code> dans <code data-dev-comment-type="paramref" class="paramref">mot</code> se
+prononce [k].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_ChK(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position du 'c' de 'ch'.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> pointe sur une combinaison 'ch' qui se
+prononce [k].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_er_" data-uid="ColorLib.AutomRuleFilter.Regle_er*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_er_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_er(System.String,System.Int32)">Regle_er(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Détermine si le mot se termine en 'er' ou 'ers' et se pronoce [ER].</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Regle_er(string mot, int pos_mot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à anlayser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos_mot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_finAM_" data-uid="ColorLib.AutomRuleFilter.Regle_finAM*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_finAM_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_finAM(System.String,System.Int32)">Regle_finAM(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_finAM(string mot, int pos_mot)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -389,13 +492,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_finD_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_finD(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L690">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_finD_" data-uid="ColorLib.AutomRuleFilter.Regle_finD*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_finD_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_finD(System.String,System.Int32)">Regle_finD(String, Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -441,20 +539,17 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_ient_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_ient(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L321">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_ient_" data-uid="ColorLib.AutomRuleFilter.Regle_ient*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_ient_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_ient(System.String,System.Int32)">Regle_ient(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Cherche si <code data-dev-comment-type="paramref" class="paramref">mot</code> se termine par &quot;ient&quot; et est la forme conjuguée au
+présent, 3e pers. du pluriel d'un verbe du premier groupe en &quot;ier&quot;.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Regle_ient(string mot, int pos_mot)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Regle_ient(string mot, int pos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -469,12 +564,15 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mot</span></td>
-        <td></td>
+        <td><p>Le mot à analyser.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">pos_mot</span></td>
-        <td></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position dans le mot de la lettre actuellement analysée. Doit être
+dans les quatre dernières lettres.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -489,21 +587,125 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><code>true</code> si c'est une terminaison en &quot;ient&quot; et un verbe conjugué.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_ill_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_ill(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L751">View Source</a>
-  </span>
+  <h5 id="ColorLib_AutomRuleFilter_Regle_ient_System_String_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Le mot doit être en minuscules.</p>
+</div>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_ierConjE_" data-uid="ColorLib.AutomRuleFilter.Regle_ierConjE*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_ierConjE_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_ierConjE(System.String,System.Int32)">Regle_ierConjE(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Comme <a class="xref" href="ColorLib.AutomRuleFilter.html#ColorLib_AutomRuleFilter_Regle_ierConjI_System_String_System_Int32_">Regle_ierConjI(String, Int32)</a> mais avec <code data-dev-comment-type="paramref" class="paramref">pos_mot</code>
+pointant sur le 'e'.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_ierConjE(string mot, int pos_mot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos_mot</span></td>
+        <td><p>La position de la lettre e dans la terminason 'ier'...</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> s'il s'agit d'un verbe en 'ier' conjugué au futur ou au
+conditionnel, <code>false</code> sinon.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_ierConjI_" data-uid="ColorLib.AutomRuleFilter.Regle_ierConjI*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_ierConjI_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_ierConjI(System.String,System.Int32)">Regle_ierConjI(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vérifie se le mote est une forme conjuguée en ier[*] au futur ou au conditionnel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_ierConjI(string mot, int pos_mot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à vérifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos_mot</span></td>
+        <td><p>La position du i de &quot;ier&quot; dans le mot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> s'il s'agit d'un verbe en ier conjugué au futur ou au
+conditionnel. <code>false</code> dans le cas contraire.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_ill_" data-uid="ColorLib.AutomRuleFilter.Regle_ill*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_ill_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_ill(System.String,System.Int32)">Regle_ill(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Vérifie si le mot est une exception pour les lettres ill qui se prononcent [il]. La méthode peut
-être appelée pour le i de &quot;ill&quot; et pour le prmier 'l' de &quot;ill&quot;</p>
+  <div class="markdown level1 summary"><p>Vérifie si le mot est une exception pour les lettres ill qui se prononcent [il]. La
+méthode peut être appelée pour le i de &quot;ill&quot; et pour le prmier 'l' de &quot;ill&quot;</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -529,7 +731,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pos_mot</span></td>
-        <td><p>la position (basée sur zéro) de la lettre dans le mot qu'on est en train d'étudier</p>
+        <td><p>la position (basée sur zéro) de la lettre dans le mot qu'on est
+en train d'étudier</p>
 </td>
       </tr>
     </tbody>
@@ -545,20 +748,18 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><code>true</code> si on trouve bien 'ill' à la position donnée et qu'il se prononce
+[il]</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_ment_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_ment(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L446">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_ment_" data-uid="ColorLib.AutomRuleFilter.Regle_ment*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_ment_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_ment(System.String,System.Int32)">Regle_ment(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Détermine si <code data-dev-comment-type="paramref" class="paramref">mot</code> se termine par &quot;ment&quot; et se prononce a~/@.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -577,12 +778,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mot</span></td>
-        <td></td>
+        <td><p>Le mot à examiner.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pos_mot</span></td>
-        <td></td>
+        <td><p>La position de 'e' dans la terminaison &quot;ent&quot;.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -597,17 +800,17 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><code>true</code> si le mot en &quot;ment&quot; se prononce a~/@</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_mots_ent_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_mots_ent(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L393">View Source</a>
-  </span>
+  <h5 id="ColorLib_AutomRuleFilter_Regle_ment_System_String_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Utilise la liste des verbes en &quot;mer&quot;. Si le mot correspond à un verbe
+conjugué, retourne <code>false</code>. Sinon <code>true</code></p>
+</div>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_mots_ent_" data-uid="ColorLib.AutomRuleFilter.Regle_mots_ent*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_mots_ent_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_mots_ent(System.String,System.Int32)">Regle_mots_ent(String, Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -653,13 +856,111 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_nc_ai_final_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_nc_ai_final(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L531">View Source</a>
-  </span>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_MotsUM_" data-uid="ColorLib.AutomRuleFilter.Regle_MotsUM*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_MotsUM_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_MotsUM(System.String,System.Int32)">Regle_MotsUM(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vérifie si le mot se termine par &quot;um&quot; ou &quot;ums&quot; et si le u se prononce O.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_MotsUM(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position du 'u' dans la terminaison um(s?).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si &quot;um&quot; se prononce Om.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_MotsUN_ON_" data-uid="ColorLib.AutomRuleFilter.Regle_MotsUN_ON*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_MotsUN_ON_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_MotsUN_ON(System.String,System.Int32)">Regle_MotsUN_ON(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Retourne <code>true</code> si les lettres &quot;un&quot; à la position <code data-dev-comment-type="paramref" class="paramref">pos</code> dans
+<code data-dev-comment-type="paramref" class="paramref">mot</code> se prononcent [§]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_MotsUN_ON(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La poistion de 'un' dans <code data-dev-comment-type="paramref" class="paramref">mot</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> s'il s'agit bien de 'un' qui se pronoce [§].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_nc_ai_final_" data-uid="ColorLib.AutomRuleFilter.Regle_nc_ai_final*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_nc_ai_final_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_nc_ai_final(System.String,System.Int32)">Regle_nc_ai_final(String, Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -705,20 +1006,16 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_s_final_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_s_final(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L592">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_s_final_" data-uid="ColorLib.AutomRuleFilter.Regle_s_final*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_s_final_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_s_final(System.String,System.Int32)">Regle_s_final(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Dit si le s final se pronoce pour <code data-dev-comment-type="paramref" class="paramref">mot</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Regle_s_final(string mot, int pos_mot)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Regle_s_final(string mot, int pos)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -733,12 +1030,15 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mot</span></td>
-        <td></td>
+        <td><p>Le mot à analyser</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">pos_mot</span></td>
-        <td></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position de la lettre sous analyse. En l'occurence le s
+final.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -753,20 +1053,18 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><code>true</code> si le s final se prononce.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_t_final_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_t_final(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L621">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_t_final_" data-uid="ColorLib.AutomRuleFilter.Regle_t_final*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_t_final_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_t_final(System.String,System.Int32)">Regle_t_final(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Dit si le t final se pronoce pour <code data-dev-comment-type="paramref" class="paramref">mot</code>. Les mots au pluriel
+sont traités également.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -785,7 +1083,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mot</span></td>
-        <td></td>
+        <td><p>Le mot à analyser. Peut être au pluriel.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
@@ -805,20 +1104,17 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><code>true</code> si le t final se prononce.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_tien_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_tien(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L641">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_tien_" data-uid="ColorLib.AutomRuleFilter.Regle_tien*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_tien_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_tien(System.String,System.Int32)">Regle_tien(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recherche si <code data-dev-comment-type="paramref" class="paramref">mot</code> se termine par tien(*) où le t se prononce [t]</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -837,12 +1133,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mot</span></td>
-        <td></td>
+        <td><p>Le mot à analyser.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pos_mot</span></td>
-        <td></td>
+        <td><p>La position du 't' de &quot;tien&quot; dans <code data-dev-comment-type="paramref" class="paramref">mot</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -857,20 +1155,18 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><code>true</code> si le t de &quot;tien&quot; se prononce [t].</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_Regle_verbe_mer_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.Regle_verbe_mer(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L464">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_Regle_verbe_mer_" data-uid="ColorLib.AutomRuleFilter.Regle_verbe_mer*"></a>
   <h4 id="ColorLib_AutomRuleFilter_Regle_verbe_mer_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_verbe_mer(System.String,System.Int32)">Regle_verbe_mer(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Détermine si <code data-dev-comment-type="paramref" class="paramref">mot</code> se termine par &quot;ment&quot; et est un verbe
+conjugué au présent 3e pers. pluriel. De fait l'inverse le la méthode précédente.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -889,12 +1185,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mot</span></td>
-        <td></td>
+        <td><p>Le mot à examiner.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pos_mot</span></td>
-        <td></td>
+        <td><p>La position de 'e' dans la terminaison &quot;ent&quot;.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -909,17 +1207,426 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si le mot en &quot;ment&quot; est un verbe conjugué.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_VerbesTer_" data-uid="ColorLib.AutomRuleFilter.Regle_VerbesTer*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_VerbesTer_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_VerbesTer(System.String,System.Int32)">Regle_VerbesTer(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Vérifie si le mot est un verbe à la 1e ou 2e personne du pluriel de l'imparfait (fin
+en 'tions' ou 'tiez').
+Par ex. &quot;nous formations&quot;. Le but est de découvrir que &quot;ti&quot; se prononce ti et non si.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_VerbesTer(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>Position du t de 'tions' ou 'tiez' dans le mot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si 'tions' ou 'tiez' est utilisé pour conjuguer un verbe.
+<code>false</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> ne correspond pas au 't' de 'tions' ou 'tiez',
+ou s'il ne s'agit pas d'un verbe à l'imparfait.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_AutomRuleFilter_Regle_VerbesTer_System_String_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Utilise la liste <code>verbesTer</code> qui se trouve à la fin du fichier.</p>
+</div>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_Regle_X_Final_" data-uid="ColorLib.AutomRuleFilter.Regle_X_Final*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_Regle_X_Final_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.Regle_X_Final(System.String,System.Int32)">Regle_X_Final(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Identifie si le 'x' final de <code data-dev-comment-type="paramref" class="paramref">mot</code> se pronoce.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Regle_X_Final(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position de la lettre x.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> pointe sur un x final qui se prononce.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ColorLib_AutomRuleFilter_Regle_X_Final_System_String_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Les accents ne sont pa prise en compte.</p>
+</div>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_RegleMotsEn5_" data-uid="ColorLib.AutomRuleFilter.RegleMotsEn5*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_RegleMotsEn5_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.RegleMotsEn5(System.String,System.Int32)">RegleMotsEn5(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Identifie si &quot;en&quot; se prononce [5] dans <code data-dev-comment-type="paramref" class="paramref">mot</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RegleMotsEn5(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position du 'e' de &quot;en&quot; dans le mot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> pointe bien sur &quot;en&quot; et que ce
+&quot;en&quot; se pronoce [5] d'après la lsite de cas.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_RegleMotsGnGN_" data-uid="ColorLib.AutomRuleFilter.RegleMotsGnGN*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_RegleMotsGnGN_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.RegleMotsGnGN(System.String,System.Int32)">RegleMotsGnGN(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Identifie si les lettres &quot;gn&quot; dans le mot se prononcent [gn]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RegleMotsGnGN(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position du 'g' dans le mot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> pointe bien sur &quot;gn&quot; et que cela se
+prononce [gn].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_RegleMotsOYoj_" data-uid="ColorLib.AutomRuleFilter.RegleMotsOYoj*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_RegleMotsOYoj_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.RegleMotsOYoj(System.String,System.Int32)">RegleMotsOYoj(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Détermine si &quot;oy&quot; dans <code data-dev-comment-type="paramref" class="paramref">mot</code> se prononce [oj].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RegleMotsOYoj(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position du 'o' de &quot;oy&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> indique bien &quot;oy&quot; qui se prononce
+[oj].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_RegleMotsQUkw_" data-uid="ColorLib.AutomRuleFilter.RegleMotsQUkw*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_RegleMotsQUkw_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.RegleMotsQUkw(System.String,System.Int32)">RegleMotsQUkw(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Identifie si &quot;qua&quot; (ou &quot;qui&quot;) dans <code data-dev-comment-type="paramref" class="paramref">mot</code> se prononce [qwa] (ou [qwi])</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RegleMotsQUkw(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>La position du 'q' ou du 'u' de &quot;qua&quot; (ou &quot;qui&quot;).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si &quot;qu&quot; se prononce [qw].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_RegleMotsRe_" data-uid="ColorLib.AutomRuleFilter.RegleMotsRe*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_RegleMotsRe_System_String_System_Int32_" data-uid="ColorLib.AutomRuleFilter.RegleMotsRe(System.String,System.Int32)">RegleMotsRe(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Détermine si le 'e' de &quot;re&quot; en début de mot se prononce [°]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RegleMotsRe(string mot, int pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mot</span></td>
+        <td><p>Le mot à analyser.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td><p>1 (la position du 'e' de &quot;re&quot; en début de mot)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> si <code data-dev-comment-type="paramref" class="paramref">pos</code> est bien la position du 'e' de &quot;re&quot;
+en début de mot et qu'il se pprononce [°].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ColorLib_AutomRuleFilter_SansEFinal_" data-uid="ColorLib.AutomRuleFilter.SansEFinal*"></a>
+  <h4 id="ColorLib_AutomRuleFilter_SansEFinal_System_String_" data-uid="ColorLib.AutomRuleFilter.SansEFinal(System.String)">SansEFinal(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SansEFinal(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_SansSFinal_System_String_.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.SansSFinal(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L273">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="ColorLib_AutomRuleFilter_SansSFinal_" data-uid="ColorLib.AutomRuleFilter.SansSFinal*"></a>
   <h4 id="ColorLib_AutomRuleFilter_SansSFinal_System_String_" data-uid="ColorLib.AutomRuleFilter.SansSFinal(System.String)">SansSFinal(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -960,13 +1667,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter_ToString.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L195">View Source</a>
-  </span>
+  
+  
   <a id="ColorLib_AutomRuleFilter_ToString_" data-uid="ColorLib.AutomRuleFilter.ToString*"></a>
   <h4 id="ColorLib_AutomRuleFilter_ToString" data-uid="ColorLib.AutomRuleFilter.ToString">ToString()</h4>
   <div class="markdown level1 summary"></div>
@@ -999,16 +1701,11 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/new/master/apiSpec/new?filename=ColorLib_AutomRuleFilter.md&amp;value=---%0Auid%3A%20ColorLib.AutomRuleFilter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paColor/Colorization/blob/master/ColorLib/Automat/AutomRuleFilter.cs/#L31" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
